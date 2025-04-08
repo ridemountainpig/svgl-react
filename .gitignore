@@ -1,0 +1,26 @@
+# Node-related
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build output
+dist/
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
+bun-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Optional: TypeScript cache (if used in some tools)
+*.tsbuildinfo
+
+*.tgz

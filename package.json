@@ -1,0 +1,60 @@
+{
+  "name": "@ridemountainpig/svgl-react",
+  "version": "1.0.0",
+  "description": "Implementation of the Svgl for React applications.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    "import": {
+      "types": "./dist/index.d.mts",
+      "default": "./dist/index.mjs"
+    },
+    "require": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "bunchee",
+    "dev": "bunchee --watch",
+    "format": "prettier --write .",
+    "fetch": "bun scripts/fetch-svgs.ts",
+    "generate": "bun scripts/generate-exports.ts"
+  },
+  "keywords": [
+    "svgl",
+    "react",
+    "svg",
+    "icons",
+    "components",
+    "library"
+  ],
+  "author": "ridemountainpig",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ridemountainpig/svgl-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ridemountainpig/svgl-react/issues"
+  },
+  "peerDependencies": {
+    "react": "^16.8 || ^17.0 || ^18.0 || ^19.0",
+    "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0"
+  },
+  "devDependencies": {
+    "@svgr/core": "^8.1.0",
+    "@svgr/plugin-jsx": "^8.1.0",
+    "@svgr/plugin-prettier": "^8.1.0",
+    "@svgr/plugin-svgo": "^8.1.0",
+    "axios": "^1.8.4",
+    "bunchee": "^6.5.0",
+    "prettier": "^3.5.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
