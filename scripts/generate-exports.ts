@@ -2,7 +2,7 @@ import { readdirSync, writeFileSync } from "fs";
 import { join } from "path";
 
 const logoDir = join(__dirname, "../src/components");
-const files = readdirSync(logoDir);
+const files = readdirSync(logoDir).sort();
 
 const exportStatements = files
   .map((f) => {
