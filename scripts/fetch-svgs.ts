@@ -1,5 +1,5 @@
 import axios from "axios";
-import { writeFileSync, mkdirSync } from "fs";
+import { writeFileSync, mkdirSync, rmSync } from "fs";
 import { join } from "path";
 import { transform } from "@svgr/core";
 
@@ -18,16 +18,17 @@ const OUTPUT_DIR = join(__dirname, "../src/components");
 const MDX_FILE = join(__dirname, "../docs/content/docs/components.mdx");
 
 function sanitizeComponentName(name: string) {
-  name = name
+  return name
     .replace(/^1/, "One")
     .replace(/\s+(.)/g, (_, c) => c.toUpperCase())
     .replace(/\./g, "")
     .replace(/\(.*?\)/g, "")
-    .replace(/\+/g, "")
+    .replace(/\+/g, "Plus")
     .replace(/\/(.)/g, (_, c) => c.toUpperCase())
-    .replace(/\#/g, "Sharp");
-
-  return name.charAt(0).toUpperCase() + name.slice(1);
+    .replace(/\#/g, "Sharp")
+    .replace(/\s/g, "")
+    .replace(/[^a-zA-Z0-9]/g, "")
+    .replace(/^./, (c) => c.toUpperCase());
 }
 
 async function fetchSVGData(): Promise<ISVG[]> {
@@ -42,7 +43,11 @@ async function fetchSVGData(): Promise<ISVG[]> {
   }
 }
 
-async function processSVG(url: string, componentName: string) {
+async function processSVG(
+  url: string,
+  componentName: string,
+  filePath: string,
+) {
   const { data: svg } = await axios.get(url);
   const jsCode = await transform(
     svg,
@@ -64,12 +69,13 @@ async function processSVG(url: string, componentName: string) {
     },
     { componentName },
   );
-  writeFileSync(join(OUTPUT_DIR, `${componentName}.tsx`), jsCode);
+  writeFileSync(filePath, jsCode);
 }
 
 function generateMDXFile(
   componentsList: {
     title: string;
+    category: string;
     components: { light?: string; dark?: string; default?: string };
   }[],
 ) {
@@ -81,8 +87,8 @@ description: Explore the full collection of React Svgl components. Instantly sea
 `;
 
   const body = componentsList
-    .map(({ title, components }) => {
-      const sectionHeader = `## ${title.charAt(0).toUpperCase() + title.slice(1)}\n\n`;
+    .map(({ title, category, components }) => {
+      const sectionHeader = `## ${title.charAt(0).toUpperCase() + title.slice(1)} [${category}]\n\n`;
       let codeBlock = "";
 
       if (components.light && components.dark) {
@@ -100,8 +106,11 @@ description: Explore the full collection of React Svgl components. Instantly sea
 }
 
 async function fetchAndProcessSVGs() {
+  rmSync(OUTPUT_DIR, { recursive: true, force: true });
   mkdirSync(OUTPUT_DIR, { recursive: true });
+
   const svgs = await fetchSVGData();
+  const usedNames = new Set<string>();
 
   const componentsList = await Promise.all(
     svgs.map(async (svg) => {
@@ -114,12 +123,28 @@ async function fetchAndProcessSVGs() {
 
       await Promise.all(
         Object.entries(routes).map(async ([variant, route]) => {
-          let componentName = sanitizeComponentName(svg.title);
+          let baseName = svg.title;
+
+          if (svg.title === "JetBrains") {
+            baseName = svg.brandUrl ? "JetBrainsColorful" : "JetBrainsMono";
+          } else if (svg.title === "CSS (New)") {
+            baseName = "CSSNew";
+          }
+
+          let componentName = sanitizeComponentName(baseName);
+
           if (variant === "light") componentName += "Light";
           if (variant === "dark") componentName += "Dark";
 
+          if (usedNames.has(componentName)) {
+            componentName += sanitizeComponentName(svg.category);
+          }
+
+          usedNames.add(componentName);
+
           const svgUrl = `https://raw.githubusercontent.com/pheralb/svgl/refs/heads/main/static${route}`;
-          await processSVG(svgUrl, componentName);
+          const filePath = join(OUTPUT_DIR, `${componentName}.tsx`);
+          await processSVG(svgUrl, componentName, filePath);
 
           if (variant === "default") {
             components.default = componentName;
@@ -129,7 +154,7 @@ async function fetchAndProcessSVGs() {
         }),
       );
 
-      return { title: svg.title, components };
+      return { title: svg.title, category: svg.category, components };
     }),
   );
 
