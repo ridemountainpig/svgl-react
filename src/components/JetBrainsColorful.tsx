@@ -1,6 +1,6 @@
 import * as React from "react";
 import type { SVGProps } from "react";
-const JetBrains = (props: SVGProps<SVGSVGElement>) => (
+const JetBrainsColorful = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     preserveAspectRatio="xMidYMid meet"
@@ -58,4 +58,4 @@ const JetBrains = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-export default JetBrains;
+export default JetBrainsColorful;

@@ -1,6 +1,6 @@
 import * as React from "react";
 import type { SVGProps } from "react";
-const Disney = (props: SVGProps<SVGSVGElement>) => (
+const DisneyPlus = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
@@ -82,4 +82,4 @@ const Disney = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-export default Disney;
+export default DisneyPlus;
