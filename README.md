@@ -29,7 +29,7 @@ bun add @ridemountainpig/svgl-react
 Visit the [Svgl Components](https://svgl-react.vercel.app/docs/components) page to explore the available Svgl components. You can search for components by pressing `⌘ + k` and entering the SVG name. If you're unsure which SVGs are available, visit [Svgl](https://svgl.app/) to find the one you need.
 
 ```tsx
-import { VercelLight, VercelDark } from "svgl-react";
+import { VercelLight, VercelDark } from "@ridemountainpig/svgl-react";
 
 export default function SvglReact() {
   return (
