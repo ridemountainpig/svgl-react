@@ -1,0 +1,50 @@
+name: Update Svgl React Component
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Bun
+        uses: oven-sh/setup-bun@v1
+
+      - name: Install dependencies
+        run: bun i
+
+      - name: Fetch data
+        run: bun fetch
+
+      - name: Generate files
+        run: bun generate
+
+      - name: Format code
+        run: bun format
+
+      - name: Configure git
+        run: |
+          git config --global user.name "${{ vars.GITUSERNAME }}"
+          git config --global user.email "${{ vars.GITUSEREMAIL }}"
+
+      - name: Commit and push changes
+        run: |
+          if git diff-index --quiet HEAD --; then
+            echo "No changes detected."
+          else
+            git add --all ':!bun.lockb'
+            git commit -m "chore: update svgl component"
+          fi
+        continue-on-error: true
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: main
+          github_token: ${{ secrets.GITHUB_TOKEN }}
