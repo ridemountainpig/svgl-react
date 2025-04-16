@@ -157,6 +157,7 @@ export { default as FastifyDark } from "./components/FastifyDark";
 export { default as FastifyLight } from "./components/FastifyLight";
 export { default as Figma } from "./components/Figma";
 export { default as Firebase } from "./components/Firebase";
+export { default as FirebaseStudio } from "./components/FirebaseStudio";
 export { default as Firefox } from "./components/Firefox";
 export { default as FlaskDark } from "./components/FlaskDark";
 export { default as FlaskLight } from "./components/FlaskLight";
