@@ -47,9 +47,20 @@ async function processSVG(
   url: string,
   componentName: string,
   filePath: string,
+  brandUrl: string,
 ) {
   const { data: svg } = await axios.get(url);
-  const jsCode = await transform(
+
+  const svgContent = typeof svg === "string" ? svg : JSON.stringify(svg);
+
+  if (!svgContent || svgContent.trim() === "") {
+    console.warn(
+      `Warn: Empty SVG content received for ${componentName} from ${url}`,
+    );
+    return;
+  }
+
+  let jsCode = await transform(
     svg,
     {
       plugins: [
@@ -69,6 +80,11 @@ async function processSVG(
     },
     { componentName },
   );
+
+  const exportLines = [`export const ${componentName}Url = "${brandUrl}";`];
+
+  jsCode += exportLines.join("\n");
+
   writeFileSync(filePath, jsCode);
 }
 
@@ -144,7 +160,7 @@ async function fetchAndProcessSVGs() {
 
           const svgUrl = `https://raw.githubusercontent.com/pheralb/svgl/refs/heads/main/static${route}`;
           const filePath = join(OUTPUT_DIR, `${componentName}.tsx`);
-          await processSVG(svgUrl, componentName, filePath);
+          await processSVG(svgUrl, componentName, filePath, svg.url);
 
           if (variant === "default") {
             components.default = componentName;
