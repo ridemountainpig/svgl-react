@@ -21,3 +21,4 @@ const Ton = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Ton;
+export const TonUrl = "https://ton.org/";

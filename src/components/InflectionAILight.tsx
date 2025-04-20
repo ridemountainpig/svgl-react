@@ -17,3 +17,4 @@ const InflectionAILight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default InflectionAILight;
+export const InflectionAILightUrl = "https://inflection.ai/";

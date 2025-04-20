@@ -21,3 +21,4 @@ const Hono = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Hono;
+export const HonoUrl = "https://hono.dev/";

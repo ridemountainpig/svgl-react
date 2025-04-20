@@ -24,3 +24,4 @@ const Pocketbase = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Pocketbase;
+export const PocketbaseUrl = "https://pocketbase.io/";

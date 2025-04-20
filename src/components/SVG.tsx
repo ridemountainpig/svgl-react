@@ -26,3 +26,4 @@ const SVG = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default SVG;
+export const SVGUrl = "https://www.w3.org/TR/SVG/";

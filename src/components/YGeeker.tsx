@@ -32,3 +32,4 @@ const YGeeker = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default YGeeker;
+export const YGeekerUrl = "https://www.ygeeker.com";

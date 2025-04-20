@@ -17,3 +17,4 @@ const CurseForgeLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default CurseForgeLight;
+export const CurseForgeLightUrl = "https://curseforge.com/";

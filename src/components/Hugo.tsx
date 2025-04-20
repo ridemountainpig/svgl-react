@@ -39,3 +39,4 @@ const Hugo = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Hugo;
+export const HugoUrl = "https://gohugo.io/";

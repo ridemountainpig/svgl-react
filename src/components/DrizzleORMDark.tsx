@@ -41,3 +41,4 @@ const DrizzleORMDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default DrizzleORMDark;
+export const DrizzleORMDarkUrl = "https://orm.drizzle.team/";

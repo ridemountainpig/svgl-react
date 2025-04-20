@@ -16,3 +16,4 @@ const Expo = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Expo;
+export const ExpoUrl = "https://expo.dev/";

@@ -45,3 +45,4 @@ const Python = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Python;
+export const PythonUrl = "https://www.python.org/";

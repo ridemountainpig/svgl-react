@@ -147,3 +147,4 @@ const Alacritty = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Alacritty;
+export const AlacrittyUrl = "https://alacritty.org";

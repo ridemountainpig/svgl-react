@@ -22,3 +22,4 @@ const Mintlify = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Mintlify;
+export const MintlifyUrl = "https://mintlify.com/";

@@ -22,3 +22,4 @@ const InstatusLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default InstatusLight;
+export const InstatusLightUrl = "https://instatus.com";

@@ -23,3 +23,4 @@ const RefineDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default RefineDark;
+export const RefineDarkUrl = "https://refine.dev/";

@@ -17,3 +17,4 @@ const YouTube = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default YouTube;
+export const YouTubeUrl = "https://www.youtube.com/";

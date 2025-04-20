@@ -19,3 +19,4 @@ const QwenLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default QwenLight;
+export const QwenLightUrl = "https://chat.qwenlm.ai/";

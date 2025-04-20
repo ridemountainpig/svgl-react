@@ -13,3 +13,4 @@ const ExpressjsLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default ExpressjsLight;
+export const ExpressjsLightUrl = "https://expressjs.com";

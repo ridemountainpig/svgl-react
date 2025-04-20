@@ -34,3 +34,4 @@ const Axure = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Axure;
+export const AxureUrl = "https://www.axure.com/";

@@ -17,3 +17,4 @@ const StatelyaiDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default StatelyaiDark;
+export const StatelyaiDarkUrl = "https://stately.ai/";

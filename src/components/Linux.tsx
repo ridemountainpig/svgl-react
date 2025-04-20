@@ -373,3 +373,4 @@ const Linux = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Linux;
+export const LinuxUrl = "https://www.linux.org/";

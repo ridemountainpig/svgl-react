@@ -37,3 +37,4 @@ const MercadoPago = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default MercadoPago;
+export const MercadoPagoUrl = "https://www.mercadopago.com/developers/";

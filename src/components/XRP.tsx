@@ -70,3 +70,4 @@ const XRP = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default XRP;
+export const XRPUrl = "https://xrpl.org/";

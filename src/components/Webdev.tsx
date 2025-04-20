@@ -37,3 +37,4 @@ const Webdev = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Webdev;
+export const WebdevUrl = "https://web.dev/";

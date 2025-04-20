@@ -17,3 +17,4 @@ const Bitwarden = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Bitwarden;
+export const BitwardenUrl = "https://bitwarden.com/";

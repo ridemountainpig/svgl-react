@@ -32,3 +32,4 @@ const Atlassian = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Atlassian;
+export const AtlassianUrl = "https://www.atlassian.com/";

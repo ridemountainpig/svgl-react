@@ -96,3 +96,4 @@ const Bun = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Bun;
+export const BunUrl = "https://bun.sh";

@@ -79,3 +79,4 @@ const Lottielab = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Lottielab;
+export const LottielabUrl = "https://www.lottielab.com/";

@@ -20,3 +20,4 @@ const Ember = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Ember;
+export const EmberUrl = "https://emberjs.com/";

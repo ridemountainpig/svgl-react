@@ -26,3 +26,4 @@ const Kotlin = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Kotlin;
+export const KotlinUrl = "https://kotlinlang.org/";

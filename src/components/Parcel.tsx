@@ -245,3 +245,4 @@ const Parcel = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Parcel;
+export const ParcelUrl = "https://parceljs.org/";

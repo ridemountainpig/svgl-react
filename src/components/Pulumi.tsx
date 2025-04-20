@@ -24,3 +24,4 @@ const Pulumi = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Pulumi;
+export const PulumiUrl = "https://www.pulumi.com/";

@@ -53,3 +53,4 @@ const ClerkLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default ClerkLight;
+export const ClerkLightUrl = "https://clerk.com/";

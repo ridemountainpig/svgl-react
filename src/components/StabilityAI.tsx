@@ -26,3 +26,4 @@ const StabilityAI = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default StabilityAI;
+export const StabilityAIUrl = "https://stability.ai/";

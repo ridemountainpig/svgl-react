@@ -20,3 +20,4 @@ const StackOverflow = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default StackOverflow;
+export const StackOverflowUrl = "https://stackoverflow.com/";

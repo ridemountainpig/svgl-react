@@ -18,3 +18,4 @@ const Designali = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Designali;
+export const DesignaliUrl = "https://designali.in";

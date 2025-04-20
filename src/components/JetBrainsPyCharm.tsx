@@ -118,3 +118,4 @@ const JetBrainsPyCharm = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default JetBrainsPyCharm;
+export const JetBrainsPyCharmUrl = "https://www.jetbrains.com/pycharm/";

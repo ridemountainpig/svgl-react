@@ -23,3 +23,4 @@ const Binance = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Binance;
+export const BinanceUrl = "https://binance.com/";

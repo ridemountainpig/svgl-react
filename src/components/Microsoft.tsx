@@ -16,3 +16,4 @@ const Microsoft = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Microsoft;
+export const MicrosoftUrl = "https://www.microsoft.com/";

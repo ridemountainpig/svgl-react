@@ -24,3 +24,4 @@ const DaisyUI = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default DaisyUI;
+export const DaisyUIUrl = "https://daisyui.com/";

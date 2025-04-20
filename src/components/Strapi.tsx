@@ -25,3 +25,4 @@ const Strapi = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Strapi;
+export const StrapiUrl = "https://strapi.io/";

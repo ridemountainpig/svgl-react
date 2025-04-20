@@ -39,3 +39,4 @@ const AffinityPhoto = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default AffinityPhoto;
+export const AffinityPhotoUrl = "https://affinity.serif.com/en-us/photo/";

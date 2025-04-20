@@ -17,3 +17,4 @@ const Linear = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Linear;
+export const LinearUrl = "https://linear.app/";

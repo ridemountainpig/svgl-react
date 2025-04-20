@@ -14,3 +14,4 @@ const Auth0 = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Auth0;
+export const Auth0Url = "https://auth0.com/";

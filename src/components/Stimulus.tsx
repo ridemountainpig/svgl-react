@@ -16,3 +16,4 @@ const Stimulus = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Stimulus;
+export const StimulusUrl = "https://stimulus.hotwired.dev/";

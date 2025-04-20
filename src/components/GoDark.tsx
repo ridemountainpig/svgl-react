@@ -19,3 +19,4 @@ const GoDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default GoDark;
+export const GoDarkUrl = "https://go.dev/";

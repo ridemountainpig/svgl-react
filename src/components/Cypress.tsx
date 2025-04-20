@@ -57,3 +57,4 @@ const Cypress = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Cypress;
+export const CypressUrl = "https://www.cypress.io/";

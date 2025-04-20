@@ -41,3 +41,4 @@ const Animate = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Animate;
+export const AnimateUrl = "https://www.adobe.com/products/animate";

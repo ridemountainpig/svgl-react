@@ -29,3 +29,4 @@ const Chartjs = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Chartjs;
+export const ChartjsUrl = "https://www.chartjs.org/";

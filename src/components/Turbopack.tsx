@@ -29,3 +29,4 @@ const Turbopack = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Turbopack;
+export const TurbopackUrl = "https://turbo.build/";

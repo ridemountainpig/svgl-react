@@ -19,3 +19,4 @@ const GitHubDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default GitHubDark;
+export const GitHubDarkUrl = "https://github.com/";

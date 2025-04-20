@@ -13,3 +13,4 @@ const PhpLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default PhpLight;
+export const PhpLightUrl = "https://www.php.net/";

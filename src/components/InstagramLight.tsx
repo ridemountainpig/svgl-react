@@ -16,3 +16,4 @@ const InstagramLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default InstagramLight;
+export const InstagramLightUrl = "https://www.instagram.com/";

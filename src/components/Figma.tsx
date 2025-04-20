@@ -40,3 +40,4 @@ const Figma = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Figma;
+export const FigmaUrl = "https://www.figma.com/";

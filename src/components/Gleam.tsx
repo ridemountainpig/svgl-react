@@ -22,3 +22,4 @@ const Gleam = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Gleam;
+export const GleamUrl = "https://gleam.run/";

@@ -25,3 +25,4 @@ const AmazonWebServicesLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default AmazonWebServicesLight;
+export const AmazonWebServicesLightUrl = "https://aws.amazon.com/";

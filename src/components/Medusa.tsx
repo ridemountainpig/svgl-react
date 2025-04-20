@@ -28,3 +28,4 @@ const Medusa = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Medusa;
+export const MedusaUrl = "https://medusajs.com/";

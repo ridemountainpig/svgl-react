@@ -22,3 +22,4 @@ const WebComponents = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default WebComponents;
+export const WebComponentsUrl = "https://www.webcomponents.org/";

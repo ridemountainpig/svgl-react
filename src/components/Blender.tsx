@@ -24,3 +24,4 @@ const Blender = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Blender;
+export const BlenderUrl = "https://blender.org/";

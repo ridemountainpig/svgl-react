@@ -49,3 +49,4 @@ const JSON = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default JSON;
+export const JSONUrl = "https://json.org/";

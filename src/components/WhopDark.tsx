@@ -21,3 +21,4 @@ const WhopDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default WhopDark;
+export const WhopDarkUrl = "https://whop.com/";

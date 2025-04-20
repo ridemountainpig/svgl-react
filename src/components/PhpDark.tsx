@@ -16,3 +16,4 @@ const PhpDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default PhpDark;
+export const PhpDarkUrl = "https://www.php.net/";

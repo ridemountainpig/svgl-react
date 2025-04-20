@@ -113,3 +113,4 @@ const Safari = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Safari;
+export const SafariUrl = "https://www.apple.com/safari";

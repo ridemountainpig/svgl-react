@@ -16,3 +16,4 @@ const Blitz = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Blitz;
+export const BlitzUrl = "https://blitzjs.com/";

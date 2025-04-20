@@ -57,3 +57,4 @@ const Front = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Front;
+export const FrontUrl = "https://front.com";

@@ -21,3 +21,4 @@ const MarkdownLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default MarkdownLight;
+export const MarkdownLightUrl = "https://www.markdownguide.org/";

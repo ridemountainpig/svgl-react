@@ -16,3 +16,4 @@ const Stackblitz = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Stackblitz;
+export const StackblitzUrl = "https://stackblitz.com/";

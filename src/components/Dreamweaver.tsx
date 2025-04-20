@@ -25,3 +25,4 @@ const Dreamweaver = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Dreamweaver;
+export const DreamweaverUrl = "https://www.adobe.com/products/dreamweaver.html";

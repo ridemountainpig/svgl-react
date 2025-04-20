@@ -24,3 +24,4 @@ const SocketioLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default SocketioLight;
+export const SocketioLightUrl = "https://socket.io/";

@@ -156,3 +156,4 @@ const Hoppscotch = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Hoppscotch;
+export const HoppscotchUrl = "https://hoppscotch.com";

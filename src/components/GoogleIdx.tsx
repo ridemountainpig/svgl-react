@@ -22,3 +22,4 @@ const GoogleIdx = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default GoogleIdx;
+export const GoogleIdxUrl = "https://idx.dev/";

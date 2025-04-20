@@ -33,3 +33,4 @@ const Discourse = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Discourse;
+export const DiscourseUrl = "https://discourse.org/";

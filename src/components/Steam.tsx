@@ -33,3 +33,4 @@ const Steam = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Steam;
+export const SteamUrl = "https://store.steampowered.com/";

@@ -16,3 +16,4 @@ const Babel = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Babel;
+export const BabelUrl = "https://babeljs.io/";

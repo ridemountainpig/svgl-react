@@ -80,3 +80,4 @@ const AntDesign = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default AntDesign;
+export const AntDesignUrl = "https://ant.design/";

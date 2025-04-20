@@ -25,3 +25,4 @@ const RapidAPI = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default RapidAPI;
+export const RapidAPIUrl = "https://rapidapi.com";

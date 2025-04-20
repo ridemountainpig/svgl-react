@@ -21,3 +21,4 @@ const NuqsDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default NuqsDark;
+export const NuqsDarkUrl = "https://nuqs.47ng.com/";

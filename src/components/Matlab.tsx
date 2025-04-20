@@ -69,3 +69,4 @@ const Matlab = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Matlab;
+export const MatlabUrl = "https://www.mathworks.com/products/matlab.html";

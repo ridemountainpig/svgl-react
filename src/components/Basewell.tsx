@@ -43,3 +43,4 @@ const Basewell = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Basewell;
+export const BasewellUrl = "https://www.basewell.com/";

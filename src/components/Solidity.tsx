@@ -31,3 +31,4 @@ const Solidity = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Solidity;
+export const SolidityUrl = "https://soliditylang.org/";

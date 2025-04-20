@@ -56,3 +56,4 @@ const CursorLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default CursorLight;
+export const CursorLightUrl = "https://www.cursor.com";

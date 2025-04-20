@@ -13,3 +13,4 @@ const FlaskLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default FlaskLight;
+export const FlaskLightUrl = "https://flask.palletsprojects.com/";

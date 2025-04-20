@@ -35,3 +35,4 @@ const PenpotLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default PenpotLight;
+export const PenpotLightUrl = "https://penpot.app/";

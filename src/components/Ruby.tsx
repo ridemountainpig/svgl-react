@@ -238,3 +238,4 @@ const Ruby = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Ruby;
+export const RubyUrl = "https://www.ruby-lang.org/";

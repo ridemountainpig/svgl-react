@@ -21,3 +21,4 @@ const DenoDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default DenoDark;
+export const DenoDarkUrl = "https://deno.com/";

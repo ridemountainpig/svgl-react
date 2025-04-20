@@ -39,3 +39,4 @@ const Sanity = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Sanity;
+export const SanityUrl = "https://www.sanity.io";

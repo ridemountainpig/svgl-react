@@ -21,3 +21,4 @@ const Vue = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Vue;
+export const VueUrl = "https://vuejs.org/";

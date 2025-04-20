@@ -17,3 +17,5 @@ const JavaScript = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default JavaScript;
+export const JavaScriptUrl =
+  "https://developer.mozilla.org/docs/Web/JavaScript";

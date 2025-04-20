@@ -30,3 +30,4 @@ const PostCSS = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default PostCSS;
+export const PostCSSUrl = "https://postcss.org/";

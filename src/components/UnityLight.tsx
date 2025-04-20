@@ -16,3 +16,4 @@ const UnityLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default UnityLight;
+export const UnityLightUrl = "https://unity.com/";

@@ -19,3 +19,4 @@ const Platzi = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Platzi;
+export const PlatziUrl = "https://platzi.com/";

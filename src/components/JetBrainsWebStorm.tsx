@@ -60,3 +60,4 @@ const JetBrainsWebStorm = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default JetBrainsWebStorm;
+export const JetBrainsWebStormUrl = "https://www.jetbrains.com/webstorm/";

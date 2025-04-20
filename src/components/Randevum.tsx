@@ -132,3 +132,4 @@ const Randevum = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Randevum;
+export const RandevumUrl = "https://www.randevum.co";

@@ -21,3 +21,4 @@ const UdemyLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default UdemyLight;
+export const UdemyLightUrl = "https://www.udemy.com/";

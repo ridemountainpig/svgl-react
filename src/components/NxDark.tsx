@@ -17,3 +17,4 @@ const NxDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default NxDark;
+export const NxDarkUrl = "https://nx.dev";

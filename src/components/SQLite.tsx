@@ -35,3 +35,4 @@ const SQLite = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default SQLite;
+export const SQLiteUrl = "https://www.sqlite.org/";

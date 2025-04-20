@@ -17,3 +17,4 @@ const AstroLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default AstroLight;
+export const AstroLightUrl = "https://astro.build/";

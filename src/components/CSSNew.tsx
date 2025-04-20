@@ -21,3 +21,4 @@ const CSSNew = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default CSSNew;
+export const CSSNewUrl = "https://es.wikipedia.org/wiki/CSS";

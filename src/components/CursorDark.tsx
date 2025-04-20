@@ -56,3 +56,4 @@ const CursorDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default CursorDark;
+export const CursorDarkUrl = "https://www.cursor.com";

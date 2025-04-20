@@ -17,3 +17,4 @@ const ResendLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default ResendLight;
+export const ResendLightUrl = "https://resend.com/";

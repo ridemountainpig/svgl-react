@@ -41,3 +41,4 @@ const Peerlist = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Peerlist;
+export const PeerlistUrl = "https://www.peerlist.io/";

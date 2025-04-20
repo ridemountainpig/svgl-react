@@ -24,3 +24,4 @@ const MariaDB = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default MariaDB;
+export const MariaDBUrl = "https://mariadb.org/";

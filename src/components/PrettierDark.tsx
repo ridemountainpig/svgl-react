@@ -201,3 +201,4 @@ const PrettierDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default PrettierDark;
+export const PrettierDarkUrl = "https://prettier.io/";

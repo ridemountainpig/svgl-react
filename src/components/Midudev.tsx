@@ -28,3 +28,4 @@ const Midudev = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Midudev;
+export const MidudevUrl = "https://midu.dev";

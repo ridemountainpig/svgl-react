@@ -20,3 +20,4 @@ const Shiki = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Shiki;
+export const ShikiUrl = "https://shiki.style/";

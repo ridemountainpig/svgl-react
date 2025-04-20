@@ -101,3 +101,4 @@ const Chromium = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Chromium;
+export const ChromiumUrl = "https://www.chromium.org";

@@ -17,3 +17,4 @@ const Atom = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Atom;
+export const AtomUrl = "https://atom.io/";

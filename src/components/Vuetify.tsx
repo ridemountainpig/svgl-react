@@ -36,3 +36,4 @@ const Vuetify = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Vuetify;
+export const VuetifyUrl = "https://vuetifyjs.com/";

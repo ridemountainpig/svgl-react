@@ -13,3 +13,4 @@ const GitHubCopilotLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default GitHubCopilotLight;
+export const GitHubCopilotLightUrl = "https://github.com/features/copilot";

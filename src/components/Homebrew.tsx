@@ -37,3 +37,4 @@ const Homebrew = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Homebrew;
+export const HomebrewUrl = "https://brew.sh/";

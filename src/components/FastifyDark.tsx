@@ -16,3 +16,4 @@ const FastifyDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default FastifyDark;
+export const FastifyDarkUrl = "https://www.fastify.io";

@@ -69,3 +69,4 @@ const MicrosoftAzure = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default MicrosoftAzure;
+export const MicrosoftAzureUrl = "https://azure.microsoft.com/";

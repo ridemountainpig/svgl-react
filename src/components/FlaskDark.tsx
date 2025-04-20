@@ -14,3 +14,4 @@ const FlaskDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default FlaskDark;
+export const FlaskDarkUrl = "https://flask.palletsprojects.com/";

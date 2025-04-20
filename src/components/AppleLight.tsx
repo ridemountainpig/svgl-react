@@ -14,3 +14,4 @@ const AppleLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default AppleLight;
+export const AppleLightUrl = "https://www.apple.com";

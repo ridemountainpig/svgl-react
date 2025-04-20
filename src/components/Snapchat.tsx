@@ -37,3 +37,4 @@ const Snapchat = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Snapchat;
+export const SnapchatUrl = "https://www.snapchat.com";

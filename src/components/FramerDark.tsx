@@ -13,3 +13,4 @@ const FramerDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default FramerDark;
+export const FramerDarkUrl = "https://framer.com/";

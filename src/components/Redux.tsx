@@ -16,3 +16,4 @@ const Redux = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Redux;
+export const ReduxUrl = "https://redux.js.org/";

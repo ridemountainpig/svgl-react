@@ -25,3 +25,4 @@ const TursoDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default TursoDark;
+export const TursoDarkUrl = "https://turso.tech";

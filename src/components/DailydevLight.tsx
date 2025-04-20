@@ -19,3 +19,4 @@ const DailydevLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default DailydevLight;
+export const DailydevLightUrl = "https://daily.dev/";

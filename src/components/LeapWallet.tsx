@@ -33,3 +33,4 @@ const LeapWallet = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default LeapWallet;
+export const LeapWalletUrl = "https://leapwallet.io/";

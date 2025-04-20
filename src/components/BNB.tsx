@@ -83,3 +83,4 @@ const BNB = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default BNB;
+export const BNBUrl = "https://www.bnbchain.org/";

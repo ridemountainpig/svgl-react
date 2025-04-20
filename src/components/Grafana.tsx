@@ -28,3 +28,4 @@ const Grafana = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Grafana;
+export const GrafanaUrl = "https://grafana.com/";

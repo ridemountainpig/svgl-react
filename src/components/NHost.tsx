@@ -16,3 +16,4 @@ const NHost = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default NHost;
+export const NHostUrl = "https://nhost.io/";

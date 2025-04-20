@@ -193,3 +193,4 @@ const MicrosoftTodo = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default MicrosoftTodo;
+export const MicrosoftTodoUrl = "https://to-do.office.com/";

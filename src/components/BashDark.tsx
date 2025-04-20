@@ -17,3 +17,4 @@ const BashDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default BashDark;
+export const BashDarkUrl = "https://www.gnu.org/software/bash/";

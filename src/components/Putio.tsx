@@ -24,3 +24,4 @@ const Putio = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Putio;
+export const PutioUrl = "https://put.io/";

@@ -17,3 +17,4 @@ const JetBrainsMono = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default JetBrainsMono;
+export const JetBrainsMonoUrl = "https://www.jetbrains.com/";

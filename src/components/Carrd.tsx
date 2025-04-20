@@ -55,3 +55,4 @@ const Carrd = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Carrd;
+export const CarrdUrl = "https://carrd.co/";

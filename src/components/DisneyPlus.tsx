@@ -83,3 +83,4 @@ const DisneyPlus = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default DisneyPlus;
+export const DisneyPlusUrl = "https://www.disneyplus.com/";

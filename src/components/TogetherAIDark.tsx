@@ -24,3 +24,4 @@ const TogetherAIDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default TogetherAIDark;
+export const TogetherAIDarkUrl = "https://www.together.ai/";

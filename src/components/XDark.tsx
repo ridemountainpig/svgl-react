@@ -17,3 +17,4 @@ const XDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default XDark;
+export const XDarkUrl = "https://x.com";

@@ -26,3 +26,4 @@ const GraphQL = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default GraphQL;
+export const GraphQLUrl = "https://graphql.org/";

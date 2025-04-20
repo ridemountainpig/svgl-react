@@ -17,3 +17,4 @@ const Dotenvx = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Dotenvx;
+export const DotenvxUrl = "https://dotenvx.com";

@@ -26,3 +26,4 @@ const MermaidDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default MermaidDark;
+export const MermaidDarkUrl = "https://mermaid.js.org/";

@@ -16,3 +16,4 @@ const NPM = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default NPM;
+export const NPMUrl = "https://www.npmjs.com/";

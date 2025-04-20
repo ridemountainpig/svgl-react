@@ -33,3 +33,4 @@ const Procure = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Procure;
+export const ProcureUrl = "https://procure.biz/";

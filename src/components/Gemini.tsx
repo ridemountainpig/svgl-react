@@ -27,3 +27,4 @@ const Gemini = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Gemini;
+export const GeminiUrl = "https://gemini.google.com/";

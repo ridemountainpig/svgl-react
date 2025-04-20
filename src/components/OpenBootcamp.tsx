@@ -20,3 +20,4 @@ const OpenBootcamp = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default OpenBootcamp;
+export const OpenBootcampUrl = "https://open-bootcamp.com/";

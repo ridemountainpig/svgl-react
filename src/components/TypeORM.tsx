@@ -24,3 +24,4 @@ const TypeORM = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default TypeORM;
+export const TypeORMUrl = "https://typeorm.io/";

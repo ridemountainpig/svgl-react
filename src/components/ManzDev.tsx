@@ -44,3 +44,4 @@ const ManzDev = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default ManzDev;
+export const ManzDevUrl = "https://manz.dev/";

@@ -16,3 +16,4 @@ const JSONSchema = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default JSONSchema;
+export const JSONSchemaUrl = "https://json-schema.org/";

@@ -28,3 +28,4 @@ const CSharp = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default CSharp;
+export const CSharpUrl = "https://dotnet.microsoft.com/languages/csharp";

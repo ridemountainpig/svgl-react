@@ -24,3 +24,4 @@ const VoicemodLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default VoicemodLight;
+export const VoicemodLightUrl = "https://voicemod.net/";

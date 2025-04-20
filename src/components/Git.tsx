@@ -16,3 +16,4 @@ const Git = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Git;
+export const GitUrl = "https://git-scm.com/";

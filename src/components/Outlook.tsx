@@ -74,3 +74,4 @@ const Outlook = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Outlook;
+export const OutlookUrl = "https://www.outlook.com";

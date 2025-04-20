@@ -28,3 +28,4 @@ const Premiere = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Premiere;
+export const PremiereUrl = "https://www.adobe.com/products/premiere";

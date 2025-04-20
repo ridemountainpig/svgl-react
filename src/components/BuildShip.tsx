@@ -169,3 +169,4 @@ const BuildShip = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default BuildShip;
+export const BuildShipUrl = "https://buildship.com/";

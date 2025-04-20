@@ -24,3 +24,4 @@ const Cloudflare = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Cloudflare;
+export const CloudflareUrl = "https://www.cloudflare.com/";
