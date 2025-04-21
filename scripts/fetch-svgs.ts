@@ -44,18 +44,18 @@ async function fetchSVGData(): Promise<ISVG[]> {
 }
 
 async function processSVG(
-  url: string,
+  svgUrl: string,
   componentName: string,
   filePath: string,
-  brandUrl: string,
+  url: string,
 ) {
-  const { data: svg } = await axios.get(url);
+  const { data: svg } = await axios.get(svgUrl);
 
-  const svgContent = typeof svg === "string" ? svg : JSON.stringify(svg);
+  const svgContent = typeof svg === "string" ? svg : JSON.stringify(svgUrl);
 
   if (!svgContent || svgContent.trim() === "") {
     console.warn(
-      `Warn: Empty SVG content received for ${componentName} from ${url}`,
+      `Warn: Empty SVG content received for ${componentName} from ${svgUrl}`,
     );
     return;
   }
@@ -81,7 +81,7 @@ async function processSVG(
     { componentName },
   );
 
-  const exportLines = [`export const ${componentName}Url = "${brandUrl}";`];
+  const exportLines = [`export const ${componentName}Url = "${url}";`];
 
   jsCode += exportLines.join("\n");
 
