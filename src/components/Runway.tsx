@@ -32,3 +32,4 @@ const Runway = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Runway;
+export const RunwayUrl = "https://runwayml.com/";

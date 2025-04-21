@@ -17,3 +17,4 @@ const XLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default XLight;
+export const XLightUrl = "https://x.com";

@@ -24,3 +24,4 @@ const TensorFlow = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default TensorFlow;
+export const TensorFlowUrl = "https://www.tensorflow.org/";

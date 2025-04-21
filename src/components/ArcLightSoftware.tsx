@@ -19,3 +19,4 @@ const ArcLightSoftware = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default ArcLightSoftware;
+export const ArcLightSoftwareUrl = "https://arc.tech";

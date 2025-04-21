@@ -45,3 +45,4 @@ const UXCorpRangelLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default UXCorpRangelLight;
+export const UXCorpRangelLightUrl = "https://github.com/UXCorpRangel/";

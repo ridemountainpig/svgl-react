@@ -21,3 +21,4 @@ const HeroUILight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default HeroUILight;
+export const HeroUILightUrl = "https://www.heroui.com/";

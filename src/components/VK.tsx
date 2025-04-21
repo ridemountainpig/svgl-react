@@ -38,3 +38,4 @@ const VK = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default VK;
+export const VKUrl = "https://vk.com";

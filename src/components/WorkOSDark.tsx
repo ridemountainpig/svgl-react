@@ -27,3 +27,4 @@ const WorkOSDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default WorkOSDark;
+export const WorkOSDarkUrl = "https://workos.com/";

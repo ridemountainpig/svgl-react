@@ -71,3 +71,4 @@ const RxJS = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default RxJS;
+export const RxJSUrl = "https://rxjs.dev/";

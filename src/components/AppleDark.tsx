@@ -17,3 +17,4 @@ const AppleDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default AppleDark;
+export const AppleDarkUrl = "https://www.apple.com";

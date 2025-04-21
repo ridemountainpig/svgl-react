@@ -38,3 +38,4 @@ const Vivaldi = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Vivaldi;
+export const VivaldiUrl = "https://vivaldi.com";

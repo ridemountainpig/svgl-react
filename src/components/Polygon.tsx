@@ -19,3 +19,4 @@ const Polygon = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Polygon;
+export const PolygonUrl = "https://polygon.technology/";

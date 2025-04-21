@@ -24,3 +24,4 @@ const SocketioDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default SocketioDark;
+export const SocketioDarkUrl = "https://socket.io/";

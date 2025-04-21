@@ -47,3 +47,4 @@ const TypeGPUDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default TypeGPUDark;
+export const TypeGPUDarkUrl = "https://typegpu.com";

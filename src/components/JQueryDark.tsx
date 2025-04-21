@@ -68,3 +68,4 @@ const JQueryDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default JQueryDark;
+export const JQueryDarkUrl = "https://jquery.com";

@@ -16,3 +16,4 @@ const RDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default RDark;
+export const RDarkUrl = "https://www.r-project.org/";

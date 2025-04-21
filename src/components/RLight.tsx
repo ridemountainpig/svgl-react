@@ -13,3 +13,4 @@ const RLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default RLight;
+export const RLightUrl = "https://www.r-project.org/";

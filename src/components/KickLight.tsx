@@ -31,3 +31,4 @@ const KickLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default KickLight;
+export const KickLightUrl = "https://kick.com/";

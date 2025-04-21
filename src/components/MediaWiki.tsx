@@ -428,3 +428,4 @@ const MediaWiki = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default MediaWiki;
+export const MediaWikiUrl = "https://www.mediawiki.org/";

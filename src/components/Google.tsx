@@ -28,3 +28,4 @@ const Google = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Google;
+export const GoogleUrl = "https://www.google.com/";

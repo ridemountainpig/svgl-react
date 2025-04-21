@@ -16,3 +16,4 @@ const Loom = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Loom;
+export const LoomUrl = "https://www.loom.com/";

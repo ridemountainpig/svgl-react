@@ -58,3 +58,4 @@ const D3js = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default D3js;
+export const D3jsUrl = "https://d3js.org/";

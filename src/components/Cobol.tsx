@@ -17,3 +17,4 @@ const Cobol = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Cobol;
+export const CobolUrl = "https://en.wikipedia.org/wiki/COBOL";

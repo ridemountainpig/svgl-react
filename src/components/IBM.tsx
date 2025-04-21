@@ -16,3 +16,4 @@ const IBM = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default IBM;
+export const IBMUrl = "https://www.ibm.com";

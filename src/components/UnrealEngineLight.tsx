@@ -25,3 +25,4 @@ const UnrealEngineLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default UnrealEngineLight;
+export const UnrealEngineLightUrl = "https://www.unrealengine.com/";

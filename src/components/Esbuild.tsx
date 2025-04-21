@@ -17,3 +17,4 @@ const Esbuild = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Esbuild;
+export const EsbuildUrl = "https://esbuild.github.io/";

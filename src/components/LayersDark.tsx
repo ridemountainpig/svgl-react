@@ -28,3 +28,4 @@ const LayersDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default LayersDark;
+export const LayersDarkUrl = "https://layers.to/";

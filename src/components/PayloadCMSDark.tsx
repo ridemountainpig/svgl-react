@@ -17,3 +17,4 @@ const PayloadCMSDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default PayloadCMSDark;
+export const PayloadCMSDarkUrl = "https://payloadcms.com";

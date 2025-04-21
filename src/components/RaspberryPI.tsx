@@ -26,3 +26,4 @@ const RaspberryPI = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default RaspberryPI;
+export const RaspberryPIUrl = "https://www.raspberrypi.com/";

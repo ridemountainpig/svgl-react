@@ -20,3 +20,4 @@ const BetterAuthDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default BetterAuthDark;
+export const BetterAuthDarkUrl = "https://www.better-auth.com/";

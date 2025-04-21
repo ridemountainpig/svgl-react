@@ -20,3 +20,5 @@ const HomeAssistant = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default HomeAssistant;
+export const HomeAssistantUrl =
+  "https://github.com/home-assistant/assets/tree/master/logo";

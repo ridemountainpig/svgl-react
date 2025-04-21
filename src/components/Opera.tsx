@@ -47,3 +47,4 @@ const Opera = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Opera;
+export const OperaUrl = "https://www.opera.com";

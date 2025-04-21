@@ -17,3 +17,4 @@ const ResendDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default ResendDark;
+export const ResendDarkUrl = "https://resend.com/";

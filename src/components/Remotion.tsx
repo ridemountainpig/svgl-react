@@ -27,3 +27,4 @@ const Remotion = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Remotion;
+export const RemotionUrl = "https://www.remotion.dev/";

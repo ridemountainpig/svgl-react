@@ -22,3 +22,4 @@ const HTML5 = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default HTML5;
+export const HTML5Url = "https://es.wikipedia.org/wiki/HTML5";

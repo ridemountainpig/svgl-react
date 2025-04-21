@@ -64,3 +64,4 @@ const Spinnaker = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Spinnaker;
+export const SpinnakerUrl = "https://spinnaker.io/";

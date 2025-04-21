@@ -19,3 +19,4 @@ const CiscoLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default CiscoLight;
+export const CiscoLightUrl = "https://www.cisco.com/";

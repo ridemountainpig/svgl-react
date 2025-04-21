@@ -21,3 +21,4 @@ const AfordinLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default AfordinLight;
+export const AfordinLightUrl = "https://github.com/Afordin";

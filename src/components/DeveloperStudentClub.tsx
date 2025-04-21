@@ -34,3 +34,4 @@ const DeveloperStudentClub = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default DeveloperStudentClub;
+export const DeveloperStudentClubUrl = "https://gdsc.community.dev/";

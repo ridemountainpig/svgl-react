@@ -20,3 +20,4 @@ const Jest = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Jest;
+export const JestUrl = "https://jestjs.io/";

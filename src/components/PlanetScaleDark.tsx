@@ -16,3 +16,4 @@ const PlanetScaleDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default PlanetScaleDark;
+export const PlanetScaleDarkUrl = "https://planetscale.com/";

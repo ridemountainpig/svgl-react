@@ -33,3 +33,4 @@ const PerplexityAI = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default PerplexityAI;
+export const PerplexityAIUrl = "https://perplexity.ai/";

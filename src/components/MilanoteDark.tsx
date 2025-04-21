@@ -17,3 +17,4 @@ const MilanoteDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default MilanoteDark;
+export const MilanoteDarkUrl = "https://milanote.com";

@@ -25,3 +25,4 @@ const OllamaLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default OllamaLight;
+export const OllamaLightUrl = "https://www.ollama.com/";

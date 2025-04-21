@@ -49,3 +49,4 @@ const Polars = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Polars;
+export const PolarsUrl = "https://pola.rs/";

@@ -19,3 +19,4 @@ const Locofy = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Locofy;
+export const LocofyUrl = "https://www.locofy.ai/";

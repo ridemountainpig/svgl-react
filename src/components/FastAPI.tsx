@@ -16,3 +16,4 @@ const FastAPI = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default FastAPI;
+export const FastAPIUrl = "https://fastapi.tiangolo.com/";

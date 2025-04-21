@@ -34,3 +34,4 @@ const Upstash = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Upstash;
+export const UpstashUrl = "https://upstash.com/";

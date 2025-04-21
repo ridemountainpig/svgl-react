@@ -24,3 +24,4 @@ const Builder = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Builder;
+export const BuilderUrl = "https://builder.io/";

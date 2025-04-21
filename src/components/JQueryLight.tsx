@@ -64,3 +64,4 @@ const JQueryLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default JQueryLight;
+export const JQueryLightUrl = "https://jquery.com";

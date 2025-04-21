@@ -19,3 +19,4 @@ const Ahooks = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Ahooks;
+export const AhooksUrl = "https://ahooks.js.org/";

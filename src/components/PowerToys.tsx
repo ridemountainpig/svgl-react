@@ -241,3 +241,5 @@ const PowerToys = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default PowerToys;
+export const PowerToysUrl =
+  "https://learn.microsoft.com/en-us/windows/powertoys/";

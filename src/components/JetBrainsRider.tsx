@@ -48,3 +48,4 @@ const JetBrainsRider = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default JetBrainsRider;
+export const JetBrainsRiderUrl = "https://www.jetbrains.com/rider/";

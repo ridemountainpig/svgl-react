@@ -21,3 +21,4 @@ const Tron = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Tron;
+export const TronUrl = "https://tron.network/";

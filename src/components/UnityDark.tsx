@@ -16,3 +16,4 @@ const UnityDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default UnityDark;
+export const UnityDarkUrl = "https://unity.com/";

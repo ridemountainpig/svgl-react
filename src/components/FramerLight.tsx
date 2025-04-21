@@ -13,3 +13,4 @@ const FramerLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default FramerLight;
+export const FramerLightUrl = "https://framer.com/";

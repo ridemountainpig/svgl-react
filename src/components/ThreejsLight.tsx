@@ -13,3 +13,4 @@ const ThreejsLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default ThreejsLight;
+export const ThreejsLightUrl = "https://threejs.org/";

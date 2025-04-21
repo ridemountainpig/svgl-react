@@ -40,3 +40,4 @@ const GooglePaLM = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default GooglePaLM;
+export const GooglePaLMUrl = "https://ai.google/discover/palm2/";

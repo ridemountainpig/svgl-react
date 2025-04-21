@@ -65,3 +65,4 @@ const Svgl = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Svgl;
+export const SvglUrl = "https://svgl.app";

@@ -35,3 +35,4 @@ const Emacs = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Emacs;
+export const EmacsUrl = "https://www.gnu.org/software/emacs/";

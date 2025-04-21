@@ -19,3 +19,4 @@ const BoltLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default BoltLight;
+export const BoltLightUrl = "https://bolt.new/";

@@ -147,3 +147,4 @@ const JetBrainsFleet = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default JetBrainsFleet;
+export const JetBrainsFleetUrl = "https://www.jetbrains.com/fleet/";

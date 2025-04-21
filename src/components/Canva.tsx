@@ -89,3 +89,4 @@ const Canva = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Canva;
+export const CanvaUrl = "https://www.canva.com/";

@@ -50,3 +50,4 @@ const WebKit = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default WebKit;
+export const WebKitUrl = "https://webkit.org/";

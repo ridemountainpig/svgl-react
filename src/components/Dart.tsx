@@ -62,3 +62,4 @@ const Dart = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Dart;
+export const DartUrl = "https://dart.dev/";

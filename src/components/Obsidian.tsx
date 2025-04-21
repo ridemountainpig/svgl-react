@@ -151,3 +151,4 @@ const Obsidian = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Obsidian;
+export const ObsidianUrl = "https://obsidian.md/";

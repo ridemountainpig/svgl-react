@@ -33,3 +33,4 @@ const SWC = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default SWC;
+export const SWCUrl = "https://swc.rs/";

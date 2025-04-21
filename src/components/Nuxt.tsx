@@ -16,3 +16,4 @@ const Nuxt = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Nuxt;
+export const NuxtUrl = "https://nuxtjs.org/";

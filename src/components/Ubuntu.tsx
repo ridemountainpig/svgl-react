@@ -29,3 +29,4 @@ const Ubuntu = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Ubuntu;
+export const UbuntuUrl = "https://ubuntu.com/";

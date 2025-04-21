@@ -17,3 +17,4 @@ const TursoLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default TursoLight;
+export const TursoLightUrl = "https://turso.tech";

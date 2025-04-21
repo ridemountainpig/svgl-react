@@ -31,3 +31,4 @@ const ZenBrowserDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default ZenBrowserDark;
+export const ZenBrowserDarkUrl = "https://zen-browser.app/";

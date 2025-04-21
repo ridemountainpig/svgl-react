@@ -13,3 +13,4 @@ const PrismaLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default PrismaLight;
+export const PrismaLightUrl = "https://prisma.io/";

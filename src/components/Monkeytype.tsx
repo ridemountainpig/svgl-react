@@ -40,3 +40,4 @@ const Monkeytype = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Monkeytype;
+export const MonkeytypeUrl = "https://monkeytype.com/";

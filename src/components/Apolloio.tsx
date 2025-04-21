@@ -18,3 +18,4 @@ const Apolloio = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Apolloio;
+export const ApolloioUrl = "https://www.apollo.io/";

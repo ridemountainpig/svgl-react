@@ -28,3 +28,4 @@ const Surrealdb = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Surrealdb;
+export const SurrealdbUrl = "https://surrealdb.com/";

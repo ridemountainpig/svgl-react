@@ -24,3 +24,4 @@ const Shopify = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Shopify;
+export const ShopifyUrl = "https://www.shopify.com";

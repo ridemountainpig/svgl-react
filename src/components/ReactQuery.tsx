@@ -28,3 +28,4 @@ const ReactQuery = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default ReactQuery;
+export const ReactQueryUrl = "https://tanstack.com/query/v4";

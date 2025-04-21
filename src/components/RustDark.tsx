@@ -17,3 +17,4 @@ const RustDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default RustDark;
+export const RustDarkUrl = "https://www.rust-lang.org/";

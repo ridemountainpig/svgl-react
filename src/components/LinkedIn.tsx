@@ -16,3 +16,4 @@ const LinkedIn = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default LinkedIn;
+export const LinkedInUrl = "https://www.linkedin.com/";

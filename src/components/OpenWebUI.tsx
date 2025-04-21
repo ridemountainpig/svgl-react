@@ -23,3 +23,4 @@ const OpenWebUI = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default OpenWebUI;
+export const OpenWebUIUrl = "https://openwebui.com/";

@@ -34,3 +34,4 @@ const Rolldown = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Rolldown;
+export const RolldownUrl = "https://rolldown.rs/";

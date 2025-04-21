@@ -17,3 +17,4 @@ const HuluDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default HuluDark;
+export const HuluDarkUrl = "https://www.hulu.com/";

@@ -157,3 +157,4 @@ const Rowy = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Rowy;
+export const RowyUrl = "https://www.rowy.io/";

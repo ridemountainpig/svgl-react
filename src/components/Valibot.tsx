@@ -71,3 +71,4 @@ const Valibot = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Valibot;
+export const ValibotUrl = "https://valibot.dev";

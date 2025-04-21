@@ -18,3 +18,4 @@ const Twitch = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Twitch;
+export const TwitchUrl = "https://twitch.tv";

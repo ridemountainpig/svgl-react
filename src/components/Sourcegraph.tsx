@@ -24,3 +24,4 @@ const Sourcegraph = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Sourcegraph;
+export const SourcegraphUrl = "https://about.sourcegraph.com/";

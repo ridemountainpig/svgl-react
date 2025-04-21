@@ -32,3 +32,4 @@ const Java = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Java;
+export const JavaUrl = "https://www.java.com/";

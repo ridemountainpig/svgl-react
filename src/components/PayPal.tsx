@@ -26,3 +26,4 @@ const PayPal = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default PayPal;
+export const PayPalUrl = "https://paypal.com";

@@ -17,3 +17,4 @@ const Replit = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Replit;
+export const ReplitUrl = "https://replit.com/";

@@ -18,3 +18,4 @@ const DenoLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default DenoLight;
+export const DenoLightUrl = "https://deno.com/";

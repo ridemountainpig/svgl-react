@@ -62,3 +62,4 @@ const Discordjs = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Discordjs;
+export const DiscordjsUrl = "https://discord.js.org/";

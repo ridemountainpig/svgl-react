@@ -16,3 +16,4 @@ const SWRDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default SWRDark;
+export const SWRDarkUrl = "https://swr.vercel.app/";

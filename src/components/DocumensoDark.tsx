@@ -25,3 +25,4 @@ const DocumensoDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default DocumensoDark;
+export const DocumensoDarkUrl = "https://documenso.com";

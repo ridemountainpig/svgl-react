@@ -67,3 +67,4 @@ const Swift = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Swift;
+export const SwiftUrl = "https://swift.org/";

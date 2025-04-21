@@ -21,3 +21,4 @@ const Tina = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Tina;
+export const TinaUrl = "https://tina.io/";

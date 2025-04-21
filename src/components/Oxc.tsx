@@ -89,3 +89,4 @@ const Oxc = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Oxc;
+export const OxcUrl = "https://oxc.rs/";

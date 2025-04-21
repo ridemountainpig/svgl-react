@@ -17,3 +17,4 @@ const RadixUIDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default RadixUIDark;
+export const RadixUIDarkUrl = "https://www.radix-ui.com/";

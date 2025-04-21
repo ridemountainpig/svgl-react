@@ -17,3 +17,4 @@ const Notion = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Notion;
+export const NotionUrl = "https://notion.so/";

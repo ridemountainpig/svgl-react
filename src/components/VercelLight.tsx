@@ -13,3 +13,4 @@ const VercelLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default VercelLight;
+export const VercelLightUrl = "https://vercel.com/";

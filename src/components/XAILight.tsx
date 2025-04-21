@@ -14,3 +14,4 @@ const XAILight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default XAILight;
+export const XAILightUrl = "https://grok.com/";

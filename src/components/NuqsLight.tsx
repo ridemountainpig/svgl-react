@@ -21,3 +21,4 @@ const NuqsLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default NuqsLight;
+export const NuqsLightUrl = "https://nuqs.47ng.com/";

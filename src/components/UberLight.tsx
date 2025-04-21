@@ -16,3 +16,4 @@ const UberLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default UberLight;
+export const UberLightUrl = "https://www.uber.com";

@@ -26,3 +26,4 @@ const PolarDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default PolarDark;
+export const PolarDarkUrl = "https://polar.sh/";

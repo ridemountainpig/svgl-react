@@ -18,3 +18,4 @@ const SketchLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default SketchLight;
+export const SketchLightUrl = "https://www.sketch.com/";

@@ -36,3 +36,4 @@ const GoogleDrive = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default GoogleDrive;
+export const GoogleDriveUrl = "https://www.google.com/drive/";

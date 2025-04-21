@@ -17,3 +17,4 @@ const NestJS = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default NestJS;
+export const NestJSUrl = "https://nestjs.com/";

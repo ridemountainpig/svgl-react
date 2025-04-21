@@ -17,3 +17,4 @@ const NxLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default NxLight;
+export const NxLightUrl = "https://nx.dev";

@@ -17,3 +17,4 @@ const ReflexLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default ReflexLight;
+export const ReflexLightUrl = "https://reflex.dev/";

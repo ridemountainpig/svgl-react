@@ -36,3 +36,4 @@ const Fly = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Fly;
+export const FlyUrl = "https://fly.io";

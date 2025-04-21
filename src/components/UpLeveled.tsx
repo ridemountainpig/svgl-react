@@ -34,3 +34,4 @@ const UpLeveled = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default UpLeveled;
+export const UpLeveledUrl = "https://upleveled.io/";

@@ -21,3 +21,4 @@ const TikTok = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default TikTok;
+export const TikTokUrl = "https://www.tiktok.com/";

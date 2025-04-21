@@ -51,3 +51,4 @@ const Raindropio = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Raindropio;
+export const RaindropioUrl = "https://raindrop.io/";

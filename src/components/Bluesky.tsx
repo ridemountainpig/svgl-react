@@ -16,3 +16,4 @@ const Bluesky = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Bluesky;
+export const BlueskyUrl = "https://blueskyweb.xyz/";

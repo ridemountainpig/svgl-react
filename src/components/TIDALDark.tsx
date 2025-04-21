@@ -16,3 +16,4 @@ const TIDALDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default TIDALDark;
+export const TIDALDarkUrl = "https://tidal.com/";

@@ -35,3 +35,4 @@ const Messenger = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Messenger;
+export const MessengerUrl = "https://www.messenger.com/";

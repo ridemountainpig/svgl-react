@@ -31,3 +31,4 @@ const Tauri = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Tauri;
+export const TauriUrl = "https://tauri.app/";

@@ -17,3 +17,4 @@ const BashLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default BashLight;
+export const BashLightUrl = "https://www.gnu.org/software/bash/";

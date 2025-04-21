@@ -16,3 +16,4 @@ const Spring = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Spring;
+export const SpringUrl = "https://spring.io/";

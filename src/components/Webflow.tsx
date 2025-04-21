@@ -19,3 +19,4 @@ const Webflow = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Webflow;
+export const WebflowUrl = "https://www.webflow.com";

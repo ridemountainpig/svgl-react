@@ -32,3 +32,4 @@ const VoicemodDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default VoicemodDark;
+export const VoicemodDarkUrl = "https://voicemod.net/";

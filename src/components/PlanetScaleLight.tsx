@@ -13,3 +13,4 @@ const PlanetScaleLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default PlanetScaleLight;
+export const PlanetScaleLightUrl = "https://planetscale.com/";

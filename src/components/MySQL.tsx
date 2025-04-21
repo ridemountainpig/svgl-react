@@ -17,3 +17,4 @@ const MySQL = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default MySQL;
+export const MySQLUrl = "https://www.mysql.com/";

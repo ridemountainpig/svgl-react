@@ -93,3 +93,4 @@ const MetaMask = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default MetaMask;
+export const MetaMaskUrl = "https://metamask.io/";

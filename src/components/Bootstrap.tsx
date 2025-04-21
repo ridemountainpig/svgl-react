@@ -16,3 +16,4 @@ const Bootstrap = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Bootstrap;
+export const BootstrapUrl = "https://getbootstrap.com/";

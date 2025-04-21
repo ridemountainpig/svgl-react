@@ -19,3 +19,4 @@ const Beacon = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Beacon;
+export const BeaconUrl = "https://www.beacon.com";

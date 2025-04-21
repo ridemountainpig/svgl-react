@@ -13,3 +13,4 @@ const TIDALLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default TIDALLight;
+export const TIDALLightUrl = "https://tidal.com/";

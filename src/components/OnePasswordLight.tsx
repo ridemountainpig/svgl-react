@@ -26,3 +26,4 @@ const OnePasswordLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default OnePasswordLight;
+export const OnePasswordLightUrl = "https://1password.com";

@@ -25,3 +25,4 @@ const LearnThis = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default LearnThis;
+export const LearnThisUrl = "https://learnthisacademy.com";

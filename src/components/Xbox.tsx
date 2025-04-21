@@ -16,3 +16,4 @@ const Xbox = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Xbox;
+export const XboxUrl = "https://www.xbox.com/";

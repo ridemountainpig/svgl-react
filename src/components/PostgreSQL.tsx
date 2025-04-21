@@ -72,3 +72,4 @@ const PostgreSQL = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default PostgreSQL;
+export const PostgreSQLUrl = "https://www.postgresql.org/";

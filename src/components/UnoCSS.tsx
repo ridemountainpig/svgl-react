@@ -24,3 +24,4 @@ const UnoCSS = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default UnoCSS;
+export const UnoCSSUrl = "https://unocss.dev/";

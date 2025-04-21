@@ -23,3 +23,4 @@ const MarkdownDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default MarkdownDark;
+export const MarkdownDarkUrl = "https://www.markdownguide.org/";

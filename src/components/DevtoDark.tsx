@@ -23,3 +23,4 @@ const DevtoDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default DevtoDark;
+export const DevtoDarkUrl = "https://dev.to/";

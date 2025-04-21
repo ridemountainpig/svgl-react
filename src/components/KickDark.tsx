@@ -31,3 +31,4 @@ const KickDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default KickDark;
+export const KickDarkUrl = "https://kick.com/";

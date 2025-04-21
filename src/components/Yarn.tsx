@@ -24,3 +24,4 @@ const Yarn = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Yarn;
+export const YarnUrl = "https://yarnpkg.com/";

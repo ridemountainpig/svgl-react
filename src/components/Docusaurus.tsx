@@ -309,3 +309,4 @@ const Docusaurus = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Docusaurus;
+export const DocusaurusUrl = "https://docusaurus.io/";
