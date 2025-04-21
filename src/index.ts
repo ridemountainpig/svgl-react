@@ -203,6 +203,8 @@ export { default as HackTheBox } from "./components/HackTheBox";
 export { default as Hashnode } from "./components/Hashnode";
 export { default as Haskell } from "./components/Haskell";
 export { default as HeadlessUI } from "./components/HeadlessUI";
+export { default as HeroUIDark } from "./components/HeroUIDark";
+export { default as HeroUILight } from "./components/HeroUILight";
 export { default as Heroku } from "./components/Heroku";
 export { default as HomeAssistant } from "./components/HomeAssistant";
 export { default as Homebrew } from "./components/Homebrew";
