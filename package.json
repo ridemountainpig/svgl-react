@@ -1,6 +1,6 @@
 {
   "name": "@ridemountainpig/svgl-react",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Implementation of the Svgl for React applications.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
