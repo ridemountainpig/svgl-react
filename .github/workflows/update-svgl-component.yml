@@ -46,5 +46,5 @@ jobs:
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          branch: main
+          branch: axios-to-fetch
           github_token: ${{ secrets.GITHUB_TOKEN }}
