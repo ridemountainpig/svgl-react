@@ -1,4 +1,3 @@
-import axios from "axios";
 import { writeFileSync, mkdirSync, rmSync } from "fs";
 import { join } from "path";
 import { transform } from "@svgr/core";
@@ -32,7 +31,15 @@ function sanitizeComponentName(name: string) {
 }
 
 async function fetchSVGData(): Promise<ISVG[]> {
-  const { data } = await axios.get(SVGS_URL);
+  const res = await fetch(SVGS_URL, {
+    headers: {
+      "User-Agent":
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
+    },
+  });
+  if (!res.ok) throw new Error("Failed to fetch SVG data");
+
+  const data = await res.text();
   const match = data.match(/export const svgs[^=]+=\s*(\[[\s\S]*?\]);/s);
   if (match) {
     const svgsArrayString = match[1];
@@ -49,8 +56,15 @@ async function processSVG(
   filePath: string,
   url: string,
 ) {
-  const { data: svg } = await axios.get(svgUrl);
+  const res = await fetch(svgUrl, {
+    headers: {
+      "User-Agent":
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
+    },
+  });
+  if (!res.ok) throw new Error(`Failed to fetch ${svgUrl}`);
 
+  const svg = await res.text();
   const svgContent = typeof svg === "string" ? svg : JSON.stringify(svgUrl);
 
   if (!svgContent || svgContent.trim() === "") {

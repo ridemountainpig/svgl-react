@@ -194,6 +194,8 @@ export { default as Cohere } from "./components/Cohere";
 export { CohereUrl } from "./components/Cohere";
 export { default as Coinbase } from "./components/Coinbase";
 export { CoinbaseUrl } from "./components/Coinbase";
+export { default as Convex } from "./components/Convex";
+export { ConvexUrl } from "./components/Convex";
 export { default as Coursera } from "./components/Coursera";
 export { CourseraUrl } from "./components/Coursera";
 export { default as Crossplane } from "./components/Crossplane";
@@ -742,6 +744,8 @@ export { default as PostgreSQL } from "./components/PostgreSQL";
 export { PostgreSQLUrl } from "./components/PostgreSQL";
 export { default as Postman } from "./components/Postman";
 export { PostmanUrl } from "./components/Postman";
+export { default as PowerShell } from "./components/PowerShell";
+export { PowerShellUrl } from "./components/PowerShell";
 export { default as PowerToys } from "./components/PowerToys";
 export { PowerToysUrl } from "./components/PowerToys";
 export { default as Preact } from "./components/Preact";
@@ -1291,6 +1295,7 @@ export type SvglComponentName =
   | "Cody"
   | "Cohere"
   | "Coinbase"
+  | "Convex"
   | "Coursera"
   | "Crossplane"
   | "CurseForgeDark"
@@ -1565,6 +1570,7 @@ export type SvglComponentName =
   | "PostHog"
   | "PostgreSQL"
   | "Postman"
+  | "PowerShell"
   | "PowerToys"
   | "Preact"
   | "Premiere"
