@@ -51,7 +51,6 @@
     "@svgr/plugin-jsx": "^8.1.0",
     "@svgr/plugin-prettier": "^8.1.0",
     "@svgr/plugin-svgo": "^8.1.0",
-    "axios": "^1.8.4",
     "bunchee": "^6.5.0",
     "prettier": "^3.5.3",
     "ts-node": "^10.9.2",
