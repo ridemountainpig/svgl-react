@@ -448,6 +448,10 @@ export { default as InflectionAILight } from "./components/InflectionAILight";
 export { InflectionAILightUrl } from "./components/InflectionAILight";
 export { default as Infojobs } from "./components/Infojobs";
 export { InfojobsUrl } from "./components/Infojobs";
+export { default as InngestDark } from "./components/InngestDark";
+export { InngestDarkUrl } from "./components/InngestDark";
+export { default as InngestLight } from "./components/InngestLight";
+export { InngestLightUrl } from "./components/InngestLight";
 export { default as InstagramDark } from "./components/InstagramDark";
 export { InstagramDarkUrl } from "./components/InstagramDark";
 export { default as InstagramLight } from "./components/InstagramLight";
@@ -1422,6 +1426,8 @@ export type SvglComponentName =
   | "InflectionAIDark"
   | "InflectionAILight"
   | "Infojobs"
+  | "InngestDark"
+  | "InngestLight"
   | "InstagramDark"
   | "InstagramLight"
   | "InstatusDark"
