@@ -562,6 +562,10 @@ export { default as MaterialUI } from "./components/MaterialUI";
 export { MaterialUIUrl } from "./components/MaterialUI";
 export { default as Matlab } from "./components/Matlab";
 export { MatlabUrl } from "./components/Matlab";
+export { default as MattermostDark } from "./components/MattermostDark";
+export { MattermostDarkUrl } from "./components/MattermostDark";
+export { default as MattermostLight } from "./components/MattermostLight";
+export { MattermostLightUrl } from "./components/MattermostLight";
 export { default as MediaWiki } from "./components/MediaWiki";
 export { MediaWikiUrl } from "./components/MediaWiki";
 export { default as Medusa } from "./components/Medusa";
@@ -1483,6 +1487,8 @@ export type SvglComponentName =
   | "Mastodon"
   | "MaterialUI"
   | "Matlab"
+  | "MattermostDark"
+  | "MattermostLight"
   | "MediaWiki"
   | "Medusa"
   | "MercadoPago"
