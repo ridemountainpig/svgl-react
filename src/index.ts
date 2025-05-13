@@ -1004,6 +1004,8 @@ export { default as Telegram } from "./components/Telegram";
 export { TelegramUrl } from "./components/Telegram";
 export { default as TensorFlow } from "./components/TensorFlow";
 export { TensorFlowUrl } from "./components/TensorFlow";
+export { default as Terraform } from "./components/Terraform";
+export { TerraformUrl } from "./components/Terraform";
 export { default as Tether } from "./components/Tether";
 export { TetherUrl } from "./components/Tether";
 export { default as ThreadsDark } from "./components/ThreadsDark";
@@ -1708,6 +1710,7 @@ export type SvglComponentName =
   | "Tauri"
   | "Telegram"
   | "TensorFlow"
+  | "Terraform"
   | "Tether"
   | "ThreadsDark"
   | "ThreadsLight"
