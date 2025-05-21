@@ -40,6 +40,11 @@ export default function SvglReact() {
 
 Find the Svgl components and examples in the [documentation](https://svgl-react.vercel.app/docs).
 
+## 🌱 Eco-system
+
+- [svgl-vue](https://github.com/selemondev/svgl-vue) for the Vue eco-system.
+- [svgl-svelte](https://github.com/selemondev/svgl-svelte) for the Svelte eco-system.
+
 ## ©️ License
 
 [MIT](https://github.com/ridemountainpig/svgl-react/blob/main/LICENSE) License © [Yen Cheng Lin](https://github.com/ridemountainpig/)
