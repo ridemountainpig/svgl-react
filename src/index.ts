@@ -562,6 +562,10 @@ export { default as MaterialUI } from "./components/MaterialUI";
 export { MaterialUIUrl } from "./components/MaterialUI";
 export { default as Matlab } from "./components/Matlab";
 export { MatlabUrl } from "./components/Matlab";
+export { default as MatrixDark } from "./components/MatrixDark";
+export { MatrixDarkUrl } from "./components/MatrixDark";
+export { default as MatrixLight } from "./components/MatrixLight";
+export { MatrixLightUrl } from "./components/MatrixLight";
 export { default as MattermostDark } from "./components/MattermostDark";
 export { MattermostDarkUrl } from "./components/MattermostDark";
 export { default as MattermostLight } from "./components/MattermostLight";
@@ -1489,6 +1493,8 @@ export type SvglComponentName =
   | "Mastodon"
   | "MaterialUI"
   | "Matlab"
+  | "MatrixDark"
+  | "MatrixLight"
   | "MattermostDark"
   | "MattermostLight"
   | "MediaWiki"
