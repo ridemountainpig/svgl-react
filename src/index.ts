@@ -710,6 +710,10 @@ export { default as PenpotLight } from "./components/PenpotLight";
 export { PenpotLightUrl } from "./components/PenpotLight";
 export { default as PerplexityAI } from "./components/PerplexityAI";
 export { PerplexityAIUrl } from "./components/PerplexityAI";
+export { default as PerspectiveDark } from "./components/PerspectiveDark";
+export { PerspectiveDarkUrl } from "./components/PerspectiveDark";
+export { default as PerspectiveLight } from "./components/PerspectiveLight";
+export { PerspectiveLightUrl } from "./components/PerspectiveLight";
 export { default as Photoshop } from "./components/Photoshop";
 export { PhotoshopUrl } from "./components/Photoshop";
 export { default as PhpDark } from "./components/PhpDark";
@@ -1567,6 +1571,8 @@ export type SvglComponentName =
   | "PenpotDark"
   | "PenpotLight"
   | "PerplexityAI"
+  | "PerspectiveDark"
+  | "PerspectiveLight"
   | "Photoshop"
   | "PhpDark"
   | "PhpLight"
