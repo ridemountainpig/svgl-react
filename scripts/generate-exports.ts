@@ -11,15 +11,12 @@ const exportStatements = files.map((f) => {
 
   const relativePath = `./components/${name}`;
 
-  const exportLines = [
-    `export { default as ${name} } from "${relativePath}";`,
-    `export { ${name}Url } from "${relativePath}";`,
-  ];
-
   componentNames.push(`"${name}"`);
 
-  return exportLines.join("\n");
+  return `export { default as ${name} } from "${relativePath}";`;
 });
+
+exportStatements.push(`export * from "./urls";`);
 
 const typeName = "SvglComponentName";
 const typeUnionString = componentNames.join(" | ");
