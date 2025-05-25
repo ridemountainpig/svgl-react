@@ -16,4 +16,3 @@ const UberDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default UberDark;
-export const UberDarkUrl = "https://www.uber.com";

@@ -20,4 +20,3 @@ const Terraform = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Terraform;
-export const TerraformUrl = "https://terraform.io";

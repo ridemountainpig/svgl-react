@@ -35,4 +35,3 @@ const Cohere = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Cohere;
-export const CohereUrl = "https://cohere.com/";

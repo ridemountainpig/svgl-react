@@ -32,4 +32,3 @@ const JWT = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default JWT;
-export const JWTUrl = "https://jwt.io/";

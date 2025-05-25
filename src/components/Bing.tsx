@@ -54,4 +54,3 @@ const Bing = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Bing;
-export const BingUrl = "https://www.bing.com/";

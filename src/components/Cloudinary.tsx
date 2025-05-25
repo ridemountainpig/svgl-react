@@ -16,4 +16,3 @@ const Cloudinary = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Cloudinary;
-export const CloudinaryUrl = "https://cloudinary.com/";

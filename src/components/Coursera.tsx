@@ -21,4 +21,3 @@ const Coursera = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Coursera;
-export const CourseraUrl = "https://www.coursera.org/";

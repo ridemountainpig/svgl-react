@@ -18,4 +18,3 @@ const Udacity = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Udacity;
-export const UdacityUrl = "https://www.udacity.com/";

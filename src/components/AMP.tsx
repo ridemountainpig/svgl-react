@@ -14,4 +14,3 @@ const AMP = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default AMP;
-export const AMPUrl = "https://amp.dev/";

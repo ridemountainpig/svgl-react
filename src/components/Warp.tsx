@@ -21,4 +21,3 @@ const Warp = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Warp;
-export const WarpUrl = "https://www.warp.dev/";

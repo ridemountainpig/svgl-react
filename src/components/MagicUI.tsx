@@ -46,4 +46,3 @@ const MagicUI = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default MagicUI;
-export const MagicUIUrl = "https://magicui.design/";

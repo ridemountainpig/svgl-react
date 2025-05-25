@@ -31,4 +31,3 @@ const Julia = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Julia;
-export const JuliaUrl = "https://julialang.org/";

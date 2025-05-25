@@ -13,4 +13,3 @@ const OpenAILight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default OpenAILight;
-export const OpenAILightUrl = "https://openai.com/";

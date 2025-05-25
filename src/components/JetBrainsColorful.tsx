@@ -59,4 +59,3 @@ const JetBrainsColorful = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default JetBrainsColorful;
-export const JetBrainsColorfulUrl = "https://www.jetbrains.com/";

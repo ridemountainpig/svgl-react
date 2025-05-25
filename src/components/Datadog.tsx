@@ -19,4 +19,3 @@ const Datadog = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Datadog;
-export const DatadogUrl = "https://www.datadoghq.com/";

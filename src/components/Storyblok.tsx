@@ -16,4 +16,3 @@ const Storyblok = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Storyblok;
-export const StoryblokUrl = "https://www.storyblok.com/";

@@ -26,4 +26,3 @@ const OnePasswordDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default OnePasswordDark;
-export const OnePasswordDarkUrl = "https://1password.com";

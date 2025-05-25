@@ -17,4 +17,3 @@ const Asana = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Asana;
-export const AsanaUrl = "https://asana.com";

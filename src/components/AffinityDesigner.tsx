@@ -39,4 +39,3 @@ const AffinityDesigner = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default AffinityDesigner;
-export const AffinityDesignerUrl = "https://affinity.serif.com/en-us/designer/";

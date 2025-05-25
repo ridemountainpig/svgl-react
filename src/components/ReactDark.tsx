@@ -16,4 +16,3 @@ const ReactDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default ReactDark;
-export const ReactDarkUrl = "https://react.dev/";

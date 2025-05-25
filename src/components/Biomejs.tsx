@@ -20,4 +20,3 @@ const Biomejs = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Biomejs;
-export const BiomejsUrl = "https://biomejs.dev/";

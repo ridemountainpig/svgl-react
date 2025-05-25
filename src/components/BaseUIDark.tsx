@@ -15,4 +15,3 @@ const BaseUIDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default BaseUIDark;
-export const BaseUIDarkUrl = "https://base-ui.com/";

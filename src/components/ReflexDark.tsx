@@ -17,4 +17,3 @@ const ReflexDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default ReflexDark;
-export const ReflexDarkUrl = "https://reflex.dev/";

@@ -215,4 +215,3 @@ const ElysiaJS = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default ElysiaJS;
-export const ElysiaJSUrl = "https://elysiajs.com/";

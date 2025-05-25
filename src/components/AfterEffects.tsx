@@ -28,4 +28,3 @@ const AfterEffects = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default AfterEffects;
-export const AfterEffectsUrl = "https://www.adobe.com/products/aftereffects";

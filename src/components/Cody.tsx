@@ -27,4 +27,3 @@ const Cody = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Cody;
-export const CodyUrl = "https://about.sourcegraph.com/";

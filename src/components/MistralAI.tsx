@@ -43,4 +43,3 @@ const MistralAI = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default MistralAI;
-export const MistralAIUrl = "https://mistral.ai/";

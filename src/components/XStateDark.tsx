@@ -17,4 +17,3 @@ const XStateDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default XStateDark;
-export const XStateDarkUrl = "https://github.com/statelyai/xstate";

@@ -98,4 +98,3 @@ const Pinia = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Pinia;
-export const PiniaUrl = "https://pinia.vuejs.org/";

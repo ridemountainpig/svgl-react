@@ -42,4 +42,3 @@ const Redis = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Redis;
-export const RedisUrl = "https://redis.io/";

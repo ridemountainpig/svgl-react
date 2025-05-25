@@ -32,4 +32,3 @@ const Chrome = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Chrome;
-export const ChromeUrl = "https://chrome.com/";

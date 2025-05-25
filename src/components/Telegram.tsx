@@ -26,4 +26,3 @@ const Telegram = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Telegram;
-export const TelegramUrl = "https://web.telegram.org/";

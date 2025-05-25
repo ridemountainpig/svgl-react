@@ -65,4 +65,3 @@ const PowerShell = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default PowerShell;
-export const PowerShellUrl = "https://learn.microsoft.com/en-us/powershell/";

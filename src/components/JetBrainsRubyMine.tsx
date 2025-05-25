@@ -69,4 +69,3 @@ const JetBrainsRubyMine = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default JetBrainsRubyMine;
-export const JetBrainsRubyMineUrl = "https://www.jetbrains.com/ruby/";

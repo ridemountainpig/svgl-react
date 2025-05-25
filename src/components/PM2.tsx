@@ -45,4 +45,3 @@ const PM2 = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default PM2;
-export const PM2Url = "https://pm2.io/";

@@ -28,5 +28,3 @@ const Lightroom = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Lightroom;
-export const LightroomUrl =
-  "https://www.adobe.com/products/photoshop-lightroom";

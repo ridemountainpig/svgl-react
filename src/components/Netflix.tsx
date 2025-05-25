@@ -55,4 +55,3 @@ const Netflix = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Netflix;
-export const NetflixUrl = "https://www.netflix.com/";

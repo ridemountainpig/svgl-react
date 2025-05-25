@@ -92,4 +92,3 @@ const Skype = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Skype;
-export const SkypeUrl = "https://www.skype.com/";

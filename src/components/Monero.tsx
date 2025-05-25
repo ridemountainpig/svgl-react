@@ -20,4 +20,3 @@ const Monero = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Monero;
-export const MoneroUrl = "https://www.getmonero.org/";

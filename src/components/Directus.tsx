@@ -88,4 +88,3 @@ const Directus = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Directus;
-export const DirectusUrl = "https://directus.io/";

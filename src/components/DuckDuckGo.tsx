@@ -53,4 +53,3 @@ const DuckDuckGo = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default DuckDuckGo;
-export const DuckDuckGoUrl = "https://duckduckgo.com/";

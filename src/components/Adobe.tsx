@@ -21,4 +21,3 @@ const Adobe = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Adobe;
-export const AdobeUrl = "https://www.adobe.com/";

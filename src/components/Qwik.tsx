@@ -127,4 +127,3 @@ const Qwik = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Qwik;
-export const QwikUrl = "https://qwik.builder.io/";

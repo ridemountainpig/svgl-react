@@ -26,4 +26,3 @@ const TailwindCSS = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default TailwindCSS;
-export const TailwindCSSUrl = "https://tailwindcss.com/";

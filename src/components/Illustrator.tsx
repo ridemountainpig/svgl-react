@@ -28,4 +28,3 @@ const Illustrator = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Illustrator;
-export const IllustratorUrl = "https://www.adobe.com/products/illustrator";

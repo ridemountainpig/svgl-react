@@ -23,4 +23,3 @@ const GoDaddyDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default GoDaddyDark;
-export const GoDaddyDarkUrl = "https://www.godaddy.com/";

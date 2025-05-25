@@ -14,6 +14,7 @@ interface ISVG {
 const SVGS_URL =
   "https://raw.githubusercontent.com/pheralb/svgl/main/src/data/svgs.ts";
 const OUTPUT_DIR = join(__dirname, "../src/components");
+const URLS_FILE = join(__dirname, "../src/urls.ts");
 const MDX_FILE = join(__dirname, "../docs/content/docs/components.mdx");
 
 function sanitizeComponentName(name: string) {
@@ -54,7 +55,6 @@ async function processSVG(
   svgUrl: string,
   componentName: string,
   filePath: string,
-  url: string,
 ) {
   const res = await fetch(svgUrl, {
     headers: {
@@ -94,10 +94,6 @@ async function processSVG(
     },
     { componentName },
   );
-
-  const exportLines = [`export const ${componentName}Url = "${url}";`];
-
-  jsCode += exportLines.join("\n");
 
   writeFileSync(filePath, jsCode);
 }
@@ -141,6 +137,7 @@ async function fetchAndProcessSVGs() {
 
   const svgs = await fetchSVGData();
   const usedNames = new Set<string>();
+  const urls: string[] = [];
 
   const componentsList = await Promise.all(
     svgs.map(async (svg) => {
@@ -162,6 +159,11 @@ async function fetchAndProcessSVGs() {
           }
 
           let componentName = sanitizeComponentName(baseName);
+          const exportUrlString = `export const ${componentName}${svg.title == "Arc" ? svg.category : ""}Url = "${svg.url}"`;
+
+          if (!urls.includes(exportUrlString)) {
+            urls.push(exportUrlString);
+          }
 
           if (variant === "light") componentName += "Light";
           if (variant === "dark") componentName += "Dark";
@@ -174,7 +176,7 @@ async function fetchAndProcessSVGs() {
 
           const svgUrl = `https://raw.githubusercontent.com/pheralb/svgl/refs/heads/main/static${route}`;
           const filePath = join(OUTPUT_DIR, `${componentName}.tsx`);
-          await processSVG(svgUrl, componentName, filePath, svg.url);
+          await processSVG(svgUrl, componentName, filePath);
 
           if (variant === "default") {
             components.default = componentName;
@@ -187,6 +189,9 @@ async function fetchAndProcessSVGs() {
       return { title: svg.title, category: svg.category, components };
     }),
   );
+
+  const urlsContent = urls.sort().join("\n");
+  writeFileSync(URLS_FILE, urlsContent);
 
   generateMDXFile(componentsList);
 }

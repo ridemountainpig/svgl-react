@@ -15,4 +15,3 @@ const SoundCloudDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default SoundCloudDark;
-export const SoundCloudDarkUrl = "https://soundcloud.com/";

@@ -16,4 +16,3 @@ const Pinterest = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Pinterest;
-export const PinterestUrl = "https://pinterest.com/";

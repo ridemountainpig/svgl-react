@@ -15,4 +15,3 @@ const XAIDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default XAIDark;
-export const XAIDarkUrl = "https://grok.com/";

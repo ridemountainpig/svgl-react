@@ -62,4 +62,3 @@ const Kubernetes = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Kubernetes;
-export const KubernetesUrl = "https://kubernetes.io/";

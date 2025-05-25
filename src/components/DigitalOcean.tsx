@@ -16,4 +16,3 @@ const DigitalOcean = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default DigitalOcean;
-export const DigitalOceanUrl = "https://www.digitalocean.com/";

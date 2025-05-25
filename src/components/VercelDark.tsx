@@ -13,4 +13,3 @@ const VercelDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default VercelDark;
-export const VercelDarkUrl = "https://vercel.com/";

@@ -19,4 +19,3 @@ const GitHubLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default GitHubLight;
-export const GitHubLightUrl = "https://github.com/";

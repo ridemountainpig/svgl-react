@@ -16,4 +16,3 @@ const Sass = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Sass;
-export const SassUrl = "https://sass-lang.com/";

@@ -78,4 +78,3 @@ const Million = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Million;
-export const MillionUrl = "https://million.dev/";

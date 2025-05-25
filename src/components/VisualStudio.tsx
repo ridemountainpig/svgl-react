@@ -208,4 +208,3 @@ const VisualStudio = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default VisualStudio;
-export const VisualStudioUrl = "https://visualstudio.microsoft.com";

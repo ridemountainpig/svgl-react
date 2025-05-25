@@ -21,4 +21,3 @@ const GoDaddyLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default GoDaddyLight;
-export const GoDaddyLightUrl = "https://www.godaddy.com/";

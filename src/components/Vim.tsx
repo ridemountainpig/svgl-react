@@ -49,4 +49,3 @@ const Vim = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Vim;
-export const VimUrl = "https://www.vim.org/";

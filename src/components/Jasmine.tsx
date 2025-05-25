@@ -17,4 +17,3 @@ const Jasmine = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Jasmine;
-export const JasmineUrl = "https://jasmine.github.io/";

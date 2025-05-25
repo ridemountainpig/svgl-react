@@ -199,4 +199,3 @@ const Codium = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Codium;
-export const CodiumUrl = "https://www.codium.ai/";

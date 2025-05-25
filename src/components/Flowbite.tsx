@@ -150,4 +150,3 @@ const Flowbite = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Flowbite;
-export const FlowbiteUrl = "https://flowbite.com/";

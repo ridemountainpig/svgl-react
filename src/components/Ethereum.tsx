@@ -103,4 +103,3 @@ const Ethereum = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Ethereum;
-export const EthereumUrl = "https://ethereum.org/";

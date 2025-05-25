@@ -15,4 +15,3 @@ const Haskell = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Haskell;
-export const HaskellUrl = "https://www.haskell.org/";

@@ -65,4 +65,3 @@ const Nextjs = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Nextjs;
-export const NextjsUrl = "https://nextjs.org/";

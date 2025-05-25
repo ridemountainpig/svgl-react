@@ -80,4 +80,3 @@ const Nodejs = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Nodejs;
-export const NodejsUrl = "https://nodejs.org/";

@@ -79,4 +79,3 @@ const PrimeVideo = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default PrimeVideo;
-export const PrimeVideoUrl = "https://primevideo.com/";

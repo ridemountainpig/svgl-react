@@ -21,4 +21,3 @@ const HeroUIDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default HeroUIDark;
-export const HeroUIDarkUrl = "https://www.heroui.com/";

@@ -50,4 +50,3 @@ const Supabase = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Supabase;
-export const SupabaseUrl = "https://supabase.com/";

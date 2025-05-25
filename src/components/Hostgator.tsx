@@ -100,4 +100,3 @@ const Hostgator = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Hostgator;
-export const HostgatorUrl = "https://www.hostgator.com/";

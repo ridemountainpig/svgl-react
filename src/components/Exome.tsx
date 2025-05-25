@@ -27,4 +27,3 @@ const Exome = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Exome;
-export const ExomeUrl = "https://exome.dev/";

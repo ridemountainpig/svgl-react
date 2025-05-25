@@ -59,4 +59,3 @@ const RelaGitLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default RelaGitLight;
-export const RelaGitLightUrl = "https://rela.dev";

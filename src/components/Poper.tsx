@@ -108,4 +108,3 @@ const Poper = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Poper;
-export const PoperUrl = "https://www.poper.ai";

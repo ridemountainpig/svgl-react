@@ -19,4 +19,3 @@ const Codesandbox = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Codesandbox;
-export const CodesandboxUrl = "https://codesandbox.io/";

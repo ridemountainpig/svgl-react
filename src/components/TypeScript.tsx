@@ -20,4 +20,3 @@ const TypeScript = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default TypeScript;
-export const TypeScriptUrl = "https://www.typescriptlang.org";

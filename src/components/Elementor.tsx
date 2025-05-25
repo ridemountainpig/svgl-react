@@ -24,4 +24,3 @@ const Elementor = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Elementor;
-export const ElementorUrl = "https://elementor.com/";

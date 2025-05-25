@@ -17,4 +17,3 @@ const GrokDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default GrokDark;
-export const GrokDarkUrl = "https://grok.com/";

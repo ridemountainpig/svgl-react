@@ -67,4 +67,3 @@ const IntelliJIDEA = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default IntelliJIDEA;
-export const IntelliJIDEAUrl = "https://www.jetbrains.com/idea/";

@@ -46,4 +46,3 @@ const UXAnaRangelDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default UXAnaRangelDark;
-export const UXAnaRangelDarkUrl = "https://uxanarangel.com/";

@@ -19,4 +19,3 @@ const V0Dark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default V0Dark;
-export const V0DarkUrl = "https://v0.dev/";

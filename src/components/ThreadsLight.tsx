@@ -17,4 +17,3 @@ const ThreadsLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default ThreadsLight;
-export const ThreadsLightUrl = "https://threads.net/";

@@ -40,5 +40,3 @@ const MicrosoftSQLServer = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default MicrosoftSQLServer;
-export const MicrosoftSQLServerUrl =
-  "https://www.microsoft.com/en-us/sql-server/";

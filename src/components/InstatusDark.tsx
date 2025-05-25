@@ -22,4 +22,3 @@ const InstatusDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default InstatusDark;
-export const InstatusDarkUrl = "https://instatus.com";

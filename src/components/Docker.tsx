@@ -14,4 +14,3 @@ const Docker = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Docker;
-export const DockerUrl = "https://www.docker.com/";

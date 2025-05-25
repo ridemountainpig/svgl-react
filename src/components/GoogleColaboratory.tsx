@@ -30,4 +30,3 @@ const GoogleColaboratory = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default GoogleColaboratory;
-export const GoogleColaboratoryUrl = "https://colab.research.google.com/";

@@ -17,4 +17,3 @@ const CalcomDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default CalcomDark;
-export const CalcomDarkUrl = "https://cal.com";

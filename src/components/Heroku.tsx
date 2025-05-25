@@ -16,4 +16,3 @@ const Heroku = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Heroku;
-export const HerokuUrl = "https://www.heroku.com/";

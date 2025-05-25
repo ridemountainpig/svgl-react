@@ -16,4 +16,3 @@ const Sentry = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Sentry;
-export const SentryUrl = "https://sentry.io/";

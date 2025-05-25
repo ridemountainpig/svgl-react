@@ -30,4 +30,3 @@ const Slack = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Slack;
-export const SlackUrl = "https://www.slack.com";

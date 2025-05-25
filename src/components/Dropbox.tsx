@@ -18,4 +18,3 @@ const Dropbox = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Dropbox;
-export const DropboxUrl = "https://www.dropbox.com/";

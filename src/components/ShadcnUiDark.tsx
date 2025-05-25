@@ -20,4 +20,3 @@ const ShadcnUiDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default ShadcnUiDark;
-export const ShadcnUiDarkUrl = "https://ui.shadcn.com/";

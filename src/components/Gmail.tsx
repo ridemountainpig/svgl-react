@@ -37,4 +37,3 @@ const Gmail = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Gmail;
-export const GmailUrl = "https://www.gmail.com";

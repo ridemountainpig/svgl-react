@@ -21,4 +21,3 @@ const ReactRouter = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default ReactRouter;
-export const ReactRouterUrl = "https://reactrouter.com/en/main";

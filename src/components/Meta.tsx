@@ -48,4 +48,3 @@ const Meta = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Meta;
-export const MetaUrl = "https://about.meta.com/es/";

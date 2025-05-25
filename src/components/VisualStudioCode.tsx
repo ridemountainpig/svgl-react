@@ -118,4 +118,3 @@ const VisualStudioCode = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default VisualStudioCode;
-export const VisualStudioCodeUrl = "https://code.visualstudio.com/";

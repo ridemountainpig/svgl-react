@@ -82,4 +82,3 @@ const Dogecoin = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Dogecoin;
-export const DogecoinUrl = "https://dogecoin.com/";

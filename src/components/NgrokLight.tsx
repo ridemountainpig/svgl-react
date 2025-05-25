@@ -17,4 +17,3 @@ const NgrokLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default NgrokLight;
-export const NgrokLightUrl = "https://ngrok.com";

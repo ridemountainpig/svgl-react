@@ -30,4 +30,3 @@ const VSCodium = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default VSCodium;
-export const VSCodiumUrl = "https://vscodium.com/";

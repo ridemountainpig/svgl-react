@@ -16,4 +16,3 @@ const OpenAIDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default OpenAIDark;
-export const OpenAIDarkUrl = "https://openai.com/";

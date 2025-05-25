@@ -21,4 +21,3 @@ const WhopLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default WhopLight;
-export const WhopLightUrl = "https://whop.com/";

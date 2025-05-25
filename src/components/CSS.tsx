@@ -25,4 +25,3 @@ const CSS = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default CSS;
-export const CSSUrl = "https://es.wikipedia.org/wiki/CSS";

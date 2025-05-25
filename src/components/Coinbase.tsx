@@ -28,4 +28,3 @@ const Coinbase = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Coinbase;
-export const CoinbaseUrl = "https://www.coinbase.com/";

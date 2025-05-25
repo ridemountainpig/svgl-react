@@ -16,4 +16,3 @@ const ReactLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default ReactLight;
-export const ReactLightUrl = "https://react.dev/";

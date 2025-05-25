@@ -54,4 +54,3 @@ const Zod = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Zod;
-export const ZodUrl = "https://zod.dev/";

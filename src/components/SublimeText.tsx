@@ -37,4 +37,3 @@ const SublimeText = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default SublimeText;
-export const SublimeTextUrl = "https://www.sublimetext.com/";

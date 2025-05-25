@@ -27,4 +27,3 @@ const WorkOSLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default WorkOSLight;
-export const WorkOSLightUrl = "https://workos.com/";

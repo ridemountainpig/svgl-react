@@ -17,4 +17,3 @@ const WordPress = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default WordPress;
-export const WordPressUrl = "https://wordpress.org/";

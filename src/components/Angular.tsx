@@ -69,4 +69,3 @@ const Angular = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Angular;
-export const AngularUrl = "https://angular.dev/";

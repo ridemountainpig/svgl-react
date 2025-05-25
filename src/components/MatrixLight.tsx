@@ -14,4 +14,3 @@ const MatrixLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default MatrixLight;
-export const MatrixLightUrl = "https://matrix.org/";

@@ -16,4 +16,3 @@ const XStateLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default XStateLight;
-export const XStateLightUrl = "https://github.com/statelyai/xstate";

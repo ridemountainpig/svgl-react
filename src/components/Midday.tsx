@@ -20,4 +20,3 @@ const Midday = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Midday;
-export const MiddayUrl = "https://midday.ai/";

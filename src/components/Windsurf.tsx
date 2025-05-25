@@ -99,4 +99,3 @@ const Windsurf = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Windsurf;
-export const WindsurfUrl = "https://codeium.com/windsurf";

@@ -229,4 +229,3 @@ const Appwrite = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Appwrite;
-export const AppwriteUrl = "https://appwrite.io/";

@@ -196,4 +196,3 @@ const Reddit = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Reddit;
-export const RedditUrl = "https://www.reddit.com/";

@@ -88,4 +88,3 @@ const Postman = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Postman;
-export const PostmanUrl = "https://www.getpostman.com/";

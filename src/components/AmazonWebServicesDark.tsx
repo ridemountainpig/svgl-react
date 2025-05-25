@@ -25,4 +25,3 @@ const AmazonWebServicesDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default AmazonWebServicesDark;
-export const AmazonWebServicesDarkUrl = "https://aws.amazon.com/";

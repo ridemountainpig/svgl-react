@@ -22,4 +22,3 @@ const ReplicateLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default ReplicateLight;
-export const ReplicateLightUrl = "https://replicate.com/";

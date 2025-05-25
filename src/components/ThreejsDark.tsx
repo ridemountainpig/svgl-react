@@ -16,4 +16,3 @@ const ThreejsDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default ThreejsDark;
-export const ThreejsDarkUrl = "https://threejs.org/";

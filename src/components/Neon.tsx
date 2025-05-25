@@ -45,4 +45,3 @@ const Neon = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Neon;
-export const NeonUrl = "https://neon.tech/";

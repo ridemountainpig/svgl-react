@@ -120,4 +120,3 @@ const JetBrainsPhpStorm = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default JetBrainsPhpStorm;
-export const JetBrainsPhpStormUrl = "https://www.jetbrains.com/phpstorm/";

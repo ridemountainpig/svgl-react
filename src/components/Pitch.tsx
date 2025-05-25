@@ -43,4 +43,3 @@ const Pitch = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Pitch;
-export const PitchUrl = "https://pitch.com";

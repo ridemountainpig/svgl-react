@@ -32,4 +32,3 @@ const CPlusPlus = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default CPlusPlus;
-export const CPlusPlusUrl = "https://en.wikipedia.org/wiki/C%2B%2B";

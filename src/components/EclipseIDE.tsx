@@ -71,4 +71,3 @@ const EclipseIDE = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default EclipseIDE;
-export const EclipseIDEUrl = "https://www.eclipse.org/";

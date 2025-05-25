@@ -24,4 +24,3 @@ const Salesforce = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Salesforce;
-export const SalesforceUrl = "https://www.salesforce.com";

@@ -19,4 +19,3 @@ const PlayStation = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default PlayStation;
-export const PlayStationUrl = "https://www.playstation.com/";

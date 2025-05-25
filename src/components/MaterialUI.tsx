@@ -16,4 +16,3 @@ const MaterialUI = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default MaterialUI;
-export const MaterialUIUrl = "https://mui.com/";

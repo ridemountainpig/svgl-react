@@ -28,4 +28,3 @@ const Photoshop = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Photoshop;
-export const PhotoshopUrl = "https://www.adobe.com/products/photoshop";

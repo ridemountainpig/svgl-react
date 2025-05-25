@@ -458,4 +458,3 @@ const Gimp = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Gimp;
-export const GimpUrl = "https://www.gimp.org/";

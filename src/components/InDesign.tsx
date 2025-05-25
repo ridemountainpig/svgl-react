@@ -28,4 +28,3 @@ const InDesign = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default InDesign;
-export const InDesignUrl = "https://www.adobe.com/products/indesign";

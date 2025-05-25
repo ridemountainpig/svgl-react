@@ -28,4 +28,3 @@ const Litecoin = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Litecoin;
-export const LitecoinUrl = "https://litecoin.org/";

@@ -13,4 +13,3 @@ const SWRLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default SWRLight;
-export const SWRLightUrl = "https://swr.vercel.app/";

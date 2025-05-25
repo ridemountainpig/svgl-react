@@ -29,4 +29,3 @@ const T3StackLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default T3StackLight;
-export const T3StackLightUrl = "https://create.t3.gg/";

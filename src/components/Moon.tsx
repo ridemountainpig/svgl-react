@@ -58,4 +58,3 @@ const Moon = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Moon;
-export const MoonUrl = "https://moonjs.org/";

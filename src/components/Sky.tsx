@@ -65,4 +65,3 @@ const Sky = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Sky;
-export const SkyUrl = "https://www.sky.com";

@@ -17,4 +17,3 @@ const StatelyaiLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default StatelyaiLight;
-export const StatelyaiLightUrl = "https://stately.ai/";

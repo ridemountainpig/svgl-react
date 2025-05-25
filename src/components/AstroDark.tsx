@@ -20,4 +20,3 @@ const AstroDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default AstroDark;
-export const AstroDarkUrl = "https://astro.build/";

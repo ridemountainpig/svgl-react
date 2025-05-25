@@ -33,4 +33,3 @@ const BuyMeACoffee = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default BuyMeACoffee;
-export const BuyMeACoffeeUrl = "https://buymeacoffee.com/";

@@ -56,4 +56,3 @@ const Gradio = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Gradio;
-export const GradioUrl = "https://www.gradio.app/";

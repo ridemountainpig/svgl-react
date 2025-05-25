@@ -16,4 +16,3 @@ const Typesense = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Typesense;
-export const TypesenseUrl = "https://typesense.org/";
