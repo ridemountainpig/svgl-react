@@ -62,4 +62,3 @@ const Solana = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Solana;
-export const SolanaUrl = "https://solana.com/";

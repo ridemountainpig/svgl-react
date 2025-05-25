@@ -25,4 +25,3 @@ const Flutter = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Flutter;
-export const FlutterUrl = "https://flutter.dev/";

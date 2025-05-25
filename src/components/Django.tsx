@@ -24,4 +24,3 @@ const Django = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Django;
-export const DjangoUrl = "https://www.djangoproject.com/";

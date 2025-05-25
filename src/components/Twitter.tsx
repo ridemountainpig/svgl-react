@@ -16,4 +16,3 @@ const Twitter = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Twitter;
-export const TwitterUrl = "https://twitter.com/";

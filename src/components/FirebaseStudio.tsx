@@ -79,4 +79,3 @@ const FirebaseStudio = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default FirebaseStudio;
-export const FirebaseStudioUrl = "https://firebase.studio/";

@@ -60,4 +60,3 @@ const Sequelize = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Sequelize;
-export const SequelizeUrl = "https://sequelize.org/";

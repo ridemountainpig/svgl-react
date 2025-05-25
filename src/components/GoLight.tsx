@@ -19,4 +19,3 @@ const GoLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default GoLight;
-export const GoLightUrl = "https://go.dev/";

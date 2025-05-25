@@ -19,4 +19,3 @@ const HackTheBox = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default HackTheBox;
-export const HackTheBoxUrl = "https://www.hackthebox.com/";

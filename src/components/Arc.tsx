@@ -40,4 +40,3 @@ const Arc = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Arc;
-export const ArcUrl = "https://arc.net/";

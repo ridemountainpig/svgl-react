@@ -14,4 +14,3 @@ const MatrixDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default MatrixDark;
-export const MatrixDarkUrl = "https://matrix.org/";

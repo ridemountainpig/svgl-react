@@ -42,4 +42,3 @@ const StyledComponents = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default StyledComponents;
-export const StyledComponentsUrl = "https://styled-components.com/";

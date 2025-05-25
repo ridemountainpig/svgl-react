@@ -20,4 +20,3 @@ const WhatsApp = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default WhatsApp;
-export const WhatsAppUrl = "https://web.whatsapp.com/";

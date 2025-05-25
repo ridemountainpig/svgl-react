@@ -17,4 +17,3 @@ const KrakenJS = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default KrakenJS;
-export const KrakenJSUrl = "https://krakenjs.com/";

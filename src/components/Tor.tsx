@@ -32,4 +32,3 @@ const Tor = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Tor;
-export const TorUrl = "https://www.torproject.org/";

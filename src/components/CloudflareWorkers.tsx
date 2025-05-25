@@ -89,4 +89,3 @@ const CloudflareWorkers = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default CloudflareWorkers;
-export const CloudflareWorkersUrl = "https://workers.cloudflare.com/";

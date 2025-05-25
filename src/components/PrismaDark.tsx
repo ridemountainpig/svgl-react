@@ -16,4 +16,3 @@ const PrismaDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default PrismaDark;
-export const PrismaDarkUrl = "https://prisma.io/";

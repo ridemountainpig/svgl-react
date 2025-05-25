@@ -24,4 +24,3 @@ const ProductHunt = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default ProductHunt;
-export const ProductHuntUrl = "https://www.producthunt.com/";

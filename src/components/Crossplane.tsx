@@ -66,4 +66,3 @@ const Crossplane = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Crossplane;
-export const CrossplaneUrl = "https://crossplane.io/";

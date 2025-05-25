@@ -24,4 +24,3 @@ const OBS = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default OBS;
-export const OBSUrl = "https://obsproject.com/";

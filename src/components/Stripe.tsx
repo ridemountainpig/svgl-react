@@ -16,4 +16,3 @@ const Stripe = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Stripe;
-export const StripeUrl = "https://stripe.com/";

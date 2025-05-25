@@ -16,4 +16,3 @@ const ArcDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default ArcDark;
-export const ArcDarkUrl = "https://arc.dev";

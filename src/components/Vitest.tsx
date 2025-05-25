@@ -25,4 +25,3 @@ const Vitest = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Vitest;
-export const VitestUrl = "https://vitest.dev/";

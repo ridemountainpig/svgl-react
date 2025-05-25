@@ -21,4 +21,3 @@ const AfordinDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default AfordinDark;
-export const AfordinDarkUrl = "https://github.com/Afordin";

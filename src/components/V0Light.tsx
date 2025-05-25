@@ -18,4 +18,3 @@ const V0Light = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default V0Light;
-export const V0LightUrl = "https://v0.dev/";

@@ -45,4 +45,3 @@ const Todoist = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Todoist;
-export const TodoistUrl = "https://todoist.com/";

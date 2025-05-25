@@ -29,4 +29,3 @@ const ChakraUI = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default ChakraUI;
-export const ChakraUIUrl = "https://chakra-ui.com";

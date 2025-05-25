@@ -39,4 +39,3 @@ const Zoom = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Zoom;
-export const ZoomUrl = "https://zoom.us/";

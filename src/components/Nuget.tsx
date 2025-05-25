@@ -18,4 +18,3 @@ const Nuget = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Nuget;
-export const NugetUrl = "https://www.nuget.org/";

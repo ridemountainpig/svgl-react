@@ -29,4 +29,3 @@ const Firebase = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Firebase;
-export const FirebaseUrl = "https://firebase.google.com/";

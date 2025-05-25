@@ -36,4 +36,3 @@ const C = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default C;
-export const CUrl = "https://en.wikipedia.org/wiki/C_(programming_language)";

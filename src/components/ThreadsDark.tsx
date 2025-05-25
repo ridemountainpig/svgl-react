@@ -18,4 +18,3 @@ const ThreadsDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default ThreadsDark;
-export const ThreadsDarkUrl = "https://threads.net/";

@@ -25,4 +25,3 @@ const Convex = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Convex;
-export const ConvexUrl = "https://www.convex.dev/";

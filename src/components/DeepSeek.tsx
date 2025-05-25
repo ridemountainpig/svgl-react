@@ -20,4 +20,3 @@ const DeepSeek = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default DeepSeek;
-export const DeepSeekUrl = "https://deepseek.com/";

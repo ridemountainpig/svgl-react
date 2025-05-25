@@ -99,4 +99,3 @@ const Turborepo = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Turborepo;
-export const TurborepoUrl = "https://turborepo.org/";

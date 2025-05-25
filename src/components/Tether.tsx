@@ -27,4 +27,3 @@ const Tether = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Tether;
-export const TetherUrl = "https://tether.to/";

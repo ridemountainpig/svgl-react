@@ -23,4 +23,3 @@ const RefineLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default RefineLight;
-export const RefineLightUrl = "https://refine.dev/";

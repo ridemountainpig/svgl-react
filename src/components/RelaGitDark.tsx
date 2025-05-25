@@ -59,4 +59,3 @@ const RelaGitDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default RelaGitDark;
-export const RelaGitDarkUrl = "https://rela.dev";

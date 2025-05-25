@@ -25,4 +25,3 @@ const Preact = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Preact;
-export const PreactUrl = "https://preactjs.com/";

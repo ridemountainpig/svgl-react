@@ -32,4 +32,3 @@ const Fresh = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Fresh;
-export const FreshUrl = "https://fresh.deno.dev/";

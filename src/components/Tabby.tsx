@@ -208,4 +208,3 @@ const Tabby = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Tabby;
-export const TabbyUrl = "https://tabby.sh/";

@@ -15,4 +15,3 @@ const ZeaburDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default ZeaburDark;
-export const ZeaburDarkUrl = "https://zeabur.com/";

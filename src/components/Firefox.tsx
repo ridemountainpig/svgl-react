@@ -238,4 +238,3 @@ const Firefox = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Firefox;
-export const FirefoxUrl = "https://www.mozilla.org/en-US/firefox/";

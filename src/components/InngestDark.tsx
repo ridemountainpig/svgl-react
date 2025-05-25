@@ -19,4 +19,3 @@ const InngestDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default InngestDark;
-export const InngestDarkUrl = "https://inngest.com/";

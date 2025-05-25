@@ -19,4 +19,3 @@ const CiscoDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default CiscoDark;
-export const CiscoDarkUrl = "https://www.cisco.com/";

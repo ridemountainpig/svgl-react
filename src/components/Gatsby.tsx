@@ -16,4 +16,3 @@ const Gatsby = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Gatsby;
-export const GatsbyUrl = "https://www.gatsbyjs.org/";

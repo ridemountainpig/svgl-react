@@ -19,4 +19,3 @@ const Raycast = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Raycast;
-export const RaycastUrl = "https://raycast.com/";

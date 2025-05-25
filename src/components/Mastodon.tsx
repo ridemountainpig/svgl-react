@@ -34,4 +34,3 @@ const Mastodon = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Mastodon;
-export const MastodonUrl = "https://joinmastodon.org/";

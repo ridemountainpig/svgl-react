@@ -84,4 +84,3 @@ const Bitcoin = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Bitcoin;
-export const BitcoinUrl = "https://bitcoin.org/";

@@ -46,4 +46,3 @@ const TypeGPULight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default TypeGPULight;
-export const TypeGPULightUrl = "https://typegpu.com";

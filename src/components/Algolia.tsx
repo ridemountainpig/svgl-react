@@ -26,4 +26,3 @@ const Algolia = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Algolia;
-export const AlgoliaUrl = "https://www.algolia.com/";

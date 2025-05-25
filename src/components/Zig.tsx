@@ -17,4 +17,3 @@ const Zig = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Zig;
-export const ZigUrl = "https://ziglang.org/";

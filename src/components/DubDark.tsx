@@ -19,4 +19,3 @@ const DubDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default DubDark;
-export const DubDarkUrl = "https://dub.co";

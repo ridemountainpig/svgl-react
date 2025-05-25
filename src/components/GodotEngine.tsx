@@ -41,4 +41,3 @@ const GodotEngine = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default GodotEngine;
-export const GodotEngineUrl = "https://godotengine.org/";

@@ -28,4 +28,3 @@ const Aliexpress = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Aliexpress;
-export const AliexpressUrl = "https://aliexpress.com/";

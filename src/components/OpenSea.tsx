@@ -37,4 +37,3 @@ const OpenSea = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default OpenSea;
-export const OpenSeaUrl = "https://opensea.io/";

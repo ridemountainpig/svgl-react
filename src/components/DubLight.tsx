@@ -44,4 +44,3 @@ const DubLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default DubLight;
-export const DubLightUrl = "https://dub.co";

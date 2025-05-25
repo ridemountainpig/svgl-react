@@ -16,4 +16,3 @@ const RemixDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default RemixDark;
-export const RemixDarkUrl = "https://remix.run/";

@@ -29,4 +29,3 @@ const Ghostty = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Ghostty;
-export const GhosttyUrl = "https://ghostty.org/";

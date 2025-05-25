@@ -19,4 +19,3 @@ const InngestLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default InngestLight;
-export const InngestLightUrl = "https://inngest.com/";

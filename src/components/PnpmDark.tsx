@@ -31,4 +31,3 @@ const PnpmDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default PnpmDark;
-export const PnpmDarkUrl = "https://pnpm.io/";

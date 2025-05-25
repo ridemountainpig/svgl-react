@@ -379,4 +379,3 @@ const TanStack = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default TanStack;
-export const TanStackUrl = "https://tanstack.com/";

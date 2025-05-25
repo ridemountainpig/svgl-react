@@ -24,4 +24,3 @@ const Facebook = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Facebook;
-export const FacebookUrl = "https://www.facebook.com/";

@@ -41,4 +41,3 @@ const Playwright = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Playwright;
-export const PlaywrightUrl = "https://playwright.dev/";

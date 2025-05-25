@@ -23,4 +23,3 @@ const ReplicateDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default ReplicateDark;
-export const ReplicateDarkUrl = "https://replicate.com/";

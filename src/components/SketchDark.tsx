@@ -18,4 +18,3 @@ const SketchDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default SketchDark;
-export const SketchDarkUrl = "https://www.sketch.com/";

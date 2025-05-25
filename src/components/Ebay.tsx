@@ -28,4 +28,3 @@ const Ebay = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Ebay;
-export const EbayUrl = "https://www.ebay.com";

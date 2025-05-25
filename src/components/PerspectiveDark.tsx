@@ -31,4 +31,3 @@ const PerspectiveDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default PerspectiveDark;
-export const PerspectiveDarkUrl = "https://perspective.co/";

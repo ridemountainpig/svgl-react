@@ -16,4 +16,3 @@ const ClaudeAI = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default ClaudeAI;
-export const ClaudeAIUrl = "https://claude.ai/";

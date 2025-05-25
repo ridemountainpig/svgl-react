@@ -16,4 +16,3 @@ const Windows = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Windows;
-export const WindowsUrl = "https://www.microsoft.com/windows";

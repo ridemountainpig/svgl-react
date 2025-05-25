@@ -342,4 +342,3 @@ const HCaptcha = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default HCaptcha;
-export const HCaptchaUrl = "https://www.hcaptcha.com/";

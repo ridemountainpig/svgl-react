@@ -127,4 +127,3 @@ const Edge = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Edge;
-export const EdgeUrl = "https://www.microsoft.com/en-us/edge";

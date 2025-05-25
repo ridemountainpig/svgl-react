@@ -20,4 +20,3 @@ const Android = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Android;
-export const AndroidUrl = "https://www.android.com/";

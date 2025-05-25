@@ -16,4 +16,3 @@ const MotionDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default MotionDark;
-export const MotionDarkUrl = "https://motion.dev/";

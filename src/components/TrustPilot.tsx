@@ -18,4 +18,3 @@ const TrustPilot = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default TrustPilot;
-export const TrustPilotUrl = "https://www.trustpilot.com";

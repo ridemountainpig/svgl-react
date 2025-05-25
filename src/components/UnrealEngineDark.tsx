@@ -25,4 +25,3 @@ const UnrealEngineDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default UnrealEngineDark;
-export const UnrealEngineDarkUrl = "https://www.unrealengine.com/";

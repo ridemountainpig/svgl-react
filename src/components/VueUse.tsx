@@ -20,4 +20,3 @@ const VueUse = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default VueUse;
-export const VueUseUrl = "https://vueuse.org/";

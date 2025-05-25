@@ -48,4 +48,3 @@ const Neovim = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Neovim;
-export const NeovimUrl = "https://neovim.io/";

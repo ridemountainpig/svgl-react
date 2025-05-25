@@ -25,4 +25,3 @@ const Infojobs = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Infojobs;
-export const InfojobsUrl = "https://www.infojobs.net/";

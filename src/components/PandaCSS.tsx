@@ -17,4 +17,3 @@ const PandaCSS = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default PandaCSS;
-export const PandaCSSUrl = "https://panda-css.com/";

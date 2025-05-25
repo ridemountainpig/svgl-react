@@ -33,4 +33,3 @@ const PostHog = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default PostHog;
-export const PostHogUrl = "https://posthog.com/";

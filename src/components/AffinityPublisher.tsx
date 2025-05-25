@@ -39,5 +39,3 @@ const AffinityPublisher = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default AffinityPublisher;
-export const AffinityPublisherUrl =
-  "https://affinity.serif.com/en-us/publisher/";

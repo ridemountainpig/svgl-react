@@ -20,4 +20,3 @@ const TRPC = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default TRPC;
-export const TRPCUrl = "https://trpc.io/";

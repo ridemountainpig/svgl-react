@@ -17,4 +17,3 @@ const GrokLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default GrokLight;
-export const GrokLightUrl = "https://grok.com/";

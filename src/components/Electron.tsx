@@ -48,4 +48,3 @@ const Electron = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Electron;
-export const ElectronUrl = "https://www.electronjs.org";

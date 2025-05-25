@@ -28,4 +28,3 @@ const Fortran = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Fortran;
-export const FortranUrl = "https://fortran-lang.org/";

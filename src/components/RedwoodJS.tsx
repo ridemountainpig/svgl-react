@@ -20,4 +20,3 @@ const RedwoodJS = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default RedwoodJS;
-export const RedwoodJSUrl = "https://redwoodjs.com/";

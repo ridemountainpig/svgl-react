@@ -37,4 +37,3 @@ const Calendly = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Calendly;
-export const CalendlyUrl = "https://calendly.com/";

@@ -21,4 +21,3 @@ const UdemyDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default UdemyDark;
-export const UdemyDarkUrl = "https://www.udemy.com/";

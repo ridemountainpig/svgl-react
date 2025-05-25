@@ -47,4 +47,3 @@ const Scala = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Scala;
-export const ScalaUrl = "https://www.scala-lang.org/";

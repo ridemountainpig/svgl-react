@@ -20,4 +20,3 @@ const Svelte = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Svelte;
-export const SvelteUrl = "https://svelte.dev/";

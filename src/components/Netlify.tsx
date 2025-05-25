@@ -24,4 +24,3 @@ const Netlify = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Netlify;
-export const NetlifyUrl = "https://www.netlify.com/";

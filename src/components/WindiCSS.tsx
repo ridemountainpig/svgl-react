@@ -71,4 +71,3 @@ const WindiCSS = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default WindiCSS;
-export const WindiCSSUrl = "https://windicss.org/";

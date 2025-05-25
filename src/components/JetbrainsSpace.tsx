@@ -61,4 +61,3 @@ const JetbrainsSpace = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default JetbrainsSpace;
-export const JetbrainsSpaceUrl = "https://www.jetbrains.com/space/";

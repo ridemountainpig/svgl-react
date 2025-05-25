@@ -43,4 +43,3 @@ const Vite = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Vite;
-export const ViteUrl = "https://vitejs.dev";

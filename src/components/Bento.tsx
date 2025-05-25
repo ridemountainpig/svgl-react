@@ -35,4 +35,3 @@ const Bento = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Bento;
-export const BentoUrl = "https://bento.me/home";

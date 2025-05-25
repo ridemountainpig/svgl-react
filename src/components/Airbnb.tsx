@@ -16,4 +16,3 @@ const Airbnb = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Airbnb;
-export const AirbnbUrl = "https://www.airbnb.com";

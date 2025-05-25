@@ -21,4 +21,3 @@ const RailwayDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default RailwayDark;
-export const RailwayDarkUrl = "https://railway.app/";

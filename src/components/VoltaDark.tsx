@@ -16,4 +16,3 @@ const VoltaDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default VoltaDark;
-export const VoltaDarkUrl = "https://volta.net/";

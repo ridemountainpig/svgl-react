@@ -21,4 +21,3 @@ const XD = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default XD;
-export const XDUrl = "https://www.adobe.com/products/xd";

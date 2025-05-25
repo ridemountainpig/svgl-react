@@ -57,4 +57,3 @@ const Keycloak = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Keycloak;
-export const KeycloakUrl = "https://keycloak.org";

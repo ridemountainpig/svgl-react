@@ -17,4 +17,3 @@ const InflectionAIDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default InflectionAIDark;
-export const InflectionAIDarkUrl = "https://inflection.ai/";

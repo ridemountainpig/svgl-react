@@ -14,4 +14,3 @@ const MattermostLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default MattermostLight;
-export const MattermostLightUrl = "http://mattermost.com/";

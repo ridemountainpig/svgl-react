@@ -25,4 +25,3 @@ const Lit = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Lit;
-export const LitUrl = "https://lit.dev/";

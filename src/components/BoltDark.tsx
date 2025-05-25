@@ -19,4 +19,3 @@ const BoltDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default BoltDark;
-export const BoltDarkUrl = "https://bolt.new/";

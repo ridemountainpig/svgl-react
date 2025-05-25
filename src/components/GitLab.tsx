@@ -30,4 +30,3 @@ const GitLab = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default GitLab;
-export const GitLabUrl = "https://gitlab.com/";

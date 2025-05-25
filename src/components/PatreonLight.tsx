@@ -18,4 +18,3 @@ const PatreonLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default PatreonLight;
-export const PatreonLightUrl = "https://www.patreon.com/";

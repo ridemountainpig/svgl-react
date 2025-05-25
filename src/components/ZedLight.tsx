@@ -26,4 +26,3 @@ const ZedLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default ZedLight;
-export const ZedLightUrl = "https://zed.dev/";

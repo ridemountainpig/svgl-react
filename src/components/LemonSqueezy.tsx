@@ -19,4 +19,3 @@ const LemonSqueezy = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default LemonSqueezy;
-export const LemonSqueezyUrl = "https://www.lemonsqueezy.com";

@@ -16,4 +16,3 @@ const Spotify = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Spotify;
-export const SpotifyUrl = "https://www.spotify.com/";

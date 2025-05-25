@@ -16,4 +16,3 @@ const ExpressjsDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default ExpressjsDark;
-export const ExpressjsDarkUrl = "https://expressjs.com";

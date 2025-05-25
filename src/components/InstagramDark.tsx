@@ -16,4 +16,3 @@ const InstagramDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default InstagramDark;
-export const InstagramDarkUrl = "https://www.instagram.com/";

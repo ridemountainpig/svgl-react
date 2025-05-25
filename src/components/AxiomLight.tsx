@@ -24,4 +24,3 @@ const AxiomLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default AxiomLight;
-export const AxiomLightUrl = "https://axiom.co/";

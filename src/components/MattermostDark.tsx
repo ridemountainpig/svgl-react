@@ -15,4 +15,3 @@ const MattermostDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default MattermostDark;
-export const MattermostDarkUrl = "http://mattermost.com/";

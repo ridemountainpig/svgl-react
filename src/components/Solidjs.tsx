@@ -84,4 +84,3 @@ const Solidjs = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Solidjs;
-export const SolidjsUrl = "https://www.solidjs.com/";

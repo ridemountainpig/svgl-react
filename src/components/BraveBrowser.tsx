@@ -66,4 +66,3 @@ const BraveBrowser = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default BraveBrowser;
-export const BraveBrowserUrl = "https://brave.com/";

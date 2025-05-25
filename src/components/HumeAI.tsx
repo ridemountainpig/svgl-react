@@ -54,4 +54,3 @@ const HumeAI = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default HumeAI;
-export const HumeAIUrl = "https://hume.ai/";

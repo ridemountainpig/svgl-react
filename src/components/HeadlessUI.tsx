@@ -42,4 +42,3 @@ const HeadlessUI = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default HeadlessUI;
-export const HeadlessUIUrl = "https://headlessui.dev/";

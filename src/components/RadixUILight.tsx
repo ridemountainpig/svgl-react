@@ -17,4 +17,3 @@ const RadixUILight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default RadixUILight;
-export const RadixUILightUrl = "https://www.radix-ui.com/";

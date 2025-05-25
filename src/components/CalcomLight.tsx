@@ -17,4 +17,3 @@ const CalcomLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default CalcomLight;
-export const CalcomLightUrl = "https://cal.com";

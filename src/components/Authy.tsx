@@ -24,4 +24,3 @@ const Authy = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Authy;
-export const AuthyUrl = "https://authy.com/";

@@ -16,4 +16,3 @@ const Qt = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Qt;
-export const QtUrl = "https://www.qt.io/";

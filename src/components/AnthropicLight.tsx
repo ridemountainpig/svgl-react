@@ -18,4 +18,3 @@ const AnthropicLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default AnthropicLight;
-export const AnthropicLightUrl = "https://www.anthropic.com/";

@@ -28,4 +28,3 @@ const Link = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Link;
-export const LinkUrl = "https://chain.link/";

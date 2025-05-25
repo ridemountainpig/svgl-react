@@ -20,4 +20,3 @@ const Suno = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Suno;
-export const SunoUrl = "https://suno.com/";

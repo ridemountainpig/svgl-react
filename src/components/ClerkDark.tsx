@@ -16,4 +16,3 @@ const ClerkDark = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default ClerkDark;
-export const ClerkDarkUrl = "https://clerk.com/";

@@ -28,4 +28,3 @@ const LayersLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default LayersLight;
-export const LayersLightUrl = "https://layers.to/";

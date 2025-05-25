@@ -20,4 +20,3 @@ const YoutubeMusic = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default YoutubeMusic;
-export const YoutubeMusicUrl = "https://music.youtube.com/";

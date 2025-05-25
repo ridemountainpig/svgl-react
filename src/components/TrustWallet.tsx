@@ -38,4 +38,3 @@ const TrustWallet = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default TrustWallet;
-export const TrustWalletUrl = "https://trustwallet.com/";

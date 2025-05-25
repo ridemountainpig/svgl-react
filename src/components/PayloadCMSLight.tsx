@@ -17,4 +17,3 @@ const PayloadCMSLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default PayloadCMSLight;
-export const PayloadCMSLightUrl = "https://payloadcms.com";

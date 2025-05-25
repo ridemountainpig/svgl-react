@@ -56,4 +56,3 @@ const Apidog = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Apidog;
-export const ApidogUrl = "https://apidog.com/";

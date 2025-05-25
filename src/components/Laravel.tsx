@@ -16,4 +16,3 @@ const Laravel = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Laravel;
-export const LaravelUrl = "https://laravel.com/";

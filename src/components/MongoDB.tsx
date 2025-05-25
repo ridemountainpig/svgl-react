@@ -16,4 +16,3 @@ const MongoDB = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default MongoDB;
-export const MongoDBUrl = "https://www.mongodb.com/";

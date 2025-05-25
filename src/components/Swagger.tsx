@@ -21,4 +21,3 @@ const Swagger = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Swagger;
-export const SwaggerUrl = "https://swagger.io/";

@@ -17,4 +17,3 @@ const Dotenv = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Dotenv;
-export const DotenvUrl = "https://github.com/motdotla/dotenv";

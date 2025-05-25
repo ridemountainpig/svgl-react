@@ -102,4 +102,3 @@ const Algorand = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Algorand;
-export const AlgorandUrl = "https://algorand.org/";

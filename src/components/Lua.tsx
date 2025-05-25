@@ -36,4 +36,3 @@ const Lua = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Lua;
-export const LuaUrl = "https://lua.org/";

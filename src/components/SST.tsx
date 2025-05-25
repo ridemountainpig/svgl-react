@@ -19,4 +19,3 @@ const SST = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default SST;
-export const SSTUrl = "https://sst.dev/";

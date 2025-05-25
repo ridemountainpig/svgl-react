@@ -17,4 +17,3 @@ const RustLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default RustLight;
-export const RustLightUrl = "https://www.rust-lang.org/";

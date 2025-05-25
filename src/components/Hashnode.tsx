@@ -19,4 +19,3 @@ const Hashnode = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Hashnode;
-export const HashnodeUrl = "https://hashnode.com";

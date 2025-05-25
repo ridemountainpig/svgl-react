@@ -14,4 +14,3 @@ const BaseUILight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default BaseUILight;
-export const BaseUILightUrl = "https://base-ui.com/";

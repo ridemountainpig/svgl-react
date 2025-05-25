@@ -32,4 +32,3 @@ const RobloxLight = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default RobloxLight;
-export const RobloxLightUrl = "https://www.roblox.com/";

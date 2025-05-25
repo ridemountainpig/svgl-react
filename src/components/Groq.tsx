@@ -17,4 +17,3 @@ const Groq = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Groq;
-export const GroqUrl = "https://groq.com/";

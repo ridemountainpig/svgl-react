@@ -50,4 +50,3 @@ const AppleMusic = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default AppleMusic;
-export const AppleMusicUrl = "https://music.apple.com/";

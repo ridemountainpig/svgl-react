@@ -28,4 +28,3 @@ const Storybook = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default Storybook;
-export const StorybookUrl = "https://storybook.js.org/";

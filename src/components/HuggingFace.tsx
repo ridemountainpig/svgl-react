@@ -93,4 +93,3 @@ const HuggingFace = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 export default HuggingFace;
-export const HuggingFaceUrl = "https://huggingface.co/";
