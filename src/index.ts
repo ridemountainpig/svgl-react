@@ -162,6 +162,7 @@ export { default as FirebaseStudio } from "./components/FirebaseStudio";
 export { default as Firefox } from "./components/Firefox";
 export { default as FlaskDark } from "./components/FlaskDark";
 export { default as FlaskLight } from "./components/FlaskLight";
+export { default as FlowLauncher } from "./components/FlowLauncher";
 export { default as Flowbite } from "./components/Flowbite";
 export { default as Flutter } from "./components/Flutter";
 export { default as Fly } from "./components/Fly";
@@ -303,6 +304,8 @@ export { default as MilanoteLight } from "./components/MilanoteLight";
 export { default as Million } from "./components/Million";
 export { default as Mintlify } from "./components/Mintlify";
 export { default as MistralAI } from "./components/MistralAI";
+export { default as ModelContextProtocolDark } from "./components/ModelContextProtocolDark";
+export { default as ModelContextProtocolLight } from "./components/ModelContextProtocolLight";
 export { default as Monero } from "./components/Monero";
 export { default as MongoDB } from "./components/MongoDB";
 export { default as Monkeytype } from "./components/Monkeytype";
@@ -772,6 +775,7 @@ export type SvglComponentName =
   | "Firefox"
   | "FlaskDark"
   | "FlaskLight"
+  | "FlowLauncher"
   | "Flowbite"
   | "Flutter"
   | "Fly"
@@ -913,6 +917,8 @@ export type SvglComponentName =
   | "Million"
   | "Mintlify"
   | "MistralAI"
+  | "ModelContextProtocolDark"
+  | "ModelContextProtocolLight"
   | "Monero"
   | "MongoDB"
   | "Monkeytype"
