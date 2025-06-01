@@ -28,11 +28,6 @@ jobs:
       - name: Format code
         run: bun format
 
-      - name: Configure git
-        run: |
-          git config --global user.name "${{ vars.GITUSERNAME }}"
-          git config --global user.email "${{ vars.GITUSEREMAIL }}"
-
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
