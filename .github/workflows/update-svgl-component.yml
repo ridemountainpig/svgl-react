@@ -41,6 +41,7 @@ jobs:
           else
             echo "no_changes=false" >> $GITHUB_OUTPUT
             git commit -m "chore: update svgl component"
+            git push origin update-svgl-${{ github.run_id }}
           fi
 
       - name: Create Pull Request
