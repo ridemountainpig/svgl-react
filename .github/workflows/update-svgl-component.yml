@@ -28,27 +28,11 @@ jobs:
       - name: Format code
         run: bun format
 
-      - name: Commit and push changes
-        id: changes
-        run: |
-          git config --global user.name "${{ vars.GITUSERNAME }}"
-          git config --global user.email "${{ vars.GITUSEREMAIL }}"
-          git fetch origin workflow-dev
-          git checkout -b update-svgl-${{ github.run_id }} origin/workflow-dev
-          git add --all ':!bun.lockb'
-          if git diff --cached --quiet; then
-            echo "no_changes=true" >> $GITHUB_OUTPUT
-          else
-            echo "no_changes=false" >> $GITHUB_OUTPUT
-            git commit -m "chore: update svgl component"
-            git push origin update-svgl-${{ github.run_id }}
-          fi
-
       - name: Create Pull Request
-        if: steps.changes.outputs.no_changes == 'false'
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v7
         with:
-          branch: update-svgl-${{ github.run_id }}
+          branch: update-svgl
+          branch-suffix: timestamp
           base: workflow-dev
           title: "chore: update svgl component"
           commit-message: "chore: update svgl component"
