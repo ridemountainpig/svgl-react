@@ -48,6 +48,7 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           branch: update-svgl-${{ github.run_id }}
+          base: workflow-dev
           title: "chore: update svgl component"
           commit-message: "chore: update svgl component"
           delete-branch: true
