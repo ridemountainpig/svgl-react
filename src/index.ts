@@ -438,6 +438,8 @@ export { default as RobloxDark } from "./components/RobloxDark";
 export { default as RobloxLight } from "./components/RobloxLight";
 export { default as Rolldown } from "./components/Rolldown";
 export { default as Rowy } from "./components/Rowy";
+export { default as Rsbuild } from "./components/Rsbuild";
+export { default as Rspack } from "./components/Rspack";
 export { default as Ruby } from "./components/Ruby";
 export { default as Runway } from "./components/Runway";
 export { default as RustDark } from "./components/RustDark";
@@ -1051,6 +1053,8 @@ export type SvglComponentName =
   | "RobloxLight"
   | "Rolldown"
   | "Rowy"
+  | "Rsbuild"
+  | "Rspack"
   | "Ruby"
   | "Runway"
   | "RustDark"
