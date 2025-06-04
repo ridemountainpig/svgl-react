@@ -353,6 +353,7 @@ export const RaycastUrl = "https://raycast.com/";
 export const ReactQueryUrl = "https://tanstack.com/query/v4";
 export const ReactRouterUrl = "https://reactrouter.com/en/main";
 export const ReactUrl = "https://react.dev/";
+export const ReactWheelPickerUrl = "https://react-wheel-picker.chanhdai.com";
 export const RedditUrl = "https://www.reddit.com/";
 export const RedisUrl = "https://redis.io/";
 export const ReduxUrl = "https://redux.js.org/";
