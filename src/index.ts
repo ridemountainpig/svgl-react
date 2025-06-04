@@ -416,6 +416,8 @@ export { default as ReactDark } from "./components/ReactDark";
 export { default as ReactLight } from "./components/ReactLight";
 export { default as ReactQuery } from "./components/ReactQuery";
 export { default as ReactRouter } from "./components/ReactRouter";
+export { default as ReactWheelPickerDark } from "./components/ReactWheelPickerDark";
+export { default as ReactWheelPickerLight } from "./components/ReactWheelPickerLight";
 export { default as Reddit } from "./components/Reddit";
 export { default as Redis } from "./components/Redis";
 export { default as Redux } from "./components/Redux";
@@ -1031,6 +1033,8 @@ export type SvglComponentName =
   | "ReactLight"
   | "ReactQuery"
   | "ReactRouter"
+  | "ReactWheelPickerDark"
+  | "ReactWheelPickerLight"
   | "Reddit"
   | "Redis"
   | "Redux"
