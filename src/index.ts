@@ -272,6 +272,7 @@ export { default as Litecoin } from "./components/Litecoin";
 export { default as Locofy } from "./components/Locofy";
 export { default as Loom } from "./components/Loom";
 export { default as Lottielab } from "./components/Lottielab";
+export { default as Lovable } from "./components/Lovable";
 export { default as Lua } from "./components/Lua";
 export { default as MagicUI } from "./components/MagicUI";
 export { default as ManzDev } from "./components/ManzDev";
@@ -889,6 +890,7 @@ export type SvglComponentName =
   | "Locofy"
   | "Loom"
   | "Lottielab"
+  | "Lovable"
   | "Lua"
   | "MagicUI"
   | "ManzDev"
