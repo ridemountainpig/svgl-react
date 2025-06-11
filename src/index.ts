@@ -69,6 +69,7 @@ export { default as Builder } from "./components/Builder";
 export { default as Bun } from "./components/Bun";
 export { default as BuyMeACoffee } from "./components/BuyMeACoffee";
 export { default as C } from "./components/C";
+export { default as CPanel } from "./components/CPanel";
 export { default as CPlusPlus } from "./components/CPlusPlus";
 export { default as CSS } from "./components/CSS";
 export { default as CSSNew } from "./components/CSSNew";
@@ -687,6 +688,7 @@ export type SvglComponentName =
   | "Bun"
   | "BuyMeACoffee"
   | "C"
+  | "CPanel"
   | "CPlusPlus"
   | "CSS"
   | "CSSNew"

@@ -57,6 +57,7 @@ export const BuildShipUrl = "https://buildship.com/";
 export const BuilderUrl = "https://builder.io/";
 export const BunUrl = "https://bun.sh";
 export const BuyMeACoffeeUrl = "https://buymeacoffee.com/";
+export const CPanelUrl = "https://cpanel.net/";
 export const CPlusPlusUrl = "https://en.wikipedia.org/wiki/C%2B%2B";
 export const CSSNewUrl = "https://es.wikipedia.org/wiki/CSS";
 export const CSSUrl = "https://es.wikipedia.org/wiki/CSS";
