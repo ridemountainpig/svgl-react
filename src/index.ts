@@ -306,6 +306,8 @@ export { default as MilanoteLight } from "./components/MilanoteLight";
 export { default as Million } from "./components/Million";
 export { default as Mintlify } from "./components/Mintlify";
 export { default as MistralAI } from "./components/MistralAI";
+export { default as MochaDark } from "./components/MochaDark";
+export { default as MochaLight } from "./components/MochaLight";
 export { default as ModelContextProtocolDark } from "./components/ModelContextProtocolDark";
 export { default as ModelContextProtocolLight } from "./components/ModelContextProtocolLight";
 export { default as Monero } from "./components/Monero";
@@ -925,6 +927,8 @@ export type SvglComponentName =
   | "Million"
   | "Mintlify"
   | "MistralAI"
+  | "MochaDark"
+  | "MochaLight"
   | "ModelContextProtocolDark"
   | "ModelContextProtocolLight"
   | "Monero"
