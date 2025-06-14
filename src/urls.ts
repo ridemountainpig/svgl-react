@@ -265,6 +265,7 @@ export const MilanoteUrl = "https://milanote.com";
 export const MillionUrl = "https://million.dev/";
 export const MintlifyUrl = "https://mintlify.com/";
 export const MistralAIUrl = "https://mistral.ai/";
+export const MochaUrl = "https://getmocha.com/";
 export const ModelContextProtocolUrl = "https://modelcontextprotocol.io/";
 export const MoneroUrl = "https://www.getmonero.org/";
 export const MongoDBUrl = "https://www.mongodb.com/";
