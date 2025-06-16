@@ -11,7 +11,7 @@ const Carrd = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <linearGradient
-      id="prefix__a"
+      id="Carrd__a"
       x1={141.569}
       x2={754.431}
       y1={143.569}
@@ -45,7 +45,7 @@ const Carrd = (props: SVGProps<SVGSVGElement>) => (
       />
     </linearGradient>
     <path
-      fill="url(#prefix__a)"
+      fill="url(#Carrd__a)"
       d="M448 881.3c-239.4 0-433.4-194-433.4-433.3S208.6 14.7 448 14.7s433.4 194 433.4 433.3-194 433.3-433.4 433.3"
     />
     <path

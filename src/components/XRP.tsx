@@ -11,12 +11,12 @@ const XRP = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <defs>
-      <linearGradient id="prefix__c" x1="50%" x2="50%" y1="0%" y2="100%">
+      <linearGradient id="XRP__c" x1="50%" x2="50%" y1="0%" y2="100%">
         <stop offset="0%" stopColor="#FFF" stopOpacity={0.5} />
         <stop offset="100%" stopOpacity={0.5} />
       </linearGradient>
       <filter
-        id="prefix__a"
+        id="XRP__a"
         width="111.7%"
         height="111.7%"
         x="-5.8%"
@@ -40,15 +40,15 @@ const XRP = (props: SVGProps<SVGSVGElement>) => (
           values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.199473505 0"
         />
       </filter>
-      <circle id="prefix__b" cx={15} cy={15} r={15} />
+      <circle id="XRP__b" cx={15} cy={15} r={15} />
     </defs>
     <g fill="none" fillRule="nonzero">
       <g transform="translate(1)">
-        <use xlinkHref="#prefix__b" fill="#000" filter="url(#prefix__a)" />
-        <use xlinkHref="#prefix__b" fill="#23292F" fillRule="evenodd" />
+        <use xlinkHref="#XRP__b" fill="#000" filter="url(#XRP__a)" />
+        <use xlinkHref="#XRP__b" fill="#23292F" fillRule="evenodd" />
         <use
-          xlinkHref="#prefix__b"
-          fill="url(#prefix__c)"
+          xlinkHref="#XRP__b"
+          fill="url(#XRP__c)"
           fillRule="evenodd"
           style={{
             mixBlendMode: "soft-light",

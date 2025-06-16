@@ -10,7 +10,7 @@ const Premiere = (props: SVGProps<SVGSVGElement>) => (
     preserveAspectRatio="xMidYMid meet"
     {...props}
   >
-    <g clipPath="url(#prefix__a)">
+    <g clipPath="url(#Premiere__a)">
       <path
         fill="#00005B"
         d="M14.53 0H67.52c8.035 0 14.53 6.496 14.53 14.53v50.94c0 8.034-6.495 14.53-14.53 14.53H14.53C6.496 80 0 73.504 0 65.47V14.53C0 6.496 6.496 0 14.53 0"
@@ -21,7 +21,7 @@ const Premiere = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="prefix__a">
+      <clipPath id="Premiere__a">
         <path fill="#fff" d="M0 0h82.051v80H0z" />
       </clipPath>
     </defs>

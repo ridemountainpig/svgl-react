@@ -12,7 +12,7 @@ const MicrosoftTodo = (props: SVGProps<SVGSVGElement>) => (
   >
     <defs>
       <radialGradient
-        id="prefix__c"
+        id="MicrosoftTodo__c"
         cx={410.201}
         cy={853.349}
         r={85}
@@ -23,23 +23,23 @@ const MicrosoftTodo = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={0.994} stopOpacity={0} />
       </radialGradient>
       <radialGradient
-        xlinkHref="#prefix__c"
-        id="prefix__e"
+        xlinkHref="#MicrosoftTodo__c"
+        id="MicrosoftTodo__e"
         cx={1051.126}
         cy={1265.852}
         r={85}
         gradientTransform="rotate(-135 769.601 767.5)"
       />
       <radialGradient
-        xlinkHref="#prefix__c"
-        id="prefix__h"
+        xlinkHref="#MicrosoftTodo__c"
+        id="MicrosoftTodo__h"
         cx={27.608}
         cy={2001.37}
         r={85}
         gradientTransform="scale(1 -1)rotate(45 2979.231 860.248)"
       />
       <linearGradient
-        id="prefix__a"
+        id="MicrosoftTodo__a"
         x1={700.766}
         x2={749.765}
         y1={597.024}
@@ -51,8 +51,8 @@ const MicrosoftTodo = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={0.994} stopOpacity={0} />
       </linearGradient>
       <linearGradient
-        xlinkHref="#prefix__a"
-        id="prefix__f"
+        xlinkHref="#MicrosoftTodo__a"
+        id="MicrosoftTodo__f"
         x1={1880.8}
         x2={1929.799}
         y1={34.286}
@@ -60,7 +60,7 @@ const MicrosoftTodo = (props: SVGProps<SVGSVGElement>) => (
         gradientTransform="matrix(.867 0 0 -.796 -1446.031 767.147)"
       />
       <linearGradient
-        id="prefix__i"
+        id="MicrosoftTodo__i"
         x1={308.378}
         x2={919.318}
         y1={811.629}
@@ -72,7 +72,7 @@ const MicrosoftTodo = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={0.994} stopColor="#58c1f5" />
       </linearGradient>
       <mask
-        id="prefix__b"
+        id="MicrosoftTodo__b"
         width={170}
         height={205.208}
         x={317.137}
@@ -81,11 +81,11 @@ const MicrosoftTodo = (props: SVGProps<SVGSVGElement>) => (
       >
         <path
           d="m402.137 736.828 60.104 60.104-60.104 60.104-60.104-60.104z"
-          className="prefix__a"
+          className="MicrosoftTodo__a"
         />
       </mask>
       <mask
-        id="prefix__d"
+        id="MicrosoftTodo__d"
         width={205.208}
         height={205.208}
         x={837.922}
@@ -94,11 +94,11 @@ const MicrosoftTodo = (props: SVGProps<SVGSVGElement>) => (
       >
         <path
           d="M983.025 276.147 862.817 155.94l60.104-60.104 120.208 120.208z"
-          className="prefix__a"
+          className="MicrosoftTodo__a"
         />
       </mask>
       <mask
-        id="prefix__g"
+        id="MicrosoftTodo__g"
         width={205.208}
         height={205.208}
         x={-35.208}
@@ -107,21 +107,21 @@ const MicrosoftTodo = (props: SVGProps<SVGSVGElement>) => (
       >
         <path
           d="M-35.208 419.69 85 299.482l60.104 60.104L24.896 479.794z"
-          className="prefix__a"
+          className="MicrosoftTodo__a"
         />
       </mask>
-      <style>{".prefix__a{fill:#fff}"}</style>
+      <style>{".MicrosoftTodo__a{fill:#fff}"}</style>
     </defs>
     <path
       d="M694.422 269.785h42.5v736.5h-42.5z"
       style={{
-        fill: "url(#prefix__a)",
+        fill: "url(#MicrosoftTodo__a)",
       }}
       transform="rotate(45 852.293 570.04)"
     />
     <g
       style={{
-        mask: "url(#prefix__b)",
+        mask: "url(#MicrosoftTodo__b)",
       }}
     >
       <circle
@@ -129,13 +129,13 @@ const MicrosoftTodo = (props: SVGProps<SVGSVGElement>) => (
         cy={736.827}
         r={85}
         style={{
-          fill: "url(#prefix__c)",
+          fill: "url(#MicrosoftTodo__c)",
         }}
       />
     </g>
     <g
       style={{
-        mask: "url(#prefix__d)",
+        mask: "url(#MicrosoftTodo__d)",
       }}
     >
       <circle
@@ -143,20 +143,20 @@ const MicrosoftTodo = (props: SVGProps<SVGSVGElement>) => (
         cy={216.043}
         r={85}
         style={{
-          fill: "url(#prefix__e)",
+          fill: "url(#MicrosoftTodo__e)",
         }}
       />
     </g>
     <path
       d="M185.305 515.608h42.5v448.5h-42.5z"
       style={{
-        fill: "url(#prefix__f)",
+        fill: "url(#MicrosoftTodo__f)",
       }}
       transform="rotate(135 226.655 679.927)"
     />
     <g
       style={{
-        mask: "url(#prefix__g)",
+        mask: "url(#MicrosoftTodo__g)",
       }}
     >
       <circle
@@ -164,7 +164,7 @@ const MicrosoftTodo = (props: SVGProps<SVGSVGElement>) => (
         cy={419.69}
         r={85}
         style={{
-          fill: "url(#prefix__h)",
+          fill: "url(#MicrosoftTodo__h)",
         }}
       />
     </g>
@@ -186,7 +186,7 @@ const MicrosoftTodo = (props: SVGProps<SVGSVGElement>) => (
       y={74.159}
       rx={42.5}
       style={{
-        fill: "url(#prefix__i)",
+        fill: "url(#MicrosoftTodo__i)",
       }}
       transform="rotate(45 750.47 438.164)"
     />

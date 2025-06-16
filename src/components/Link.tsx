@@ -10,7 +10,7 @@ const Link = (props: SVGProps<SVGSVGElement>) => (
     preserveAspectRatio="xMidYMid meet"
     {...props}
   >
-    <g clipPath="url(#prefix__a)">
+    <g clipPath="url(#Link__a)">
       <path
         fill="#375BD2"
         d="M100 200c55.229 0 100-44.771 100-100S155.229 0 100 0 0 44.772 0 100s44.772 100 100 100"
@@ -21,7 +21,7 @@ const Link = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="prefix__a">
+      <clipPath id="Link__a">
         <path fill="#fff" d="M0 0h200v200H0z" />
       </clipPath>
     </defs>

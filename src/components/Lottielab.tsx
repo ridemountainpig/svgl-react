@@ -10,9 +10,16 @@ const Lottielab = (props: SVGProps<SVGSVGElement>) => (
     preserveAspectRatio="xMidYMid meet"
     {...props}
   >
-    <rect width={274} height={274} x={1} y={1} fill="url(#prefix__a)" rx={81} />
+    <rect
+      width={274}
+      height={274}
+      x={1}
+      y={1}
+      fill="url(#Lottielab__a)"
+      rx={81}
+    />
     <path
-      stroke="url(#prefix__b)"
+      stroke="url(#Lottielab__b)"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={20}
@@ -37,13 +44,13 @@ const Lottielab = (props: SVGProps<SVGSVGElement>) => (
       height={274}
       x={1}
       y={1}
-      stroke="url(#prefix__c)"
+      stroke="url(#Lottielab__c)"
       strokeWidth={2}
       rx={81}
     />
     <defs>
       <linearGradient
-        id="prefix__a"
+        id="Lottielab__a"
         x1={2}
         x2={274}
         y1={2}
@@ -54,7 +61,7 @@ const Lottielab = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#607EF4" />
       </linearGradient>
       <linearGradient
-        id="prefix__b"
+        id="Lottielab__b"
         x1={132.555}
         x2={94.765}
         y1={62.627}
@@ -65,7 +72,7 @@ const Lottielab = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#D7D5FF" />
       </linearGradient>
       <linearGradient
-        id="prefix__c"
+        id="Lottielab__c"
         x1={2}
         x2={274}
         y1={2}

@@ -11,7 +11,7 @@ const JetBrainsWebStorm = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <linearGradient
-      id="prefix__a"
+      id="JetBrainsWebStorm__a"
       x1={38.88}
       x2={63.72}
       y1={6.5}
@@ -22,7 +22,7 @@ const JetBrainsWebStorm = (props: SVGProps<SVGSVGElement>) => (
       <stop offset={0.94} stopColor="#087cfa" />
     </linearGradient>
     <linearGradient
-      id="prefix__b"
+      id="JetBrainsWebStorm__b"
       x1={46.63}
       x2={88.66}
       y1={17.85}
@@ -33,23 +33,23 @@ const JetBrainsWebStorm = (props: SVGProps<SVGSVGElement>) => (
       <stop offset={0.37} stopColor="#07c3f2" />
     </linearGradient>
     <linearGradient
-      xlinkHref="#prefix__a"
-      id="prefix__c"
+      xlinkHref="#JetBrainsWebStorm__a"
+      id="JetBrainsWebStorm__c"
       x1={88.27}
       x2={93.79}
       y1={25.47}
       y2={45.02}
     />
     <path
-      fill="url(#prefix__a)"
+      fill="url(#JetBrainsWebStorm__a)"
       d="M17.44 91.26 4.5 14.56l23.93-9.93 15.28 9.08 14-7.55 29.17 11.2-16.36 83.14z"
     />
     <path
-      fill="url(#prefix__b)"
+      fill="url(#JetBrainsWebStorm__b)"
       d="M100.5 37.01 88.11 6.41 65.63 4.5l-34.7 33.34 9.34 42.97 17.44 12.23 42.79-25.39L90 47.96z"
     />
     <path
-      fill="url(#prefix__c)"
+      fill="url(#JetBrainsWebStorm__c)"
       d="M81.27 32.45 90 47.96l10.5-10.95-7.71-19.06z"
     />
     <path d="M22.5 22.5h60v60h-60z" />

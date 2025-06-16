@@ -10,7 +10,7 @@ const Swift = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <linearGradient
-      id="prefix__a"
+      id="Swift__a"
       x1={-1845.5}
       x2={-1797.1}
       y1={1255.6}
@@ -32,11 +32,11 @@ const Swift = (props: SVGProps<SVGSVGElement>) => (
       />
     </linearGradient>
     <path
-      fill="url(#prefix__a)"
+      fill="url(#Swift__a)"
       d="M56.9 0h141.8a56.5 56.5 0 0 1 57.4 59.1v138.3a56.6 56.6 0 0 1-57.5 58.6l-144.2-.1a57 57 0 0 1-54-56.8V56.9A56.8 56.8 0 0 1 53.7.2c1-.2 2.1-.2 3.2-.2"
     />
     <linearGradient
-      id="prefix__b"
+      id="Swift__b"
       x1={130.6}
       x2={95.2}
       y1={4.1}
@@ -57,7 +57,7 @@ const Swift = (props: SVGProps<SVGSVGElement>) => (
       />
     </linearGradient>
     <path
-      fill="url(#prefix__b)"
+      fill="url(#Swift__b)"
       d="M216 209.4a39 39 0 0 0-11.6-11.9c-4-2.7-8.7-4.4-13.5-4.6-3.4-.2-6.8.4-10 1.6a65 65 0 0 0-9.3 4.3c-3.5 1.8-7 3.6-10.7 5.1-4.4 1.8-9 3.2-13.7 4.2a89 89 0 0 1-17.8 1.4 120.3 120.3 0 0 1-77.2-30 145.4 145.4 0 0 1-22.8-25.1 47 47 0 0 1-3-4.7L0 121.2V56.7A56.6 56.6 0 0 1 56.6 0h50.5l37.4 38c84.4 57.4 57.1 120.7 57.1 120.7s24 27 14.4 50.7"
     />
     <path

@@ -11,7 +11,7 @@ const Rolldown = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="url(#prefix__a)"
+      fill="url(#Rolldown__a)"
       d="M50 100c27.614 0 50-22.386 50-50S77.614 0 50 0 0 22.386 0 50s22.386 50 50 50"
     />
     <path
@@ -20,7 +20,7 @@ const Rolldown = (props: SVGProps<SVGSVGElement>) => (
     />
     <defs>
       <linearGradient
-        id="prefix__a"
+        id="Rolldown__a"
         x1={50}
         x2={50}
         y1={0}

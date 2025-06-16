@@ -10,7 +10,7 @@ const VoicemodDark = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <defs>
-      <filter id="prefix__a">
+      <filter id="VoicemodDark__a">
         <feColorMatrix
           in="SourceGraphic"
           values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"
@@ -20,7 +20,7 @@ const VoicemodDark = (props: SVGProps<SVGSVGElement>) => (
     <g
       fill="none"
       fillRule="evenodd"
-      filter="url(#prefix__a)"
+      filter="url(#VoicemodDark__a)"
       transform="translate(-134 -25)"
     >
       <path

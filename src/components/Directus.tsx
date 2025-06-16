@@ -10,7 +10,7 @@ const Directus = (props: SVGProps<SVGSVGElement>) => (
     preserveAspectRatio="xMidYMid meet"
     {...props}
   >
-    <g clipPath="url(#prefix__a)">
+    <g clipPath="url(#Directus__a)">
       <path fill="#64F" d="M0 0h1024v1028H0z" />
       <path
         fill="#754DFC"
@@ -32,7 +32,7 @@ const Directus = (props: SVGProps<SVGSVGElement>) => (
         fill="#B36EEE"
         d="M170.96 0H1024v278.073c-15.53-17.825-82.814-85.727-252.614-147.449-83.346-30.296-209.037-53.737-342.645-78.655C343.042 35.986 254.087 19.396 170.96 0"
       />
-      <g filter="url(#prefix__b)">
+      <g filter="url(#Directus__b)">
         <path
           fill="#fff"
           fillRule="evenodd"
@@ -42,11 +42,11 @@ const Directus = (props: SVGProps<SVGSVGElement>) => (
       </g>
     </g>
     <defs>
-      <clipPath id="prefix__a">
+      <clipPath id="Directus__a">
         <path fill="#fff" d="M0 0h1024v1028H0z" />
       </clipPath>
       <filter
-        id="prefix__b"
+        id="Directus__b"
         width={920}
         height={608.703}
         x={52}

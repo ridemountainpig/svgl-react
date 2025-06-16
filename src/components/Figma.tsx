@@ -10,7 +10,7 @@ const Figma = (props: SVGProps<SVGSVGElement>) => (
     preserveAspectRatio="xMidYMid meet"
     {...props}
   >
-    <g clipPath="url(#prefix__a)">
+    <g clipPath="url(#Figma__a)">
       <path
         fill="#0ACF83"
         d="M13.333 80c7.36 0 13.334-5.973 13.334-13.333V53.334H13.333C5.973 53.334 0 59.307 0 66.667S5.973 80 13.333 80"
@@ -33,7 +33,7 @@ const Figma = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="prefix__a">
+      <clipPath id="Figma__a">
         <path fill="#fff" d="M0 0h53.333v80H0z" />
       </clipPath>
     </defs>

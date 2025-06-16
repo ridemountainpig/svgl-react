@@ -10,7 +10,7 @@ const SQLite = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <defs>
-      <linearGradient id="prefix__a" x1="57.7%" x2="57.7%" y1="2%" y2="94.4%">
+      <linearGradient id="SQLite__a" x1="57.7%" x2="57.7%" y1="2%" y2="94.4%">
         <stop offset="0%" stopColor="#97D9F6" />
         <stop offset="92%" stopColor="#0F80CC" />
         <stop offset="100%" stopColor="#0F80CC" />
@@ -25,7 +25,7 @@ const SQLite = (props: SVGProps<SVGSVGElement>) => (
       d="M157.9 10H17C7.7 10 0 17.7 0 27v155.2c0 9.4 7.7 17.2 17.1 17.2h92.7c-1-46.2 14.7-135.7 48-189.5Z"
     />
     <path
-      fill="url(#prefix__a)"
+      fill="url(#SQLite__a)"
       d="M152.8 15H17c-6.5 0-12 5.4-12 12v144c30.7-11.8 76.8-22 108.7-21.5a990 990 0 0 1 39-134.5Z"
     />
     <path

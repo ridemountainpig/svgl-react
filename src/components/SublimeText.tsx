@@ -11,7 +11,7 @@ const SublimeText = (props: SVGProps<SVGSVGElement>) => (
   >
     <defs>
       <linearGradient
-        id="prefix__a"
+        id="SublimeText__a"
         x1="55.117%"
         x2="63.68%"
         y1="58.68%"
@@ -23,7 +23,7 @@ const SublimeText = (props: SVGProps<SVGSVGElement>) => (
       </linearGradient>
     </defs>
     <path
-      fill="url(#prefix__a)"
+      fill="url(#SublimeText__a)"
       d="M255.288 166.795c0-3.887-2.872-6.128-6.397-5.015L6.397 238.675C2.865 239.796 0 243.86 0 247.74v78.59c0 3.887 2.865 6.135 6.397 5.015l242.494-76.888c3.525-1.12 6.397-5.185 6.397-9.071v-78.59Z"
     />
     <path

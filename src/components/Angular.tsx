@@ -10,9 +10,9 @@ const Angular = (props: SVGProps<SVGSVGElement>) => (
     preserveAspectRatio="xMidYMid meet"
     {...props}
   >
-    <g clipPath="url(#prefix__a)">
+    <g clipPath="url(#Angular__a)">
       <mask
-        id="prefix__b"
+        id="Angular__b"
         width={242}
         height={256}
         x={0}
@@ -24,20 +24,20 @@ const Angular = (props: SVGProps<SVGSVGElement>) => (
       >
         <path fill="#fff" d="M0 0h242v256H0z" />
       </mask>
-      <g mask="url(#prefix__b)">
+      <g mask="url(#Angular__b)">
         <path
-          fill="url(#prefix__c)"
+          fill="url(#Angular__c)"
           d="m241 43-9 136L149 0zm-58 176-62 36-63-36 12-31h101zM121 68l32 80H88zM9 179 0 43 92 0z"
         />
         <path
-          fill="url(#prefix__d)"
+          fill="url(#Angular__d)"
           d="m241 43-9 136L149 0zm-58 176-62 36-63-36 12-31h101zM121 68l32 80H88zM9 179 0 43 92 0z"
         />
       </g>
     </g>
     <defs>
       <linearGradient
-        id="prefix__c"
+        id="Angular__c"
         x1={53.2}
         x2={245}
         y1={231.9}
@@ -52,7 +52,7 @@ const Angular = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#6C00F5" />
       </linearGradient>
       <linearGradient
-        id="prefix__d"
+        id="Angular__d"
         x1={44.5}
         x2={170}
         y1={30.7}
@@ -62,7 +62,7 @@ const Angular = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#FF31D9" />
         <stop offset={1} stopColor="#FF5BE1" stopOpacity={0} />
       </linearGradient>
-      <clipPath id="prefix__a">
+      <clipPath id="Angular__a">
         <path fill="#fff" d="M0 0h242v256H0z" />
       </clipPath>
     </defs>

@@ -12,7 +12,7 @@ const Gimp = (props: SVGProps<SVGSVGElement>) => (
   >
     <defs>
       <path
-        id="prefix__s"
+        id="Gimp__s"
         fill="#2e3436"
         fillRule="evenodd"
         stroke="#000"
@@ -25,7 +25,7 @@ const Gimp = (props: SVGProps<SVGSVGElement>) => (
         }}
       />
       <path
-        id="prefix__u"
+        id="Gimp__u"
         fill="#fff"
         fillRule="evenodd"
         d="M23.158 20.953a1.768 1.768 0 1 1-3.536 0 1.768 1.768 0 1 1 3.536 0"
@@ -35,7 +35,7 @@ const Gimp = (props: SVGProps<SVGSVGElement>) => (
         }}
       />
       <path
-        id="prefix__z"
+        id="Gimp__z"
         fill="#fff"
         d="M8.875 37.75a1.25 1.25 0 1 1-2.5 0 1.25 1.25 0 1 1 2.5 0"
         opacity={0.528}
@@ -46,25 +46,25 @@ const Gimp = (props: SVGProps<SVGSVGElement>) => (
       />
     </defs>
     <defs>
-      <linearGradient id="prefix__k">
+      <linearGradient id="Gimp__k">
         <stop offset={0} stopColor="#5b676b" />
         <stop offset={1} stopColor="#141718" />
       </linearGradient>
-      <linearGradient id="prefix__f">
+      <linearGradient id="Gimp__f">
         <stop offset={0} />
         <stop offset={1} stopOpacity={0} />
       </linearGradient>
-      <linearGradient id="prefix__e">
+      <linearGradient id="Gimp__e">
         <stop offset={0} stopColor="#fff" />
         <stop offset={1} stopColor="#fff" stopOpacity={0} />
       </linearGradient>
-      <linearGradient id="prefix__a">
+      <linearGradient id="Gimp__a">
         <stop offset={0} stopColor="#fff" />
         <stop offset={1} stopColor="#fff" stopOpacity={0} />
       </linearGradient>
       <linearGradient
-        xlinkHref="#prefix__a"
-        id="prefix__A"
+        xlinkHref="#Gimp__a"
+        id="Gimp__A"
         x1={13.236}
         x2={7.752}
         y1={37.752}
@@ -72,19 +72,19 @@ const Gimp = (props: SVGProps<SVGSVGElement>) => (
         gradientTransform="rotate(27.621 -26.244 -49.44)scale(.8523)"
         gradientUnits="userSpaceOnUse"
       />
-      <linearGradient id="prefix__h">
+      <linearGradient id="Gimp__h">
         <stop offset={0} stopColor="#696969" />
         <stop offset={1} />
       </linearGradient>
-      <linearGradient id="prefix__b">
+      <linearGradient id="Gimp__b">
         <stop offset={0} stopColor="#bdbdbd" />
         <stop offset={0.333} stopColor="#e2e2e2" />
         <stop offset={0.667} stopColor="#a3a3a3" />
         <stop offset={1} stopColor="#ddd" />
       </linearGradient>
       <linearGradient
-        xlinkHref="#prefix__b"
-        id="prefix__x"
+        xlinkHref="#Gimp__b"
+        id="Gimp__x"
         x1={19.395}
         x2={23.109}
         y1={30.001}
@@ -92,15 +92,15 @@ const Gimp = (props: SVGProps<SVGSVGElement>) => (
         gradientTransform="translate(-46.407 -1.803)"
         gradientUnits="userSpaceOnUse"
       />
-      <linearGradient id="prefix__c">
+      <linearGradient id="Gimp__c">
         <stop offset={0} stopColor="#6e3d09" />
         <stop offset={0.242} stopColor="#ea8113" />
         <stop offset={0.621} stopColor="#5c3307" />
         <stop offset={1} stopColor="#e07c12" />
       </linearGradient>
       <linearGradient
-        xlinkHref="#prefix__c"
-        id="prefix__w"
+        xlinkHref="#Gimp__c"
+        id="Gimp__w"
         x1={37.018}
         x2={27.754}
         y1={19.24}
@@ -108,29 +108,29 @@ const Gimp = (props: SVGProps<SVGSVGElement>) => (
         gradientTransform="translate(-49.305 1.878)"
         gradientUnits="userSpaceOnUse"
       />
-      <linearGradient id="prefix__l">
+      <linearGradient id="Gimp__l">
         <stop offset={0} stopColor="#857c63" />
         <stop offset={1} stopColor="#221f19" />
       </linearGradient>
-      <linearGradient id="prefix__j">
+      <linearGradient id="Gimp__j">
         <stop offset={0} />
         <stop offset={1} stopOpacity={0} />
       </linearGradient>
-      <linearGradient id="prefix__g">
+      <linearGradient id="Gimp__g">
         <stop offset={0} />
         <stop offset={1} stopOpacity={0} />
       </linearGradient>
-      <linearGradient id="prefix__i">
+      <linearGradient id="Gimp__i">
         <stop offset={0} stopColor="#fff" />
         <stop offset={1} stopColor="#b9b9b0" />
       </linearGradient>
-      <linearGradient id="prefix__d">
+      <linearGradient id="Gimp__d">
         <stop offset={0} stopColor="#fff" />
         <stop offset={1} stopColor="#fff" stopOpacity={0} />
       </linearGradient>
       <linearGradient
-        xlinkHref="#prefix__d"
-        id="prefix__t"
+        xlinkHref="#Gimp__d"
+        id="Gimp__t"
         x1={6.305}
         x2={5.985}
         y1={23.362}
@@ -138,8 +138,8 @@ const Gimp = (props: SVGProps<SVGSVGElement>) => (
         gradientUnits="userSpaceOnUse"
       />
       <linearGradient
-        xlinkHref="#prefix__e"
-        id="prefix__p"
+        xlinkHref="#Gimp__e"
+        id="Gimp__p"
         x1={14.969}
         x2={39.525}
         y1={19.111}
@@ -147,8 +147,8 @@ const Gimp = (props: SVGProps<SVGSVGElement>) => (
         gradientUnits="userSpaceOnUse"
       />
       <linearGradient
-        xlinkHref="#prefix__f"
-        id="prefix__B"
+        xlinkHref="#Gimp__f"
+        id="Gimp__B"
         x1={26.163}
         x2={24.329}
         y1={30.543}
@@ -156,8 +156,8 @@ const Gimp = (props: SVGProps<SVGSVGElement>) => (
         gradientUnits="userSpaceOnUse"
       />
       <linearGradient
-        xlinkHref="#prefix__g"
-        id="prefix__o"
+        xlinkHref="#Gimp__g"
+        id="Gimp__o"
         x1={32.35}
         x2={21.213}
         y1={28.083}
@@ -166,8 +166,8 @@ const Gimp = (props: SVGProps<SVGSVGElement>) => (
         gradientUnits="userSpaceOnUse"
       />
       <radialGradient
-        xlinkHref="#prefix__h"
-        id="prefix__y"
+        xlinkHref="#Gimp__h"
+        id="Gimp__y"
         cx={15.415}
         cy={35.357}
         r={7.579}
@@ -177,8 +177,8 @@ const Gimp = (props: SVGProps<SVGSVGElement>) => (
         gradientUnits="userSpaceOnUse"
       />
       <radialGradient
-        xlinkHref="#prefix__i"
-        id="prefix__v"
+        xlinkHref="#Gimp__i"
+        id="Gimp__v"
         cx={69.473}
         cy={19.598}
         r={3.515}
@@ -188,8 +188,8 @@ const Gimp = (props: SVGProps<SVGSVGElement>) => (
         gradientUnits="userSpaceOnUse"
       />
       <radialGradient
-        xlinkHref="#prefix__j"
-        id="prefix__m"
+        xlinkHref="#Gimp__j"
+        id="Gimp__m"
         cx={23}
         cy={33.938}
         r={18.25}
@@ -199,8 +199,8 @@ const Gimp = (props: SVGProps<SVGSVGElement>) => (
         gradientUnits="userSpaceOnUse"
       />
       <radialGradient
-        xlinkHref="#prefix__k"
-        id="prefix__r"
+        xlinkHref="#Gimp__k"
+        id="Gimp__r"
         cx={6.024}
         cy={25.271}
         r={4.831}
@@ -210,8 +210,8 @@ const Gimp = (props: SVGProps<SVGSVGElement>) => (
         gradientUnits="userSpaceOnUse"
       />
       <radialGradient
-        xlinkHref="#prefix__l"
-        id="prefix__n"
+        xlinkHref="#Gimp__l"
+        id="Gimp__n"
         cx={18.558}
         cy={22.3}
         r={19.229}
@@ -221,8 +221,8 @@ const Gimp = (props: SVGProps<SVGSVGElement>) => (
         gradientUnits="userSpaceOnUse"
       />
       <radialGradient
-        xlinkHref="#prefix__i"
-        id="prefix__q"
+        xlinkHref="#Gimp__i"
+        id="Gimp__q"
         cx={69.473}
         cy={19.598}
         r={3.515}
@@ -234,7 +234,7 @@ const Gimp = (props: SVGProps<SVGSVGElement>) => (
     </defs>
     <g color="#000">
       <path
-        fill="url(#prefix__m)"
+        fill="url(#Gimp__m)"
         fillRule="evenodd"
         d="M41.25 33.938a18.25 5.188 0 1 1-36.5 0 18.25 5.188 0 1 1 36.5 0"
         overflow="visible"
@@ -244,7 +244,7 @@ const Gimp = (props: SVGProps<SVGSVGElement>) => (
         transform="matrix(1 0 0 1.53012 .125 -19.991)"
       />
       <path
-        fill="url(#prefix__n)"
+        fill="url(#Gimp__n)"
         fillRule="evenodd"
         stroke="#2e3436"
         strokeMiterlimit={10}
@@ -255,7 +255,7 @@ const Gimp = (props: SVGProps<SVGSVGElement>) => (
         }}
       />
       <path
-        fill="url(#prefix__o)"
+        fill="url(#Gimp__o)"
         fillRule="evenodd"
         d="M15.738 30.066c6.739 1.348 10.17.098 12.179-1.453-.53-.685-1.436-1.436-1.436-1.436s2.353.654 3.182 1.724c.826 1.066.306 1.723.09 3.088-.481-1.199-1.38-1.648-1.501-2.124-1.807 2.497-6.307 2.393-12.514.201"
         overflow="visible"
@@ -265,7 +265,7 @@ const Gimp = (props: SVGProps<SVGSVGElement>) => (
       />
       <path
         fill="none"
-        stroke="url(#prefix__p)"
+        stroke="url(#Gimp__p)"
         strokeMiterlimit={10}
         d="M36.969 11.844a12.3 12.3 0 0 1-2.688 3.094C31.65 17.117 27.231 19.1 20 19.28c-4.224.105-6.953-1.934-8.625-3.75L11.25 20c.136.419.415 1.39-.062 2.719-.515 1.429-2.155 2.891-4.97 4 .251.522.496 1.043 1.25 1.781 1.029 1.005 2.458 2.088 4.157 3.063 3.398 1.948 7.802 3.493 11.906 3.562 4.105.07 7.857-1.235 10.438-5 2.378-3.471 3.682-9.348 3-18.281z"
         opacity={0.185}
@@ -275,7 +275,7 @@ const Gimp = (props: SVGProps<SVGSVGElement>) => (
         }}
       />
       <path
-        fill="url(#prefix__q)"
+        fill="url(#Gimp__q)"
         fillRule="evenodd"
         stroke="#888a85"
         strokeMiterlimit={10}
@@ -288,7 +288,7 @@ const Gimp = (props: SVGProps<SVGSVGElement>) => (
         transform="matrix(1.27778 0 0 1.27778 -75.127 -6.508)"
       />
       <path
-        fill="url(#prefix__r)"
+        fill="url(#Gimp__r)"
         fillRule="evenodd"
         stroke="#000"
         strokeMiterlimit={10}
@@ -300,7 +300,7 @@ const Gimp = (props: SVGProps<SVGSVGElement>) => (
         transform="rotate(-35.808 3.363 26.345)"
       />
       <use
-        xlinkHref="#prefix__s"
+        xlinkHref="#Gimp__s"
         fillRule="evenodd"
         strokeMiterlimit={10}
         strokeWidth={1.174}
@@ -312,7 +312,7 @@ const Gimp = (props: SVGProps<SVGSVGElement>) => (
       />
       <path
         fill="none"
-        stroke="url(#prefix__t)"
+        stroke="url(#Gimp__t)"
         strokeMiterlimit={10}
         d="M6.094 22.156c-.798 0-1.553.446-2.188 1.344-.634.898-1.094 2.234-1.094 3.719s.46 2.82 1.094 3.718 1.39 1.344 2.188 1.344 1.577-.476 2.218-1.375c.642-.898 1.094-2.206 1.094-3.687 0-1.482-.452-2.79-1.094-3.688-.641-.898-1.42-1.375-2.218-1.375z"
         opacity={0.281}
@@ -332,7 +332,7 @@ const Gimp = (props: SVGProps<SVGSVGElement>) => (
         }}
       />
       <use
-        xlinkHref="#prefix__u"
+        xlinkHref="#Gimp__u"
         fillRule="evenodd"
         overflow="visible"
         style={{
@@ -341,7 +341,7 @@ const Gimp = (props: SVGProps<SVGSVGElement>) => (
         transform="matrix(.76667 0 0 .76667 -2.556 5.03)"
       />
       <path
-        fill="url(#prefix__v)"
+        fill="url(#Gimp__v)"
         fillRule="evenodd"
         stroke="#888a85"
         strokeMiterlimit={10}
@@ -354,7 +354,7 @@ const Gimp = (props: SVGProps<SVGSVGElement>) => (
         transform="matrix(1.5 0 0 1.5 -82.168 -10.919)"
       />
       <use
-        xlinkHref="#prefix__s"
+        xlinkHref="#Gimp__s"
         fillRule="evenodd"
         strokeMiterlimit={10}
         overflow="visible"
@@ -364,7 +364,7 @@ const Gimp = (props: SVGProps<SVGSVGElement>) => (
         transform="translate(1.414 .707)"
       />
       <use
-        xlinkHref="#prefix__u"
+        xlinkHref="#Gimp__u"
         fillRule="evenodd"
         overflow="visible"
         style={{
@@ -373,7 +373,7 @@ const Gimp = (props: SVGProps<SVGSVGElement>) => (
         transform="matrix(.9 0 0 .9 3.023 2.626)"
       />
       <path
-        fill="url(#prefix__w)"
+        fill="url(#Gimp__w)"
         stroke="#673907"
         strokeLinecap="round"
         strokeWidth={2.46}
@@ -385,7 +385,7 @@ const Gimp = (props: SVGProps<SVGSVGElement>) => (
         transform="rotate(-106.415 23.46 5.603)scale(.40643)"
       />
       <path
-        fill="url(#prefix__x)"
+        fill="url(#Gimp__x)"
         stroke="#888a85"
         strokeLinecap="round"
         strokeWidth={2.46}
@@ -410,7 +410,7 @@ const Gimp = (props: SVGProps<SVGSVGElement>) => (
         transform="rotate(-106.415 23.46 5.603)scale(.40643)"
       />
       <path
-        fill="url(#prefix__y)"
+        fill="url(#Gimp__y)"
         d="M-45.341 42.77c10.444 0 18.37 1.244 19.87-6.355 1.21-6.123-7.21-9.057-11.382-3.59-4.02 5.265-8.488 9.945-8.488 9.945"
         overflow="visible"
         style={{
@@ -419,7 +419,7 @@ const Gimp = (props: SVGProps<SVGSVGElement>) => (
         transform="rotate(-106.415 23.46 5.603)scale(.40643)"
       />
       <use
-        xlinkHref="#prefix__z"
+        xlinkHref="#Gimp__z"
         opacity={0.528}
         overflow="visible"
         style={{
@@ -428,7 +428,7 @@ const Gimp = (props: SVGProps<SVGSVGElement>) => (
         transform="rotate(-106.415 26.245 20.84)scale(.84127)"
       />
       <use
-        xlinkHref="#prefix__z"
+        xlinkHref="#Gimp__z"
         overflow="visible"
         style={{
           marker: "none",
@@ -436,7 +436,7 @@ const Gimp = (props: SVGProps<SVGSVGElement>) => (
         transform="scale(-.56765)rotate(73.585 37.059 -61.34)"
       />
       <path
-        fill="url(#prefix__A)"
+        fill="url(#Gimp__A)"
         d="M-38.544 40.91s3.722.094 6.117-1.413c.847-.533 1.516.65.494 1.088-2.208.944-6.61.324-6.61.324"
         opacity={0.428}
         overflow="visible"
@@ -446,7 +446,7 @@ const Gimp = (props: SVGProps<SVGSVGElement>) => (
         transform="rotate(-106.415 23.46 5.603)scale(.40643)"
       />
       <path
-        fill="url(#prefix__B)"
+        fill="url(#Gimp__B)"
         fillRule="evenodd"
         d="M23.003 31.737c1.497.143 2.85-.273 3.412-.475.098-.555.537-1.62 2.046-1.691l-.53-.928s-1.967 1.348-4.066 1.746z"
         overflow="visible"

@@ -12,15 +12,15 @@ const Crossplane = (props: SVGProps<SVGSVGElement>) => (
   >
     <defs>
       <path
-        id="prefix__a"
+        id="Crossplane__a"
         d="M.137 122.022c-.18 4.155-.172 8.316.027 12.47C.11 135.557 0 136.61 0 137.69v210.042c0 40.169 32.785 73.036 72.858 73.036h109.65c40.058 0 72.857-32.867 72.857-73.036V137.691c0-1.23-.136-2.407-.191-3.61.199-4.017.204-8.041.014-12.059C252.098 54.1 196.179 0 127.669 0 59.145 0 3.227 54.1.137 122.009z"
       />
       <path
-        id="prefix__c"
+        id="Crossplane__c"
         d="M.137 122.022c-.18 4.155-.172 8.316.027 12.47C.11 135.557 0 136.61 0 137.69v210.042c0 40.169 32.785 73.036 72.858 73.036h109.65c40.058 0 72.857-32.867 72.857-73.036V137.691c0-1.23-.136-2.407-.191-3.61.199-4.017.204-8.041.014-12.059C252.098 54.1 196.179 0 127.669 0 59.145 0 3.227 54.1.137 122.009z"
       />
       <path
-        id="prefix__e"
+        id="Crossplane__e"
         d="M.137 122.022c-.18 4.155-.172 8.316.027 12.47C.11 135.557 0 136.61 0 137.69v210.042c0 40.169 32.785 73.036 72.858 73.036h109.65c40.058 0 72.857-32.867 72.857-73.036V137.691c0-1.23-.136-2.407-.191-3.61.199-4.017.204-8.041.014-12.059C252.098 54.1 196.179 0 127.669 0 59.145 0 3.227 54.1.137 122.009z"
       />
     </defs>
@@ -33,33 +33,33 @@ const Crossplane = (props: SVGProps<SVGSVGElement>) => (
       d="M255.18 134.095c.185-4.018.185-8.041 0-12.059C252.117 54.114 196.199 0 127.675 0S3.232 54.114.142 122.036a130 130 0 0 0 .014 12.469c-.04 1.066-.15 2.12-.15 3.2v210.042c0 40.168 32.785 73.036 72.858 73.036h109.65c40.058 0 72.843-32.868 72.843-73.036V137.704c0-1.23-.123-2.406-.177-3.61"
     />
     <g transform="translate(.635 .014)">
-      <mask id="prefix__b" fill="#fff">
-        <use xlinkHref="#prefix__a" />
+      <mask id="Crossplane__b" fill="#fff">
+        <use xlinkHref="#Crossplane__a" />
       </mask>
       <path
         fill="#FFCD3C"
         d="M331.874 126.028 15.19 443.465l-93.79-94.023L238.07 32.006z"
-        mask="url(#prefix__b)"
+        mask="url(#Crossplane__b)"
       />
     </g>
     <g transform="translate(.635 .014)">
-      <mask id="prefix__d" fill="#fff">
-        <use xlinkHref="#prefix__c" />
+      <mask id="Crossplane__d" fill="#fff">
+        <use xlinkHref="#Crossplane__c" />
       </mask>
       <path
         fill="#F3807B"
         d="m237.783 31.705-316.67 317.437-116.704-116.992L121.052-85.286z"
-        mask="url(#prefix__d)"
+        mask="url(#Crossplane__d)"
       />
     </g>
     <g transform="translate(.635 .014)">
-      <mask id="prefix__f" fill="#fff">
-        <use xlinkHref="#prefix__e" />
+      <mask id="Crossplane__f" fill="#fff">
+        <use xlinkHref="#Crossplane__e" />
       </mask>
       <path
         fill="#35D0BA"
         d="m425.964 220.351-316.67 317.423-93.79-94.022 316.671-317.423z"
-        mask="url(#prefix__f)"
+        mask="url(#Crossplane__f)"
       />
     </g>
     <path fill="#D8AE64" d="m103.448 421.138 55.508 55.645v-56.11z" />

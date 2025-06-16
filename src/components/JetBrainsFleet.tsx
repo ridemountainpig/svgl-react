@@ -12,7 +12,7 @@ const JetBrainsFleet = (props: SVGProps<SVGSVGElement>) => (
   >
     <defs>
       <radialGradient
-        id="prefix__a"
+        id="JetBrainsFleet__a"
         cx={0}
         cy={0}
         r={1}
@@ -23,7 +23,7 @@ const JetBrainsFleet = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#8ACEFF" />
       </radialGradient>
       <radialGradient
-        id="prefix__b"
+        id="JetBrainsFleet__b"
         cx={0}
         cy={0}
         r={1}
@@ -34,7 +34,7 @@ const JetBrainsFleet = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#FF00D6" stopOpacity={0.44} />
       </radialGradient>
       <radialGradient
-        id="prefix__c"
+        id="JetBrainsFleet__c"
         cx={0}
         cy={0}
         r={1}
@@ -47,7 +47,7 @@ const JetBrainsFleet = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={0.932} stopColor="#0038FF" />
       </radialGradient>
       <radialGradient
-        id="prefix__d"
+        id="JetBrainsFleet__d"
         cx={0}
         cy={0}
         r={1}
@@ -58,7 +58,7 @@ const JetBrainsFleet = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#0500FF" stopOpacity={0.15} />
       </radialGradient>
       <radialGradient
-        id="prefix__e"
+        id="JetBrainsFleet__e"
         cx={0}
         cy={0}
         r={1}
@@ -70,7 +70,7 @@ const JetBrainsFleet = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={0.899} stopColor="#BE46FF" stopOpacity={0.87} />
       </radialGradient>
       <radialGradient
-        id="prefix__g"
+        id="JetBrainsFleet__g"
         cx={0}
         cy={0}
         r={1}
@@ -82,7 +82,7 @@ const JetBrainsFleet = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={0.979} stopColor="#9FD7FF" />
       </radialGradient>
       <linearGradient
-        id="prefix__f"
+        id="JetBrainsFleet__f"
         x1={11.644}
         x2={82.363}
         y1={42.432}
@@ -93,7 +93,7 @@ const JetBrainsFleet = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={0.818} stopColor="#FD3AF5" stopOpacity={0.47} />
       </linearGradient>
       <linearGradient
-        id="prefix__h"
+        id="JetBrainsFleet__h"
         x1={33.054}
         x2={37.35}
         y1={23.191}
@@ -106,35 +106,35 @@ const JetBrainsFleet = (props: SVGProps<SVGSVGElement>) => (
       </linearGradient>
     </defs>
     <path
-      fill="url(#prefix__a)"
+      fill="url(#JetBrainsFleet__a)"
       d="M65.153 30.85c0 9.496-10.163 17.194-22.7 17.194S19.754 40.346 19.754 30.85s10.163-17.194 22.7-17.194 22.699 7.698 22.699 17.194"
     />
     <path
-      fill="url(#prefix__b)"
+      fill="url(#JetBrainsFleet__b)"
       d="M65.153 30.85c0 9.496-10.163 17.194-22.7 17.194S19.754 40.346 19.754 30.85s10.163-17.194 22.7-17.194 22.699 7.698 22.699 17.194"
     />
     <path
-      fill="url(#prefix__c)"
+      fill="url(#JetBrainsFleet__c)"
       d="M66 35c0 17.12-13.88 31-31 31S4 52.12 4 35 17.88 4 35 4c8.046 3.642 16.464 17.194 19.99 21.429 3.524 4.235 12.648 9.571 8.176-1.623C65.073 26.832 66 31.852 66 35"
     />
     <path
-      fill="url(#prefix__d)"
+      fill="url(#JetBrainsFleet__d)"
       d="M66 35c0 17.12-13.88 31-31 31S4 52.12 4 35 17.88 4 35 4c8.046 3.642 16.464 17.194 19.99 21.429 3.524 4.235 12.648 9.571 8.176-1.623C65.073 26.832 66 31.852 66 35"
     />
     <path
-      fill="url(#prefix__e)"
+      fill="url(#JetBrainsFleet__e)"
       d="M66 35c0 17.12-13.88 31-31 31S4 52.12 4 35 17.88 4 35 4c8.046 3.642 16.464 17.194 19.99 21.429 3.524 4.235 12.648 9.571 8.176-1.623C65.073 26.832 66 31.852 66 35"
     />
     <path
-      fill="url(#prefix__f)"
+      fill="url(#JetBrainsFleet__f)"
       d="M66 35c0 17.12-13.88 31-31 31S4 52.12 4 35 17.88 4 35 4c8.046 3.642 16.464 17.194 19.99 21.429 3.524 4.235 12.648 9.571 8.176-1.623C65.073 26.832 66 31.852 66 35"
     />
     <path
-      fill="url(#prefix__g)"
+      fill="url(#JetBrainsFleet__g)"
       d="M56.651 39.682c1.658 7.764-6.511 16.089-18.246 18.594s-22.59-1.757-24.248-9.52c-1.658-7.764 6.511-16.089 18.246-18.594s22.59 1.757 24.248 9.52"
     />
     <path
-      fill="url(#prefix__h)"
+      fill="url(#JetBrainsFleet__h)"
       d="M56.651 39.682c1.658 7.764-6.511 16.089-18.246 18.594s-22.59-1.757-24.248-9.52c-1.658-7.764 6.511-16.089 18.246-18.594s22.59 1.757 24.248 9.52"
     />
     <path

@@ -10,7 +10,7 @@ const PolarDark = (props: SVGProps<SVGSVGElement>) => (
     preserveAspectRatio="xMidYMid meet"
     {...props}
   >
-    <g clipPath="url(#prefix__a)">
+    <g clipPath="url(#PolarDark__a)">
       <path
         fill="#fff"
         fillRule="evenodd"
@@ -19,7 +19,7 @@ const PolarDark = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="prefix__a">
+      <clipPath id="PolarDark__a">
         <path fill="#fff" d="M0 0h300v300H0z" />
       </clipPath>
     </defs>

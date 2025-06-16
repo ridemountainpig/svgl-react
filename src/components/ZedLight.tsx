@@ -10,7 +10,7 @@ const ZedLight = (props: SVGProps<SVGSVGElement>) => (
     preserveAspectRatio="xMidYMid meet"
     {...props}
   >
-    <g clipPath="url(#prefix__a)">
+    <g clipPath="url(#ZedLight__a)">
       <path
         fill="currentColor"
         fillRule="evenodd"
@@ -19,7 +19,7 @@ const ZedLight = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="prefix__a">
+      <clipPath id="ZedLight__a">
         <path fill="#fff" d="M0 0h96v96H0z" />
       </clipPath>
     </defs>

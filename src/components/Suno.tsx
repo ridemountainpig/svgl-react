@@ -4,7 +4,7 @@ const Suno = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
-    className="prefix__styles_icon__x_9Ga prefix__styles_icon__rC_ZS"
+    className="Suno__styles_icon__x_9Ga Suno__styles_icon__rC_ZS"
     viewBox="0 0 122 122"
     width="100%"
     height="100%"

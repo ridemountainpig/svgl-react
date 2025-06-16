@@ -3,7 +3,7 @@ import type { SVGProps } from "react";
 const Facebook = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    fill="url(#prefix__a)"
+    fill="url(#Facebook__a)"
     viewBox="0 0 36 36"
     width="100%"
     height="100%"
@@ -11,7 +11,7 @@ const Facebook = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <defs>
-      <linearGradient id="prefix__a" x1="50%" x2="50%" y1="97.078%" y2="0%">
+      <linearGradient id="Facebook__a" x1="50%" x2="50%" y1="97.078%" y2="0%">
         <stop offset="0%" stopColor="#0062E0" />
         <stop offset="100%" stopColor="#19AFFF" />
       </linearGradient>

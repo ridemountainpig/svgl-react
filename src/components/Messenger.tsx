@@ -11,7 +11,7 @@ const Messenger = (props: SVGProps<SVGSVGElement>) => (
   >
     <defs>
       <radialGradient
-        id="prefix__a"
+        id="Messenger__a"
         cx="19.247%"
         cy="99.465%"
         r="108.96%"
@@ -25,7 +25,7 @@ const Messenger = (props: SVGProps<SVGSVGElement>) => (
       </radialGradient>
     </defs>
     <path
-      fill="url(#prefix__a)"
+      fill="url(#Messenger__a)"
       d="M128 0C55.894 0 0 52.818 0 124.16c0 37.317 15.293 69.562 40.2 91.835 2.09 1.871 3.352 4.493 3.438 7.298l.697 22.77c.223 7.262 7.724 11.988 14.37 9.054L84.111 243.9a10.22 10.22 0 0 1 6.837-.501c11.675 3.21 24.1 4.92 37.052 4.92 72.106 0 128-52.818 128-124.16S200.106 0 128 0"
     />
     <path

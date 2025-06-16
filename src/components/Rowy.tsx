@@ -10,22 +10,22 @@ const Rowy = (props: SVGProps<SVGSVGElement>) => (
     preserveAspectRatio="xMidYMid meet"
     {...props}
   >
-    <g clipPath="url(#prefix__a)">
-      <g clipPath="url(#prefix__b)">
+    <g clipPath="url(#Rowy__a)">
+      <g clipPath="url(#Rowy__b)">
         <path fill="#fff" d="M0 0h26v26H0z" />
-        <path fill="url(#prefix__c)" d="M0 0h26v26H0z" />
-        <path fill="url(#prefix__d)" fillOpacity={0.8} d="M0 0h26v26H0z" />
+        <path fill="url(#Rowy__c)" d="M0 0h26v26H0z" />
+        <path fill="url(#Rowy__d)" fillOpacity={0.8} d="M0 0h26v26H0z" />
         <g
           style={{
             mixBlendMode: "overlay",
           }}
         >
-          <path fill="url(#prefix__e)" d="M0 0h26v26H0z" />
-          <path fill="url(#prefix__f)" d="M0 0h26v26H0z" />
+          <path fill="url(#Rowy__e)" d="M0 0h26v26H0z" />
+          <path fill="url(#Rowy__f)" d="M0 0h26v26H0z" />
         </g>
       </g>
       <path
-        fill="url(#prefix__g)"
+        fill="url(#Rowy__g)"
         fillRule="evenodd"
         d="M11.5 18.5v-3h-6v3a3 3 0 1 0 6 0m-5-2h4v2l-.005.15A2 2 0 0 1 8.5 20.5l-.15-.006A2 2 0 0 1 6.5 18.5z"
         clipRule="evenodd"
@@ -37,19 +37,19 @@ const Rowy = (props: SVGProps<SVGSVGElement>) => (
         clipRule="evenodd"
       />
       <path
-        fill="url(#prefix__h)"
+        fill="url(#Rowy__h)"
         fillRule="evenodd"
         d="M11.5 16.5v-6h-6v6zm-5-5h4v4h-4z"
         clipRule="evenodd"
       />
       <path
-        fill="url(#prefix__i)"
+        fill="url(#Rowy__i)"
         fillRule="evenodd"
         d="M18.5 5.5h-3v6h3a3 3 0 1 0 0-6m-1.999 5v-4H18.5l.15.005A2 2 0 0 1 20.5 8.5l-.006.15A2 2 0 0 1 18.5 10.5z"
         clipRule="evenodd"
       />
       <path
-        fill="url(#prefix__j)"
+        fill="url(#Rowy__j)"
         fillRule="evenodd"
         d="M10.5 8.5v3h6v-6h-3a3 3 0 0 0-3 3m3-2h2v4h-4v-2l.005-.15A2 2 0 0 1 13.5 6.5"
         clipRule="evenodd"
@@ -57,7 +57,7 @@ const Rowy = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="prefix__c"
+        id="Rowy__c"
         x1={13}
         x2={13}
         y1={0}
@@ -68,7 +68,7 @@ const Rowy = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#fff" />
       </linearGradient>
       <linearGradient
-        id="prefix__g"
+        id="Rowy__g"
         x1={6}
         x2={6}
         y1={16.499}
@@ -79,7 +79,7 @@ const Rowy = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#FA0" />
       </linearGradient>
       <linearGradient
-        id="prefix__h"
+        id="Rowy__h"
         x1={5.988}
         x2={5.988}
         y1={11.477}
@@ -90,7 +90,7 @@ const Rowy = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#F0A" />
       </linearGradient>
       <linearGradient
-        id="prefix__i"
+        id="Rowy__i"
         x1={16.517}
         x2={21.5}
         y1={10.992}
@@ -101,7 +101,7 @@ const Rowy = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#0FA" />
       </linearGradient>
       <linearGradient
-        id="prefix__j"
+        id="Rowy__j"
         x1={16.5}
         x2={11.497}
         y1={5.998}
@@ -112,7 +112,7 @@ const Rowy = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#4200FF" />
       </linearGradient>
       <radialGradient
-        id="prefix__d"
+        id="Rowy__d"
         cx={0}
         cy={0}
         r={1}
@@ -124,7 +124,7 @@ const Rowy = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#C6C6C6" />
       </radialGradient>
       <radialGradient
-        id="prefix__e"
+        id="Rowy__e"
         cx={0}
         cy={0}
         r={1}
@@ -136,7 +136,7 @@ const Rowy = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#4200FF" />
       </radialGradient>
       <radialGradient
-        id="prefix__f"
+        id="Rowy__f"
         cx={0}
         cy={0}
         r={1}
@@ -147,10 +147,10 @@ const Rowy = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={0.49} stopColor="#0AF" />
         <stop offset={1} stopColor="#4200FF" stopOpacity={0} />
       </radialGradient>
-      <clipPath id="prefix__a">
+      <clipPath id="Rowy__a">
         <rect width={26} height={26} fill="#fff" rx={8} />
       </clipPath>
-      <clipPath id="prefix__b">
+      <clipPath id="Rowy__b">
         <path fill="#fff" d="M0 0h26v26H0z" />
       </clipPath>
     </defs>

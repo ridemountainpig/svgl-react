@@ -10,7 +10,7 @@ const JQueryLight = (props: SVGProps<SVGSVGElement>) => (
     preserveAspectRatio="xMidYMid meet"
     {...props}
   >
-    <g clipPath="url(#prefix__a)">
+    <g clipPath="url(#JQueryLight__a)">
       <path
         fill="#131B28"
         d="m109.481 22.561.001-.002-1.638 5.805zm7.96 21.272h.002l-10.814.04zm.948-.737 1.884-7.184-1.884 7.185zm30.795-33.084-2.664 12.324 2.664-12.325z"
@@ -57,7 +57,7 @@ const JQueryLight = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="prefix__a">
+      <clipPath id="JQueryLight__a">
         <path fill="#fff" d="M0 0h256v62.669H0z" />
       </clipPath>
     </defs>

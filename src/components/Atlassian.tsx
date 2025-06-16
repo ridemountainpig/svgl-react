@@ -11,7 +11,7 @@ const Atlassian = (props: SVGProps<SVGSVGElement>) => (
   >
     <defs>
       <linearGradient
-        id="prefix__a"
+        id="Atlassian__a"
         x1="99.7%"
         x2="39.8%"
         y1="15.8%"
@@ -22,7 +22,7 @@ const Atlassian = (props: SVGProps<SVGSVGElement>) => (
       </linearGradient>
     </defs>
     <path
-      fill="url(#prefix__a)"
+      fill="url(#Atlassian__a)"
       d="M76 118c-4-4-10-4-13 1L1 245a7 7 0 0 0 6 10h88c3 0 5-1 6-4 19-39 8-98-25-133"
     />
     <path

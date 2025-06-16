@@ -10,8 +10,8 @@ const KickLight = (props: SVGProps<SVGSVGElement>) => (
     preserveAspectRatio="xMidYMid meet"
     {...props}
   >
-    <g clipPath="url(#prefix__a)">
-      <g clipPath="url(#prefix__b)">
+    <g clipPath="url(#KickLight__a)">
+      <g clipPath="url(#KickLight__b)">
         <path
           fill="#53FC18"
           fillRule="evenodd"
@@ -21,10 +21,10 @@ const KickLight = (props: SVGProps<SVGSVGElement>) => (
       </g>
     </g>
     <defs>
-      <clipPath id="prefix__a">
+      <clipPath id="KickLight__a">
         <path fill="#fff" d="M0 0h933v300H0z" />
       </clipPath>
-      <clipPath id="prefix__b">
+      <clipPath id="KickLight__b">
         <path fill="#fff" d="M0 0h933.333v300H0z" />
       </clipPath>
     </defs>

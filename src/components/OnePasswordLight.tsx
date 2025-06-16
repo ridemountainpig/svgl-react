@@ -10,7 +10,7 @@ const OnePasswordLight = (props: SVGProps<SVGSVGElement>) => (
     preserveAspectRatio="xMidYMid meet"
     {...props}
   >
-    <g clipPath="url(#prefix__a)">
+    <g clipPath="url(#OnePasswordLight__a)">
       <path
         fill="#000"
         fillRule="evenodd"
@@ -19,7 +19,7 @@ const OnePasswordLight = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="prefix__a">
+      <clipPath id="OnePasswordLight__a">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

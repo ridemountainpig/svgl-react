@@ -15,7 +15,7 @@ const Cypress = (props: SVGProps<SVGSVGElement>) => (
       d="M.854 30.359A24 24 0 0 1 0 24C0 14.16 6.181 5.16 15.382 1.611l1.207 3.122C8.669 7.79 3.349 15.531 3.349 24.001c0 1.858.247 3.698.733 5.471z"
     />
     <path
-      fill="url(#prefix__a)"
+      fill="url(#Cypress__a)"
       d="M42.45 14.493A20.67 20.67 0 0 0 24.062 3.348c-2.75 0-5.422.53-7.938 1.57l-1.283-3.09A24 24 0 0 1 24.06 0c9.016 0 17.201 4.96 21.36 12.946z"
     />
     <path
@@ -27,12 +27,12 @@ const Cypress = (props: SVGProps<SVGSVGElement>) => (
       d="m37.306 16.074-4.648 11.761-4.679-11.761h-3.828l6.562 16.053-4.668 11.322 3.346.666 11.532-28.041z"
     />
     <path
-      fill="url(#prefix__b)"
+      fill="url(#Cypress__b)"
       d="m26.643 41.99-.815 1.973c-.162.39-.532.655-.95.673q-.411.017-.833.018C14.448 44.65 5.957 37.883 3.853 28.56l-3.267.738c1.18 5.229 4.144 9.975 8.345 13.367A24.15 24.15 0 0 0 24.009 48h.05q.48-.001.959-.02a4.44 4.44 0 0 0 3.91-2.745l1.064-2.58z"
     />
     <defs>
       <linearGradient
-        id="prefix__a"
+        id="Cypress__a"
         x1={21.558}
         x2={39.823}
         y1={-1.549}
@@ -43,7 +43,7 @@ const Cypress = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={0.988} stopColor="#58D09E" stopOpacity={0} />
       </linearGradient>
       <linearGradient
-        id="prefix__b"
+        id="Cypress__b"
         x1={-0.256}
         x2={34.638}
         y1={34.922}

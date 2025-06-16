@@ -11,7 +11,7 @@ const EclipseIDE = (props: SVGProps<SVGSVGElement>) => (
   >
     <defs>
       <linearGradient
-        id="prefix__a"
+        id="EclipseIDE__a"
         x1="50%"
         x2="50%"
         y1="1089.396%"
@@ -21,7 +21,7 @@ const EclipseIDE = (props: SVGProps<SVGSVGElement>) => (
         <stop offset="87.2%" stopColor="#2C2255" />
       </linearGradient>
       <linearGradient
-        id="prefix__b"
+        id="EclipseIDE__b"
         x1="49.999%"
         x2="49.999%"
         y1="896.537%"
@@ -31,7 +31,7 @@ const EclipseIDE = (props: SVGProps<SVGSVGElement>) => (
         <stop offset="87.2%" stopColor="#2C2255" />
       </linearGradient>
       <linearGradient
-        id="prefix__c"
+        id="EclipseIDE__c"
         x1="49.999%"
         x2="49.999%"
         y1="215.17%"
@@ -50,17 +50,17 @@ const EclipseIDE = (props: SVGProps<SVGSVGElement>) => (
       d="M20.093 120.09C20.093 59.753 65.407 9.621 124.357.803c-1.462-.053-2.932-.112-4.409-.112C53.796.692.164 54.15.164 120.09c0 65.943 53.63 119.397 119.784 119.397 1.482 0 2.951-.056 4.419-.11-58.96-8.817-104.274-58.95-104.274-119.287"
     />
     <path
-      fill="url(#prefix__a)"
+      fill="url(#EclipseIDE__a)"
       d="M155.728 14.226A78 78 0 0 0 153.364.451H2.642A77.8 77.8 0 0 0 .276 14.226z"
       transform="translate(63.083 99.461)"
     />
     <path
-      fill="url(#prefix__b)"
+      fill="url(#EclipseIDE__b)"
       d="M155.728 27.02H.278a77.6 77.6 0 0 0 2.364 13.776h150.724a78 78 0 0 0 2.362-13.776"
       transform="translate(63.083 99.461)"
     />
     <path
-      fill="url(#prefix__c)"
+      fill="url(#EclipseIDE__c)"
       d="M78.003 98.636c31.3 0 58.282-18.441 70.706-45.048H7.297c12.425 26.607 39.405 45.048 70.706 45.048"
       transform="translate(63.083 99.461)"
     />

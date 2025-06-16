@@ -11,11 +11,11 @@ const Supabase = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="url(#prefix__a)"
+      fill="url(#Supabase__a)"
       d="M63.708 110.284c-2.86 3.601-8.658 1.628-8.727-2.97l-1.007-67.251h45.22c8.19 0 12.758 9.46 7.665 15.874z"
     />
     <path
-      fill="url(#prefix__b)"
+      fill="url(#Supabase__b)"
       fillOpacity={0.2}
       d="M63.708 110.284c-2.86 3.601-8.658 1.628-8.727-2.97l-1.007-67.251h45.22c8.19 0 12.758 9.46 7.665 15.874z"
     />
@@ -25,7 +25,7 @@ const Supabase = (props: SVGProps<SVGSVGElement>) => (
     />
     <defs>
       <linearGradient
-        id="prefix__a"
+        id="Supabase__a"
         x1={53.974}
         x2={94.163}
         y1={54.974}
@@ -36,7 +36,7 @@ const Supabase = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#3ECF8E" />
       </linearGradient>
       <linearGradient
-        id="prefix__b"
+        id="Supabase__b"
         x1={36.156}
         x2={54.484}
         y1={30.578}

@@ -10,13 +10,13 @@ const DubLight = (props: SVGProps<SVGSVGElement>) => (
     preserveAspectRatio="xMidYMid meet"
     {...props}
   >
-    <g clipPath="url(#prefix__a)">
+    <g clipPath="url(#DubLight__a)">
       <path
         fill="#000"
         d="M191 95.5c0 52.743-42.757 95.5-95.5 95.5S0 148.243 0 95.5 42.757 0 95.5 0 191 42.757 191 95.5"
       />
       <mask
-        id="prefix__b"
+        id="DubLight__b"
         width={191}
         height={191}
         x={0}
@@ -31,13 +31,13 @@ const DubLight = (props: SVGProps<SVGSVGElement>) => (
           d="M191 95.5c0 52.743-42.757 95.5-95.5 95.5S0 148.243 0 95.5 42.757 0 95.5 0 191 42.757 191 95.5"
         />
       </mask>
-      <g fill="#fff" mask="url(#prefix__b)">
+      <g fill="#fff" mask="url(#DubLight__b)">
         <circle cx={95} cy={100} r={49} />
         <path d="M122-14h22v162h-22z" />
       </g>
     </g>
     <defs>
-      <clipPath id="prefix__a">
+      <clipPath id="DubLight__a">
         <path fill="#fff" d="M0 0h191v191H0z" />
       </clipPath>
     </defs>

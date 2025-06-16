@@ -10,7 +10,7 @@ const OnePasswordDark = (props: SVGProps<SVGSVGElement>) => (
     preserveAspectRatio="xMidYMid meet"
     {...props}
   >
-    <g clipPath="url(#prefix__a)">
+    <g clipPath="url(#OnePasswordDark__a)">
       <path
         fill="#fff"
         fillRule="evenodd"
@@ -19,7 +19,7 @@ const OnePasswordDark = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="prefix__a">
+      <clipPath id="OnePasswordDark__a">
         <path fill="#fff" d="M0 0h32v32H0z" />
       </clipPath>
     </defs>

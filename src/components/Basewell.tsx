@@ -19,7 +19,7 @@ const Basewell = (props: SVGProps<SVGSVGElement>) => (
       d="M46.792 52.664C46.792 31.31 64.102 14 85.456 14h35.928c22.864 0 41.4 18.535 41.4 41.4s-18.536 41.4-41.401 41.4h-74.59z"
     />
     <mask
-      id="prefix__a"
+      id="Basewell__a"
       width={116}
       height={84}
       x={3}
@@ -34,7 +34,7 @@ const Basewell = (props: SVGProps<SVGSVGElement>) => (
         d="M3 108.401c0-21.353 17.31-38.664 38.664-38.664H77.59c22.865 0 41.4 18.536 41.4 41.4 0 22.865-18.535 41.4-41.4 41.4H3z"
       />
     </mask>
-    <g mask="url(#prefix__a)">
+    <g mask="url(#Basewell__a)">
       <path
         fill="#00A5FD"
         d="M46.792 52.664C46.792 31.31 64.102 14 85.456 14h35.928c22.864 0 41.4 18.535 41.4 41.4s-18.536 41.4-41.401 41.4h-74.59z"

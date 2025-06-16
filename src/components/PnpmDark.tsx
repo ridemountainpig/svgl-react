@@ -11,23 +11,23 @@ const PnpmDark = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <defs>
-      <path id="prefix__a" d="M237.6 95h-50V45h50z" />
-      <path id="prefix__b" d="M182.59 95h-50V45h50z" />
-      <path id="prefix__c" d="M127.59 95h-50V45h50z" />
-      <path id="prefix__d" d="M237.6 150h-50v-50h50z" />
-      <path id="prefix__e" d="M182.59 150h-50v-50h50z" />
-      <path id="prefix__f" d="M182.59 205h-50v-50h50z" />
-      <path id="prefix__g" d="M237.6 205h-50v-50h50z" />
-      <path id="prefix__h" d="M127.59 205h-50v-50h50z" />
+      <path id="PnpmDark__a" d="M237.6 95h-50V45h50z" />
+      <path id="PnpmDark__b" d="M182.59 95h-50V45h50z" />
+      <path id="PnpmDark__c" d="M127.59 95h-50V45h50z" />
+      <path id="PnpmDark__d" d="M237.6 150h-50v-50h50z" />
+      <path id="PnpmDark__e" d="M182.59 150h-50v-50h50z" />
+      <path id="PnpmDark__f" d="M182.59 205h-50v-50h50z" />
+      <path id="PnpmDark__g" d="M237.6 205h-50v-50h50z" />
+      <path id="PnpmDark__h" d="M127.59 205h-50v-50h50z" />
     </defs>
-    <use xlinkHref="#prefix__a" fill="#f9ad00" />
-    <use xlinkHref="#prefix__b" fill="#f9ad00" />
-    <use xlinkHref="#prefix__c" fill="#f9ad00" />
-    <use xlinkHref="#prefix__d" fill="#f9ad00" />
-    <use xlinkHref="#prefix__e" fill="#fff" />
-    <use xlinkHref="#prefix__f" fill="#fff" />
-    <use xlinkHref="#prefix__g" fill="#fff" />
-    <use xlinkHref="#prefix__h" fill="#fff" />
+    <use xlinkHref="#PnpmDark__a" fill="#f9ad00" />
+    <use xlinkHref="#PnpmDark__b" fill="#f9ad00" />
+    <use xlinkHref="#PnpmDark__c" fill="#f9ad00" />
+    <use xlinkHref="#PnpmDark__d" fill="#f9ad00" />
+    <use xlinkHref="#PnpmDark__e" fill="#fff" />
+    <use xlinkHref="#PnpmDark__f" fill="#fff" />
+    <use xlinkHref="#PnpmDark__g" fill="#fff" />
+    <use xlinkHref="#PnpmDark__h" fill="#fff" />
   </svg>
 );
 export default PnpmDark;

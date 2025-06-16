@@ -4,7 +4,7 @@ const PatreonLight = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
-    className="prefix__logomark"
+    className="PatreonLight__logomark"
     viewBox="0 0 36 40"
     width="100%"
     height="100%"

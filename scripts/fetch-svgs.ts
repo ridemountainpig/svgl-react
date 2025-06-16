@@ -91,6 +91,24 @@ async function processSVG(
         preserveAspectRatio: "xMidYMid meet",
       },
       dimensions: false,
+      svgoConfig: {
+        plugins: [
+          {
+            name: "preset-default",
+            params: {
+              overrides: {
+                removeViewBox: false,
+              },
+            },
+          },
+          {
+            name: "prefixIds",
+            params: {
+              prefix: `${componentName}`,
+            },
+          },
+        ],
+      },
     },
     { componentName },
   );

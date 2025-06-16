@@ -3,7 +3,7 @@ import type { SVGProps } from "react";
 const OpenBootcamp = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    className="prefix__css-12xw6g8"
+    className="OpenBootcamp__css-12xw6g8"
     viewBox="0 0 70 51"
     width="100%"
     height="100%"

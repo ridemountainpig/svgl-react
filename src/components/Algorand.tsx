@@ -12,7 +12,7 @@ const Algorand = (props: SVGProps<SVGSVGElement>) => (
   >
     <defs>
       <linearGradient
-        id="prefix__d"
+        id="Algorand__d"
         x1={16}
         x2={16}
         y1={0}
@@ -23,7 +23,7 @@ const Algorand = (props: SVGProps<SVGSVGElement>) => (
         <stop offset="100%" stopOpacity={0.5} />
       </linearGradient>
       <filter
-        id="prefix__c"
+        id="Algorand__c"
         width={1.08}
         height={1.097}
         x={-0.04}
@@ -47,18 +47,18 @@ const Algorand = (props: SVGProps<SVGSVGElement>) => (
           values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.199473505 0"
         />
       </filter>
-      <circle id="prefix__a" cx={16} cy={15} r={15} />
+      <circle id="Algorand__a" cx={16} cy={15} r={15} />
     </defs>
     <use
-      xlinkHref="#prefix__a"
-      filter="url(#prefix__c)"
+      xlinkHref="#Algorand__a"
+      filter="url(#Algorand__c)"
       style={{
         display: "inline",
         fillRule: "evenodd",
       }}
     />
     <use
-      xlinkHref="#prefix__a"
+      xlinkHref="#Algorand__a"
       fill="#627eea"
       style={{
         display: "inline",
@@ -68,12 +68,12 @@ const Algorand = (props: SVGProps<SVGSVGElement>) => (
       }}
     />
     <use
-      xlinkHref="#prefix__a"
-      fill="url(#prefix__d)"
+      xlinkHref="#Algorand__a"
+      fill="url(#Algorand__d)"
       style={{
         display: "inline",
         mixBlendMode: "soft-light",
-        fill: "url(#prefix__d)",
+        fill: "url(#Algorand__d)",
         fillRule: "evenodd",
       }}
     />

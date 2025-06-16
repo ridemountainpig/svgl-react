@@ -10,7 +10,7 @@ const InDesign = (props: SVGProps<SVGSVGElement>) => (
     preserveAspectRatio="xMidYMid meet"
     {...props}
   >
-    <g clipPath="url(#prefix__a)">
+    <g clipPath="url(#InDesign__a)">
       <path
         fill="#49021F"
         d="M67.521 0H14.53C6.505 0 0 6.505 0 14.53v50.94C0 73.495 6.505 80 14.53 80H67.52c8.025 0 14.53-6.505 14.53-14.53V14.53C82.051 6.505 75.546 0 67.521 0"
@@ -21,7 +21,7 @@ const InDesign = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="prefix__a">
+      <clipPath id="InDesign__a">
         <path fill="#fff" d="M0 0h82.051v80H0z" />
       </clipPath>
     </defs>
