@@ -11,7 +11,7 @@ const JetbrainsSpace = (props: SVGProps<SVGSVGElement>) => (
   >
     <defs>
       <linearGradient
-        id="prefix__a"
+        id="JetbrainsSpace__a"
         x1="45.082%"
         x2="55.522%"
         y1="-1.343%"
@@ -23,7 +23,7 @@ const JetbrainsSpace = (props: SVGProps<SVGSVGElement>) => (
         <stop offset="100%" stopColor="#07C3F2" />
       </linearGradient>
       <linearGradient
-        id="prefix__b"
+        id="JetbrainsSpace__b"
         x1="-2.942%"
         x2="100.445%"
         y1="38.992%"
@@ -33,7 +33,7 @@ const JetbrainsSpace = (props: SVGProps<SVGSVGElement>) => (
         <stop offset="100%" stopColor="#087CFA" />
       </linearGradient>
       <linearGradient
-        id="prefix__c"
+        id="JetbrainsSpace__c"
         x1="-3.308%"
         x2="111.745%"
         y1="71.807%"
@@ -47,15 +47,15 @@ const JetbrainsSpace = (props: SVGProps<SVGSVGElement>) => (
       </linearGradient>
     </defs>
     <path
-      fill="url(#prefix__a)"
+      fill="url(#JetbrainsSpace__a)"
       d="M46.36 255.991c91.075-7.978 170.982-63.92 209.64-146.768C208.12 40.799 129.873.033 46.36 0Q35.2 0 23.936.99c-38.612 82.903-30.064 180.109 22.424 255Z"
     />
     <path
-      fill="url(#prefix__b)"
+      fill="url(#JetbrainsSpace__b)"
       d="M24.209 1.024a301.4 301.4 0 0 1 134.685 108.199H256C208.263 40.76 130.062-.03 46.6 0Q35.438 0 24.209 1.024"
     />
     <path
-      fill="url(#prefix__c)"
+      fill="url(#JetbrainsSpace__c)"
       d="M158.894 109.223C147.187 186.6 46.258 255.99 46.258 255.99c91.781-8.67 172.23-63.622 209.742-146.768z"
     />
   </svg>

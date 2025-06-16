@@ -10,7 +10,7 @@ const Emacs = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <g fill="none">
-      <rect width={256} height={256} fill="url(#prefix__a)" rx={60} />
+      <rect width={256} height={256} fill="url(#Emacs__a)" rx={60} />
       <path
         fill="#fff"
         fillRule="evenodd"
@@ -19,7 +19,7 @@ const Emacs = (props: SVGProps<SVGSVGElement>) => (
       />
       <defs>
         <linearGradient
-          id="prefix__a"
+          id="Emacs__a"
           x1={0}
           x2={256}
           y1={0}

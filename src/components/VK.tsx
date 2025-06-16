@@ -10,9 +10,9 @@ const VK = (props: SVGProps<SVGSVGElement>) => (
     preserveAspectRatio="xMidYMid meet"
     {...props}
   >
-    <g clipPath="url(#prefix__a)">
+    <g clipPath="url(#VK__a)">
       <mask
-        id="prefix__a"
+        id="VK__a"
         width={256}
         height={256}
         x={0}
@@ -24,7 +24,7 @@ const VK = (props: SVGProps<SVGSVGElement>) => (
       >
         <path fill="#fff" d="M256 0H0v256h256z" />
       </mask>
-      <g mask="url(#prefix__a)">
+      <g mask="url(#VK__a)">
         <path
           fill="#07F"
           d="M0 122.88C0 64.95 0 35.99 18 18 36 0 64.95 0 122.88 0h10.24C191.05 0 220.01 0 238 18c18 18 18 46.95 18 104.88v10.24c0 57.93 0 86.89-18 104.88-18 18-46.95 18-104.88 18h-10.24c-57.93 0-86.89 0-104.88-18C0 220 0 191.06 0 133.13v-10.24z"

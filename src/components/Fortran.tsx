@@ -10,7 +10,7 @@ const Fortran = (props: SVGProps<SVGSVGElement>) => (
     preserveAspectRatio="xMidYMid meet"
     {...props}
   >
-    <g clipPath="url(#prefix__a)">
+    <g clipPath="url(#Fortran__a)">
       <path
         fill="#734F96"
         d="M44.01 299.986C26.274 299.992 0 269.031 0 255.695V43.73C0 25.782 31.051 0 44.452 0L256.81.015C275.136.016 300 29.907 300 44.15v212.173c0 20.902-28.002 43.585-43.791 43.59z"
@@ -21,7 +21,7 @@ const Fortran = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="prefix__a">
+      <clipPath id="Fortran__a">
         <path fill="#fff" d="M0 0h300v299.986H0z" />
       </clipPath>
     </defs>

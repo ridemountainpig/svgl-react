@@ -4,7 +4,7 @@ const Reddit = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
-    className="prefix___1O4jTk-dZ-VIxsCuYB6OR8"
+    className="Reddit___1O4jTk-dZ-VIxsCuYB6OR8"
     viewBox="0 0 216 216"
     width="100%"
     height="100%"
@@ -13,7 +13,7 @@ const Reddit = (props: SVGProps<SVGSVGElement>) => (
   >
     <defs>
       <radialGradient
-        id="prefix__snoo-radial-gragient"
+        id="Reddit__snoo-radial-gragient"
         cx={169.75}
         cy={92.19}
         r={50.98}
@@ -36,15 +36,15 @@ const Reddit = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={0.9} stopColor="#ffebef" />
       </radialGradient>
       <radialGradient
-        xlinkHref="#prefix__snoo-radial-gragient"
-        id="prefix__snoo-radial-gragient-2"
+        xlinkHref="#Reddit__snoo-radial-gragient"
+        id="Reddit__snoo-radial-gragient-2"
         cx={47.31}
         r={50.98}
         fx={47.31}
       />
       <radialGradient
-        xlinkHref="#prefix__snoo-radial-gragient"
-        id="prefix__snoo-radial-gragient-3"
+        xlinkHref="#Reddit__snoo-radial-gragient"
+        id="Reddit__snoo-radial-gragient-3"
         cx={109.61}
         cy={85.59}
         r={153.78}
@@ -53,7 +53,7 @@ const Reddit = (props: SVGProps<SVGSVGElement>) => (
         gradientTransform="matrix(1 0 0 .7 0 25.56)"
       />
       <radialGradient
-        id="prefix__snoo-radial-gragient-4"
+        id="Reddit__snoo-radial-gragient-4"
         cx={-6.01}
         cy={64.68}
         r={12.85}
@@ -70,8 +70,8 @@ const Reddit = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#d4301f" />
       </radialGradient>
       <radialGradient
-        xlinkHref="#prefix__snoo-radial-gragient-4"
-        id="prefix__snoo-radial-gragient-5"
+        xlinkHref="#Reddit__snoo-radial-gragient-4"
+        id="Reddit__snoo-radial-gragient-5"
         cx={-73.55}
         cy={64.68}
         r={12.85}
@@ -80,7 +80,7 @@ const Reddit = (props: SVGProps<SVGSVGElement>) => (
         gradientTransform="matrix(-1.07 0 0 1.55 62.87 27.26)"
       />
       <radialGradient
-        id="prefix__snoo-radial-gragient-6"
+        id="Reddit__snoo-radial-gragient-6"
         cx={107.93}
         cy={166.96}
         r={45.3}
@@ -95,8 +95,8 @@ const Reddit = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} />
       </radialGradient>
       <radialGradient
-        xlinkHref="#prefix__snoo-radial-gragient"
-        id="prefix__snoo-radial-gragient-7"
+        xlinkHref="#Reddit__snoo-radial-gragient"
+        id="Reddit__snoo-radial-gragient-7"
         cx={147.88}
         cy={32.94}
         r={39.77}
@@ -105,7 +105,7 @@ const Reddit = (props: SVGProps<SVGSVGElement>) => (
         gradientTransform="matrix(1 0 0 .98 0 .54)"
       />
       <radialGradient
-        id="prefix__snoo-radial-gragient-8"
+        id="Reddit__snoo-radial-gragient-8"
         cx={131.31}
         cy={73.08}
         r={32.6}
@@ -118,7 +118,7 @@ const Reddit = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={0.75} />
         <stop offset={0.82} stopColor="#172e35" />
       </radialGradient>
-      <style>{".prefix__snoo-cls-11{stroke-width:0;fill:#ffc49c}"}</style>
+      <style>{".Reddit__snoo-cls-11{stroke-width:0;fill:#ffc49c}"}</style>
     </defs>
     <path
       fill="#ff4500"
@@ -129,50 +129,50 @@ const Reddit = (props: SVGProps<SVGSVGElement>) => (
       cx={169.22}
       cy={106.98}
       r={25.22}
-      fill="url(#prefix__snoo-radial-gragient)"
+      fill="url(#Reddit__snoo-radial-gragient)"
       strokeWidth={0}
     />
     <circle
       cx={46.78}
       cy={106.98}
       r={25.22}
-      fill="url(#prefix__snoo-radial-gragient-2)"
+      fill="url(#Reddit__snoo-radial-gragient-2)"
       strokeWidth={0}
     />
     <ellipse
       cx={108.06}
       cy={128.64}
-      fill="url(#prefix__snoo-radial-gragient-3)"
+      fill="url(#Reddit__snoo-radial-gragient-3)"
       strokeWidth={0}
       rx={72}
       ry={54}
     />
     <path
-      fill="url(#prefix__snoo-radial-gragient-4)"
+      fill="url(#Reddit__snoo-radial-gragient-4)"
       strokeWidth={0}
       d="M86.78 123.48c-.42 9.08-6.49 12.38-13.56 12.38s-12.46-4.93-12.04-14.01 6.49-15.02 13.56-15.02 12.46 7.58 12.04 16.66Z"
     />
     <path
-      fill="url(#prefix__snoo-radial-gragient-5)"
+      fill="url(#Reddit__snoo-radial-gragient-5)"
       strokeWidth={0}
       d="M129.35 123.48c.42 9.08 6.49 12.38 13.56 12.38s12.46-4.93 12.04-14.01-6.49-15.02-13.56-15.02-12.46 7.58-12.04 16.66Z"
     />
     <ellipse
       cx={79.63}
       cy={116.37}
-      className="prefix__snoo-cls-11"
+      className="Reddit__snoo-cls-11"
       rx={2.8}
       ry={3.05}
     />
     <ellipse
       cx={146.21}
       cy={116.37}
-      className="prefix__snoo-cls-11"
+      className="Reddit__snoo-cls-11"
       rx={2.8}
       ry={3.05}
     />
     <path
-      fill="url(#prefix__snoo-radial-gragient-6)"
+      fill="url(#Reddit__snoo-radial-gragient-6)"
       strokeWidth={0}
       d="M108.06 142.92c-8.76 0-17.16.43-24.92 1.22-1.33.13-2.17 1.51-1.65 2.74 4.35 10.39 14.61 17.69 26.57 17.69s22.23-7.3 26.57-17.69c.52-1.23-.33-2.61-1.65-2.74-7.77-.79-16.16-1.22-24.92-1.22"
     />
@@ -180,11 +180,11 @@ const Reddit = (props: SVGProps<SVGSVGElement>) => (
       cx={147.49}
       cy={49.43}
       r={17.87}
-      fill="url(#prefix__snoo-radial-gragient-7)"
+      fill="url(#Reddit__snoo-radial-gragient-7)"
       strokeWidth={0}
     />
     <path
-      fill="url(#prefix__snoo-radial-gragient-8)"
+      fill="url(#Reddit__snoo-radial-gragient-8)"
       strokeWidth={0}
       d="M107.8 76.92c-2.14 0-3.87-.89-3.87-2.27 0-16.01 13.03-29.04 29.04-29.04 2.14 0 3.87 1.73 3.87 3.87s-1.73 3.87-3.87 3.87c-11.74 0-21.29 9.55-21.29 21.29 0 1.38-1.73 2.27-3.87 2.27Z"
     />

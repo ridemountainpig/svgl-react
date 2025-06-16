@@ -10,11 +10,11 @@ const Adobe = (props: SVGProps<SVGSVGElement>) => (
     preserveAspectRatio="xMidYMid meet"
     {...props}
   >
-    <g fill="#EB1000" clipPath="url(#prefix__a)">
+    <g fill="#EB1000" clipPath="url(#Adobe__a)">
       <path d="M56.969 0h33.463v80zM33.463 0H0v80zM45.182 29.467 66.52 80H52.566l-6.368-16.054h-15.58z" />
     </g>
     <defs>
-      <clipPath id="prefix__a">
+      <clipPath id="Adobe__a">
         <path fill="#fff" d="M0 0h90.432v80H0z" />
       </clipPath>
     </defs>

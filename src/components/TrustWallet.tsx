@@ -15,12 +15,12 @@ const TrustWallet = (props: SVGProps<SVGSVGElement>) => (
       d="M.71 72.41 222.16.11v500.52C63.98 433.89.71 305.98.71 233.69z"
     />
     <path
-      fill="url(#prefix__a)"
+      fill="url(#TrustWallet__a)"
       d="M443.62 72.41 222.17.11v500.52c158.18-66.74 221.45-194.65 221.45-266.94z"
     />
     <defs>
       <linearGradient
-        id="prefix__a"
+        id="TrustWallet__a"
         x1={385.26}
         x2={216.61}
         y1={-34.78}

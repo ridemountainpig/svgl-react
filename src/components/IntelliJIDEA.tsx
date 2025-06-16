@@ -10,7 +10,13 @@ const IntelliJIDEA = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <defs>
-      <linearGradient id="prefix__a" x1="37%" x2="178.1%" y1="51%" y2="41.9%">
+      <linearGradient
+        id="IntelliJIDEA__a"
+        x1="37%"
+        x2="178.1%"
+        y1="51%"
+        y2="41.9%"
+      >
         <stop offset="9%" stopColor="#FC801D" />
         <stop offset="23%" stopColor="#B07F61" />
         <stop offset="41%" stopColor="#577DB3" />
@@ -18,7 +24,7 @@ const IntelliJIDEA = (props: SVGProps<SVGSVGElement>) => (
         <stop offset="59%" stopColor="#087CFA" />
       </linearGradient>
       <linearGradient
-        id="prefix__b"
+        id="IntelliJIDEA__b"
         x1="73.6%"
         x2="35.6%"
         y1="114.8%"
@@ -36,7 +42,7 @@ const IntelliJIDEA = (props: SVGProps<SVGSVGElement>) => (
         <stop offset="100%" stopColor="#087CFA" />
       </linearGradient>
       <linearGradient
-        id="prefix__c"
+        id="IntelliJIDEA__c"
         x1="28.6%"
         x2="81.8%"
         y1="23.6%"
@@ -52,11 +58,17 @@ const IntelliJIDEA = (props: SVGProps<SVGSVGElement>) => (
         <stop offset="100%" stopColor="#087CFA" />
       </linearGradient>
     </defs>
-    <path fill="url(#prefix__a)" d="M40.5 180.6 2.9 150.8l22.1-41 33.3 11.1z" />
-    <path fill="#087CFA" d="m256 68.2-4.6 148.3-98.6 39.5-53.7-34.7z" />
-    <path fill="url(#prefix__b)" d="m256 68.2-48.8 47.6L144.5 39l31-34.8z" />
     <path
-      fill="url(#prefix__c)"
+      fill="url(#IntelliJIDEA__a)"
+      d="M40.5 180.6 2.9 150.8l22.1-41 33.3 11.1z"
+    />
+    <path fill="#087CFA" d="m256 68.2-4.6 148.3-98.6 39.5-53.7-34.7z" />
+    <path
+      fill="url(#IntelliJIDEA__b)"
+      d="m256 68.2-48.8 47.6L144.5 39l31-34.8z"
+    />
+    <path
+      fill="url(#IntelliJIDEA__c)"
       d="m99.1 221.3-78.5 28.4 16.5-57.5 21.2-71.3L0 101.4 37.1 0l83.8 9.9 86.3 105.9z"
     />
     <path d="M49.1 48h160v160h-160z" />

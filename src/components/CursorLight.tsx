@@ -13,14 +13,17 @@ const CursorLight = (props: SVGProps<SVGSVGElement>) => (
     preserveAspectRatio="xMidYMid meet"
     {...props}
   >
-    <path fill="url(#prefix__a)" d="m11.925 24 10.425-6-10.425-6L1.5 18z" />
-    <path fill="url(#prefix__b)" d="M22.35 18V6L11.925 0v12z" />
-    <path fill="url(#prefix__c)" d="M11.925 0 1.5 6v12l10.425-6z" />
+    <path
+      fill="url(#CursorLight__a)"
+      d="m11.925 24 10.425-6-10.425-6L1.5 18z"
+    />
+    <path fill="url(#CursorLight__b)" d="M22.35 18V6L11.925 0v12z" />
+    <path fill="url(#CursorLight__c)" d="M11.925 0 1.5 6v12l10.425-6z" />
     <path fill="#555" d="M22.35 6 11.925 24V12z" />
     <path d="m22.35 6-10.425 6L1.5 6z" />
     <defs>
       <linearGradient
-        id="prefix__a"
+        id="CursorLight__a"
         x1={11.925}
         x2={11.925}
         y1={12}
@@ -31,7 +34,7 @@ const CursorLight = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={0.658} stopOpacity={0.8} />
       </linearGradient>
       <linearGradient
-        id="prefix__b"
+        id="CursorLight__b"
         x1={22.35}
         x2={11.925}
         y1={6.037}
@@ -42,7 +45,7 @@ const CursorLight = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={0.715} stopOpacity={0} />
       </linearGradient>
       <linearGradient
-        id="prefix__c"
+        id="CursorLight__c"
         x1={11.925}
         x2={1.5}
         y1={0}

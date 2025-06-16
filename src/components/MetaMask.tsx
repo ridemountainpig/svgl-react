@@ -4,7 +4,7 @@ const MetaMask = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
-    id="prefix__Layer_1"
+    id="MetaMask__Layer_1"
     x={0}
     y={0}
     viewBox="0 0 318.6 318.6"
@@ -15,7 +15,7 @@ const MetaMask = (props: SVGProps<SVGSVGElement>) => (
   >
     <style>
       {
-        ".prefix__st1,.prefix__st6{fill:#e4761b;stroke:#e4761b;stroke-linecap:round;stroke-linejoin:round}.prefix__st6{fill:#f6851b;stroke:#f6851b}"
+        ".MetaMask__st1,.MetaMask__st6{fill:#e4761b;stroke:#e4761b;stroke-linecap:round;stroke-linejoin:round}.MetaMask__st6{fill:#f6851b;stroke:#f6851b}"
       }
     </style>
     <path
@@ -27,11 +27,11 @@ const MetaMask = (props: SVGProps<SVGSVGElement>) => (
     />
     <path
       d="m44.4 35.5 98.7 74.6-17.5-44.3zm193.9 171.3-26.5 40.6 56.7 15.6 16.3-55.3zm-204.4.9L50.1 263l56.7-15.6-26.5-40.6z"
-      className="prefix__st1"
+      className="MetaMask__st1"
     />
     <path
       d="m103.6 138.2-15.8 23.9 56.3 2.5-2-60.5zm111.3 0-39-34.8-1.3 61.2 56.2-2.5zM106.8 247.4l33.8-16.5-29.2-22.8zm71.1-16.5 33.9 16.5-4.7-39.3z"
-      className="prefix__st1"
+      className="MetaMask__st1"
     />
     <path
       fill="#d7c1b3"
@@ -63,7 +63,7 @@ const MetaMask = (props: SVGProps<SVGSVGElement>) => (
     />
     <path
       d="m179.8 193.5-6.7 34.1 4.8 3.3 29.2-22.8 1-22.9zm-69.2-8.3.8 22.9 29.2 22.8 4.8-3.3-6.6-34.1z"
-      className="prefix__st6"
+      className="MetaMask__st6"
     />
     <path
       fill="#c0ad9e"
@@ -88,7 +88,7 @@ const MetaMask = (props: SVGProps<SVGSVGElement>) => (
     />
     <path
       d="m267.2 153.5-52.3-15.3 15.9 23.9-23.7 46 31.2-.4h46.5zm-163.6-15.3-52.3 15.3-17.4 54.2h46.4l31.1.4-23.6-46zm71 26.4 3.3-57.7 15.2-41.1h-67.5l15 41.1 3.5 57.7 1.2 18.2.1 44.8h27.7l.2-44.8z"
-      className="prefix__st6"
+      className="MetaMask__st6"
     />
   </svg>
 );

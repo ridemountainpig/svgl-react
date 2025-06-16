@@ -20,7 +20,7 @@ const Alacritty = (props: SVGProps<SVGSVGElement>) => (
   >
     <defs>
       <linearGradient
-        id="prefix__a"
+        id="Alacritty__a"
         x1={0.025}
         x2={1}
         y1={0.079}
@@ -44,8 +44,8 @@ const Alacritty = (props: SVGProps<SVGSVGElement>) => (
         />
       </linearGradient>
       <linearGradient
-        xlinkHref="#prefix__a"
-        id="prefix__b"
+        xlinkHref="#Alacritty__a"
+        id="Alacritty__b"
         x1={19.063}
         x2={19}
         y1={0}
@@ -53,7 +53,7 @@ const Alacritty = (props: SVGProps<SVGSVGElement>) => (
         gradientTransform="matrix(1.40188 0 0 1.34821 21.364 -32.96)"
         gradientUnits="userSpaceOnUse"
       />
-      <clipPath id="prefix__c" clipPathUnits="userSpaceOnUse">
+      <clipPath id="Alacritty__c" clipPathUnits="userSpaceOnUse">
         <path
           d="M14.813 26.75 19 15.945l4.187 10.805L19 43.25Z"
           style={{
@@ -69,7 +69,7 @@ const Alacritty = (props: SVGProps<SVGSVGElement>) => (
         />
       </clipPath>
       <filter
-        id="prefix__d"
+        id="Alacritty__d"
         width={1.192}
         height={1.148}
         x={-0.096}
@@ -108,10 +108,10 @@ const Alacritty = (props: SVGProps<SVGSVGElement>) => (
         d="M43.093-32.96h9.814l21.729 53.928h-9.112L48-20.221 30.476 20.968h-9.112z"
         style={{
           clipRule: "evenodd",
-          fill: "url(#prefix__b)",
+          fill: "url(#Alacritty__b)",
           fillOpacity: 1,
           fillRule: "evenodd",
-          stroke: "url(#prefix__linearGradient10962)",
+          stroke: "url(#Alacritty__linearGradient10962)",
           strokeWidth: 0,
           strokeLinecap: "butt",
           strokeLinejoin: "miter",
@@ -123,7 +123,7 @@ const Alacritty = (props: SVGProps<SVGSVGElement>) => (
       />
       <path
         d="M19 32.395 31.5 0 6.5.133Z"
-        clipPath="url(#prefix__c)"
+        clipPath="url(#Alacritty__c)"
         style={{
           clipRule: "evenodd",
           display: "inline",
@@ -139,7 +139,7 @@ const Alacritty = (props: SVGProps<SVGSVGElement>) => (
           strokeDashoffset: 0,
           strokeOpacity: 1,
           paintOrder: "markers fill stroke",
-          filter: "url(#prefix__d)",
+          filter: "url(#Alacritty__d)",
         }}
         transform="matrix(1.3912 0 0 1.33794 5.567 6.717)"
       />

@@ -11,7 +11,7 @@ const RelaGitDark = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <mask
-      id="prefix__a"
+      id="RelaGitDark__a"
       width={214}
       height={254}
       x={0}
@@ -23,7 +23,7 @@ const RelaGitDark = (props: SVGProps<SVGSVGElement>) => (
     >
       <path fill="#fff" d="M0 .5h214v253H0z" />
     </mask>
-    <g mask="url(#prefix__a)">
+    <g mask="url(#RelaGitDark__a)">
       <path
         fill="#fff"
         fillRule="evenodd"
@@ -31,7 +31,7 @@ const RelaGitDark = (props: SVGProps<SVGSVGElement>) => (
         clipRule="evenodd"
       />
       <mask
-        id="prefix__b"
+        id="RelaGitDark__b"
         width={168}
         height={127}
         x={45}
@@ -46,7 +46,7 @@ const RelaGitDark = (props: SVGProps<SVGSVGElement>) => (
           d="M193 127.848c-21.526 21.282-51.515 29.485-85.5 29.485-25.981 0-41.758 6.191-50.431 13.054C49.063 176.723 45 185.191 45 196.312V253.5h168V127.641z"
         />
       </mask>
-      <g mask="url(#prefix__b)">
+      <g mask="url(#RelaGitDark__b)">
         <path
           fill="#fff"
           fillRule="evenodd"

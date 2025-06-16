@@ -12,7 +12,7 @@ const Ethereum = (props: SVGProps<SVGSVGElement>) => (
   >
     <defs>
       <filter
-        id="prefix__a"
+        id="Ethereum__a"
         width="111.7%"
         height="111.7%"
         x="-5.8%"
@@ -37,7 +37,7 @@ const Ethereum = (props: SVGProps<SVGSVGElement>) => (
         />
       </filter>
       <filter
-        id="prefix__d"
+        id="Ethereum__d"
         width="123.3%"
         height="114.6%"
         x="-11.7%"
@@ -61,31 +61,31 @@ const Ethereum = (props: SVGProps<SVGSVGElement>) => (
           values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.204257246 0"
         />
       </filter>
-      <linearGradient id="prefix__c" x1="50%" x2="50%" y1="0%" y2="100%">
+      <linearGradient id="Ethereum__c" x1="50%" x2="50%" y1="0%" y2="100%">
         <stop offset="0%" stopColor="#FFF" stopOpacity={0.5} />
         <stop offset="100%" stopOpacity={0.5} />
       </linearGradient>
-      <circle id="prefix__b" cx={16} cy={15} r={15} />
+      <circle id="Ethereum__b" cx={16} cy={15} r={15} />
       <path
-        id="prefix__e"
+        id="Ethereum__e"
         d="M16.498 20.968 24 16.616l-7.502 10.379L9 16.615zm0-17.968 7.497 12.22-7.497 4.353L9 15.22z"
       />
     </defs>
     <g fill="none" fillRule="evenodd">
-      <use xlinkHref="#prefix__b" fill="#000" filter="url(#prefix__a)" />
-      <use xlinkHref="#prefix__b" fill="#627EEA" />
+      <use xlinkHref="#Ethereum__b" fill="#000" filter="url(#Ethereum__a)" />
+      <use xlinkHref="#Ethereum__b" fill="#627EEA" />
       <use
-        xlinkHref="#prefix__b"
-        fill="url(#prefix__c)"
+        xlinkHref="#Ethereum__b"
+        fill="url(#Ethereum__c)"
         style={{
           mixBlendMode: "soft-light",
         }}
       />
       <circle cx={16} cy={15} r={14.5} stroke="#000" strokeOpacity={0.097} />
       <g fillRule="nonzero">
-        <use xlinkHref="#prefix__e" fill="#000" filter="url(#prefix__d)" />
+        <use xlinkHref="#Ethereum__e" fill="#000" filter="url(#Ethereum__d)" />
         <use
-          xlinkHref="#prefix__e"
+          xlinkHref="#Ethereum__e"
           fill="#FFF"
           fillOpacity={0}
           fillRule="evenodd"

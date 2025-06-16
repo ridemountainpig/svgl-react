@@ -11,7 +11,7 @@ const Parcel = (props: SVGProps<SVGSVGElement>) => (
   >
     <defs>
       <linearGradient
-        id="prefix__a"
+        id="Parcel__a"
         x1="49.4%"
         x2="50.3%"
         y1="49.5%"
@@ -21,7 +21,7 @@ const Parcel = (props: SVGProps<SVGSVGElement>) => (
         <stop offset="100%" stopOpacity={0} />
       </linearGradient>
       <linearGradient
-        id="prefix__b"
+        id="Parcel__b"
         x1="50.1%"
         x2="49.9%"
         y1="49.9%"
@@ -31,7 +31,7 @@ const Parcel = (props: SVGProps<SVGSVGElement>) => (
         <stop offset="100%" stopOpacity={0} />
       </linearGradient>
       <linearGradient
-        id="prefix__c"
+        id="Parcel__c"
         x1="81.5%"
         x2="93.7%"
         y1="46.5%"
@@ -43,7 +43,7 @@ const Parcel = (props: SVGProps<SVGSVGElement>) => (
         <stop offset="100%" stopColor="#964E23" />
       </linearGradient>
       <linearGradient
-        id="prefix__d"
+        id="Parcel__d"
         x1="63.5%"
         x2="41.4%"
         y1="61.3%"
@@ -53,7 +53,7 @@ const Parcel = (props: SVGProps<SVGSVGElement>) => (
         <stop offset="100%" stopColor="#E4AF76" />
       </linearGradient>
       <linearGradient
-        id="prefix__e"
+        id="Parcel__e"
         x1="50.9%"
         x2="49.2%"
         y1="51.1%"
@@ -68,7 +68,7 @@ const Parcel = (props: SVGProps<SVGSVGElement>) => (
         <stop offset="100%" stopColor="#ECB477" stopOpacity={0} />
       </linearGradient>
       <linearGradient
-        id="prefix__f"
+        id="Parcel__f"
         x1="47.4%"
         x2="22.3%"
         y1="28.9%"
@@ -78,12 +78,12 @@ const Parcel = (props: SVGProps<SVGSVGElement>) => (
         <stop offset="48.3%" stopColor="#9A5227" />
         <stop offset="77.9%" stopColor="#8D4520" />
       </linearGradient>
-      <linearGradient id="prefix__g" x1="41.1%" x2="56.6%" y1="57.3%" y2="45%">
+      <linearGradient id="Parcel__g" x1="41.1%" x2="56.6%" y1="57.3%" y2="45%">
         <stop offset="3.3%" stopColor="#E4AF76" />
         <stop offset="100%" stopColor="#E9B880" />
       </linearGradient>
       <linearGradient
-        id="prefix__h"
+        id="Parcel__h"
         x1="49.6%"
         x2="50.7%"
         y1="50.5%"
@@ -96,20 +96,20 @@ const Parcel = (props: SVGProps<SVGSVGElement>) => (
         <stop offset="77.7%" stopColor="#E4AF76" />
         <stop offset="92.4%" stopColor="#E4AF76" stopOpacity={0} />
       </linearGradient>
-      <linearGradient id="prefix__i" x1="8.2%" x2="93.2%" y1="50%" y2="50%">
+      <linearGradient id="Parcel__i" x1="8.2%" x2="93.2%" y1="50%" y2="50%">
         <stop offset="0%" stopColor="#743F1A" stopOpacity={0} />
         <stop offset="49.3%" stopColor="#743F1A" stopOpacity={0.9} />
         <stop offset="50%" stopColor="#743F1A" stopOpacity={0.9} />
         <stop offset="53%" stopColor="#743F1A" stopOpacity={0.8} />
         <stop offset="100%" stopColor="#743F1A" stopOpacity={0} />
       </linearGradient>
-      <linearGradient id="prefix__j" x1="49.9%" x2="50%" y1="50.1%" y2="50%">
+      <linearGradient id="Parcel__j" x1="49.9%" x2="50%" y1="50.1%" y2="50%">
         <stop offset="0%" stopColor="#322214" />
         <stop offset="24%" stopColor="#322314" />
         <stop offset="100%" stopColor="#322214" stopOpacity={0} />
       </linearGradient>
       <linearGradient
-        id="prefix__k"
+        id="Parcel__k"
         x1="51.4%"
         x2="48.7%"
         y1="48.2%"
@@ -119,19 +119,19 @@ const Parcel = (props: SVGProps<SVGSVGElement>) => (
         <stop offset="41.6%" stopColor="#BA8C5E" />
         <stop offset="81.3%" stopColor="#B5875B" />
       </linearGradient>
-      <linearGradient id="prefix__l" x1="63%" x2="25%" y1="46.8%" y2="8.9%">
+      <linearGradient id="Parcel__l" x1="63%" x2="25%" y1="46.8%" y2="8.9%">
         <stop offset="0%" stopColor="#845F35" />
         <stop offset="43.1%" stopColor="#91673C" />
         <stop offset="44.1%" stopColor="#976A40" />
         <stop offset="87.4%" stopColor="#986B40" />
         <stop offset="100%" stopColor="#AB8157" />
       </linearGradient>
-      <linearGradient id="prefix__m" x1="50%" x2="50.1%" y1="50%" y2="50.1%">
+      <linearGradient id="Parcel__m" x1="50%" x2="50.1%" y1="50%" y2="50.1%">
         <stop offset="0%" stopColor="#322214" stopOpacity={0} />
         <stop offset="100%" stopColor="#322214" />
       </linearGradient>
       <linearGradient
-        id="prefix__n"
+        id="Parcel__n"
         x1="45.7%"
         x2="50.5%"
         y1="62.6%"
@@ -145,11 +145,11 @@ const Parcel = (props: SVGProps<SVGSVGElement>) => (
       </linearGradient>
     </defs>
     <path
-      fill="url(#prefix__a)"
+      fill="url(#Parcel__a)"
       d="m140.5 191.3 70.3-44.4c.2-.2.6 0 .7.2.2.2.1.6-.1.7l-70.5 44.6h-.3v-1Z"
     />
     <path
-      fill="url(#prefix__b)"
+      fill="url(#Parcel__b)"
       d="M140.6 192.5h-.2l-95.8-35.7a.5.5 0 0 1-.3-.7c.1-.3.4-.5.7-.4l95.5 35.6v1.2Z"
     />
     <path
@@ -157,32 +157,32 @@ const Parcel = (props: SVGProps<SVGSVGElement>) => (
       d="m241.1 21.8-11 18.3-44.5 19-2.5 1-39.9 37.3c-.8.8-1.3 1.9-1.4 2.5 0 .2-.2.1-.4 0-.1 0-.4.1-.4 0 0-.9-.1-1.8-1.4-2.6l-20-13L105 75 63.9 64.4l-34.4-8.8L7.7 21.7l.3-.4L90 0h.1L118 42l.5.8c.6.9.7 1.4.7 1.8h.5v-.8l.1-.4v-.2l.2-.5.1-.2a4.6 4.6 0 0 1 .5-.9L145.8 5s0-.1.2 0l95 16.3.1.4Z"
     />
     <path
-      fill="url(#prefix__c)"
+      fill="url(#Parcel__c)"
       d="M119.6 84.4 105 74.9 63.9 64.4l55.3-19.9.1-.3v.3z"
     />
     <path
-      fill="url(#prefix__d)"
+      fill="url(#Parcel__d)"
       d="M119.2 44.5 63.9 64.4l-5-1.3-29.4-7.6L7.7 21.7l.4-.4L89.9 0h.1l28 42 .5.8c.6.9.7 1.4.7 1.8Z"
     />
     <path
-      fill="url(#prefix__e)"
+      fill="url(#Parcel__e)"
       d="M119.4 46.6 67 65.4l-8.1-2L118 42l.5.8c.6.9.7 1.4.7 1.8h.1v2Z"
     />
     <path fill="#D2A679" d="m30.2 55.7-.7-.2L7.7 21.7l.3-.4z" />
     <path
-      fill="url(#prefix__f)"
+      fill="url(#Parcel__f)"
       d="m185.6 59-2.5 1-39.9 37.4c-.8.8-1.3 1.9-1.4 2.5 0 .2-.2.1-.4 0-.1 0-.4.1-.4 0 0-.9-.1-1.8-1.4-2.6l-20-13-.3-39.8v-.3l.4.3 66 14.5Z"
     />
     <path
-      fill="url(#prefix__g)"
+      fill="url(#Parcel__g)"
       d="m241.1 21.8-11 18.3-40.5 17.2-4 1.7-66-14.5a6.2 6.2 0 0 1 1-2.8l25.2-36.6s0-.1.2 0l95 16.2z"
     />
     <path
-      fill="url(#prefix__h)"
+      fill="url(#Parcel__h)"
       d="m189.6 57.3-6.4 2.7-.9.8-63-13.9.3-2.4c0-.5.4-1.7.8-2.4z"
     />
     <path
-      fill="url(#prefix__i)"
+      fill="url(#Parcel__i)"
       d="M121.1 44.8v40.5l-1.5-.9-2-1.3V45l1.6-.5h.5z"
       opacity={0.8}
     />
@@ -195,7 +195,7 @@ const Parcel = (props: SVGProps<SVGSVGElement>) => (
       d="m141.4 100-.7 91.9h-.5L44.3 156c-.5-.2-.6-.8-.6-1.4L39.5 73v-.1h.1v-.1l.1-.2L141 99.9c0 .1.3 0 .4 0Z"
     />
     <path
-      fill="url(#prefix__j)"
+      fill="url(#Parcel__j)"
       d="M140.8 191.6v.3h-.6L44.3 156c-.4-.2-.5-.5-.6-.9l97 36.4Z"
       opacity={0.5}
     />
@@ -204,7 +204,7 @@ const Parcel = (props: SVGProps<SVGSVGElement>) => (
       d="m97.4 135.9 37.1 12.1v36.2L98 170.8l-.6-35Zm18.6 24.3.1 16.8 18 6.6v-17.1l-18-6.3Zm5.3 5.4 3.7 5.8 3.5-3.1.6.7-3.6 3.2 3.6 5.8-.5.4-3.6-5.8-3.6 3.1-.6-.7 3.7-3.2-3.7-5.9zm10.7 6.5v1.7l1 .3v1.8l-1-.3v1.5l-2-3.2zm-3.2-2 .7.2v6.6l-.7-.2V170ZM98.1 154l.3 16.5 17.2 6.3-.1-16.8zm26.9 19.7 1.9 3-3.8-1.4zm2.9-2.8v4.3l-2-2.8zm-7.4-3.9.7.3v6.6l-.7-.3zm1.6 1.8 1.8 2.9-1.8 1.4zm-15.6-8 .7.3v.4c2.2.8 4.2 3 5.3 6.3-.7-1.1-1.3-1.4-2.3-1-.4-.8-1.5-1.2-2.2-.8a2 2 0 0 0-.7-.8v6.3c0 .6-.4 1.1-1.4.9-.9-.2-1.3-1-1.2-2h.5c0 .8.1 1.2.7 1.4.5 0 .7-.1.7-.6V165a1 1 0 0 0-.8.2c-.2-.6-1.3-1.3-2-.8-.7-.9-1.8-1.2-2.4-.6.8-2.3 3-3.1 5.1-2.5zM118 167l2 3.2-2 1.6v-1.5l-.9-.3v-1.8l1 .4V167Zm5.2.7 3.8 1.3-2 1.7zm-7.1-25.2v17l18 6.4v-17.5l-18-6Zm3.3 14.7 10.8 3.7v2.2l-10.8-3.7zm-9.3 4.1c.1 0 .1.8-.1 1h-.4c-.2-.2-.3-.3-.2-.6 0-.2.7-.5.7-.4m1-1.7c.1 0 .1.8-.1 1h-.4c-.2-.2-.3-.3-.2-.6 0-.2.7-.5.7-.4m-2.8 0c.1 0 .1.8-.1 1l-.4-.1c-.2-.1-.3-.3-.2-.5 0-.3.7-.5.7-.5Zm-2.8-.5c.1 0 .1.8-.1 1h-.5c-.1-.1-.2-.3-.1-.5 0-.3.6-.5.7-.5m22.3-11.2 2.6 5.2-1.8-.7v7.5l-1.8-.6V152l-1.7-.6 2.7-3.4Zm-29.9-11.4.3 16.9 17.4 6-.2-17.1zm24 9.4 2.6 5.2-1.8-.6v7.5l-1.8-.7V150l-1.8-.6 2.8-3.4Zm-20.1-6 1.4.5.7 2.4-.8-.1 2.1 5.1-1-4.2h.6l-.7-3 7.4 2.5v4c0 1.5-1.7 3.5-4 2.5v4l3.3 2.2-8-2.8 3.2.2v-4c-2.4-.7-4-3.5-4-5.2z"
     />
     <path
-      fill="url(#prefix__k)"
+      fill="url(#Parcel__k)"
       d="M141.4 100c-.4 0-.7.5-.7 1L39.4 73c0-.2.2-.3.3-.4l-.9-1.7L0 49l.3-.8L105 74.9l34.6 22.4c1.3.8 1.4 1.7 1.4 2.5 0 .2.3.2.4.2"
     />
     <path
@@ -212,7 +212,7 @@ const Parcel = (props: SVGProps<SVGSVGElement>) => (
       d="M216.9 64.2c-.8.8-1.1 1.7-1 2.1l-73.6 34.8h-.1c0-.7-.4-1-.7-1.1l.3-.1a2.7 2.7 0 0 1 .3-.9c.2-.4.5-1 1-1.4l.1-.2 40-37.4 72.4-30.7.4.6z"
     />
     <path
-      fill="url(#prefix__l)"
+      fill="url(#Parcel__l)"
       d="M96 109.1h.1l-.3-20.4c0-.6-.2-2-1-2.6l-37-22.4-17.2-4.4L78 81.7c.9.6 1 1.8 1 2.6l.6 19.8v.1l16.3 5Z"
     />
     <path
@@ -225,7 +225,7 @@ const Parcel = (props: SVGProps<SVGSVGElement>) => (
       d="m216 66.3-4 80c-.1.6-.3.7-.9 1l-70 44.4a1 1 0 0 1-.3.2l.6-92c.2 0 .4.2.4 0v-.1L216 66.2z"
     />
     <path
-      fill="url(#prefix__m)"
+      fill="url(#Parcel__m)"
       d="M212 146.3c-.1.6-.3.7-.9 1l-70 44.4a1 1 0 0 1-.3.2v-.3z"
       opacity={0.5}
     />
@@ -238,7 +238,7 @@ const Parcel = (props: SVGProps<SVGSVGElement>) => (
       d="m183.7 60.8-39.6 36.8c-1 1.1-1.8 2.7-1.8 3.5 0 0-.1.1-.1 0 0-.6-.4-1-.7-1.1l.3-.1a2.7 2.7 0 0 1 .3-.9c.2-.5.6-1.1 1.1-1.6l40-37.3z"
     />
     <path
-      fill="url(#prefix__n)"
+      fill="url(#Parcel__n)"
       d="m175 105.5.1.1 12-6v-.2l.6-19.5c0-1 .6-2 1.5-2.8l39.4-35.5-12 5.1-39.7 36c-1 1-1.3 2.2-1.4 3.2z"
     />
     <path fill="#F8CE93" d="M183.7 60.8 256 29.9l-.4-.6L183.1 60z" />

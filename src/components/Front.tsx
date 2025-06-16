@@ -19,20 +19,20 @@ const Front = (props: SVGProps<SVGSVGElement>) => (
       cx={509}
       cy={426}
       r={108}
-      fill="url(#prefix__a)"
+      fill="url(#Front__a)"
       transform="rotate(90 509 426)"
     />
     <circle
       cx={509}
       cy={426}
       r={108}
-      fill="url(#prefix__b)"
+      fill="url(#Front__b)"
       opacity={0.5}
       transform="rotate(90 509 426)"
     />
     <defs>
       <linearGradient
-        id="prefix__a"
+        id="Front__a"
         x1={428.041}
         x2={591.574}
         y1={502.06}
@@ -43,7 +43,7 @@ const Front = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={0.861} stopColor="#FF0057" />
       </linearGradient>
       <linearGradient
-        id="prefix__b"
+        id="Front__b"
         x1={428.041}
         x2={591.574}
         y1={502.06}

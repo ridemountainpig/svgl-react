@@ -10,13 +10,13 @@ const Telegram = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <defs>
-      <linearGradient id="prefix__a" x1="50%" x2="50%" y1="0%" y2="100%">
+      <linearGradient id="Telegram__a" x1="50%" x2="50%" y1="0%" y2="100%">
         <stop offset="0%" stopColor="#2AABEE" />
         <stop offset="100%" stopColor="#229ED9" />
       </linearGradient>
     </defs>
     <path
-      fill="url(#prefix__a)"
+      fill="url(#Telegram__a)"
       d="M128 0C94.06 0 61.48 13.494 37.5 37.49A128.04 128.04 0 0 0 0 128c0 33.934 13.5 66.514 37.5 90.51C61.48 242.506 94.06 256 128 256s66.52-13.494 90.5-37.49c24-23.996 37.5-56.576 37.5-90.51s-13.5-66.514-37.5-90.51C194.52 13.494 161.94 0 128 0"
     />
     <path

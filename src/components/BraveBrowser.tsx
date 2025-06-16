@@ -11,7 +11,7 @@ const BraveBrowser = (props: SVGProps<SVGSVGElement>) => (
   >
     <defs>
       <linearGradient
-        id="prefix__a"
+        id="BraveBrowser__a"
         x1="0%"
         x2="100.097%"
         y1="50.018%"
@@ -22,7 +22,7 @@ const BraveBrowser = (props: SVGProps<SVGSVGElement>) => (
         <stop offset="100%" stopColor="#FFF" stopOpacity={0.7} />
       </linearGradient>
       <linearGradient
-        id="prefix__b"
+        id="BraveBrowser__b"
         x1="-.039%"
         x2="100%"
         y1="49.982%"
@@ -40,7 +40,7 @@ const BraveBrowser = (props: SVGProps<SVGSVGElement>) => (
       d="M256 97.1 246.7 72l6.4-14.4c.8-1.9.4-4-1-5.5l-17.5-17.7c-7.7-7.7-19.1-10.4-29.4-6.8l-4.9 1.7-26.8-29-45.3-.3h-.3L82.3.4 55.6 29.6l-4.8-1.7c-10.4-3.7-21.9-1-29.6 6.9l-17.8 18c-1.2 1.2-1.5 2.9-.9 4.4l6.7 15L0 97.3 6 120l27.2 103.3c3.1 11.9 10.3 22.3 20.4 29.5 0 0 33 23.3 65.5 44.4 2.9 1.9 5.9 3.2 9.1 3.2s6.2-1.3 9.1-3.2c36.6-24 65.5-44.5 65.5-44.5 10-7.2 17.2-17.6 20.3-29.5l27-103.3z"
     />
     <path
-      fill="url(#prefix__a)"
+      fill="url(#BraveBrowser__a)"
       d="M34.5 227.7 0 99.5l10.1-25.1-7-18.6 16.7-17c5.5-4.9 16.3-6.6 21.3-3.7l26.1 15 34 7.9 26.5-11 2.2 227.7c-.4 32.8 1.7 29.3-22.4 13.8L48 248.6c-6.4-6.1-11.3-13-13.5-20.9"
       opacity={0.15}
       style={{
@@ -48,7 +48,7 @@ const BraveBrowser = (props: SVGProps<SVGSVGElement>) => (
       }}
     />
     <path
-      fill="url(#prefix__b)"
+      fill="url(#BraveBrowser__b)"
       d="m202.2 252.246-50.6 34.6c-14.1 7.7-20.9 15.3-22 11.6-.9-2.9-.2-11.4-.5-24.6l-.6-222.7c.1-2.2 1.6-5.9 4.2-5.5l25.8 7.8 37.2-5.8 24.6-18.1c2.6-2 6.4-1.8 8.8.5l22 21c2 2.1 2.1 6.2.9 8.8l-6.1 11.3 10.1 26.1-34.8 129.4c-5.4 16.1-13 20.3-19 25.6"
       opacity={0.4}
       style={{

@@ -11,7 +11,7 @@ const Pitch = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <linearGradient
-      id="prefix__a"
+      id="Pitch__a"
       x1={63.187}
       x2={-8.41}
       y1={171.884}
@@ -37,7 +37,7 @@ const Pitch = (props: SVGProps<SVGSVGElement>) => (
       style={{
         fillRule: "evenodd",
         clipRule: "evenodd",
-        fill: "url(#prefix__a)",
+        fill: "url(#Pitch__a)",
       }}
     />
   </svg>

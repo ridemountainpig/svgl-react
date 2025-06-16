@@ -11,17 +11,24 @@ const StyledComponents = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <defs>
-      <path id="prefix__a" d="M0 0h318v318H0z" />
-      <mask id="prefix__b" width={318} height={318} x={0} y={0} fill="#fff">
-        <use xlinkHref="#prefix__a" />
+      <path id="StyledComponents__a" d="M0 0h318v318H0z" />
+      <mask
+        id="StyledComponents__b"
+        width={318}
+        height={318}
+        x={0}
+        y={0}
+        fill="#fff"
+      >
+        <use xlinkHref="#StyledComponents__a" />
       </mask>
     </defs>
     <g fill="none" fillRule="evenodd">
       <use
-        xlinkHref="#prefix__a"
+        xlinkHref="#StyledComponents__a"
         stroke="#4a4a4a"
         strokeWidth={8}
-        mask="url(#prefix__b)"
+        mask="url(#StyledComponents__b)"
       />
       <path
         fill="#4a4a4a"

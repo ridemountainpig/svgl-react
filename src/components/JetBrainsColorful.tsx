@@ -11,7 +11,7 @@ const JetBrainsColorful = (props: SVGProps<SVGSVGElement>) => (
   >
     <defs>
       <linearGradient
-        id="prefix__a"
+        id="JetBrainsColorful__a"
         x1="25.2%"
         x2="99.2%"
         y1="43.3%"
@@ -20,35 +20,53 @@ const JetBrainsColorful = (props: SVGProps<SVGSVGElement>) => (
         <stop offset="21%" stopColor="#FE2857" />
         <stop offset="100%" stopColor="#293896" />
       </linearGradient>
-      <linearGradient id="prefix__b" x1="2.3%" x2="90.7%" y1="77.1%" y2="24.1%">
+      <linearGradient
+        id="JetBrainsColorful__b"
+        x1="2.3%"
+        x2="90.7%"
+        y1="77.1%"
+        y2="24.1%"
+      >
         <stop offset="0%" stopColor="#FE2857" />
         <stop offset="1%" stopColor="#FE2857" />
         <stop offset="86%" stopColor="#FF318C" />
       </linearGradient>
-      <linearGradient id="prefix__c" x1="6.3%" x2="94.6%" y1="13.9%" y2="87.7%">
+      <linearGradient
+        id="JetBrainsColorful__c"
+        x1="6.3%"
+        x2="94.6%"
+        y1="13.9%"
+        y2="87.7%"
+      >
         <stop offset="2%" stopColor="#FF318C" />
         <stop offset="21%" stopColor="#FE2857" />
         <stop offset="86%" stopColor="#FDB60D" />
       </linearGradient>
-      <linearGradient id="prefix__d" x1="91.1%" x2="2%" y1="27.7%" y2="68.6%">
+      <linearGradient
+        id="JetBrainsColorful__d"
+        x1="91.1%"
+        x2="2%"
+        y1="27.7%"
+        y2="68.6%"
+      >
         <stop offset="1%" stopColor="#FDB60D" />
         <stop offset="86%" stopColor="#FCF84A" />
       </linearGradient>
     </defs>
     <path
-      fill="url(#prefix__a)"
+      fill="url(#JetBrainsColorful__a)"
       d="M112.7 117.4 42 57.6a25.6 25.6 0 1 0-24.8 43.9h.3l.7.2 89 27.1a6 6 0 0 0 2 .4 6.4 6.4 0 0 0 3.3-11.8Z"
     />
     <path
-      fill="url(#prefix__b)"
+      fill="url(#JetBrainsColorful__b)"
       d="M126.8 18.7A18.6 18.6 0 0 0 98 3L11.8 55.4a25.6 25.6 0 1 0 30.6 41l77.3-63 .6-.5c4.1-3.6 6.5-8.7 6.5-14.2"
     />
     <path
-      fill="url(#prefix__c)"
+      fill="url(#JetBrainsColorful__c)"
       d="M252.2 131.5 121.4 5.5A18.6 18.6 0 1 0 96 32.8l.2.3 139 117a12.6 12.6 0 0 0 17-18.6"
     />
     <path
-      fill="url(#prefix__d)"
+      fill="url(#JetBrainsColorful__d)"
       d="M256 140.6a12.6 12.6 0 0 0-20-10.3L77.9 207.7a25.6 25.6 0 1 0 26.4 43.7l146.4-100.5c3.4-2.4 5.4-6.2 5.4-10.3Z"
     />
     <path d="M75.8 76.9h102.5v102.4H75.8z" />

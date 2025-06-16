@@ -11,7 +11,7 @@ const Pinia = (props: SVGProps<SVGSVGElement>) => (
   >
     <defs>
       <linearGradient
-        id="prefix__a"
+        id="Pinia__a"
         x1="55.342%"
         x2="42.817%"
         y1="0%"
@@ -21,7 +21,7 @@ const Pinia = (props: SVGProps<SVGSVGElement>) => (
         <stop offset="100%" stopColor="#51A256" />
       </linearGradient>
       <linearGradient
-        id="prefix__b"
+        id="Pinia__b"
         x1="55.349%"
         x2="42.808%"
         y1="0%"
@@ -30,12 +30,12 @@ const Pinia = (props: SVGProps<SVGSVGElement>) => (
         <stop offset="0%" stopColor="#52CE63" />
         <stop offset="100%" stopColor="#51A256" />
       </linearGradient>
-      <linearGradient id="prefix__c" x1="50%" x2="50%" y1="0%" y2="58.811%">
+      <linearGradient id="Pinia__c" x1="50%" x2="50%" y1="0%" y2="58.811%">
         <stop offset="0%" stopColor="#8AE99C" />
         <stop offset="100%" stopColor="#52CE63" />
       </linearGradient>
       <linearGradient
-        id="prefix__d"
+        id="Pinia__d"
         x1="51.378%"
         x2="44.585%"
         y1="17.473%"
@@ -46,22 +46,22 @@ const Pinia = (props: SVGProps<SVGSVGElement>) => (
       </linearGradient>
     </defs>
     <path
-      fill="url(#prefix__a)"
+      fill="url(#Pinia__a)"
       d="M67.56 173.328c30.366-2.985 41.08-27.648 44.735-64.823 3.654-37.175-21.174-70.814-31.502-69.799s-43.15 40.322-46.805 77.497c-3.654 37.175 3.205 60.11 33.572 57.125"
       transform="rotate(-38 72.877 106.136)"
     />
     <path
-      fill="url(#prefix__b)"
+      fill="url(#Pinia__b)"
       d="M184.454 186.277c30.367 2.986 36.394-20.032 32.74-57.207-3.655-37.175-35.645-76.4-45.973-77.415s-35.989 32.542-32.334 69.717 15.201 61.92 45.567 64.905"
       transform="rotate(52 178.34 119.085)"
     />
     <path
-      fill="url(#prefix__c)"
+      fill="url(#Pinia__c)"
       d="M129.232 151.601c27.341 0 34.878-26.184 34.878-67.013S138.531 3.745 129.232 3.745 93.605 43.758 93.605 84.588c0 40.829 8.286 67.013 35.627 67.013"
       transform="rotate(7 128.858 77.673)"
     />
     <path
-      fill="url(#prefix__d)"
+      fill="url(#Pinia__d)"
       d="M113.386 330.307c56.896 0 103.038-16.528 103.038-91.482s-46.142-136.462-103.038-136.462c-56.897 0-103.002 61.507-103.002 136.462s46.105 91.482 103.002 91.482"
     />
     <ellipse cx={165.427} cy={216.677} fill="#EAADCC" rx={14.717} ry={6.845} />

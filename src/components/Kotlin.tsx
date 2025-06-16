@@ -11,7 +11,7 @@ const Kotlin = (props: SVGProps<SVGSVGElement>) => (
   >
     <defs>
       <linearGradient
-        id="prefix__a"
+        id="Kotlin__a"
         x1="99.991%"
         x2=".01%"
         y1="-.011%"
@@ -22,7 +22,7 @@ const Kotlin = (props: SVGProps<SVGSVGElement>) => (
         <stop offset="100%" stopColor="#7F52FF" />
       </linearGradient>
     </defs>
-    <path fill="url(#prefix__a)" d="M256 256H0V0h256L128 127.949z" />
+    <path fill="url(#Kotlin__a)" d="M256 256H0V0h256L128 127.949z" />
   </svg>
 );
 export default Kotlin;

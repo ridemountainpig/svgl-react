@@ -10,7 +10,7 @@ const Rsbuild = (props: SVGProps<SVGSVGElement>) => (
     preserveAspectRatio="xMidYMid meet"
     {...props}
   >
-    <g clipPath="url(#prefix__a)">
+    <g clipPath="url(#Rsbuild__a)">
       <path
         fill="#FF5A5A"
         d="M298 1807a4381 4381 0 0 0-180 84l-36 41c-14 37-11 96-17 135l17 36 21-8s9-33 64-89l51-43s181-108 207-120z"
@@ -20,7 +20,7 @@ const Rsbuild = (props: SVGProps<SVGSVGElement>) => (
         d="M424 1839c-77 64-179 98-250 168l-18 26c124-76 251 48 364 81 27 8 2-7 0-25q-3-12 15-39v-28l-78-20 14-70 39-29c8-13 46-33 55-46l-83-19z"
       />
       <path
-        fill="url(#prefix__b)"
+        fill="url(#Rsbuild__b)"
         d="M1989 1829v-91l-4-71-17-68-16-45-25-41-20-36-18 45-34 56-26 32-33 28-63 34h-59l-57-27-51-28-36-47-11-35-20-119-9 24-31 58-36 52-50 45-41 22-54 15-41-2-111-50-55-67-18-36-45 90-51 65-80 84-79 50-69 52c3 30 13 51 28 64 41 32 66 87 104 114 47 35 91 52 134 79 41 25 50 72 86 92 132 74 255 83 287 78 38 7 89-1 127-1 26-6 89-12 122-26 51-21 134-51 184-83 59-38 97-96 111-113 15-17 29-50 40-68 11-24 17-47 26-72z"
       />
       <path
@@ -32,39 +32,39 @@ const Rsbuild = (props: SVGProps<SVGSVGElement>) => (
         d="M1397 1632c16 55 100 69 160 79-51 17-108 9-155-16-26-11-48-54-5-63"
       />
       <path
-        fill="url(#prefix__c)"
+        fill="url(#Rsbuild__c)"
         d="M725 1848c-12-19-179 13-255 105-37 39 15 59 52 54 112-29 96-95 260-77 2 0-29-35-57-82"
       />
       <path
-        fill="url(#prefix__d)"
+        fill="url(#Rsbuild__d)"
         d="M800 1948c-77-29-196 2-256 82-21 28-54 111-17 103 93-21 160-20 172-31 43-41 74-69 186-73-14-18-57-70-85-81"
       />
       <path
-        fill="url(#prefix__e)"
+        fill="url(#Rsbuild__e)"
         d="M946 2047a221 221 0 0 0-230 45c-140 127-121 205-121 205l14 25c39 15 205-32 251-45 87-25 181-34 268-62 0 0-154-149-182-168"
       />
       <path
-        fill="url(#prefix__f)"
+        fill="url(#Rsbuild__f)"
         d="M1647 2224c112 9 220 45 324 84l26 8 21-4c29-46-17-94-46-128-28-28-74-41-111-48-80-8-146 55-214 88"
       />
       <path
-        fill="url(#prefix__g)"
+        fill="url(#Rsbuild__g)"
         d="M1808 2143c67-20 141 3 190 58 0 0 38 23 49 16 10-6-2-53-8-63-34-66-61-106-129-125-33 38-65 79-103 114Z"
       />
       <path
-        fill="url(#prefix__h)"
+        fill="url(#Rsbuild__h)"
         d="M1925 2025c93 30 68 63 153 83 5 1 6-23 6-28 0-27-72-88-111-113-16-11-56 56-48 58"
       />
       <path
-        fill="url(#prefix__i)"
+        fill="url(#Rsbuild__i)"
         d="M1565 949c5 31-5 121-5 121 264-69 624-461 91-385 56-82 171-126 214-220l-2-11a865 865 0 0 0-626 324l-12 35 16 40c109 33 227 24 340 33 0 0-19 53-16 63"
       />
       <path
-        fill="url(#prefix__j)"
+        fill="url(#Rsbuild__j)"
         d="M1511 1376c-47 156 126 190 244 133 264-210 193-699-202-408-22 36-16 132-17 136z"
       />
       <path
-        fill="url(#prefix__k)"
+        fill="url(#Rsbuild__k)"
         d="M1068 1408c10 73 150 88 223 55 172-57 223-391 155-490-6-9-92-21-126-25-97-9-213 81-262 209-14 34 5 77 8 112 5 48-3 103 2 138Z"
       />
       <path
@@ -76,43 +76,43 @@ const Rsbuild = (props: SVGProps<SVGSVGElement>) => (
         d="M1563 1239c-17 41-23 92-11 136 29 67 109 72 155 19 133-142-26-383-144-156Zm-230-2c25-292-280-133-203 78 66 106 180 10 203-78"
       />
       <path
-        fill="url(#prefix__l)"
+        fill="url(#Rsbuild__l)"
         d="M1966 2005c3 19 16 37 16 37l-28-20-19-9 24-41 10 5s-5 12-3 28"
       />
       <path
-        fill="url(#prefix__m)"
+        fill="url(#Rsbuild__m)"
         d="M1907 2104c8 19 34 41 34 41l-65-20-32-3 56-63s-1 26 7 45"
       />
       <path
-        fill="url(#prefix__n)"
+        fill="url(#Rsbuild__n)"
         d="M691 2305s181-54 254-127c49-50 9-112 16-109 50 22 65 55 94 91 13 16 72 54 72 54s-97 14-137 26c-72 22-299 65-299 65"
       />
       <path
-        fill="url(#prefix__o)"
+        fill="url(#Rsbuild__o)"
         d="M1810 2175c7 41 17 52 94 91 3 1-45-15-119-34-25-6-100-18-100-18s54-21 68-30c17-12 62-31 62-31s-6 18-5 22"
       />
       <path
-        fill="url(#prefix__p)"
+        fill="url(#Rsbuild__p)"
         d="M690 2092c-9 2-41 6-73 15l-52 15c-7 2-27 4-34-1-2-2-6-9-3-10 87-19 140-42 178-66 67-40 79-71 84-95 3-10 27 13 35 22l44 45s-63 12-82 18c-43 12-85 53-97 56Z"
       />
       <path
-        fill="url(#prefix__q)"
+        fill="url(#Rsbuild__q)"
         d="M463 1995c80-32 160-59 246-145 6-6 23 8 25 13 12 28 33 58 19 57-85-10-137 26-175 55-27 21-123 23-115 20"
       />
       <path
-        fill="url(#prefix__r)"
+        fill="url(#Rsbuild__r)"
         d="M1978 1628c4 25 4 95 14 100 161 92 398 84 442-121l24-4 22-24a1184 1184 0 0 0 16-118l-13-57-25-52-65-73-71-41-76-23-92-9-70 6-82 20c-13 7-50 29-60 39-5 24-14 71-20 94-3 16-3 50-10 67l-2 35 10 41c22 43 47 71 58 120"
       />
       <path
-        fill="url(#prefix__s)"
+        fill="url(#Rsbuild__s)"
         d="M2049 1759c-111-252 17-502 305-498-67-44-122-50-200-54l-39 6-28-3c-48 14-110 27-146 64-1 22-14 72-19 94-6 16-25 64-24 81l28 67c20 39 31 54 40 98l18 67 9 47z"
       />
       <path
-        fill="url(#prefix__t)"
+        fill="url(#Rsbuild__t)"
         d="M2142 1431c5-10 1-32-15-43-19-11-46-10-58 14-8 19 4 38 23 47 18 10 40 0 50-18"
       />
       <path
-        fill="url(#prefix__u)"
+        fill="url(#Rsbuild__u)"
         d="M2376 1422c-15 26-60 45-115 28-64-20-132-83-80-153 23-31 87-30 132-8 33 16 99 73 63 133"
       />
       <path
@@ -120,7 +120,7 @@ const Rsbuild = (props: SVGProps<SVGSVGElement>) => (
         d="M1990 1483c29 52 46 84 136 84 30 0 36 46 95 94 29 24 86 23 119 3 20-11 27-7 33-3 14 8 17 5 35 4 0 0 22-31 14-52-27-17-49-31-82-30l-19 18-15 22-17 11-26-2a351 351 0 0 1-65-74c-39-40-79-31-129-25-24-14-54-37-79-50"
       />
       <path
-        fill="url(#prefix__v)"
+        fill="url(#Rsbuild__v)"
         d="M653 1827a652 652 0 0 0 450-516l1-48 9-37c-5-34-3-86-5-120l28-12 24-5 19-13c12-30 10-28 8-60-193-387-817-472-1061-93-254 358-28 980 459 922z"
       />
       <path
@@ -128,15 +128,15 @@ const Rsbuild = (props: SVGProps<SVGSVGElement>) => (
         d="M456 1613c15-79 425-129 466-262 18-135 67-150 184-162v-68l-18-16a956 956 0 0 1-136 29c-28 1-70 1-96 8l-10 39c13 27 27 126 27 126a481 481 0 0 1-9 55c-125 96-297 103-434 178l-8 23z"
       />
       <path
-        fill="url(#prefix__w)"
+        fill="url(#Rsbuild__w)"
         d="M754 1790c-492 43-723-595-514-992 0 0-74 57-82 70-98 151-151 263-135 467l27 142 47 95a453 453 0 0 0 525 262l51-10z"
       />
       <path
-        fill="url(#prefix__x)"
+        fill="url(#Rsbuild__x)"
         d="M675 1170c32 39 15 88-23 134-43 53-118 58-157 21-31-29-39-90 29-148 58-49 123-40 151-7"
       />
       <path
-        fill="url(#prefix__y)"
+        fill="url(#Rsbuild__y)"
         d="M558 891c42 42 56 143-48 247-75 75-221 163-321 53-73-80 3-205 75-268 55-49 211-118 294-32"
       />
       <path fill="#564341" d="m515 1567 89 68 120-29 17-157-213 61z" />
@@ -163,7 +163,7 @@ const Rsbuild = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <linearGradient
-        id="prefix__b"
+        id="Rsbuild__b"
         x1={887.4}
         x2={1426.2}
         y1={1515.4}
@@ -175,7 +175,7 @@ const Rsbuild = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#FFA67A" />
       </linearGradient>
       <linearGradient
-        id="prefix__c"
+        id="Rsbuild__c"
         x1={619.7}
         x2={570.9}
         y1={1842.9}
@@ -187,7 +187,7 @@ const Rsbuild = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#F6A66A" />
       </linearGradient>
       <linearGradient
-        id="prefix__d"
+        id="Rsbuild__d"
         x1={697.5}
         x2={637.8}
         y1={1937.2}
@@ -199,7 +199,7 @@ const Rsbuild = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#F6A66A" />
       </linearGradient>
       <linearGradient
-        id="prefix__e"
+        id="Rsbuild__e"
         x1={860.8}
         x2={767.6}
         y1={2032}
@@ -211,7 +211,7 @@ const Rsbuild = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#F6A66A" />
       </linearGradient>
       <linearGradient
-        id="prefix__f"
+        id="Rsbuild__f"
         x1={1837}
         x2={1891.9}
         y1={2168.8}
@@ -223,7 +223,7 @@ const Rsbuild = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#FA9F6E" />
       </linearGradient>
       <linearGradient
-        id="prefix__g"
+        id="Rsbuild__g"
         x1={1929.1}
         x2={2011.7}
         y1={2064.7}
@@ -235,7 +235,7 @@ const Rsbuild = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#FA9F6E" />
       </linearGradient>
       <linearGradient
-        id="prefix__h"
+        id="Rsbuild__h"
         x1={2003.9}
         x2={2071.1}
         y1={1992.4}
@@ -247,7 +247,7 @@ const Rsbuild = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#FA9F6E" />
       </linearGradient>
       <linearGradient
-        id="prefix__i"
+        id="Rsbuild__i"
         x1={1575.7}
         x2={1575.7}
         y1={453.7}
@@ -260,7 +260,7 @@ const Rsbuild = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#FFBD4A" />
       </linearGradient>
       <linearGradient
-        id="prefix__j"
+        id="Rsbuild__j"
         x1={1707.5}
         x2={1992.3}
         y1={1011.2}
@@ -272,7 +272,7 @@ const Rsbuild = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#845750" />
       </linearGradient>
       <linearGradient
-        id="prefix__k"
+        id="Rsbuild__k"
         x1={1264}
         x2={1550.6}
         y1={947.5}
@@ -284,7 +284,7 @@ const Rsbuild = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#845750" />
       </linearGradient>
       <linearGradient
-        id="prefix__l"
+        id="Rsbuild__l"
         x1={1945.7}
         x2={1977.7}
         y1={1986.8}
@@ -295,7 +295,7 @@ const Rsbuild = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#B76455" />
       </linearGradient>
       <linearGradient
-        id="prefix__m"
+        id="Rsbuild__m"
         x1={1867.1}
         x2={1906.2}
         y1={2077.2}
@@ -306,7 +306,7 @@ const Rsbuild = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#B76455" />
       </linearGradient>
       <linearGradient
-        id="prefix__n"
+        id="Rsbuild__n"
         x1={1126.5}
         x2={970.9}
         y1={2143.3}
@@ -317,7 +317,7 @@ const Rsbuild = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#B36F5F" />
       </linearGradient>
       <linearGradient
-        id="prefix__o"
+        id="Rsbuild__o"
         x1={1737.3}
         x2={1777.2}
         y1={2177}
@@ -328,7 +328,7 @@ const Rsbuild = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#B76455" />
       </linearGradient>
       <linearGradient
-        id="prefix__p"
+        id="Rsbuild__p"
         x1={868.7}
         x2={755.2}
         y1={2003.4}
@@ -339,7 +339,7 @@ const Rsbuild = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#B36F5F" />
       </linearGradient>
       <linearGradient
-        id="prefix__q"
+        id="Rsbuild__q"
         x1={757.6}
         x2={663.9}
         y1={1894.8}
@@ -350,7 +350,7 @@ const Rsbuild = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#B36F5F" />
       </linearGradient>
       <linearGradient
-        id="prefix__r"
+        id="Rsbuild__r"
         x1={2394.3}
         x2={2004.9}
         y1={1310.1}
@@ -363,7 +363,7 @@ const Rsbuild = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#FFBC9C" />
       </linearGradient>
       <linearGradient
-        id="prefix__s"
+        id="Rsbuild__s"
         x1={2354}
         x2={1867.7}
         y1={1206.8}
@@ -376,7 +376,7 @@ const Rsbuild = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#ED8870" />
       </linearGradient>
       <linearGradient
-        id="prefix__t"
+        id="Rsbuild__t"
         x1={2105.3}
         x2={2105.3}
         y1={1381.3}
@@ -387,7 +387,7 @@ const Rsbuild = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#fff" />
       </linearGradient>
       <linearGradient
-        id="prefix__u"
+        id="Rsbuild__u"
         x1={2274.5}
         x2={2274.5}
         y1={1272.6}
@@ -398,7 +398,7 @@ const Rsbuild = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#fff" />
       </linearGradient>
       <linearGradient
-        id="prefix__v"
+        id="Rsbuild__v"
         x1={288.4}
         x2={624.3}
         y1={689.3}
@@ -411,7 +411,7 @@ const Rsbuild = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#FFBC9C" />
       </linearGradient>
       <linearGradient
-        id="prefix__w"
+        id="Rsbuild__w"
         x1={11.7}
         x2={616.7}
         y1={1035.8}
@@ -424,7 +424,7 @@ const Rsbuild = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#ED8870" />
       </linearGradient>
       <linearGradient
-        id="prefix__x"
+        id="Rsbuild__x"
         x1={578.3}
         x2={585.4}
         y1={1143.8}
@@ -435,7 +435,7 @@ const Rsbuild = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#fff" />
       </linearGradient>
       <linearGradient
-        id="prefix__y"
+        id="Rsbuild__y"
         x1={367.8}
         x2={381.3}
         y1={852.8}
@@ -445,7 +445,7 @@ const Rsbuild = (props: SVGProps<SVGSVGElement>) => (
         <stop stopColor="#FFF9CE" />
         <stop offset={1} stopColor="#fff" />
       </linearGradient>
-      <clipPath id="prefix__a">
+      <clipPath id="Rsbuild__a">
         <path fill="#fff" d="M0 1h2500v2344H0z" />
       </clipPath>
     </defs>

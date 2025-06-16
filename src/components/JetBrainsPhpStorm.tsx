@@ -12,7 +12,7 @@ const JetBrainsPhpStorm = (props: SVGProps<SVGSVGElement>) => (
   >
     <defs>
       <linearGradient
-        id="prefix__a"
+        id="JetBrainsPhpStorm__a"
         x1={22.7}
         x2={49.807}
         y1={60.354}
@@ -25,7 +25,7 @@ const JetBrainsPhpStorm = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#FF318C" />
       </linearGradient>
       <linearGradient
-        id="prefix__b"
+        id="JetBrainsPhpStorm__b"
         x1={14.919}
         x2={47.777}
         y1={76.279}
@@ -37,7 +37,7 @@ const JetBrainsPhpStorm = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={0.746} stopColor="#FF318C" />
       </linearGradient>
       <linearGradient
-        id="prefix__c"
+        id="JetBrainsPhpStorm__c"
         x1={89.261}
         x2={71.054}
         y1={64.564}
@@ -53,7 +53,7 @@ const JetBrainsPhpStorm = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#B74AF7" />
       </linearGradient>
       <linearGradient
-        id="prefix__d"
+        id="JetBrainsPhpStorm__d"
         x1={74.34}
         x2={44.071}
         y1={90.066}
@@ -64,7 +64,7 @@ const JetBrainsPhpStorm = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={0.783} stopColor="#B74AF7" />
       </linearGradient>
       <linearGradient
-        id="prefix__e"
+        id="JetBrainsPhpStorm__e"
         x1={65.166}
         x2={55.137}
         y1={66.25}
@@ -75,7 +75,7 @@ const JetBrainsPhpStorm = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={0.637} stopColor="#B74AF7" />
       </linearGradient>
       <linearGradient
-        id="prefix__f"
+        id="JetBrainsPhpStorm__f"
         x1={15.922}
         x2={31.544}
         y1={43.224}
@@ -89,27 +89,27 @@ const JetBrainsPhpStorm = (props: SVGProps<SVGSVGElement>) => (
       </linearGradient>
     </defs>
     <path
-      fill="url(#prefix__a)"
+      fill="url(#JetBrainsPhpStorm__a)"
       d="m57.993 21.877-3.202-9.678-14.86 7.183-19.67 1.735 2.7 33.75L50.858 50.2z"
     />
     <path
-      fill="url(#prefix__b)"
+      fill="url(#JetBrainsPhpStorm__b)"
       d="M31.48 30.491 5 23.532l9.152 54.958 49.308-.48z"
     />
     <path
-      fill="url(#prefix__c)"
+      fill="url(#JetBrainsPhpStorm__c)"
       d="m67.896 53.903-11.38-19.478L68.86 23.239l19.647-8.04L101 46.245l-17.992 17.87z"
     />
     <path
-      fill="url(#prefix__d)"
+      fill="url(#JetBrainsPhpStorm__d)"
       d="m83.017 45.832-6.25-12.757-49.008 9.846 5.034 46.795L65.147 101 101 79.54z"
     />
     <path
-      fill="url(#prefix__e)"
+      fill="url(#JetBrainsPhpStorm__e)"
       d="M57.674 48.118 27.76 42.92 64.274 10.7l24.233 4.5-15.019 14.983 3.472 3.086z"
     />
     <path
-      fill="url(#prefix__f)"
+      fill="url(#JetBrainsPhpStorm__f)"
       d="M54.791 12.2 21.376 5 5 23.533l26.527 7.052z"
     />
     <path fill="#000" d="M83 23H23v60h60z" />

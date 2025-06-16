@@ -11,7 +11,7 @@ const Tabby = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <linearGradient
-      id="prefix__a"
+      id="Tabby__a"
       x1={260.967}
       x2={919.184}
       y1={871.181}
@@ -34,11 +34,11 @@ const Tabby = (props: SVGProps<SVGSVGElement>) => (
     <path
       d="m297.54 934.52 585.06-337.8.01-168.9-585.07 337.83z"
       style={{
-        fill: "url(#prefix__a)",
+        fill: "url(#Tabby__a)",
       }}
     />
     <linearGradient
-      id="prefix__b"
+      id="Tabby__b"
       x1={553.505}
       x2={626.647}
       y1={617.828}
@@ -63,11 +63,11 @@ const Tabby = (props: SVGProps<SVGSVGElement>) => (
       d="m297.54 934.52 585.06-337.8.01-168.9-585.07 337.83z"
       style={{
         opacity: 0.16,
-        fill: "url(#prefix__b)",
+        fill: "url(#Tabby__b)",
       }}
     />
     <linearGradient
-      id="prefix__c"
+      id="Tabby__c"
       x1={114.663}
       x2={334.091}
       y1={744.528}
@@ -90,11 +90,11 @@ const Tabby = (props: SVGProps<SVGSVGElement>) => (
     <path
       d="m151.23 681.18-.01 168.91 146.32 84.43V765.65z"
       style={{
-        fill: "url(#prefix__c)",
+        fill: "url(#Tabby__c)",
       }}
     />
     <linearGradient
-      id="prefix__d"
+      id="Tabby__d"
       x1={260.948}
       x2={187.806}
       y1={744.528}
@@ -119,11 +119,11 @@ const Tabby = (props: SVGProps<SVGSVGElement>) => (
       d="m151.23 681.18-.01 168.91 146.32 84.43V765.65z"
       style={{
         opacity: 0.16,
-        fill: "url(#prefix__d)",
+        fill: "url(#Tabby__d)",
       }}
     />
     <linearGradient
-      id="prefix__e"
+      id="Tabby__e"
       x1={114.663}
       x2={553.503}
       y1={237.793}
@@ -146,11 +146,11 @@ const Tabby = (props: SVGProps<SVGSVGElement>) => (
     <path
       d="m151.23 174.45-.02 168.91 292.58 168.91 146.29-84.46z"
       style={{
-        fill: "url(#prefix__e)",
+        fill: "url(#Tabby__e)",
       }}
     />
     <linearGradient
-      id="prefix__f"
+      id="Tabby__f"
       x1={370.656}
       x2={297.509}
       y1={301.128}
@@ -175,11 +175,11 @@ const Tabby = (props: SVGProps<SVGSVGElement>) => (
       d="m151.23 174.45-.02 168.91 292.58 168.91 146.29-84.46z"
       style={{
         opacity: 0.15,
-        fill: "url(#prefix__f)",
+        fill: "url(#Tabby__f)",
       }}
     />
     <linearGradient
-      id="prefix__g"
+      id="Tabby__g"
       x1={78.091}
       x2={736.337}
       y1={554.498}
@@ -202,7 +202,7 @@ const Tabby = (props: SVGProps<SVGSVGElement>) => (
     <path
       d="m297.51 765.64-146.28-84.46 438.85-253.37-438.85-253.36L297.5 90l585.11 337.82z"
       style={{
-        fill: "url(#prefix__g)",
+        fill: "url(#Tabby__g)",
       }}
     />
   </svg>

@@ -12,11 +12,11 @@ const Docusaurus = (props: SVGProps<SVGSVGElement>) => (
   >
     <defs>
       <path
-        id="prefix__a"
+        id="Docusaurus__a"
         d="M4.883.09v1.08a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V.09z"
       />
       <path
-        id="prefix__b"
+        id="Docusaurus__b"
         d="M4.883.09v1.08a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V.09z"
       />
     </defs>
@@ -145,8 +145,11 @@ const Docusaurus = (props: SVGProps<SVGSVGElement>) => (
           <rect width={4.883} height={4.883} x={60.848} y={1.126} rx={1} />
           <rect width={4.883} height={4.883} x={66.635} y={1.126} rx={1} />
           <rect width={4.883} height={4.883} x={77.485} y={1.126} rx={1} />
-          <use xlinkHref="#prefix__a" transform="rotate(-180 38.471 1.648)" />
-          <use xlinkHref="#prefix__b" transform="translate(72.06 3.839)" />
+          <use
+            xlinkHref="#Docusaurus__a"
+            transform="rotate(-180 38.471 1.648)"
+          />
+          <use xlinkHref="#Docusaurus__b" transform="translate(72.06 3.839)" />
         </g>
         <rect
           width={81.379}

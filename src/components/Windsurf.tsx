@@ -10,19 +10,19 @@ const Windsurf = (props: SVGProps<SVGSVGElement>) => (
     preserveAspectRatio="xMidYMid meet"
     {...props}
   >
-    <g filter="url(#prefix__a)">
+    <g filter="url(#Windsurf__a)">
       <path
         fill="#58E5BB"
         d="M42.086 128.474 28.427 90.089c-2.383-6.696 2.436-13.802 9.291-13.48 76.537 3.589 115.804 31.534 112.144 112.12-13.311-56.28-77.153-60.255-107.776-60.255"
       />
     </g>
-    <g filter="url(#prefix__b)">
+    <g filter="url(#Windsurf__b)">
       <path
         fill="#58E5BB"
         d="M21.453 57.833 7.236 20.639C4.662 13.908 9.478 6.6 16.44 6.683c78.163.938 132.738 6.243 132.738 110.722-13.311-56.28-97.101-59.572-127.725-59.572"
       />
     </g>
-    <g filter="url(#prefix__c)">
+    <g filter="url(#Windsurf__c)">
       <path
         fill="#58E5BB"
         d="m63.245 201.377-14.653-41.075c-2.376-6.661 2.376-13.751 9.196-13.388 62.444 3.327 93.677 30.587 90.06 110.239-13.311-56.28-53.76-55.776-84.604-55.776Z"
@@ -30,7 +30,7 @@ const Windsurf = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <filter
-        id="prefix__a"
+        id="Windsurf__a"
         width={122.286}
         height={116.131}
         x={27.81}
@@ -52,7 +52,7 @@ const Windsurf = (props: SVGProps<SVGSVGElement>) => (
         <feBlend in2="shape" result="effect1_innerShadow_15473_4390" />
       </filter>
       <filter
-        id="prefix__b"
+        id="Windsurf__b"
         width={142.645}
         height={114.724}
         x={6.533}
@@ -74,7 +74,7 @@ const Windsurf = (props: SVGProps<SVGSVGElement>) => (
         <feBlend in2="shape" result="effect1_innerShadow_15473_4390" />
       </filter>
       <filter
-        id="prefix__c"
+        id="Windsurf__c"
         width={100.158}
         height={114.252}
         x={47.972}

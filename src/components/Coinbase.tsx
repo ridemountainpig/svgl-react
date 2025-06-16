@@ -10,7 +10,7 @@ const Coinbase = (props: SVGProps<SVGSVGElement>) => (
     preserveAspectRatio="xMidYMid meet"
     {...props}
   >
-    <g clipPath="url(#prefix__a)">
+    <g clipPath="url(#Coinbase__a)">
       <path
         fill="#0052FF"
         d="M0 11.077C0 4.959 4.96 0 11.077 0h25.846C43.041 0 48 4.96 48 11.077v25.846C48 43.041 43.04 48 36.923 48H11.077C4.959 48 0 43.04 0 36.923z"
@@ -21,7 +21,7 @@ const Coinbase = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="prefix__a">
+      <clipPath id="Coinbase__a">
         <rect width={48} height={48} fill="#fff" rx={24} />
       </clipPath>
     </defs>

@@ -4,7 +4,7 @@ const GoogleIdx = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
-    className="prefix__w-8"
+    className="GoogleIdx__w-8"
     viewBox="0 0 192 192"
     width="100%"
     height="100%"

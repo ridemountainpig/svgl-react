@@ -10,7 +10,7 @@ const Lovable = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <mask
-      id="prefix__b"
+      id="Lovable__b"
       width={121}
       height={122}
       x={0}
@@ -21,14 +21,14 @@ const Lovable = (props: SVGProps<SVGSVGElement>) => (
       }}
     >
       <path
-        fill="url(#prefix__a)"
+        fill="url(#Lovable__a)"
         fillRule="evenodd"
         d="M36.069 0c19.92 0 36.068 16.155 36.068 36.084v13.713h12.004c19.92 0 36.069 16.156 36.069 36.084s-16.149 36.083-36.069 36.083H0v-85.88C0 16.155 16.148 0 36.069 0"
         clipRule="evenodd"
       />
     </mask>
-    <g mask="url(#prefix__b)">
-      <g filter="url(#prefix__c)">
+    <g mask="url(#Lovable__b)">
+      <g filter="url(#Lovable__c)">
         <ellipse
           cx={52.738}
           cy={65.101}
@@ -37,7 +37,7 @@ const Lovable = (props: SVGProps<SVGSVGElement>) => (
           ry={81.192}
         />
       </g>
-      <g filter="url(#prefix__d)">
+      <g filter="url(#Lovable__d)">
         <ellipse
           cx={61.673}
           cy={20.547}
@@ -46,7 +46,7 @@ const Lovable = (props: SVGProps<SVGSVGElement>) => (
           ry={81.192}
         />
       </g>
-      <g filter="url(#prefix__e)">
+      <g filter="url(#Lovable__e)">
         <ellipse
           cx={78.666}
           cy={5.268}
@@ -55,7 +55,7 @@ const Lovable = (props: SVGProps<SVGSVGElement>) => (
           ry={71.304}
         />
       </g>
-      <g filter="url(#prefix__f)">
+      <g filter="url(#Lovable__f)">
         <ellipse
           cx={63.121}
           cy={20.527}
@@ -67,7 +67,7 @@ const Lovable = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <filter
-        id="prefix__c"
+        id="Lovable__c"
         width={235.52}
         height={235.159}
         x={-65.022}
@@ -83,7 +83,7 @@ const Lovable = (props: SVGProps<SVGSVGElement>) => (
         />
       </filter>
       <filter
-        id="prefix__d"
+        id="Lovable__d"
         width={281.208}
         height={235.159}
         x={-78.93}
@@ -99,7 +99,7 @@ const Lovable = (props: SVGProps<SVGSVGElement>) => (
         />
       </filter>
       <filter
-        id="prefix__e"
+        id="Lovable__e"
         width={235.52}
         height={215.383}
         x={-39.094}
@@ -115,7 +115,7 @@ const Lovable = (props: SVGProps<SVGSVGElement>) => (
         />
       </filter>
       <filter
-        id="prefix__f"
+        id="Lovable__f"
         width={170.649}
         height={170.432}
         x={-22.204}
@@ -131,7 +131,7 @@ const Lovable = (props: SVGProps<SVGSVGElement>) => (
         />
       </filter>
       <linearGradient
-        id="prefix__a"
+        id="Lovable__a"
         x1={40.453}
         x2={76.933}
         y1={21.433}

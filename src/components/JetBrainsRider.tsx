@@ -10,18 +10,30 @@ const JetBrainsRider = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <defs>
-      <linearGradient id="prefix__a" x1="90.8%" x2="-19.1%" y1="81.8%" y2="19%">
+      <linearGradient
+        id="JetBrainsRider__a"
+        x1="90.8%"
+        x2="-19.1%"
+        y1="81.8%"
+        y2="19%"
+      >
         <stop offset="0%" stopColor="#DD1265" />
         <stop offset="48%" stopColor="#DD1265" />
         <stop offset="94%" stopColor="#FDB60D" />
       </linearGradient>
-      <linearGradient id="prefix__b" x1="36%" x2="53.7%" y1="7.3%" y2="93%">
+      <linearGradient
+        id="JetBrainsRider__b"
+        x1="36%"
+        x2="53.7%"
+        y1="7.3%"
+        y2="93%"
+      >
         <stop offset="14%" stopColor="#087CFA" />
         <stop offset="48%" stopColor="#DD1265" />
         <stop offset="96%" stopColor="#087CFA" />
       </linearGradient>
       <linearGradient
-        id="prefix__c"
+        id="JetBrainsRider__c"
         x1="39.5%"
         x2="56.9%"
         y1="11.4%"
@@ -31,13 +43,16 @@ const JetBrainsRider = (props: SVGProps<SVGSVGElement>) => (
         <stop offset="97%" stopColor="#FDB60D" />
       </linearGradient>
     </defs>
-    <path fill="url(#prefix__a)" d="M256 99.6 76.5 0l120.2 178.5 24.7-16.2z" />
     <path
-      fill="url(#prefix__b)"
+      fill="url(#JetBrainsRider__a)"
+      d="M256 99.6 76.5 0l120.2 178.5 24.7-16.2z"
+    />
+    <path
+      fill="url(#JetBrainsRider__b)"
       d="M184.4 59 161.9 4l-49.7 49 20.3 177.6 48.2 25.4 75.3-44z"
     />
     <path
-      fill="url(#prefix__c)"
+      fill="url(#JetBrainsRider__c)"
       d="M76.5 0 0 51.5l28.5 175.9 73.3 28.2 94.9-77.1z"
     />
     <path d="M48 48.3h160v160H48z" />

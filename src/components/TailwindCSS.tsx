@@ -10,7 +10,7 @@ const TailwindCSS = (props: SVGProps<SVGSVGElement>) => (
     preserveAspectRatio="xMidYMid meet"
     {...props}
   >
-    <g clipPath="url(#prefix__a)">
+    <g clipPath="url(#TailwindCSS__a)">
       <path
         fill="#38bdf8"
         fillRule="evenodd"
@@ -19,7 +19,7 @@ const TailwindCSS = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="prefix__a">
+      <clipPath id="TailwindCSS__a">
         <path fill="#fff" d="M0 0h54v32.4H0z" />
       </clipPath>
     </defs>

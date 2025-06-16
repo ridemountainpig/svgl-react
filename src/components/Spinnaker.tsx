@@ -10,7 +10,13 @@ const Spinnaker = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <defs>
-      <linearGradient id="prefix__a" x1="82.2%" x2="34.6%" y1="6%" y2="106.1%">
+      <linearGradient
+        id="Spinnaker__a"
+        x1="82.2%"
+        x2="34.6%"
+        y1="6%"
+        y2="106.1%"
+      >
         <stop offset="0%" stopColor="#2B3990" />
         <stop offset="16%" stopColor="#1E62A7" />
         <stop offset="32%" stopColor="#1485BC" />
@@ -20,7 +26,7 @@ const Spinnaker = (props: SVGProps<SVGSVGElement>) => (
         <stop offset="100%" stopColor="#00C4E0" />
       </linearGradient>
       <linearGradient
-        id="prefix__b"
+        id="Spinnaker__b"
         x1="-31668%"
         x2="-19806%"
         y1="78954%"
@@ -36,14 +42,14 @@ const Spinnaker = (props: SVGProps<SVGSVGElement>) => (
       </linearGradient>
     </defs>
     <path
-      fill="url(#prefix__a)"
+      fill="url(#Spinnaker__a)"
       d="M22 218.3c98.8 9.8 178.2-48.6 198-73.7C239.8 119.6 209.8 0 209.8 0 177.2 80 118 201.1 21.9 218.4Z"
       style={{
         mixBlendMode: "multiply",
       }}
     />
     <path
-      fill="url(#prefix__b)"
+      fill="url(#Spinnaker__b)"
       d="M67.7 186.4C126 188.6 170.4 152 181 136.7c10.7-15.2-5.7-83.7-5.7-83.7-16.2 47.5-61.3 116.6-107.7 133.4Z"
       style={{
         mixBlendMode: "multiply",

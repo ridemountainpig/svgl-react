@@ -12,7 +12,7 @@ const Zod = (props: SVGProps<SVGSVGElement>) => (
   >
     <defs>
       <filter
-        id="prefix__c"
+        id="Zod__c"
         width="105.2%"
         height="106.5%"
         x="-2.2%"
@@ -31,7 +31,7 @@ const Zod = (props: SVGProps<SVGSVGElement>) => (
         />
       </filter>
       <path
-        id="prefix__a"
+        id="Zod__a"
         d="M200.42 0H53.63L0 53.355l121.76 146.624 9.714-10.9L252 53.857zm-5.362 12.562 39.84 41.6-112.8 126.558L17 54.162l41.815-41.6z"
       />
     </defs>
@@ -48,8 +48,8 @@ const Zod = (props: SVGProps<SVGSVGElement>) => (
       d="m225.56 43.834-147.382 85.09-19.226-24.051 114.099-65.877-2.096-3.631 30.391-17.546zm-78.964-29.759L35.93 77.968 18.719 56.483l74.095-42.78z"
     />
     <g transform="translate(2 1.51)">
-      <use xlinkHref="#prefix__a" filter="url(#prefix__c)" />
-      <use xlinkHref="#prefix__a" fill="#3068B7" />
+      <use xlinkHref="#Zod__a" filter="url(#Zod__c)" />
+      <use xlinkHref="#Zod__a" fill="#3068B7" />
     </g>
   </svg>
 );

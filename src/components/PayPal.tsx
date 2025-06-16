@@ -9,7 +9,7 @@ const PayPal = (props: SVGProps<SVGSVGElement>) => (
     preserveAspectRatio="xMidYMid meet"
     {...props}
   >
-    <g xmlns="http://www.w3.org/2000/svg" clipPath="url(#prefix__a)">
+    <g xmlns="http://www.w3.org/2000/svg" clipPath="url(#PayPal__a)">
       <path
         fill="#002991"
         d="M38.914 13.35c0 5.574-5.144 12.15-12.927 12.15H18.49l-.368 2.322L16.373 39H7.056l5.605-36h15.095c5.083 0 9.082 2.833 10.555 6.77a9.7 9.7 0 0 1 .603 3.58"

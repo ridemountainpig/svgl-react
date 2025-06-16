@@ -11,20 +11,20 @@ const Safari = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <defs>
-      <linearGradient id="prefix__b">
+      <linearGradient id="Safari__b">
         <stop offset={0} stopColor="#06c2e7" />
         <stop offset={0.25} stopColor="#0db8ec" />
         <stop offset={0.5} stopColor="#12aef1" />
         <stop offset={0.75} stopColor="#1f86f9" />
         <stop offset={1} stopColor="#107ddd" />
       </linearGradient>
-      <linearGradient id="prefix__a">
+      <linearGradient id="Safari__a">
         <stop offset={0} stopColor="#bdbdbd" />
         <stop offset={1} stopColor="#fff" />
       </linearGradient>
       <linearGradient
-        xlinkHref="#prefix__a"
-        id="prefix__d"
+        xlinkHref="#Safari__a"
+        id="Safari__d"
         x1={412.975}
         x2={412.975}
         y1={237.608}
@@ -33,7 +33,7 @@ const Safari = (props: SVGProps<SVGSVGElement>) => (
         gradientUnits="userSpaceOnUse"
       />
       <filter
-        id="prefix__f"
+        id="Safari__f"
         width={1.042}
         height={1.045}
         x={-0.021}
@@ -43,7 +43,7 @@ const Safari = (props: SVGProps<SVGSVGElement>) => (
         <feGaussianBlur stdDeviation={0.958} />
       </filter>
       <filter
-        id="prefix__c"
+        id="Safari__c"
         width={1.096}
         height={1.096}
         x={-0.048}
@@ -53,8 +53,8 @@ const Safari = (props: SVGProps<SVGSVGElement>) => (
         <feGaussianBlur stdDeviation={3.564} />
       </filter>
       <radialGradient
-        xlinkHref="#prefix__b"
-        id="prefix__e"
+        xlinkHref="#Safari__b"
+        id="Safari__e"
         cx={413.061}
         cy={136.818}
         r={82.125}
@@ -66,13 +66,13 @@ const Safari = (props: SVGProps<SVGSVGElement>) => (
     </defs>
     <path
       d="M502.083 148.5a89.11 89.11 0 0 1-89.108 89.108 89.11 89.11 0 0 1-89.108-89.108 89.11 89.11 0 0 1 89.108-89.108 89.11 89.11 0 0 1 89.108 89.108"
-      filter="url(#prefix__c)"
+      filter="url(#Safari__c)"
       opacity={0.53}
       paintOrder="markers stroke fill"
       transform="matrix(.33865 0 0 .3261 -106.77 -14.478)"
     />
     <path
-      fill="url(#prefix__d)"
+      fill="url(#Safari__d)"
       stroke="#cdcdcd"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -82,7 +82,7 @@ const Safari = (props: SVGProps<SVGSVGElement>) => (
       transform="translate(-318.886 -180.595)"
     />
     <path
-      fill="url(#prefix__e)"
+      fill="url(#Safari__e)"
       d="M380.84 211.977a28.87 28.87 0 0 1-28.871 28.87 28.87 28.87 0 0 1-28.871-28.87 28.87 28.87 0 0 1 28.87-28.87 28.87 28.87 0 0 1 28.871 28.87"
       paintOrder="markers stroke fill"
       transform="translate(-318.886 -180.595)"
@@ -94,7 +94,7 @@ const Safari = (props: SVGProps<SVGSVGElement>) => (
     />
     <path
       d="m469.096 100.607-65.51 38.061-41.42 65.207 60.595-44.882z"
-      filter="url(#prefix__f)"
+      filter="url(#Safari__f)"
       opacity={0.409}
       paintOrder="markers stroke fill"
       transform="translate(-112.095 -20.822)scale(.35154)"

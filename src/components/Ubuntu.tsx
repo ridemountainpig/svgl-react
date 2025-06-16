@@ -19,13 +19,13 @@ const Ubuntu = (props: SVGProps<SVGSVGElement>) => (
       stroke="#fff"
       strokeWidth={8.6}
     />
-    <g id="prefix__a">
+    <g id="Ubuntu__a">
       <circle cx={19.4} cy={50} r={8.4} fill="#f47421" />
       <path stroke="#f47421" strokeWidth={3.2} d="M67 50h10" />
       <circle cx={19.4} cy={50} r={6} fill="#fff" />
     </g>
-    <use xlinkHref="#prefix__a" transform="rotate(120 50 50)" />
-    <use xlinkHref="#prefix__a" transform="rotate(240 50 50)" />
+    <use xlinkHref="#Ubuntu__a" transform="rotate(120 50 50)" />
+    <use xlinkHref="#Ubuntu__a" transform="rotate(240 50 50)" />
   </svg>
 );
 export default Ubuntu;

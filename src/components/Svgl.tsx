@@ -11,7 +11,7 @@ const Svgl = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <rect
-      id="prefix__b"
+      id="Svgl__b"
       width={512}
       height={512}
       x={0}
@@ -26,7 +26,7 @@ const Svgl = (props: SVGProps<SVGSVGElement>) => (
     <rect
       width={512}
       height={512}
-      fill="url(#prefix__a)"
+      fill="url(#Svgl__a)"
       rx={128}
       style={{
         mixBlendMode: "overlay",
@@ -34,7 +34,7 @@ const Svgl = (props: SVGProps<SVGSVGElement>) => (
     />
     <defs>
       <radialGradient
-        id="prefix__a"
+        id="Svgl__a"
         cx={0}
         cy={0}
         r={1}

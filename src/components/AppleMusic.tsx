@@ -11,7 +11,7 @@ const AppleMusic = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <linearGradient
-      id="prefix__a"
+      id="AppleMusic__a"
       x1={180}
       x2={180}
       y1={358.605}
@@ -36,7 +36,7 @@ const AppleMusic = (props: SVGProps<SVGSVGElement>) => (
       style={{
         fillRule: "evenodd",
         clipRule: "evenodd",
-        fill: "url(#prefix__a)",
+        fill: "url(#AppleMusic__a)",
       }}
     />
     <path

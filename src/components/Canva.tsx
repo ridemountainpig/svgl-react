@@ -10,25 +10,25 @@ const Canva = (props: SVGProps<SVGSVGElement>) => (
     preserveAspectRatio="xMidYMid meet"
     {...props}
   >
-    <g clipPath="url(#prefix__a)">
+    <g clipPath="url(#Canva__a)">
       <path
         fill="#7D2AE7"
         d="M40 80c22.091 0 40-17.909 40-40S62.091 0 40 0 0 17.909 0 40s17.909 40 40 40"
       />
       <path
-        fill="url(#prefix__b)"
+        fill="url(#Canva__b)"
         d="M40 80c22.091 0 40-17.909 40-40S62.091 0 40 0 0 17.909 0 40s17.909 40 40 40"
       />
       <path
-        fill="url(#prefix__c)"
+        fill="url(#Canva__c)"
         d="M40 80c22.091 0 40-17.909 40-40S62.091 0 40 0 0 17.909 0 40s17.909 40 40 40"
       />
       <path
-        fill="url(#prefix__d)"
+        fill="url(#Canva__d)"
         d="M40 80c22.091 0 40-17.909 40-40S62.091 0 40 0 0 17.909 0 40s17.909 40 40 40"
       />
       <path
-        fill="url(#prefix__e)"
+        fill="url(#Canva__e)"
         d="M40 80c22.091 0 40-17.909 40-40S62.091 0 40 0 0 17.909 0 40s17.909 40 40 40"
       />
       <path
@@ -38,7 +38,7 @@ const Canva = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <radialGradient
-        id="prefix__b"
+        id="Canva__b"
         cx={0}
         cy={0}
         r={1}
@@ -49,7 +49,7 @@ const Canva = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#6420FF" stopOpacity={0} />
       </radialGradient>
       <radialGradient
-        id="prefix__c"
+        id="Canva__c"
         cx={0}
         cy={0}
         r={1}
@@ -60,7 +60,7 @@ const Canva = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#00C4CC" stopOpacity={0} />
       </radialGradient>
       <radialGradient
-        id="prefix__d"
+        id="Canva__d"
         cx={0}
         cy={0}
         r={1}
@@ -71,7 +71,7 @@ const Canva = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#6420FF" stopOpacity={0} />
       </radialGradient>
       <radialGradient
-        id="prefix__e"
+        id="Canva__e"
         cx={0}
         cy={0}
         r={1}
@@ -82,7 +82,7 @@ const Canva = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={0} stopColor="#00C4CC" />
         <stop offset={1} stopColor="#00C4CC" stopOpacity={0} />
       </radialGradient>
-      <clipPath id="prefix__a">
+      <clipPath id="Canva__a">
         <path fill="#fff" d="M0 0h80v80H0z" />
       </clipPath>
     </defs>

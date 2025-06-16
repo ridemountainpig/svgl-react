@@ -10,7 +10,7 @@ const PyCharm = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <linearGradient
-      id="prefix__a"
+      id="PyCharm__a"
       x1={38.78}
       x2={95.91}
       y1={41.59}
@@ -21,7 +21,7 @@ const PyCharm = (props: SVGProps<SVGSVGElement>) => (
       <stop offset={1} stopColor="#07c3f2" />
     </linearGradient>
     <linearGradient
-      id="prefix__b"
+      id="PyCharm__b"
       x1={-29.18}
       x2={88.46}
       y1={85.52}
@@ -43,7 +43,7 @@ const PyCharm = (props: SVGProps<SVGSVGElement>) => (
       <stop offset={1} stopColor="#07c3f2" />
     </linearGradient>
     <linearGradient
-      id="prefix__c"
+      id="PyCharm__c"
       x1={17.3}
       x2={36.92}
       y1={110.99}
@@ -61,7 +61,7 @@ const PyCharm = (props: SVGProps<SVGSVGElement>) => (
       <stop offset={1} stopColor="#fcf84a" />
     </linearGradient>
     <linearGradient
-      id="prefix__d"
+      id="PyCharm__d"
       x1={43.28}
       x2={85.97}
       y1={57.46}
@@ -80,7 +80,7 @@ const PyCharm = (props: SVGProps<SVGSVGElement>) => (
       <stop offset={1} stopColor="#fcf84a" />
     </linearGradient>
     <linearGradient
-      id="prefix__e"
+      id="PyCharm__e"
       x1={108.58}
       x2={22.55}
       y1={64.77}
@@ -94,20 +94,20 @@ const PyCharm = (props: SVGProps<SVGSVGElement>) => (
       <stop offset={1} stopColor="#3bea62" />
     </linearGradient>
     <path
-      fill="url(#prefix__a)"
+      fill="url(#PyCharm__a)"
       d="m71.81 19.65 28.05 23.33-10.1 20.55-16.91-4.69H58.22z"
     />
     <path
-      fill="url(#prefix__b)"
+      fill="url(#PyCharm__b)"
       d="m43.55 34.8-5.43 28.73-.52 9.76-13.69 5.93L4.5 81.31l5.89-62.07L45.56 4.5l21.67 14.21z"
     />
     <path
-      fill="url(#prefix__c)"
+      fill="url(#PyCharm__c)"
       d="m43.55 34.8 2.64 55.36-8.77 10.34L4.5 81.31l27.03-40.28z"
     />
-    <path fill="url(#prefix__d)" d="M79.77 30.76H46.51L75.9 4.5z" />
+    <path fill="url(#PyCharm__d)" d="M79.77 30.76H46.51L75.9 4.5z" />
     <path
-      fill="url(#prefix__e)"
+      fill="url(#PyCharm__e)"
       d="m100.5 90.38-29.28 9.94-38.99-10.98L43.55 34.8l4.52-4.04 23.74-2.23-2.15 23.84 18.88-7.32z"
     />
     <path d="M22.5 22.5h60v60h-60z" />
