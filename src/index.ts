@@ -544,6 +544,7 @@ export { default as TypeGPULight } from "./components/TypeGPULight";
 export { default as TypeORM } from "./components/TypeORM";
 export { default as TypeScript } from "./components/TypeScript";
 export { default as Typesense } from "./components/Typesense";
+export { default as UV } from "./components/UV";
 export { default as UXAnaRangelDark } from "./components/UXAnaRangelDark";
 export { default as UXAnaRangelLight } from "./components/UXAnaRangelLight";
 export { default as UXCorpRangelDark } from "./components/UXCorpRangelDark";
@@ -1165,6 +1166,7 @@ export type SvglComponentName =
   | "TypeORM"
   | "TypeScript"
   | "Typesense"
+  | "UV"
   | "UXAnaRangelDark"
   | "UXAnaRangelLight"
   | "UXCorpRangelDark"

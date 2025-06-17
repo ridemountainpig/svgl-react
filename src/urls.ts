@@ -458,6 +458,7 @@ export const TypeGPUUrl = "https://typegpu.com";
 export const TypeORMUrl = "https://typeorm.io/";
 export const TypeScriptUrl = "https://www.typescriptlang.org";
 export const TypesenseUrl = "https://typesense.org/";
+export const UVUrl = "https://docs.astral.sh/uv/";
 export const UXAnaRangelUrl = "https://uxanarangel.com/";
 export const UXCorpRangelUrl = "https://github.com/UXCorpRangel/";
 export const UberUrl = "https://www.uber.com";
