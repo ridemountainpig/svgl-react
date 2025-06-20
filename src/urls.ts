@@ -294,6 +294,7 @@ export const OllamaUrl = "https://www.ollama.com/";
 export const OnePasswordUrl = "https://1password.com";
 export const OpenAIUrl = "https://openai.com/";
 export const OpenBootcampUrl = "https://open-bootcamp.com/";
+export const OpenRouterUrl = "https://openrouter.ai/";
 export const OpenSeaUrl = "https://opensea.io/";
 export const OpenWebUIUrl = "https://openwebui.com/";
 export const OperaUrl = "https://www.opera.com";
