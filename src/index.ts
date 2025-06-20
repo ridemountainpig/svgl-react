@@ -344,6 +344,8 @@ export { default as OnePasswordLight } from "./components/OnePasswordLight";
 export { default as OpenAIDark } from "./components/OpenAIDark";
 export { default as OpenAILight } from "./components/OpenAILight";
 export { default as OpenBootcamp } from "./components/OpenBootcamp";
+export { default as OpenRouterDark } from "./components/OpenRouterDark";
+export { default as OpenRouterLight } from "./components/OpenRouterLight";
 export { default as OpenSea } from "./components/OpenSea";
 export { default as OpenWebUI } from "./components/OpenWebUI";
 export { default as Opera } from "./components/Opera";
@@ -966,6 +968,8 @@ export type SvglComponentName =
   | "OpenAIDark"
   | "OpenAILight"
   | "OpenBootcamp"
+  | "OpenRouterDark"
+  | "OpenRouterLight"
   | "OpenSea"
   | "OpenWebUI"
   | "Opera"
