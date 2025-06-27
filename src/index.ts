@@ -254,6 +254,8 @@ export { default as Julia } from "./components/Julia";
 export { default as Keycloak } from "./components/Keycloak";
 export { default as KickDark } from "./components/KickDark";
 export { default as KickLight } from "./components/KickLight";
+export { default as KokonutUIDark } from "./components/KokonutUIDark";
+export { default as KokonutUILight } from "./components/KokonutUILight";
 export { default as Kotlin } from "./components/Kotlin";
 export { default as KrakenJS } from "./components/KrakenJS";
 export { default as Kubernetes } from "./components/Kubernetes";
@@ -878,6 +880,8 @@ export type SvglComponentName =
   | "Keycloak"
   | "KickDark"
   | "KickLight"
+  | "KokonutUIDark"
+  | "KokonutUILight"
   | "Kotlin"
   | "KrakenJS"
   | "Kubernetes"
