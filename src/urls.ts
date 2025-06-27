@@ -217,6 +217,7 @@ export const JetbrainsSpaceUrl = "https://www.jetbrains.com/space/";
 export const JuliaUrl = "https://julialang.org/";
 export const KeycloakUrl = "https://keycloak.org";
 export const KickUrl = "https://kick.com/";
+export const KokonutUIUrl = "https://kokonutui.com/";
 export const KotlinUrl = "https://kotlinlang.org/";
 export const KrakenJSUrl = "https://krakenjs.com/";
 export const KubernetesUrl = "https://kubernetes.io/";
