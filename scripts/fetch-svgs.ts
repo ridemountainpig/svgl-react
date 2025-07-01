@@ -31,6 +31,28 @@ function sanitizeComponentName(name: string) {
     .replace(/^./, (c) => c.toUpperCase());
 }
 
+function addViewBoxIfMissing(svg: string): string {
+  const hasViewBox = svg.includes("viewBox");
+  if (hasViewBox) return svg;
+
+  const widthMatch = svg.match(/width="([\d.]+)"/);
+  const heightMatch = svg.match(/height="([\d.]+)"/);
+
+  if (widthMatch && heightMatch) {
+    const width = parseFloat(widthMatch[1]);
+    const height = parseFloat(heightMatch[1]);
+
+    if (!isNaN(width) && !isNaN(height)) {
+      return svg.replace(
+        /<svg([^>]*)>/,
+        `<svg$1 viewBox="0 0 ${width} ${height}">`,
+      );
+    }
+  }
+
+  return svg;
+}
+
 async function fetchSVGData(): Promise<ISVG[]> {
   const res = await fetch(SVGS_URL, {
     headers: {
@@ -64,10 +86,10 @@ async function processSVG(
   });
   if (!res.ok) throw new Error(`Failed to fetch ${svgUrl}`);
 
-  const svg = await res.text();
-  const svgContent = typeof svg === "string" ? svg : JSON.stringify(svgUrl);
+  const svgRaw = await res.text();
+  const svg = addViewBoxIfMissing(svgRaw);
 
-  if (!svgContent || svgContent.trim() === "") {
+  if (!svg || svg.trim() === "") {
     console.warn(
       `Warn: Empty SVG content received for ${componentName} from ${svgUrl}`,
     );
