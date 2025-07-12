@@ -190,6 +190,7 @@ export { default as GoDark } from "./components/GoDark";
 export { default as GoLight } from "./components/GoLight";
 export { default as GodotEngine } from "./components/GodotEngine";
 export { default as Google } from "./components/Google";
+export { default as GoogleCloud } from "./components/GoogleCloud";
 export { default as GoogleColaboratory } from "./components/GoogleColaboratory";
 export { default as GoogleDrive } from "./components/GoogleDrive";
 export { default as GoogleIdx } from "./components/GoogleIdx";
@@ -816,6 +817,7 @@ export type SvglComponentName =
   | "GoLight"
   | "GodotEngine"
   | "Google"
+  | "GoogleCloud"
   | "GoogleColaboratory"
   | "GoogleDrive"
   | "GoogleIdx"

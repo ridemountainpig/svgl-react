@@ -159,6 +159,7 @@ export const GmailUrl = "https://www.gmail.com";
 export const GoDaddyUrl = "https://www.godaddy.com/";
 export const GoUrl = "https://go.dev/";
 export const GodotEngineUrl = "https://godotengine.org/";
+export const GoogleCloudUrl = "https://cloud.google.com/";
 export const GoogleColaboratoryUrl = "https://colab.research.google.com/";
 export const GoogleDriveUrl = "https://www.google.com/drive/";
 export const GoogleIdxUrl = "https://idx.dev/";
