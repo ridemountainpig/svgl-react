@@ -12,6 +12,7 @@ export { default as Alacritty } from "./components/Alacritty";
 export { default as Algolia } from "./components/Algolia";
 export { default as Algorand } from "./components/Algorand";
 export { default as Aliexpress } from "./components/Aliexpress";
+export { default as AmazonQ } from "./components/AmazonQ";
 export { default as AmazonWebServicesDark } from "./components/AmazonWebServicesDark";
 export { default as AmazonWebServicesLight } from "./components/AmazonWebServicesLight";
 export { default as Android } from "./components/Android";
@@ -639,6 +640,7 @@ export type SvglComponentName =
   | "Algolia"
   | "Algorand"
   | "Aliexpress"
+  | "AmazonQ"
   | "AmazonWebServicesDark"
   | "AmazonWebServicesLight"
   | "Android"
