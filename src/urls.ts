@@ -12,6 +12,7 @@ export const AlacrittyUrl = "https://alacritty.org";
 export const AlgoliaUrl = "https://www.algolia.com/";
 export const AlgorandUrl = "https://algorand.org/";
 export const AliexpressUrl = "https://aliexpress.com/";
+export const AmazonQUrl = "https://aws.amazon.com/q";
 export const AmazonWebServicesUrl = "https://aws.amazon.com/";
 export const AndroidUrl = "https://www.android.com/";
 export const AngularUrl = "https://angular.dev/";
