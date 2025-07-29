@@ -32,6 +32,7 @@ export { default as ArcDark } from "./components/ArcDark";
 export { default as ArcDarkSoftware } from "./components/ArcDarkSoftware";
 export { default as ArcLight } from "./components/ArcLight";
 export { default as ArcLightSoftware } from "./components/ArcLightSoftware";
+export { default as ArkUI } from "./components/ArkUI";
 export { default as Asana } from "./components/Asana";
 export { default as AstroDark } from "./components/AstroDark";
 export { default as AstroLight } from "./components/AstroLight";
@@ -143,6 +144,8 @@ export { default as DuckDuckGo } from "./components/DuckDuckGo";
 export { default as Ebay } from "./components/Ebay";
 export { default as EclipseIDE } from "./components/EclipseIDE";
 export { default as Edge } from "./components/Edge";
+export { default as EffectTSDark } from "./components/EffectTSDark";
+export { default as EffectTSLight } from "./components/EffectTSLight";
 export { default as Electron } from "./components/Electron";
 export { default as Elementor } from "./components/Elementor";
 export { default as ElysiaJS } from "./components/ElysiaJS";
@@ -661,6 +664,7 @@ export type SvglComponentName =
   | "ArcDarkSoftware"
   | "ArcLight"
   | "ArcLightSoftware"
+  | "ArkUI"
   | "Asana"
   | "AstroDark"
   | "AstroLight"
@@ -772,6 +776,8 @@ export type SvglComponentName =
   | "Ebay"
   | "EclipseIDE"
   | "Edge"
+  | "EffectTSDark"
+  | "EffectTSLight"
   | "Electron"
   | "Elementor"
   | "ElysiaJS"
