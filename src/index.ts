@@ -284,6 +284,7 @@ export { default as Lottielab } from "./components/Lottielab";
 export { default as Lovable } from "./components/Lovable";
 export { default as Lua } from "./components/Lua";
 export { default as MagicUI } from "./components/MagicUI";
+export { default as Mantine } from "./components/Mantine";
 export { default as ManzDev } from "./components/ManzDev";
 export { default as MariaDB } from "./components/MariaDB";
 export { default as MarkdownDark } from "./components/MarkdownDark";
@@ -916,6 +917,7 @@ export type SvglComponentName =
   | "Lovable"
   | "Lua"
   | "MagicUI"
+  | "Mantine"
   | "ManzDev"
   | "MariaDB"
   | "MarkdownDark"
