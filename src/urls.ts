@@ -246,6 +246,7 @@ export const LottielabUrl = "https://www.lottielab.com/";
 export const LovableUrl = "https://lovable.dev/";
 export const LuaUrl = "https://lua.org/";
 export const MagicUIUrl = "https://magicui.design/";
+export const MantineUrl = "https://mantine.dev";
 export const ManzDevUrl = "https://manz.dev/";
 export const MariaDBUrl = "https://mariadb.org/";
 export const MarkdownUrl = "https://www.markdownguide.org/";
