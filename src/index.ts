@@ -141,6 +141,7 @@ export { default as Dropbox } from "./components/Dropbox";
 export { default as DubDark } from "./components/DubDark";
 export { default as DubLight } from "./components/DubLight";
 export { default as DuckDuckGo } from "./components/DuckDuckGo";
+export { default as ESLint } from "./components/ESLint";
 export { default as Ebay } from "./components/Ebay";
 export { default as EclipseIDE } from "./components/EclipseIDE";
 export { default as Edge } from "./components/Edge";
@@ -284,6 +285,7 @@ export { default as Lottielab } from "./components/Lottielab";
 export { default as Lovable } from "./components/Lovable";
 export { default as Lua } from "./components/Lua";
 export { default as MagicUI } from "./components/MagicUI";
+export { default as Manifest } from "./components/Manifest";
 export { default as Mantine } from "./components/Mantine";
 export { default as ManzDev } from "./components/ManzDev";
 export { default as MariaDB } from "./components/MariaDB";
@@ -774,6 +776,7 @@ export type SvglComponentName =
   | "DubDark"
   | "DubLight"
   | "DuckDuckGo"
+  | "ESLint"
   | "Ebay"
   | "EclipseIDE"
   | "Edge"
@@ -917,6 +920,7 @@ export type SvglComponentName =
   | "Lovable"
   | "Lua"
   | "MagicUI"
+  | "Manifest"
   | "Mantine"
   | "ManzDev"
   | "MariaDB"
