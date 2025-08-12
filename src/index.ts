@@ -382,6 +382,7 @@ export { default as PhpLight } from "./components/PhpLight";
 export { default as Pinia } from "./components/Pinia";
 export { default as Pinterest } from "./components/Pinterest";
 export { default as Pitch } from "./components/Pitch";
+export { default as PlainSignal } from "./components/PlainSignal";
 export { default as PlanetScaleDark } from "./components/PlanetScaleDark";
 export { default as PlanetScaleLight } from "./components/PlanetScaleLight";
 export { default as Platzi } from "./components/Platzi";
@@ -1017,6 +1018,7 @@ export type SvglComponentName =
   | "Pinia"
   | "Pinterest"
   | "Pitch"
+  | "PlainSignal"
   | "PlanetScaleDark"
   | "PlanetScaleLight"
   | "Platzi"

@@ -325,6 +325,7 @@ export const PhpUrl = "https://www.php.net/";
 export const PiniaUrl = "https://pinia.vuejs.org/";
 export const PinterestUrl = "https://pinterest.com/";
 export const PitchUrl = "https://pitch.com";
+export const PlainSignalUrl = "https://plainsignal.com/";
 export const PlanetScaleUrl = "https://planetscale.com/";
 export const PlatziUrl = "https://platzi.com/";
 export const PlayStationUrl = "https://www.playstation.com/";
