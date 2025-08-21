@@ -262,6 +262,7 @@ export { default as Julia } from "./components/Julia";
 export { default as Keycloak } from "./components/Keycloak";
 export { default as KickDark } from "./components/KickDark";
 export { default as KickLight } from "./components/KickLight";
+export { default as Kimi } from "./components/Kimi";
 export { default as KokonutUIDark } from "./components/KokonutUIDark";
 export { default as KokonutUILight } from "./components/KokonutUILight";
 export { default as Kotlin } from "./components/Kotlin";
@@ -356,6 +357,7 @@ export { default as OnePasswordLight } from "./components/OnePasswordLight";
 export { default as OpenAIDark } from "./components/OpenAIDark";
 export { default as OpenAILight } from "./components/OpenAILight";
 export { default as OpenBootcamp } from "./components/OpenBootcamp";
+export { default as OpenHunts } from "./components/OpenHunts";
 export { default as OpenRouterDark } from "./components/OpenRouterDark";
 export { default as OpenRouterLight } from "./components/OpenRouterLight";
 export { default as OpenSea } from "./components/OpenSea";
@@ -899,6 +901,7 @@ export type SvglComponentName =
   | "Keycloak"
   | "KickDark"
   | "KickLight"
+  | "Kimi"
   | "KokonutUIDark"
   | "KokonutUILight"
   | "Kotlin"
@@ -993,6 +996,7 @@ export type SvglComponentName =
   | "OpenAIDark"
   | "OpenAILight"
   | "OpenBootcamp"
+  | "OpenHunts"
   | "OpenRouterDark"
   | "OpenRouterLight"
   | "OpenSea"
