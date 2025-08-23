@@ -109,7 +109,6 @@ export { default as CursorLight } from "./components/CursorLight";
 export { default as Cypress } from "./components/Cypress";
 export { default as D3js } from "./components/D3js";
 export { default as DailydevDark } from "./components/DailydevDark";
-export { default as DailydevLight } from "./components/DailydevLight";
 export { default as DaisyUI } from "./components/DaisyUI";
 export { default as Dart } from "./components/Dart";
 export { default as Datadog } from "./components/Datadog";
@@ -344,7 +343,6 @@ export { default as Nodejs } from "./components/Nodejs";
 export { default as Notion } from "./components/Notion";
 export { default as Nuget } from "./components/Nuget";
 export { default as NuqsDark } from "./components/NuqsDark";
-export { default as NuqsLight } from "./components/NuqsLight";
 export { default as Nuxt } from "./components/Nuxt";
 export { default as NxDark } from "./components/NxDark";
 export { default as NxLight } from "./components/NxLight";
@@ -385,7 +383,6 @@ export { default as PhpLight } from "./components/PhpLight";
 export { default as Pinia } from "./components/Pinia";
 export { default as Pinterest } from "./components/Pinterest";
 export { default as Pitch } from "./components/Pitch";
-export { default as PlainSignal } from "./components/PlainSignal";
 export { default as PlanetScaleDark } from "./components/PlanetScaleDark";
 export { default as PlanetScaleLight } from "./components/PlanetScaleLight";
 export { default as Platzi } from "./components/Platzi";
@@ -404,7 +401,6 @@ export { default as PostHog } from "./components/PostHog";
 export { default as PostgreSQL } from "./components/PostgreSQL";
 export { default as Postman } from "./components/Postman";
 export { default as PowerShell } from "./components/PowerShell";
-export { default as PowerToys } from "./components/PowerToys";
 export { default as Preact } from "./components/Preact";
 export { default as Premiere } from "./components/Premiere";
 export { default as PrettierDark } from "./components/PrettierDark";
@@ -491,7 +487,6 @@ export { default as Sky } from "./components/Sky";
 export { default as Skype } from "./components/Skype";
 export { default as Slack } from "./components/Slack";
 export { default as Snapchat } from "./components/Snapchat";
-export { default as SocketioDark } from "./components/SocketioDark";
 export { default as SocketioLight } from "./components/SocketioLight";
 export { default as Solana } from "./components/Solana";
 export { default as Solidity } from "./components/Solidity";
@@ -572,6 +567,7 @@ export { default as Ubuntu } from "./components/Ubuntu";
 export { default as Udacity } from "./components/Udacity";
 export { default as UdemyDark } from "./components/UdemyDark";
 export { default as UdemyLight } from "./components/UdemyLight";
+export { default as UnJS } from "./components/UnJS";
 export { default as UnityDark } from "./components/UnityDark";
 export { default as UnityLight } from "./components/UnityLight";
 export { default as UnoCSS } from "./components/UnoCSS";
@@ -748,7 +744,6 @@ export type SvglComponentName =
   | "Cypress"
   | "D3js"
   | "DailydevDark"
-  | "DailydevLight"
   | "DaisyUI"
   | "Dart"
   | "Datadog"
@@ -983,7 +978,6 @@ export type SvglComponentName =
   | "Notion"
   | "Nuget"
   | "NuqsDark"
-  | "NuqsLight"
   | "Nuxt"
   | "NxDark"
   | "NxLight"
@@ -1024,7 +1018,6 @@ export type SvglComponentName =
   | "Pinia"
   | "Pinterest"
   | "Pitch"
-  | "PlainSignal"
   | "PlanetScaleDark"
   | "PlanetScaleLight"
   | "Platzi"
@@ -1043,7 +1036,6 @@ export type SvglComponentName =
   | "PostgreSQL"
   | "Postman"
   | "PowerShell"
-  | "PowerToys"
   | "Preact"
   | "Premiere"
   | "PrettierDark"
@@ -1130,7 +1122,6 @@ export type SvglComponentName =
   | "Skype"
   | "Slack"
   | "Snapchat"
-  | "SocketioDark"
   | "SocketioLight"
   | "Solana"
   | "Solidity"
@@ -1211,6 +1202,7 @@ export type SvglComponentName =
   | "Udacity"
   | "UdemyDark"
   | "UdemyLight"
+  | "UnJS"
   | "UnityDark"
   | "UnityLight"
   | "UnoCSS"
