@@ -572,6 +572,7 @@ export { default as Ubuntu } from "./components/Ubuntu";
 export { default as Udacity } from "./components/Udacity";
 export { default as UdemyDark } from "./components/UdemyDark";
 export { default as UdemyLight } from "./components/UdemyLight";
+export { default as UnJS } from "./components/UnJS";
 export { default as UnityDark } from "./components/UnityDark";
 export { default as UnityLight } from "./components/UnityLight";
 export { default as UnoCSS } from "./components/UnoCSS";
@@ -1211,6 +1212,7 @@ export type SvglComponentName =
   | "Udacity"
   | "UdemyDark"
   | "UdemyLight"
+  | "UnJS"
   | "UnityDark"
   | "UnityLight"
   | "UnoCSS"

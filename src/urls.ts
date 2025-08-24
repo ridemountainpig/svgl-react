@@ -480,6 +480,7 @@ export const UberUrl = "https://www.uber.com";
 export const UbuntuUrl = "https://ubuntu.com/";
 export const UdacityUrl = "https://www.udacity.com/";
 export const UdemyUrl = "https://www.udemy.com/";
+export const UnJSUrl = "https://unjs.io/";
 export const UnityUrl = "https://unity.com/";
 export const UnoCSSUrl = "https://unocss.dev/";
 export const UnrealEngineUrl = "https://www.unrealengine.com/";
