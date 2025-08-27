@@ -260,6 +260,8 @@ export { default as JetBrainsWebStorm } from "./components/JetBrainsWebStorm";
 export { default as JetbrainsSpace } from "./components/JetbrainsSpace";
 export { default as Julia } from "./components/Julia";
 export { default as Keycloak } from "./components/Keycloak";
+export { default as KiboUIDark } from "./components/KiboUIDark";
+export { default as KiboUILight } from "./components/KiboUILight";
 export { default as KickDark } from "./components/KickDark";
 export { default as KickLight } from "./components/KickLight";
 export { default as Kimi } from "./components/Kimi";
@@ -330,6 +332,7 @@ export { default as Moon } from "./components/Moon";
 export { default as MotionDark } from "./components/MotionDark";
 export { default as MotionLight } from "./components/MotionLight";
 export { default as MySQL } from "./components/MySQL";
+export { default as N8n } from "./components/N8n";
 export { default as NHost } from "./components/NHost";
 export { default as NPM } from "./components/NPM";
 export { default as Neon } from "./components/Neon";
@@ -900,6 +903,8 @@ export type SvglComponentName =
   | "JetbrainsSpace"
   | "Julia"
   | "Keycloak"
+  | "KiboUIDark"
+  | "KiboUILight"
   | "KickDark"
   | "KickLight"
   | "Kimi"
@@ -970,6 +975,7 @@ export type SvglComponentName =
   | "MotionDark"
   | "MotionLight"
   | "MySQL"
+  | "N8n"
   | "NHost"
   | "NPM"
   | "Neon"
