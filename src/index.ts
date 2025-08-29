@@ -407,6 +407,7 @@ export { default as PostHog } from "./components/PostHog";
 export { default as PostgreSQL } from "./components/PostgreSQL";
 export { default as Postman } from "./components/Postman";
 export { default as PowerShell } from "./components/PowerShell";
+export { default as PowerSync } from "./components/PowerSync";
 export { default as PowerToys } from "./components/PowerToys";
 export { default as Preact } from "./components/Preact";
 export { default as Premiere } from "./components/Premiere";
@@ -1050,6 +1051,7 @@ export type SvglComponentName =
   | "PostgreSQL"
   | "Postman"
   | "PowerShell"
+  | "PowerSync"
   | "PowerToys"
   | "Preact"
   | "Premiere"
