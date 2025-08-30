@@ -7,6 +7,7 @@ export { default as AfordinDark } from "./components/AfordinDark";
 export { default as AfordinLight } from "./components/AfordinLight";
 export { default as AfterEffects } from "./components/AfterEffects";
 export { default as Ahooks } from "./components/Ahooks";
+export { default as Ahrefs } from "./components/Ahrefs";
 export { default as Airbnb } from "./components/Airbnb";
 export { default as Alacritty } from "./components/Alacritty";
 export { default as Algolia } from "./components/Algolia";
@@ -614,7 +615,8 @@ export { default as WhopDark } from "./components/WhopDark";
 export { default as WhopLight } from "./components/WhopLight";
 export { default as WindiCSS } from "./components/WindiCSS";
 export { default as Windows } from "./components/Windows";
-export { default as Windsurf } from "./components/Windsurf";
+export { default as WindsurfDark } from "./components/WindsurfDark";
+export { default as WindsurfLight } from "./components/WindsurfLight";
 export { default as WordPress } from "./components/WordPress";
 export { default as WorkOSDark } from "./components/WorkOSDark";
 export { default as WorkOSLight } from "./components/WorkOSLight";
@@ -651,6 +653,7 @@ export type SvglComponentName =
   | "AfordinLight"
   | "AfterEffects"
   | "Ahooks"
+  | "Ahrefs"
   | "Airbnb"
   | "Alacritty"
   | "Algolia"
@@ -1258,7 +1261,8 @@ export type SvglComponentName =
   | "WhopLight"
   | "WindiCSS"
   | "Windows"
-  | "Windsurf"
+  | "WindsurfDark"
+  | "WindsurfLight"
   | "WordPress"
   | "WorkOSDark"
   | "WorkOSLight"
