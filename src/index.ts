@@ -22,6 +22,7 @@ export { default as Animate } from "./components/Animate";
 export { default as AntDesign } from "./components/AntDesign";
 export { default as AnthropicDark } from "./components/AnthropicDark";
 export { default as AnthropicLight } from "./components/AnthropicLight";
+export { default as ApacheKafka } from "./components/ApacheKafka";
 export { default as Apidog } from "./components/Apidog";
 export { default as Apolloio } from "./components/Apolloio";
 export { default as AppleDark } from "./components/AppleDark";
@@ -332,6 +333,7 @@ export { default as Monkeytype } from "./components/Monkeytype";
 export { default as Moon } from "./components/Moon";
 export { default as MotionDark } from "./components/MotionDark";
 export { default as MotionLight } from "./components/MotionLight";
+export { default as Mulesoft } from "./components/Mulesoft";
 export { default as MySQL } from "./components/MySQL";
 export { default as N8n } from "./components/N8n";
 export { default as NHost } from "./components/NHost";
@@ -643,6 +645,7 @@ export { default as ZenBrowserLight } from "./components/ZenBrowserLight";
 export { default as Zig } from "./components/Zig";
 export { default as Zod } from "./components/Zod";
 export { default as Zoom } from "./components/Zoom";
+export { default as Zulip } from "./components/Zulip";
 export * from "./urls";
 export type SvglComponentName =
   | "AMP"
@@ -669,6 +672,7 @@ export type SvglComponentName =
   | "AntDesign"
   | "AnthropicDark"
   | "AnthropicLight"
+  | "ApacheKafka"
   | "Apidog"
   | "Apolloio"
   | "AppleDark"
@@ -979,6 +983,7 @@ export type SvglComponentName =
   | "Moon"
   | "MotionDark"
   | "MotionLight"
+  | "Mulesoft"
   | "MySQL"
   | "N8n"
   | "NHost"
@@ -1289,4 +1294,5 @@ export type SvglComponentName =
   | "ZenBrowserLight"
   | "Zig"
   | "Zod"
-  | "Zoom";
+  | "Zoom"
+  | "Zulip";
