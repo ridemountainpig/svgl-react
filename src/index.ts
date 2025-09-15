@@ -132,6 +132,8 @@ export { default as Django } from "./components/Django";
 export { default as Docker } from "./components/Docker";
 export { default as DocumensoDark } from "./components/DocumensoDark";
 export { default as DocumensoLight } from "./components/DocumensoLight";
+export { default as DocusDark } from "./components/DocusDark";
+export { default as DocusLight } from "./components/DocusLight";
 export { default as Docusaurus } from "./components/Docusaurus";
 export { default as Dogecoin } from "./components/Dogecoin";
 export { default as Dotenv } from "./components/Dotenv";
@@ -202,6 +204,7 @@ export { default as GoogleCloud } from "./components/GoogleCloud";
 export { default as GoogleColaboratory } from "./components/GoogleColaboratory";
 export { default as GoogleDrive } from "./components/GoogleDrive";
 export { default as GoogleIdx } from "./components/GoogleIdx";
+export { default as GoogleMaps } from "./components/GoogleMaps";
 export { default as GooglePaLM } from "./components/GooglePaLM";
 export { default as Gradio } from "./components/Gradio";
 export { default as Grafana } from "./components/Grafana";
@@ -352,6 +355,13 @@ export { default as Nuget } from "./components/Nuget";
 export { default as NuqsDark } from "./components/NuqsDark";
 export { default as NuqsLight } from "./components/NuqsLight";
 export { default as Nuxt } from "./components/Nuxt";
+export { default as NuxtContentDark } from "./components/NuxtContentDark";
+export { default as NuxtContentLight } from "./components/NuxtContentLight";
+export { default as NuxtHub } from "./components/NuxtHub";
+export { default as NuxtStudioDark } from "./components/NuxtStudioDark";
+export { default as NuxtStudioLight } from "./components/NuxtStudioLight";
+export { default as NuxtUIDark } from "./components/NuxtUIDark";
+export { default as NuxtUILight } from "./components/NuxtUILight";
 export { default as NxDark } from "./components/NxDark";
 export { default as NxLight } from "./components/NxLight";
 export { default as OBS } from "./components/OBS";
@@ -782,6 +792,8 @@ export type SvglComponentName =
   | "Docker"
   | "DocumensoDark"
   | "DocumensoLight"
+  | "DocusDark"
+  | "DocusLight"
   | "Docusaurus"
   | "Dogecoin"
   | "Dotenv"
@@ -852,6 +864,7 @@ export type SvglComponentName =
   | "GoogleColaboratory"
   | "GoogleDrive"
   | "GoogleIdx"
+  | "GoogleMaps"
   | "GooglePaLM"
   | "Gradio"
   | "Grafana"
@@ -1002,6 +1015,13 @@ export type SvglComponentName =
   | "NuqsDark"
   | "NuqsLight"
   | "Nuxt"
+  | "NuxtContentDark"
+  | "NuxtContentLight"
+  | "NuxtHub"
+  | "NuxtStudioDark"
+  | "NuxtStudioLight"
+  | "NuxtUIDark"
+  | "NuxtUILight"
   | "NxDark"
   | "NxLight"
   | "OBS"
