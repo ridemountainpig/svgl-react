@@ -245,6 +245,8 @@ export { default as InstagramLight } from "./components/InstagramLight";
 export { default as InstatusDark } from "./components/InstatusDark";
 export { default as InstatusLight } from "./components/InstatusLight";
 export { default as IntelliJIDEA } from "./components/IntelliJIDEA";
+export { default as IntelloDark } from "./components/IntelloDark";
+export { default as IntelloLight } from "./components/IntelloLight";
 export { default as JQueryDark } from "./components/JQueryDark";
 export { default as JQueryLight } from "./components/JQueryLight";
 export { default as JSON } from "./components/JSON";
@@ -620,6 +622,8 @@ export { default as VueUse } from "./components/VueUse";
 export { default as Vuetify } from "./components/Vuetify";
 export { default as Warp } from "./components/Warp";
 export { default as WebComponents } from "./components/WebComponents";
+export { default as WebGLDark } from "./components/WebGLDark";
+export { default as WebGLLight } from "./components/WebGLLight";
 export { default as WebKit } from "./components/WebKit";
 export { default as Webdev } from "./components/Webdev";
 export { default as Webflow } from "./components/Webflow";
@@ -905,6 +909,8 @@ export type SvglComponentName =
   | "InstatusDark"
   | "InstatusLight"
   | "IntelliJIDEA"
+  | "IntelloDark"
+  | "IntelloLight"
   | "JQueryDark"
   | "JQueryLight"
   | "JSON"
@@ -1280,6 +1286,8 @@ export type SvglComponentName =
   | "Vuetify"
   | "Warp"
   | "WebComponents"
+  | "WebGLDark"
+  | "WebGLLight"
   | "WebKit"
   | "Webdev"
   | "Webflow"
