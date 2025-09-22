@@ -104,6 +104,7 @@ export const DesignaliUrl = "https://designali.in";
 export const DeveloperStudentClubUrl = "https://gdsc.community.dev/";
 export const DevtoUrl = "https://dev.to/";
 export const DigitalOceanUrl = "https://www.digitalocean.com/";
+export const DingocoinUrl = "https://dingocoin.com/";
 export const DirectusUrl = "https://directus.io/";
 export const DiscordUrl = "https://discord.com/";
 export const DiscordjsUrl = "https://discord.js.org/";
