@@ -123,6 +123,7 @@ export { default as DeveloperStudentClub } from "./components/DeveloperStudentCl
 export { default as DevtoDark } from "./components/DevtoDark";
 export { default as DevtoLight } from "./components/DevtoLight";
 export { default as DigitalOcean } from "./components/DigitalOcean";
+export { default as Dingocoin } from "./components/Dingocoin";
 export { default as Directus } from "./components/Directus";
 export { default as Discord } from "./components/Discord";
 export { default as Discordjs } from "./components/Discordjs";
@@ -787,6 +788,7 @@ export type SvglComponentName =
   | "DevtoDark"
   | "DevtoLight"
   | "DigitalOcean"
+  | "Dingocoin"
   | "Directus"
   | "Discord"
   | "Discordjs"
