@@ -272,6 +272,8 @@ export { default as KiboUIDark } from "./components/KiboUIDark";
 export { default as KiboUILight } from "./components/KiboUILight";
 export { default as KickDark } from "./components/KickDark";
 export { default as KickLight } from "./components/KickLight";
+export { default as KiloCodeDark } from "./components/KiloCodeDark";
+export { default as KiloCodeLight } from "./components/KiloCodeLight";
 export { default as Kimi } from "./components/Kimi";
 export { default as KokonutUIDark } from "./components/KokonutUIDark";
 export { default as KokonutUILight } from "./components/KokonutUILight";
@@ -496,8 +498,6 @@ export { default as SWRDark } from "./components/SWRDark";
 export { default as SWRLight } from "./components/SWRLight";
 export { default as Safari } from "./components/Safari";
 export { default as Salesforce } from "./components/Salesforce";
-export { default as SanityDark } from "./components/SanityDark";
-export { default as SanityLight } from "./components/SanityLight";
 export { default as Sass } from "./components/Sass";
 export { default as Scala } from "./components/Scala";
 export { default as Sentry } from "./components/Sentry";
@@ -937,6 +937,8 @@ export type SvglComponentName =
   | "KiboUILight"
   | "KickDark"
   | "KickLight"
+  | "KiloCodeDark"
+  | "KiloCodeLight"
   | "Kimi"
   | "KokonutUIDark"
   | "KokonutUILight"
@@ -1161,8 +1163,6 @@ export type SvglComponentName =
   | "SWRLight"
   | "Safari"
   | "Salesforce"
-  | "SanityDark"
-  | "SanityLight"
   | "Sass"
   | "Scala"
   | "Sentry"
