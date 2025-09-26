@@ -295,6 +295,7 @@ export { default as Lit } from "./components/Lit";
 export { default as Litecoin } from "./components/Litecoin";
 export { default as Locofy } from "./components/Locofy";
 export { default as Loom } from "./components/Loom";
+export { default as LottieFiles } from "./components/LottieFiles";
 export { default as Lottielab } from "./components/Lottielab";
 export { default as Lovable } from "./components/Lovable";
 export { default as Lua } from "./components/Lua";
@@ -960,6 +961,7 @@ export type SvglComponentName =
   | "Litecoin"
   | "Locofy"
   | "Loom"
+  | "LottieFiles"
   | "Lottielab"
   | "Lovable"
   | "Lua"
