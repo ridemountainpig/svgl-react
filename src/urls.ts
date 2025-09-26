@@ -253,6 +253,7 @@ export const LitUrl = "https://lit.dev/";
 export const LitecoinUrl = "https://litecoin.org/";
 export const LocofyUrl = "https://www.locofy.ai/";
 export const LoomUrl = "https://www.loom.com/";
+export const LottieFilesUrl = "https://lottiefiles.com/";
 export const LottielabUrl = "https://www.lottielab.com/";
 export const LovableUrl = "https://lovable.dev/";
 export const LuaUrl = "https://lua.org/";
