@@ -28,6 +28,9 @@ jobs:
       - name: Format code
         run: bun format
 
+      - name: Reset lockfile changes
+        run: git checkout -- bun.lockb
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
