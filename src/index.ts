@@ -441,6 +441,8 @@ export { default as Pulumi } from "./components/Pulumi";
 export { default as Putio } from "./components/Putio";
 export { default as PyCharm } from "./components/PyCharm";
 export { default as Python } from "./components/Python";
+export { default as QdrantDark } from "./components/QdrantDark";
+export { default as QdrantLight } from "./components/QdrantLight";
 export { default as Qt } from "./components/Qt";
 export { default as QwenDark } from "./components/QwenDark";
 export { default as QwenLight } from "./components/QwenLight";
@@ -554,7 +556,8 @@ export { default as TailwindCSS } from "./components/TailwindCSS";
 export { default as TanStack } from "./components/TanStack";
 export { default as Tauri } from "./components/Tauri";
 export { default as Telegram } from "./components/Telegram";
-export { default as TensorFlow } from "./components/TensorFlow";
+export { default as TensorFlowDark } from "./components/TensorFlowDark";
+export { default as TensorFlowLight } from "./components/TensorFlowLight";
 export { default as Terraform } from "./components/Terraform";
 export { default as Tether } from "./components/Tether";
 export { default as ThreadsDark } from "./components/ThreadsDark";
@@ -1107,6 +1110,8 @@ export type SvglComponentName =
   | "Putio"
   | "PyCharm"
   | "Python"
+  | "QdrantDark"
+  | "QdrantLight"
   | "Qt"
   | "QwenDark"
   | "QwenLight"
@@ -1220,7 +1225,8 @@ export type SvglComponentName =
   | "TanStack"
   | "Tauri"
   | "Telegram"
-  | "TensorFlow"
+  | "TensorFlowDark"
+  | "TensorFlowLight"
   | "Terraform"
   | "Tether"
   | "ThreadsDark"
