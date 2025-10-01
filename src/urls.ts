@@ -373,6 +373,7 @@ export const PulumiUrl = "https://www.pulumi.com/";
 export const PutioUrl = "https://put.io/";
 export const PyCharmUrl = "https://www.jetbrains.com/pycharm/";
 export const PythonUrl = "https://www.python.org/";
+export const QdrantUrl = "https://qdrant.tech/";
 export const QtUrl = "https://www.qt.io/";
 export const QwenUrl = "https://chat.qwenlm.ai/";
 export const QwikUrl = "https://qwik.builder.io/";
