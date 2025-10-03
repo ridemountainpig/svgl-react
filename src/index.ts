@@ -501,6 +501,8 @@ export { default as SWRDark } from "./components/SWRDark";
 export { default as SWRLight } from "./components/SWRLight";
 export { default as Safari } from "./components/Safari";
 export { default as Salesforce } from "./components/Salesforce";
+export { default as SanityDark } from "./components/SanityDark";
+export { default as SanityLight } from "./components/SanityLight";
 export { default as Sass } from "./components/Sass";
 export { default as Scala } from "./components/Scala";
 export { default as Sentry } from "./components/Sentry";
@@ -571,6 +573,8 @@ export { default as TogetherAIDark } from "./components/TogetherAIDark";
 export { default as TogetherAILight } from "./components/TogetherAILight";
 export { default as Ton } from "./components/Ton";
 export { default as Tor } from "./components/Tor";
+export { default as TravelPerkDark } from "./components/TravelPerkDark";
+export { default as TravelPerkLight } from "./components/TravelPerkLight";
 export { default as Tron } from "./components/Tron";
 export { default as TrustPilot } from "./components/TrustPilot";
 export { default as TrustWallet } from "./components/TrustWallet";
@@ -1170,6 +1174,8 @@ export type SvglComponentName =
   | "SWRLight"
   | "Safari"
   | "Salesforce"
+  | "SanityDark"
+  | "SanityLight"
   | "Sass"
   | "Scala"
   | "Sentry"
@@ -1240,6 +1246,8 @@ export type SvglComponentName =
   | "TogetherAILight"
   | "Ton"
   | "Tor"
+  | "TravelPerkDark"
+  | "TravelPerkLight"
   | "Tron"
   | "TrustPilot"
   | "TrustWallet"
