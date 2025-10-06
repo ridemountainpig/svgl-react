@@ -318,6 +318,7 @@ export const NxUrl = "https://nx.dev";
 export const OBSUrl = "https://obsproject.com/";
 export const ObsidianUrl = "https://obsidian.md/";
 export const OllamaUrl = "https://www.ollama.com/";
+export const OneNoteUrl = "https://onenote.com";
 export const OnePasswordUrl = "https://1password.com";
 export const OpenAIUrl = "https://openai.com/";
 export const OpenBootcampUrl = "https://open-bootcamp.com/";

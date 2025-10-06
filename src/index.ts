@@ -374,6 +374,7 @@ export { default as OBS } from "./components/OBS";
 export { default as Obsidian } from "./components/Obsidian";
 export { default as OllamaDark } from "./components/OllamaDark";
 export { default as OllamaLight } from "./components/OllamaLight";
+export { default as OneNote } from "./components/OneNote";
 export { default as OnePasswordDark } from "./components/OnePasswordDark";
 export { default as OnePasswordLight } from "./components/OnePasswordLight";
 export { default as OpenAIDark } from "./components/OpenAIDark";
@@ -1047,6 +1048,7 @@ export type SvglComponentName =
   | "Obsidian"
   | "OllamaDark"
   | "OllamaLight"
+  | "OneNote"
   | "OnePasswordDark"
   | "OnePasswordLight"
   | "OpenAIDark"
