@@ -630,6 +630,8 @@ export { default as VoltaLight } from "./components/VoltaLight";
 export { default as Vue } from "./components/Vue";
 export { default as VueUse } from "./components/VueUse";
 export { default as Vuetify } from "./components/Vuetify";
+export { default as WakaTimeDark } from "./components/WakaTimeDark";
+export { default as WakaTimeLight } from "./components/WakaTimeLight";
 export { default as Warp } from "./components/Warp";
 export { default as WebComponents } from "./components/WebComponents";
 export { default as WebGLDark } from "./components/WebGLDark";
@@ -1304,6 +1306,8 @@ export type SvglComponentName =
   | "Vue"
   | "VueUse"
   | "Vuetify"
+  | "WakaTimeDark"
+  | "WakaTimeLight"
   | "Warp"
   | "WebComponents"
   | "WebGLDark"
