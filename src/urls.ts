@@ -521,6 +521,7 @@ export const VoltaUrl = "https://volta.net/";
 export const VueUrl = "https://vuejs.org/";
 export const VueUseUrl = "https://vueuse.org/";
 export const VuetifyUrl = "https://vuetifyjs.com/";
+export const WakaTimeUrl = "https://wakatime.com";
 export const WarpUrl = "https://www.warp.dev/";
 export const WebComponentsUrl = "https://www.webcomponents.org/";
 export const WebGLUrl = "https://www.khronos.org/webgl/";
