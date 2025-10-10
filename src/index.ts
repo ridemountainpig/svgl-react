@@ -22,7 +22,8 @@ export { default as Animate } from "./components/Animate";
 export { default as AntDesign } from "./components/AntDesign";
 export { default as AnthropicDark } from "./components/AnthropicDark";
 export { default as AnthropicLight } from "./components/AnthropicLight";
-export { default as ApacheKafka } from "./components/ApacheKafka";
+export { default as ApacheKafkaDark } from "./components/ApacheKafkaDark";
+export { default as ApacheKafkaLight } from "./components/ApacheKafkaLight";
 export { default as Apidog } from "./components/Apidog";
 export { default as Apolloio } from "./components/Apolloio";
 export { default as AppleDark } from "./components/AppleDark";
@@ -41,6 +42,7 @@ export { default as AstroLight } from "./components/AstroLight";
 export { default as Atlassian } from "./components/Atlassian";
 export { default as Atom } from "./components/Atom";
 export { default as Auth0 } from "./components/Auth0";
+export { default as Authjs } from "./components/Authjs";
 export { default as Authy } from "./components/Authy";
 export { default as AxiomDark } from "./components/AxiomDark";
 export { default as AxiomLight } from "./components/AxiomLight";
@@ -355,6 +357,7 @@ export { default as NestJS } from "./components/NestJS";
 export { default as Netflix } from "./components/Netflix";
 export { default as Netlify } from "./components/Netlify";
 export { default as Nextjs } from "./components/Nextjs";
+export { default as Nginx } from "./components/Nginx";
 export { default as NgrokDark } from "./components/NgrokDark";
 export { default as NgrokLight } from "./components/NgrokLight";
 export { default as Nodejs } from "./components/Nodejs";
@@ -581,8 +584,10 @@ export { default as TravelPerkLight } from "./components/TravelPerkLight";
 export { default as Tron } from "./components/Tron";
 export { default as TrustPilot } from "./components/TrustPilot";
 export { default as TrustWallet } from "./components/TrustWallet";
-export { default as Turbopack } from "./components/Turbopack";
-export { default as Turborepo } from "./components/Turborepo";
+export { default as TurbopackDark } from "./components/TurbopackDark";
+export { default as TurbopackLight } from "./components/TurbopackLight";
+export { default as TurborepoDark } from "./components/TurborepoDark";
+export { default as TurborepoLight } from "./components/TurborepoLight";
 export { default as TursoDark } from "./components/TursoDark";
 export { default as TursoLight } from "./components/TursoLight";
 export { default as Twilio } from "./components/Twilio";
@@ -700,7 +705,8 @@ export type SvglComponentName =
   | "AntDesign"
   | "AnthropicDark"
   | "AnthropicLight"
-  | "ApacheKafka"
+  | "ApacheKafkaDark"
+  | "ApacheKafkaLight"
   | "Apidog"
   | "Apolloio"
   | "AppleDark"
@@ -719,6 +725,7 @@ export type SvglComponentName =
   | "Atlassian"
   | "Atom"
   | "Auth0"
+  | "Authjs"
   | "Authy"
   | "AxiomDark"
   | "AxiomLight"
@@ -1033,6 +1040,7 @@ export type SvglComponentName =
   | "Netflix"
   | "Netlify"
   | "Nextjs"
+  | "Nginx"
   | "NgrokDark"
   | "NgrokLight"
   | "Nodejs"
@@ -1259,8 +1267,10 @@ export type SvglComponentName =
   | "Tron"
   | "TrustPilot"
   | "TrustWallet"
-  | "Turbopack"
-  | "Turborepo"
+  | "TurbopackDark"
+  | "TurbopackLight"
+  | "TurborepoDark"
+  | "TurborepoLight"
   | "TursoDark"
   | "TursoLight"
   | "Twilio"
