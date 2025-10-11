@@ -148,7 +148,8 @@ export { default as Dropbox } from "./components/Dropbox";
 export { default as DubDark } from "./components/DubDark";
 export { default as DubLight } from "./components/DubLight";
 export { default as DuckDuckGo } from "./components/DuckDuckGo";
-export { default as ESLint } from "./components/ESLint";
+export { default as ESLintDark } from "./components/ESLintDark";
+export { default as ESLintLight } from "./components/ESLintLight";
 export { default as Ebay } from "./components/Ebay";
 export { default as EclipseIDE } from "./components/EclipseIDE";
 export { default as Edge } from "./components/Edge";
@@ -325,6 +326,7 @@ export { default as Meta } from "./components/Meta";
 export { default as MetaMask } from "./components/MetaMask";
 export { default as Microsoft } from "./components/Microsoft";
 export { default as MicrosoftAzure } from "./components/MicrosoftAzure";
+export { default as MicrosoftNET } from "./components/MicrosoftNET";
 export { default as MicrosoftSQLServer } from "./components/MicrosoftSQLServer";
 export { default as MicrosoftTodo } from "./components/MicrosoftTodo";
 export { default as Midday } from "./components/Midday";
@@ -523,8 +525,8 @@ export { default as Sky } from "./components/Sky";
 export { default as Skype } from "./components/Skype";
 export { default as Slack } from "./components/Slack";
 export { default as Snapchat } from "./components/Snapchat";
-export { default as SocketioDark } from "./components/SocketioDark";
-export { default as SocketioLight } from "./components/SocketioLight";
+export { default as SocketIODark } from "./components/SocketIODark";
+export { default as SocketIOLight } from "./components/SocketIOLight";
 export { default as Solana } from "./components/Solana";
 export { default as Solidity } from "./components/Solidity";
 export { default as Solidjs } from "./components/Solidjs";
@@ -831,7 +833,8 @@ export type SvglComponentName =
   | "DubDark"
   | "DubLight"
   | "DuckDuckGo"
-  | "ESLint"
+  | "ESLintDark"
+  | "ESLintLight"
   | "Ebay"
   | "EclipseIDE"
   | "Edge"
@@ -1008,6 +1011,7 @@ export type SvglComponentName =
   | "MetaMask"
   | "Microsoft"
   | "MicrosoftAzure"
+  | "MicrosoftNET"
   | "MicrosoftSQLServer"
   | "MicrosoftTodo"
   | "Midday"
@@ -1206,8 +1210,8 @@ export type SvglComponentName =
   | "Skype"
   | "Slack"
   | "Snapchat"
-  | "SocketioDark"
-  | "SocketioLight"
+  | "SocketIODark"
+  | "SocketIOLight"
   | "Solana"
   | "Solidity"
   | "Solidjs"
