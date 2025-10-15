@@ -325,10 +325,24 @@ export { default as Messenger } from "./components/Messenger";
 export { default as Meta } from "./components/Meta";
 export { default as MetaMask } from "./components/MetaMask";
 export { default as Microsoft } from "./components/Microsoft";
+export { default as MicrosoftAccess } from "./components/MicrosoftAccess";
 export { default as MicrosoftAzure } from "./components/MicrosoftAzure";
+export { default as MicrosoftClipchamp } from "./components/MicrosoftClipchamp";
+export { default as MicrosoftCopilot } from "./components/MicrosoftCopilot";
+export { default as MicrosoftDefender } from "./components/MicrosoftDefender";
+export { default as MicrosoftDesigner } from "./components/MicrosoftDesigner";
+export { default as MicrosoftEditor } from "./components/MicrosoftEditor";
+export { default as MicrosoftExcel } from "./components/MicrosoftExcel";
 export { default as MicrosoftNET } from "./components/MicrosoftNET";
+export { default as MicrosoftOneDrive } from "./components/MicrosoftOneDrive";
+export { default as MicrosoftOneNote } from "./components/MicrosoftOneNote";
+export { default as MicrosoftOutlook } from "./components/MicrosoftOutlook";
+export { default as MicrosoftPowerPoint } from "./components/MicrosoftPowerPoint";
 export { default as MicrosoftSQLServer } from "./components/MicrosoftSQLServer";
+export { default as MicrosoftSharePoint } from "./components/MicrosoftSharePoint";
+export { default as MicrosoftTeams } from "./components/MicrosoftTeams";
 export { default as MicrosoftTodo } from "./components/MicrosoftTodo";
+export { default as MicrosoftWord } from "./components/MicrosoftWord";
 export { default as Midday } from "./components/Midday";
 export { default as Midudev } from "./components/Midudev";
 export { default as MilanoteDark } from "./components/MilanoteDark";
@@ -347,7 +361,8 @@ export { default as Moon } from "./components/Moon";
 export { default as MotionDark } from "./components/MotionDark";
 export { default as MotionLight } from "./components/MotionLight";
 export { default as Mulesoft } from "./components/Mulesoft";
-export { default as MySQL } from "./components/MySQL";
+export { default as MySQLDark } from "./components/MySQLDark";
+export { default as MySQLLight } from "./components/MySQLLight";
 export { default as N8n } from "./components/N8n";
 export { default as NHost } from "./components/NHost";
 export { default as NPM } from "./components/NPM";
@@ -381,7 +396,6 @@ export { default as OBS } from "./components/OBS";
 export { default as Obsidian } from "./components/Obsidian";
 export { default as OllamaDark } from "./components/OllamaDark";
 export { default as OllamaLight } from "./components/OllamaLight";
-export { default as OneNote } from "./components/OneNote";
 export { default as OnePasswordDark } from "./components/OnePasswordDark";
 export { default as OnePasswordLight } from "./components/OnePasswordLight";
 export { default as OpenAIDark } from "./components/OpenAIDark";
@@ -393,7 +407,6 @@ export { default as OpenRouterLight } from "./components/OpenRouterLight";
 export { default as OpenSea } from "./components/OpenSea";
 export { default as OpenWebUI } from "./components/OpenWebUI";
 export { default as Opera } from "./components/Opera";
-export { default as Outlook } from "./components/Outlook";
 export { default as Oxc } from "./components/Oxc";
 export { default as PM2 } from "./components/PM2";
 export { default as PandaCSS } from "./components/PandaCSS";
@@ -1010,10 +1023,24 @@ export type SvglComponentName =
   | "Meta"
   | "MetaMask"
   | "Microsoft"
+  | "MicrosoftAccess"
   | "MicrosoftAzure"
+  | "MicrosoftClipchamp"
+  | "MicrosoftCopilot"
+  | "MicrosoftDefender"
+  | "MicrosoftDesigner"
+  | "MicrosoftEditor"
+  | "MicrosoftExcel"
   | "MicrosoftNET"
+  | "MicrosoftOneDrive"
+  | "MicrosoftOneNote"
+  | "MicrosoftOutlook"
+  | "MicrosoftPowerPoint"
   | "MicrosoftSQLServer"
+  | "MicrosoftSharePoint"
+  | "MicrosoftTeams"
   | "MicrosoftTodo"
+  | "MicrosoftWord"
   | "Midday"
   | "Midudev"
   | "MilanoteDark"
@@ -1032,7 +1059,8 @@ export type SvglComponentName =
   | "MotionDark"
   | "MotionLight"
   | "Mulesoft"
-  | "MySQL"
+  | "MySQLDark"
+  | "MySQLLight"
   | "N8n"
   | "NHost"
   | "NPM"
@@ -1066,7 +1094,6 @@ export type SvglComponentName =
   | "Obsidian"
   | "OllamaDark"
   | "OllamaLight"
-  | "OneNote"
   | "OnePasswordDark"
   | "OnePasswordLight"
   | "OpenAIDark"
@@ -1078,7 +1105,6 @@ export type SvglComponentName =
   | "OpenSea"
   | "OpenWebUI"
   | "Opera"
-  | "Outlook"
   | "Oxc"
   | "PM2"
   | "PandaCSS"

@@ -1,6 +1,6 @@
 import * as React from "react";
 import type { SVGProps } from "react";
-const MySQL = (props: SVGProps<SVGSVGElement>) => (
+const MySQLLight = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     preserveAspectRatio="xMidYMid meet"
@@ -16,4 +16,4 @@ const MySQL = (props: SVGProps<SVGSVGElement>) => (
     <path fill="#00546B" d="m58 43-7 1 6 7 4 9v-1c3-1 4-4 4-8l-2-4z" />
   </svg>
 );
-export default MySQL;
+export default MySQLLight;

@@ -139,7 +139,7 @@ export const EthereumUrl = "https://ethereum.org/";
 export const ExomeUrl = "https://exome.dev/";
 export const ExpoUrl = "https://expo.dev/";
 export const ExpressjsUrl = "https://expressjs.com";
-export const FacebookUrl = "https://www.facebook.com/";
+export const FacebookUrl = "https://www.facebook.com";
 export const FastAPIUrl = "https://fastapi.tiangolo.com/";
 export const FastifyUrl = "https://www.fastify.io";
 export const FigmaUrl = "https://www.figma.com/";
@@ -276,12 +276,36 @@ export const MermaidUrl = "https://mermaid.js.org/";
 export const MessengerUrl = "https://www.messenger.com/";
 export const MetaMaskUrl = "https://metamask.io/";
 export const MetaUrl = "https://about.meta.com/es/";
+export const MicrosoftAccessUrl =
+  "https://www.microsoft.com/microsoft-365/access";
 export const MicrosoftAzureUrl = "https://azure.microsoft.com/";
+export const MicrosoftClipchampUrl = "https://clipchamp.com/";
+export const MicrosoftCopilotUrl = "https://copilot.microsoft.com/";
+export const MicrosoftDefenderUrl =
+  "https://www.microsoft.com/microsoft-365/microsoft-defender-for-individuals";
+export const MicrosoftDesignerUrl = "https://designer.microsoft.com/";
+export const MicrosoftEditorUrl =
+  "https://www.microsoft.com/microsoft-365/microsoft-editor";
+export const MicrosoftExcelUrl =
+  "https://www.microsoft.com/microsoft-365/excel";
 export const MicrosoftNETUrl = "https://dotnet.microsoft.com";
+export const MicrosoftOneDriveUrl =
+  "https://www.microsoft.com/microsoft-365/onedrive/online-cloud-storage";
+export const MicrosoftOneNoteUrl =
+  "https://www.microsoft.com/microsoft-365/onenote/digital-note-taking-app";
+export const MicrosoftOutlookUrl =
+  "https://www.microsoft.com/microsoft-365/outlook/email-and-calendar-software-application";
+export const MicrosoftPowerPointUrl =
+  "https://www.microsoft.com/microsoft-365/powerpoint";
 export const MicrosoftSQLServerUrl =
   "https://www.microsoft.com/en-us/sql-server/";
+export const MicrosoftSharePointUrl =
+  "https://www.microsoft.com/microsoft-365/sharepoint/collaboration-software";
+export const MicrosoftTeamsUrl =
+  "https://www.microsoft.com/microsoft-teams/group-chat-software";
 export const MicrosoftTodoUrl = "https://to-do.office.com/";
 export const MicrosoftUrl = "https://www.microsoft.com/";
+export const MicrosoftWordUrl = "https://www.microsoft.com/microsoft-365/word";
 export const MiddayUrl = "https://midday.ai/";
 export const MidudevUrl = "https://midu.dev";
 export const MilanoteUrl = "https://milanote.com";
@@ -296,7 +320,7 @@ export const MonkeytypeUrl = "https://monkeytype.com/";
 export const MoonUrl = "https://moonjs.org/";
 export const MotionUrl = "https://motion.dev/";
 export const MulesoftUrl = "https://www.mulesoft.com/";
-export const MySQLUrl = "https://www.mysql.com/";
+export const MySQLUrl = "https://www.mysql.com";
 export const N8nUrl = "https://n8n.io/";
 export const NHostUrl = "https://nhost.io/";
 export const NPMUrl = "https://www.npmjs.com/";
@@ -322,7 +346,6 @@ export const NxUrl = "https://nx.dev";
 export const OBSUrl = "https://obsproject.com/";
 export const ObsidianUrl = "https://obsidian.md/";
 export const OllamaUrl = "https://www.ollama.com/";
-export const OneNoteUrl = "https://onenote.com";
 export const OnePasswordUrl = "https://1password.com";
 export const OpenAIUrl = "https://openai.com/";
 export const OpenBootcampUrl = "https://open-bootcamp.com/";
@@ -331,7 +354,6 @@ export const OpenRouterUrl = "https://openrouter.ai/";
 export const OpenSeaUrl = "https://opensea.io/";
 export const OpenWebUIUrl = "https://openwebui.com/";
 export const OperaUrl = "https://www.opera.com";
-export const OutlookUrl = "https://www.outlook.com";
 export const OxcUrl = "https://oxc.rs/";
 export const PM2Url = "https://pm2.io/";
 export const PandaCSSUrl = "https://panda-css.com/";
