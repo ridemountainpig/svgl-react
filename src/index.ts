@@ -244,8 +244,7 @@ export { default as InflectionAILight } from "./components/InflectionAILight";
 export { default as Infojobs } from "./components/Infojobs";
 export { default as InngestDark } from "./components/InngestDark";
 export { default as InngestLight } from "./components/InngestLight";
-export { default as InstagramDark } from "./components/InstagramDark";
-export { default as InstagramLight } from "./components/InstagramLight";
+export { default as Instagram } from "./components/Instagram";
 export { default as InstatusDark } from "./components/InstatusDark";
 export { default as InstatusLight } from "./components/InstatusLight";
 export { default as IntelliJIDEA } from "./components/IntelliJIDEA";
@@ -942,8 +941,7 @@ export type SvglComponentName =
   | "Infojobs"
   | "InngestDark"
   | "InngestLight"
-  | "InstagramDark"
-  | "InstagramLight"
+  | "Instagram"
   | "InstatusDark"
   | "InstatusLight"
   | "IntelliJIDEA"
