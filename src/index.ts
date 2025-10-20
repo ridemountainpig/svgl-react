@@ -354,7 +354,8 @@ export { default as MochaLight } from "./components/MochaLight";
 export { default as ModelContextProtocolDark } from "./components/ModelContextProtocolDark";
 export { default as ModelContextProtocolLight } from "./components/ModelContextProtocolLight";
 export { default as Monero } from "./components/Monero";
-export { default as MongoDB } from "./components/MongoDB";
+export { default as MongoDBDark } from "./components/MongoDBDark";
+export { default as MongoDBLight } from "./components/MongoDBLight";
 export { default as Monkeytype } from "./components/Monkeytype";
 export { default as Moon } from "./components/Moon";
 export { default as MotionDark } from "./components/MotionDark";
@@ -586,7 +587,8 @@ export { default as ThreadsDark } from "./components/ThreadsDark";
 export { default as ThreadsLight } from "./components/ThreadsLight";
 export { default as ThreejsDark } from "./components/ThreejsDark";
 export { default as ThreejsLight } from "./components/ThreejsLight";
-export { default as TikTok } from "./components/TikTok";
+export { default as TikTokDark } from "./components/TikTokDark";
+export { default as TikTokLight } from "./components/TikTokLight";
 export { default as Tina } from "./components/Tina";
 export { default as Todoist } from "./components/Todoist";
 export { default as TogetherAIDark } from "./components/TogetherAIDark";
@@ -693,6 +695,7 @@ export { default as Zig } from "./components/Zig";
 export { default as Zod } from "./components/Zod";
 export { default as Zoom } from "./components/Zoom";
 export { default as Zulip } from "./components/Zulip";
+export { default as Zyft } from "./components/Zyft";
 export * from "./urls";
 export type SvglComponentName =
   | "AMP"
@@ -1051,7 +1054,8 @@ export type SvglComponentName =
   | "ModelContextProtocolDark"
   | "ModelContextProtocolLight"
   | "Monero"
-  | "MongoDB"
+  | "MongoDBDark"
+  | "MongoDBLight"
   | "Monkeytype"
   | "Moon"
   | "MotionDark"
@@ -1283,7 +1287,8 @@ export type SvglComponentName =
   | "ThreadsLight"
   | "ThreejsDark"
   | "ThreejsLight"
-  | "TikTok"
+  | "TikTokDark"
+  | "TikTokLight"
   | "Tina"
   | "Todoist"
   | "TogetherAIDark"
@@ -1389,4 +1394,5 @@ export type SvglComponentName =
   | "Zig"
   | "Zod"
   | "Zoom"
-  | "Zulip";
+  | "Zulip"
+  | "Zyft";
