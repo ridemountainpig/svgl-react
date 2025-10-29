@@ -210,6 +210,7 @@ export { default as GoogleDrive } from "./components/GoogleDrive";
 export { default as GoogleIdx } from "./components/GoogleIdx";
 export { default as GoogleMaps } from "./components/GoogleMaps";
 export { default as GooglePaLM } from "./components/GooglePaLM";
+export { default as GooglePlay } from "./components/GooglePlay";
 export { default as Gradio } from "./components/Gradio";
 export { default as Grafana } from "./components/Grafana";
 export { default as GraphQL } from "./components/GraphQL";
@@ -317,6 +318,7 @@ export { default as MattermostDark } from "./components/MattermostDark";
 export { default as MattermostLight } from "./components/MattermostLight";
 export { default as MediaWiki } from "./components/MediaWiki";
 export { default as Medusa } from "./components/Medusa";
+export { default as MercadoLibre } from "./components/MercadoLibre";
 export { default as MercadoPago } from "./components/MercadoPago";
 export { default as MermaidDark } from "./components/MermaidDark";
 export { default as MermaidLight } from "./components/MermaidLight";
@@ -910,6 +912,7 @@ export type SvglComponentName =
   | "GoogleIdx"
   | "GoogleMaps"
   | "GooglePaLM"
+  | "GooglePlay"
   | "Gradio"
   | "Grafana"
   | "GraphQL"
@@ -1017,6 +1020,7 @@ export type SvglComponentName =
   | "MattermostLight"
   | "MediaWiki"
   | "Medusa"
+  | "MercadoLibre"
   | "MercadoPago"
   | "MermaidDark"
   | "MermaidLight"
