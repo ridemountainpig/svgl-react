@@ -210,6 +210,7 @@ export { default as GoogleDrive } from "./components/GoogleDrive";
 export { default as GoogleIdx } from "./components/GoogleIdx";
 export { default as GoogleMaps } from "./components/GoogleMaps";
 export { default as GooglePaLM } from "./components/GooglePaLM";
+export { default as GooglePlay } from "./components/GooglePlay";
 export { default as Gradio } from "./components/Gradio";
 export { default as Grafana } from "./components/Grafana";
 export { default as GraphQL } from "./components/GraphQL";
@@ -317,6 +318,7 @@ export { default as MattermostDark } from "./components/MattermostDark";
 export { default as MattermostLight } from "./components/MattermostLight";
 export { default as MediaWiki } from "./components/MediaWiki";
 export { default as Medusa } from "./components/Medusa";
+export { default as MercadoLibre } from "./components/MercadoLibre";
 export { default as MercadoPago } from "./components/MercadoPago";
 export { default as MermaidDark } from "./components/MermaidDark";
 export { default as MermaidLight } from "./components/MermaidLight";
@@ -408,6 +410,7 @@ export { default as OpenSea } from "./components/OpenSea";
 export { default as OpenWebUI } from "./components/OpenWebUI";
 export { default as Opera } from "./components/Opera";
 export { default as Oxc } from "./components/Oxc";
+export { default as PDF } from "./components/PDF";
 export { default as PM2 } from "./components/PM2";
 export { default as PandaCSS } from "./components/PandaCSS";
 export { default as Parcel } from "./components/Parcel";
@@ -910,6 +913,7 @@ export type SvglComponentName =
   | "GoogleIdx"
   | "GoogleMaps"
   | "GooglePaLM"
+  | "GooglePlay"
   | "Gradio"
   | "Grafana"
   | "GraphQL"
@@ -1017,6 +1021,7 @@ export type SvglComponentName =
   | "MattermostLight"
   | "MediaWiki"
   | "Medusa"
+  | "MercadoLibre"
   | "MercadoPago"
   | "MermaidDark"
   | "MermaidLight"
@@ -1108,6 +1113,7 @@ export type SvglComponentName =
   | "OpenWebUI"
   | "Opera"
   | "Oxc"
+  | "PDF"
   | "PM2"
   | "PandaCSS"
   | "Parcel"
