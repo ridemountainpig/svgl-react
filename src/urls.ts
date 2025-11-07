@@ -23,6 +23,7 @@ export const AnthropicUrl = "https://www.anthropic.com/";
 export const ApacheKafkaUrl = "https://kafka.apache.org/";
 export const ApidogUrl = "https://apidog.com/";
 export const ApolloioUrl = "https://www.apollo.io/";
+export const AppStoreUrl = "https://www.apple.com/app-store/";
 export const AppleMusicUrl = "https://music.apple.com/";
 export const AppleUrl = "https://www.apple.com";
 export const AppwriteUrl = "https://appwrite.io/";

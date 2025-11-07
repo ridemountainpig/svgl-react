@@ -26,6 +26,7 @@ export { default as ApacheKafkaDark } from "./components/ApacheKafkaDark";
 export { default as ApacheKafkaLight } from "./components/ApacheKafkaLight";
 export { default as Apidog } from "./components/Apidog";
 export { default as Apolloio } from "./components/Apolloio";
+export { default as AppStore } from "./components/AppStore";
 export { default as AppleDark } from "./components/AppleDark";
 export { default as AppleLight } from "./components/AppleLight";
 export { default as AppleMusic } from "./components/AppleMusic";
@@ -729,6 +730,7 @@ export type SvglComponentName =
   | "ApacheKafkaLight"
   | "Apidog"
   | "Apolloio"
+  | "AppStore"
   | "AppleDark"
   | "AppleLight"
   | "AppleMusic"
