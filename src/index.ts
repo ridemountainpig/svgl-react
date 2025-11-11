@@ -143,6 +143,7 @@ export { default as Dogecoin } from "./components/Dogecoin";
 export { default as Dotenv } from "./components/Dotenv";
 export { default as Dotenvx } from "./components/Dotenvx";
 export { default as Dreamweaver } from "./components/Dreamweaver";
+export { default as Dribbble } from "./components/Dribbble";
 export { default as DrizzleORMDark } from "./components/DrizzleORMDark";
 export { default as DrizzleORMLight } from "./components/DrizzleORMLight";
 export { default as Dropbox } from "./components/Dropbox";
@@ -545,6 +546,8 @@ export { default as Snapchat } from "./components/Snapchat";
 export { default as SocketIODark } from "./components/SocketIODark";
 export { default as SocketIOLight } from "./components/SocketIOLight";
 export { default as Solana } from "./components/Solana";
+export { default as SolderaDark } from "./components/SolderaDark";
+export { default as SolderaLight } from "./components/SolderaLight";
 export { default as Solidity } from "./components/Solidity";
 export { default as Solidjs } from "./components/Solidjs";
 export { default as SoundCloudDark } from "./components/SoundCloudDark";
@@ -847,6 +850,7 @@ export type SvglComponentName =
   | "Dotenv"
   | "Dotenvx"
   | "Dreamweaver"
+  | "Dribbble"
   | "DrizzleORMDark"
   | "DrizzleORMLight"
   | "Dropbox"
@@ -1249,6 +1253,8 @@ export type SvglComponentName =
   | "SocketIODark"
   | "SocketIOLight"
   | "Solana"
+  | "SolderaDark"
+  | "SolderaLight"
   | "Solidity"
   | "Solidjs"
   | "SoundCloudDark"
