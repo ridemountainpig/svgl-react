@@ -3,7 +3,6 @@ import type { SVGProps } from "react";
 const Nextjs = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    fill="none"
     viewBox="0 0 180 180"
     width="100%"
     height="100%"
@@ -21,17 +20,10 @@ const Nextjs = (props: SVGProps<SVGSVGElement>) => (
         maskType: "alpha",
       }}
     >
-      <circle cx={90} cy={90} r={90} fill="#000" />
+      <circle cx={90} cy={90} r={90} />
     </mask>
     <g mask="url(#Nextjs__a)">
-      <circle
-        cx={90}
-        cy={90}
-        r={87}
-        fill="#000"
-        stroke="#fff"
-        strokeWidth={6}
-      />
+      <circle cx={90} cy={90} r={90} data-circle="true" />
       <path
         fill="url(#Nextjs__b)"
         d="M149.508 157.52 69.142 54H54v71.97h12.114V69.384l73.885 95.461a90 90 0 0 0 9.509-7.325"
