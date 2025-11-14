@@ -415,6 +415,7 @@ export { default as Oxc } from "./components/Oxc";
 export { default as PDF } from "./components/PDF";
 export { default as PM2 } from "./components/PM2";
 export { default as PandaCSS } from "./components/PandaCSS";
+export { default as Paper } from "./components/Paper";
 export { default as Parcel } from "./components/Parcel";
 export { default as PatreonDark } from "./components/PatreonDark";
 export { default as PatreonLight } from "./components/PatreonLight";
@@ -1122,6 +1123,7 @@ export type SvglComponentName =
   | "PDF"
   | "PM2"
   | "PandaCSS"
+  | "Paper"
   | "Parcel"
   | "PatreonDark"
   | "PatreonLight"
