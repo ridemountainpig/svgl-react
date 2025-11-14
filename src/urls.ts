@@ -362,6 +362,7 @@ export const OxcUrl = "https://oxc.rs/";
 export const PDFUrl = "https://www.adobe.com/acrobat.html";
 export const PM2Url = "https://pm2.io/";
 export const PandaCSSUrl = "https://panda-css.com/";
+export const PaperUrl = "https://paper.design/";
 export const ParcelUrl = "https://parceljs.org/";
 export const PatreonUrl = "https://www.patreon.com/";
 export const PayPalUrl = "https://paypal.com";
