@@ -3,9 +3,7 @@ import type { SVGProps } from "react";
 const GraphQL = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    style={{
-      fill: "color(display-p3 .8824 0 .5961)",
-    }}
+    fill="#f6009b"
     viewBox="0 0 100 100"
     width="100%"
     height="100%"
