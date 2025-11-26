@@ -1,6 +1,6 @@
 {
   "name": "@ridemountainpig/svgl-react",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Implementation of the Svgl for React applications.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -51,9 +51,9 @@
     "@svgr/plugin-jsx": "^8.1.0",
     "@svgr/plugin-prettier": "^8.1.0",
     "@svgr/plugin-svgo": "^8.1.0",
-    "bunchee": "^6.5.0",
-    "prettier": "^3.5.3",
+    "bunchee": "^6.6.2",
+    "prettier": "^3.6.2",
     "ts-node": "^10.9.2",
-    "typescript": "^5.8.2"
+    "typescript": "^5.9.3"
   }
 }
