@@ -139,6 +139,7 @@ export { default as DocumensoLight } from "./components/DocumensoLight";
 export { default as DocusDark } from "./components/DocusDark";
 export { default as DocusLight } from "./components/DocusLight";
 export { default as Docusaurus } from "./components/Docusaurus";
+export { default as DodoPayments } from "./components/DodoPayments";
 export { default as Dogecoin } from "./components/Dogecoin";
 export { default as Dotenv } from "./components/Dotenv";
 export { default as Dotenvx } from "./components/Dotenvx";
@@ -182,6 +183,8 @@ export { default as FlowLauncher } from "./components/FlowLauncher";
 export { default as Flowbite } from "./components/Flowbite";
 export { default as Flutter } from "./components/Flutter";
 export { default as Fly } from "./components/Fly";
+export { default as FormanceDark } from "./components/FormanceDark";
+export { default as FormanceLight } from "./components/FormanceLight";
 export { default as Fortran } from "./components/Fortran";
 export { default as FramerDark } from "./components/FramerDark";
 export { default as FramerLight } from "./components/FramerLight";
@@ -847,6 +850,7 @@ export type SvglComponentName =
   | "DocusDark"
   | "DocusLight"
   | "Docusaurus"
+  | "DodoPayments"
   | "Dogecoin"
   | "Dotenv"
   | "Dotenvx"
@@ -890,6 +894,8 @@ export type SvglComponentName =
   | "Flowbite"
   | "Flutter"
   | "Fly"
+  | "FormanceDark"
+  | "FormanceLight"
   | "Fortran"
   | "FramerDark"
   | "FramerLight"
