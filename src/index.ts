@@ -467,6 +467,7 @@ export { default as PrismaDark } from "./components/PrismaDark";
 export { default as PrismaLight } from "./components/PrismaLight";
 export { default as Procure } from "./components/Procure";
 export { default as ProductHunt } from "./components/ProductHunt";
+export { default as ProtonMail } from "./components/ProtonMail";
 export { default as Pulumi } from "./components/Pulumi";
 export { default as Putio } from "./components/Putio";
 export { default as PyCharm } from "./components/PyCharm";
@@ -1178,6 +1179,7 @@ export type SvglComponentName =
   | "PrismaLight"
   | "Procure"
   | "ProductHunt"
+  | "ProtonMail"
   | "Pulumi"
   | "Putio"
   | "PyCharm"
