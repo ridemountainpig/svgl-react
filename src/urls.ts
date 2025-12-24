@@ -404,6 +404,7 @@ export const PrimeVideoUrl = "https://primevideo.com/";
 export const PrismaUrl = "https://prisma.io/";
 export const ProcureUrl = "https://procure.biz/";
 export const ProductHuntUrl = "https://www.producthunt.com/";
+export const ProtonMailUrl = "https://mail.proton.me";
 export const PulumiUrl = "https://www.pulumi.com/";
 export const PutioUrl = "https://put.io/";
 export const PyCharmUrl = "https://www.jetbrains.com/pycharm/";
