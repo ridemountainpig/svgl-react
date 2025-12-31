@@ -53,6 +53,7 @@ export const BingUrl = "https://www.bing.com/";
 export const BiomejsUrl = "https://biomejs.dev/";
 export const BitcoinUrl = "https://bitcoin.org/";
 export const BitwardenUrl = "https://bitwarden.com/";
+export const BklitUrl = "https://bklit.com/";
 export const BlenderUrl = "https://blender.org/";
 export const BlitzUrl = "https://blitzjs.com/";
 export const BlueskyUrl = "https://blueskyweb.xyz/";
@@ -172,6 +173,7 @@ export const GmailUrl = "https://www.gmail.com";
 export const GoDaddyUrl = "https://www.godaddy.com/";
 export const GoUrl = "https://go.dev/";
 export const GodotEngineUrl = "https://godotengine.org/";
+export const GoogleAntigravityUrl = "https://www.google.com/antigravity";
 export const GoogleClassroomUrl =
   "https://edu.google.com/workspace-for-education/products/classroom/";
 export const GoogleCloudUrl = "https://cloud.google.com/";

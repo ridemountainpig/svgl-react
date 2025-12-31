@@ -64,6 +64,8 @@ export { default as Bing } from "./components/Bing";
 export { default as Biomejs } from "./components/Biomejs";
 export { default as Bitcoin } from "./components/Bitcoin";
 export { default as Bitwarden } from "./components/Bitwarden";
+export { default as BklitDark } from "./components/BklitDark";
+export { default as BklitLight } from "./components/BklitLight";
 export { default as Blender } from "./components/Blender";
 export { default as Blitz } from "./components/Blitz";
 export { default as Bluesky } from "./components/Bluesky";
@@ -208,6 +210,7 @@ export { default as GoDark } from "./components/GoDark";
 export { default as GoLight } from "./components/GoLight";
 export { default as GodotEngine } from "./components/GodotEngine";
 export { default as Google } from "./components/Google";
+export { default as GoogleAntigravity } from "./components/GoogleAntigravity";
 export { default as GoogleClassroom } from "./components/GoogleClassroom";
 export { default as GoogleCloud } from "./components/GoogleCloud";
 export { default as GoogleColaboratory } from "./components/GoogleColaboratory";
@@ -776,6 +779,8 @@ export type SvglComponentName =
   | "Biomejs"
   | "Bitcoin"
   | "Bitwarden"
+  | "BklitDark"
+  | "BklitLight"
   | "Blender"
   | "Blitz"
   | "Bluesky"
@@ -920,6 +925,7 @@ export type SvglComponentName =
   | "GoLight"
   | "GodotEngine"
   | "Google"
+  | "GoogleAntigravity"
   | "GoogleClassroom"
   | "GoogleCloud"
   | "GoogleColaboratory"
