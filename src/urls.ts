@@ -173,6 +173,7 @@ export const GmailUrl = "https://www.gmail.com";
 export const GoDaddyUrl = "https://www.godaddy.com/";
 export const GoUrl = "https://go.dev/";
 export const GodotEngineUrl = "https://godotengine.org/";
+export const GoilUrl = "https://www.goil.app/";
 export const GoogleAntigravityUrl = "https://www.google.com/antigravity";
 export const GoogleClassroomUrl =
   "https://edu.google.com/workspace-for-education/products/classroom/";
@@ -218,6 +219,7 @@ export const InstagramUrl = "https://www.instagram.com/";
 export const InstatusUrl = "https://instatus.com";
 export const IntelliJIDEAUrl = "https://www.jetbrains.com/idea/";
 export const IntelloUrl = "https://intelloai.com/";
+export const IntlayerUrl = "https://intlayer.org";
 export const JQueryUrl = "https://jquery.com";
 export const JSONSchemaUrl = "https://json-schema.org/";
 export const JSONUrl = "https://json.org/";

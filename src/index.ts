@@ -209,6 +209,8 @@ export { default as GoDaddyLight } from "./components/GoDaddyLight";
 export { default as GoDark } from "./components/GoDark";
 export { default as GoLight } from "./components/GoLight";
 export { default as GodotEngine } from "./components/GodotEngine";
+export { default as GoilDark } from "./components/GoilDark";
+export { default as GoilLight } from "./components/GoilLight";
 export { default as Google } from "./components/Google";
 export { default as GoogleAntigravity } from "./components/GoogleAntigravity";
 export { default as GoogleClassroom } from "./components/GoogleClassroom";
@@ -259,6 +261,7 @@ export { default as InstatusLight } from "./components/InstatusLight";
 export { default as IntelliJIDEA } from "./components/IntelliJIDEA";
 export { default as IntelloDark } from "./components/IntelloDark";
 export { default as IntelloLight } from "./components/IntelloLight";
+export { default as Intlayer } from "./components/Intlayer";
 export { default as JQueryDark } from "./components/JQueryDark";
 export { default as JQueryLight } from "./components/JQueryLight";
 export { default as JSON } from "./components/JSON";
@@ -924,6 +927,8 @@ export type SvglComponentName =
   | "GoDark"
   | "GoLight"
   | "GodotEngine"
+  | "GoilDark"
+  | "GoilLight"
   | "Google"
   | "GoogleAntigravity"
   | "GoogleClassroom"
@@ -974,6 +979,7 @@ export type SvglComponentName =
   | "IntelliJIDEA"
   | "IntelloDark"
   | "IntelloLight"
+  | "Intlayer"
   | "JQueryDark"
   | "JQueryLight"
   | "JSON"
