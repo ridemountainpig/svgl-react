@@ -3,88 +3,400 @@ import type { SVGProps } from "react";
 const Oxc = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 240 240"
+    fill="none"
+    viewBox="0 0 48 46"
     width="100%"
     height="100%"
     preserveAspectRatio="xMidYMid meet"
     {...props}
   >
-    <g clipPath="url(#Oxc__a)">
-      <mask id="Oxc__b" x={99} y={26} maskUnits="userSpaceOnUse">
-        <path fill="#fff" d="M99 26h42v42H99z" />
-        <path
-          fillRule="evenodd"
-          d="M120 64c9.389 0 17-7.611 17-17s-7.611-17-17-17-17 7.611-17 17 7.611 17 17 17m0-7c5.523 0 10-4.477 10-10s-4.477-10-10-10-10 4.477-10 10 4.477 10 10 10"
-          clipRule="evenodd"
-        />
-      </mask>
+    <path
+      fill="#32f3ef"
+      d="M30.316 6.789a2.26 2.26 0 0 0 2.262 2.262h8.582c1.009 0 1.513 1.219.8 1.93L30.978 21.963a2.26 2.26 0 0 0-.664 1.6v3.755c0 1.562 1.55 2.645 2.92 1.9a20.4 20.4 0 0 0 3.868-2.727c.465-.416 1.18-.42 1.622.023l7.999 7.999a1.1 1.1 0 0 1-.013 1.585 33.82 33.82 0 0 1-23.184 9.153A33.82 33.82 0 0 1 .343 36.098a1.1 1.1 0 0 1-.013-1.585l7.999-7.999c.441-.441 1.157-.44 1.622-.023a20.4 20.4 0 0 0 3.869 2.727c1.372.745 2.919-.338 2.919-1.9v-3.755c0-.6-.24-1.176-.664-1.6L5.093 10.98c-.713-.713-.209-1.93.8-1.93h8.582a2.26 2.26 0 0 0 2.262-2.262V1.132a1.13 1.13 0 0 1 1.13-1.131H29.18a1.13 1.13 0 0 1 1.131 1.13V6.79z"
+    />
+    <mask
+      id="Oxc__a"
+      width={48}
+      height={46}
+      x={0}
+      y={0}
+      maskUnits="userSpaceOnUse"
+      style={{
+        maskType: "alpha",
+      }}
+    >
       <path
-        fill="#FF915C"
-        fillRule="evenodd"
-        d="M120 64c9.389 0 17-7.611 17-17s-7.611-17-17-17-17 7.611-17 17 7.611 17 17 17m0-7c5.523 0 10-4.477 10-10s-4.477-10-10-10-10 4.477-10 10 4.477 10 10 10"
-        clipRule="evenodd"
+        fill="#d9d9d9"
+        d="M30.316 6.788a2.26 2.26 0 0 0 2.262 2.262h8.582c1.009 0 1.513 1.219.8 1.93L30.978 21.962a2.26 2.26 0 0 0-.664 1.6v3.755c0 1.562 1.55 2.645 2.92 1.9a20.4 20.4 0 0 0 3.868-2.727c.465-.416 1.18-.42 1.622.024l7.999 7.998a1.1 1.1 0 0 1-.013 1.585 33.82 33.82 0 0 1-23.184 9.153A33.82 33.82 0 0 1 .343 36.097a1.1 1.1 0 0 1-.013-1.585l7.999-7.998c.441-.442 1.157-.44 1.622-.024a20.4 20.4 0 0 0 3.869 2.727c1.372.745 2.919-.338 2.919-1.9v-3.755c0-.6-.24-1.176-.664-1.6L5.093 10.98c-.713-.713-.209-1.93.8-1.93h8.582a2.26 2.26 0 0 0 2.262-2.262V1.13a1.13 1.13 0 0 1 1.13-1.131H29.18a1.13 1.13 0 0 1 1.131 1.13v5.658z"
       />
-      <path
-        fill="#2B3C5A"
-        d="M133 47c0 7.18-5.82 13-13 13v8c11.598 0 21-9.402 21-21zm-13-13c7.18 0 13 5.82 13 13h8c0-11.598-9.402-21-21-21zm-13 13c0-7.18 5.82-13 13-13v-8c-11.598 0-21 9.402-21 21zm13 13c-7.18 0-13-5.82-13-13h-8c0 11.598 9.402 21 21 21zm6-13a6 6 0 0 1-6 6v8c7.732 0 14-6.268 14-14zm-6-6a6 6 0 0 1 6 6h8c0-7.732-6.268-14-14-14zm-6 6a6 6 0 0 1 6-6v-8c-7.732 0-14 6.268-14 14zm6 6a6 6 0 0 1-6-6h-8c0 7.732 6.268 14 14 14z"
-        mask="url(#Oxc__b)"
-      />
-      <g clipPath="url(#Oxc__c)">
-        <mask
-          id="Oxc__d"
-          width={148}
-          height={178}
-          x={46}
-          y={26}
-          maskUnits="userSpaceOnUse"
-        >
-          <path fill="#fff" d="M46 26h148v178H46z" />
-          <path
-            fillRule="evenodd"
-            d="M127.017 62.489C132.905 59.817 137 53.887 137 47c0-9.389-7.611-17-17-17s-17 7.611-17 17c0 6.887 4.095 12.817 9.983 15.489L112.552 75h-.052l-23.726 1.79A3 3 0 0 0 86 79.783v6.44a3 3 0 0 0 2.77 2.991L112 91l-1.104 41.769c-.333 12.612-2.388 28.067-14.71 30.774-1.365.3-2.767.457-4.186.457-7.386 0-15.91-9.093-21.37-18.417a63 63 0 0 1 6.636-2.443c1.297-.396 1.558-2.222.426-2.97-8.182-5.408-14.672-12.666-18.654-21.062-.547-1.154-2.2-1.238-2.751-.086a65 65 0 0 0-3.519 9.006c-2.761 9.002-3.465 18.391-2.073 27.631l.093.597c.193 1.203 1.683 1.629 2.559.782a55 55 0 0 1 5.236-4.466C68.627 184.191 102.218 200 120 200c17.786 0 51.39-15.817 61.424-47.452a55 55 0 0 1 5.231 4.478c.876.85 2.37.424 2.562-.781q.048-.293.091-.586c1.386-9.24.685-18.629-2.064-27.631a65 65 0 0 0-3.495-8.99c-.55-1.155-2.207-1.072-2.753.085-3.966 8.391-10.425 15.644-18.566 21.049-1.129.749-.868 2.571.427 2.968a62 62 0 0 1 6.533 2.411C163.929 154.886 155.395 164 148 164c-1.418 0-2.82-.157-4.184-.456-12.324-2.707-14.379-18.163-14.712-30.775L128 91l23.23-1.787a3 3 0 0 0 2.77-2.991v-6.44a3 3 0 0 0-2.774-2.991L127.5 75h-.052zM130 47c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10 10 4.477 10 10"
-            clipRule="evenodd"
-          />
-        </mask>
-        <path
-          fill="#FF915C"
-          fillRule="evenodd"
-          d="M127.017 62.489C132.905 59.817 137 53.887 137 47c0-9.389-7.611-17-17-17s-17 7.611-17 17c0 6.887 4.095 12.817 9.983 15.489L112.552 75h-.052l-23.726 1.79A3 3 0 0 0 86 79.783v6.44a3 3 0 0 0 2.77 2.991L112 91l-1.104 41.769c-.333 12.612-2.388 28.067-14.71 30.774-1.365.3-2.767.457-4.186.457-7.386 0-15.91-9.093-21.37-18.417a63 63 0 0 1 6.636-2.443c1.297-.396 1.558-2.222.426-2.97-8.182-5.408-14.672-12.666-18.654-21.062-.547-1.154-2.2-1.238-2.751-.086a65 65 0 0 0-3.519 9.006c-2.761 9.002-3.465 18.391-2.073 27.631l.093.597c.193 1.203 1.683 1.629 2.559.782a55 55 0 0 1 5.236-4.466C68.627 184.191 102.218 200 120 200c17.786 0 51.39-15.817 61.424-47.452a55 55 0 0 1 5.231 4.478c.876.85 2.37.424 2.562-.781q.048-.293.091-.586c1.386-9.24.685-18.629-2.064-27.631a65 65 0 0 0-3.495-8.99c-.55-1.155-2.207-1.072-2.753.085-3.966 8.391-10.425 15.644-18.566 21.049-1.129.749-.868 2.571.427 2.968a62 62 0 0 1 6.533 2.411C163.929 154.886 155.395 164 148 164c-1.418 0-2.82-.157-4.184-.456-12.324-2.707-14.379-18.163-14.712-30.775L128 91l23.23-1.787a3 3 0 0 0 2.77-2.991v-6.44a3 3 0 0 0-2.774-2.991L127.5 75h-.052zM130 47c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10 10 4.477 10 10"
-          clipRule="evenodd"
+    </mask>
+    <g mask="url(#Oxc__a)">
+      <g filter="url(#Oxc__b)">
+        <ellipse
+          cx={4.618}
+          cy={21.501}
+          fill="#aefffb"
+          rx={4.618}
+          ry={21.501}
+          transform="matrix(0 -1 -1 0 44.898 50.594)"
         />
-        <path
-          fill="#2B3C5A"
-          d="m127.017 62.489-1.653-3.643-2.437 1.106.092 2.675zm-14.034 0 3.998.138.092-2.675-2.437-1.106zM112.552 75v4h3.864l.133-3.862zm-.052 0v-4h-.151l-.15.011zm-23.726 1.79-.3-3.988.3 3.989Zm-.004 12.423-.307 3.988zM112 91l3.999.106.1-3.802-3.792-.292zm-1.104 41.769 3.999.106zm-14.71 30.774.858 3.907zm-25.557-17.96-1.593-3.669-4.14 1.797 2.282 3.894zm6.637-2.443-1.169-3.825zm.426-2.97 2.206-3.337v-.001zm-18.654-21.062 3.614-1.714zm-2.751-.086 3.608 1.727zm-3.519 9.006-3.824-1.173zm-2.073 27.631 3.955-.596zm.093.597-3.95.635zm2.559.782 2.78 2.875zm5.236-4.466 3.812-1.211-1.707-5.377-4.509 3.391zm122.841-.024 2.409-3.193-4.512-3.404-1.709 5.387zm5.231 4.478-2.786 2.869v.001zm2.562-.781 3.95.631zm.091-.586-3.956-.593zm-2.064-27.631-3.825 1.168zm-3.495-8.99-3.611 1.719zm-2.753.085-3.617-1.709zm-18.566 21.049-2.213-3.333zm.427 2.968-1.173 3.824zm6.533 2.411 3.452 2.02 2.277-3.892-4.135-1.797zm-25.574 17.993-.858 3.907zm-14.712-30.775-3.999.105zM128 91l-.307-3.988-3.792.291.1 3.803zm23.23-1.787.307 3.988zm-.004-12.422.301-3.989zM127.5 75l.301-3.989-.15-.011h-.151zm-.052 0-3.997.138.133 3.862h3.864zm1.222-8.869C135.934 62.835 141 55.513 141 47h-8c0 5.26-3.125 9.8-7.636 11.846zM141 47c0-11.598-9.402-21-21-21v8c7.18 0 13 5.82 13 13zm-21-21c-11.598 0-21 9.402-21 21h8c0-7.18 5.82-13 13-13zM99 47c0 8.513 5.066 15.835 12.33 19.131l3.306-7.285C110.125 56.8 107 52.26 107 47zm9.986 15.351-.432 12.511 7.995.276.432-12.511zM112.552 71h-.052v8h.052zm-.353.011-23.726 1.791.602 7.977 23.726-1.79zm-23.726 1.791A7 7 0 0 0 82 79.782h8a1 1 0 0 1-.925.997zM82 79.782v6.44h8v-6.44zm0 6.44a7 7 0 0 0 6.463 6.98l.614-7.977a1 1 0 0 1 .923.997zm6.463 6.98 23.23 1.786.614-7.976-23.23-1.787-.614 7.976Zm19.538-2.308-1.104 41.769 7.998.212 1.104-41.77zm-1.104 41.769c-.164 6.229-.756 12.703-2.621 17.844-1.83 5.046-4.618 8.178-8.949 9.13l1.717 7.813c7.991-1.755 12.392-7.705 14.753-14.216 2.327-6.416 2.929-13.975 3.098-20.359zm-11.57 26.974A15.5 15.5 0 0 1 92 160v8c1.714 0 3.404-.19 5.044-.55zM92 160c-2.163 0-5.19-1.426-8.698-4.655-3.38-3.11-6.64-7.378-9.222-11.784l-6.902 4.044c2.88 4.918 6.612 9.859 10.706 13.626C81.85 164.88 86.777 168 92 168zm-19.778-10.748a58 58 0 0 1 6.212-2.286l-2.337-7.651a66 66 0 0 0-7.061 2.599zm6.212-2.286c4.551-1.39 5.403-7.53 1.464-10.133l-4.411 6.674a2.37 2.37 0 0 1-1.056-2.288 2.37 2.37 0 0 1 1.666-1.904zm1.464-10.134c-7.626-5.04-13.603-11.757-17.246-19.438l-7.228 3.428c4.32 9.11 11.325 16.91 20.063 22.685zm-17.246-19.438c-1.793-3.782-7.774-4.694-9.974-.099l7.217 3.454a2.57 2.57 0 0 1-2.385 1.448 2.42 2.42 0 0 1-2.086-1.375zm-9.974-.099a69 69 0 0 0-3.734 9.56l7.648 2.346a61 61 0 0 1 3.303-8.452zm-3.734 9.56c-2.935 9.57-3.687 19.563-2.204 29.4l7.91-1.192c-1.302-8.643-.645-17.428 1.942-25.862zm-2.204 29.4.099.636 7.898-1.269q-.045-.28-.087-.559zm.099.636c.763 4.753 6.354 5.861 9.289 3.022l-5.562-5.75a2.44 2.44 0 0 1 2.388-.58 2.57 2.57 0 0 1 1.783 2.039zm9.289 3.022a52 52 0 0 1 4.86-4.145l-4.809-6.393a59 59 0 0 0-5.613 4.788zm-1.357-6.13c5.36 16.875 16.963 29.41 29.403 37.69C96.537 199.702 110.14 204 120 204v-8c-7.921 0-20.006-3.607-31.394-11.187-11.312-7.53-21.527-18.709-26.21-33.452zM120 204c9.863 0 23.469-4.3 35.836-12.533 12.442-8.285 24.045-20.826 29.401-37.71l-7.625-2.419c-4.679 14.751-14.895 25.936-26.21 33.469C140.012 192.391 127.923 196 120 196zm59.015-48.259a52 52 0 0 1 4.854 4.154l5.573-5.739a59 59 0 0 0-5.609-4.801zm4.854 4.155c2.934 2.848 8.538 1.743 9.298-3.02l-7.9-1.262a2.57 2.57 0 0 1 1.785-2.042 2.44 2.44 0 0 1 2.39.584zm9.298-3.02q.05-.312.097-.624l-7.912-1.186q-.04.273-.085.548zm.097-.624c1.475-9.833.727-19.824-2.194-29.392l-7.651 2.336c2.576 8.437 3.23 17.224 1.933 25.87zm-2.194-29.392a69 69 0 0 0-3.709-9.541l-7.223 3.438a61 61 0 0 1 3.281 8.439zm-3.709-9.541c-2.195-4.611-8.191-3.695-9.982.095l7.233 3.418a2.42 2.42 0 0 1-2.088 1.378 2.57 2.57 0 0 1-2.386-1.453zm-9.982.095c-3.628 7.678-9.576 14.39-17.162 19.425l4.425 6.665c8.698-5.773 15.668-13.569 19.97-22.672zm-17.162 19.425c-3.927 2.607-3.074 8.732 1.467 10.125l2.346-7.648a2.38 2.38 0 0 1 1.664 1.903 2.37 2.37 0 0 1-1.052 2.285zm1.467 10.125a58 58 0 0 1 6.112 2.255l3.188-7.337a66 66 0 0 0-6.954-2.566zm4.253-3.433c-2.58 4.411-5.843 8.687-9.227 11.803-3.513 3.236-6.544 4.666-8.71 4.666v8c5.229 0 10.162-3.127 14.13-6.782 4.098-3.774 7.832-8.723 10.712-13.647zM148 160c-1.123 0-2.238-.124-3.326-.363l-1.716 7.814c1.639.36 3.328.549 5.042.549zm-3.326-.363c-4.331-.951-7.12-4.083-8.95-9.13-1.865-5.141-2.457-11.616-2.621-17.844l-7.998.211c.169 6.385.771 13.944 3.098 20.361 2.362 6.511 6.763 12.46 14.755 14.216zm-11.571-26.974-1.104-41.769-7.998.212 1.104 41.768zm-4.796-37.675 23.23-1.787-.614-7.976-23.23 1.787zm23.23-1.787a7 7 0 0 0 6.463-6.98h-8a1 1 0 0 1 .923-.996zm6.463-6.98v-6.439h-8v6.44h8Zm0-6.439a7 7 0 0 0-6.473-6.98l-.602 7.977a1 1 0 0 1-.925-.997zm-6.473-6.98-23.726-1.79-.602 7.977 23.726 1.79zM127.5 71h-.052v8h.052zm3.946 3.862-.432-12.511-7.995.276.432 12.51zM120 61c7.732 0 14-6.268 14-14h-8a6 6 0 0 1-6 6zm-14-14c0 7.732 6.268 14 14 14v-8a6 6 0 0 1-6-6zm14-14c-7.732 0-14 6.268-14 14h8a6 6 0 0 1 6-6zm14 14c0-7.732-6.268-14-14-14v8a6 6 0 0 1 6 6z"
-          mask="url(#Oxc__d)"
+      </g>
+      <g filter="url(#Oxc__c)">
+        <ellipse
+          cx={4.618}
+          cy={21.501}
+          fill="#0f8"
+          rx={4.618}
+          ry={21.501}
+          transform="scale(-1 1)rotate(-68.34 -1.902 66.786)"
         />
-        <path
-          fill="#8A380F"
-          d="M86 87.148a2 2 0 0 0 1.847 1.994L112 91l6.634-6.634a.8.8 0 0 0-.565-1.366H86z"
+      </g>
+      <g filter="url(#Oxc__d)">
+        <ellipse
+          cx={5.201}
+          cy={44.012}
+          fill="#195eff"
+          rx={4.618}
+          ry={21.501}
+          transform="rotate(-68.34 5.201 44.012)"
         />
-        <path
-          fill="#8A380F"
-          fillRule="evenodd"
-          d="M182.124 118.814c.39-.585 1.264-.532 1.567.101a65 65 0 0 1 3.553 9.113c2.749 9.002 3.45 18.391 2.064 27.631q-.043.293-.091.586c-.192 1.205-1.686 1.631-2.562.781a56.7 56.7 0 0 0-11.091-8.361 1.553 1.553 0 0 1-.642-1.971c3.368-7.583 5.849-16.672 7.053-27.47a.94.94 0 0 1 .149-.41"
-          clipRule="evenodd"
+      </g>
+      <g filter="url(#Oxc__e)">
+        <ellipse
+          cx={31.927}
+          cy={28.892}
+          fill="#aefffb"
+          rx={3.715}
+          ry={6.268}
+          transform="rotate(-135.197 31.927 28.892)"
         />
-        <path
-          fill="#8A380F"
-          d="m127 62 .5 13-5.818 5.43c-.639.596-1.682.143-1.682-.731V62zm57 78c-4 40-44 60-64 60V84.5a1.5 1.5 0 0 1 1.5-1.5H154v3.285a3 3 0 0 1-2.701 2.985L128 91l1.104 41.769c.333 12.612 2.369 28.102 14.698 30.785 1.345.293 2.729.446 4.131.446-1.385.066-2.761.554-3.652 1.616-4.867 5.798-10.395 11.645-18.574 14.285 21.5 1 51.11-13.627 56.293-60.901z"
+      </g>
+      <g filter="url(#Oxc__f)">
+        <ellipse
+          cx={33.843}
+          cy={25.445}
+          fill="#195eff"
+          rx={3.715}
+          ry={6.268}
+          transform="rotate(-135.197 33.843 25.445)"
         />
-        <path
-          fill="#8A380F"
-          fillRule="evenodd"
-          d="M121.998 59.898C120.899 60.01 120 60.895 120 62s.898 2.012 1.995 1.883a17 17 0 0 0 10.026-4.862A17 17 0 0 0 137 47.08a.08.08 0 0 0-.081-.081.08.08 0 0 0-.079.069c-1.053 6.73-7.166 12.036-14.842 12.828Z"
-          clipRule="evenodd"
+      </g>
+      <g filter="url(#Oxc__g)">
+        <ellipse
+          cx={33.459}
+          cy={6.297}
+          fill="#aefffb"
+          rx={3.715}
+          ry={6.268}
+          transform="rotate(-135.197 33.46 6.297)"
+        />
+      </g>
+      <g filter="url(#Oxc__h)">
+        <ellipse
+          cx={34.608}
+          cy={4.765}
+          fill="#195eff"
+          rx={3.715}
+          ry={6.268}
+          transform="rotate(-135.197 34.608 4.765)"
+        />
+      </g>
+      <g filter="url(#Oxc__i)">
+        <ellipse
+          cx={3.715}
+          cy={6.268}
+          fill="#aefffb"
+          rx={3.715}
+          ry={6.268}
+          transform="scale(1 -1)rotate(44.803 53.166 2.552)"
+        />
+      </g>
+      <g filter="url(#Oxc__j)">
+        <ellipse
+          cx={3.715}
+          cy={6.268}
+          fill="#195eff"
+          rx={3.715}
+          ry={6.268}
+          transform="scale(1 -1)rotate(44.803 47.647 1.024)"
+        />
+      </g>
+      <g filter="url(#Oxc__k)">
+        <ellipse
+          cx={3.715}
+          cy={6.268}
+          fill="#aefffb"
+          rx={3.715}
+          ry={6.268}
+          transform="scale(1 -1)rotate(44.803 23.489 10.98)"
+        />
+      </g>
+      <g filter="url(#Oxc__l)">
+        <ellipse
+          cx={3.715}
+          cy={6.268}
+          fill="#195eff"
+          rx={3.715}
+          ry={6.268}
+          transform="scale(1 -1)rotate(44.803 20.512 11.664)"
+        />
+      </g>
+      <g filter="url(#Oxc__m)">
+        <ellipse
+          cx={3.715}
+          cy={11.949}
+          fill="#195eff"
+          rx={3.715}
+          ry={11.949}
+          transform="scale(1 -1)rotate(44.803 42.26 3.785)"
+        />
+      </g>
+      <g filter="url(#Oxc__n)">
+        <ellipse
+          cx={38.995}
+          cy={14.521}
+          fill="#0f8"
+          rx={3.715}
+          ry={11.949}
+          transform="rotate(-135.197 38.995 14.521)"
+        />
+      </g>
+      <g filter="url(#Oxc__o)">
+        <ellipse
+          cx={4.618}
+          cy={21.501}
+          fill="#195eff"
+          rx={4.618}
+          ry={21.501}
+          transform="matrix(0 -1 -1 0 44.898 52.509)"
         />
       </g>
     </g>
     <defs>
-      <clipPath id="Oxc__a">
-        <path fill="#fff" d="M0 0h240v240H0z" />
-      </clipPath>
-      <clipPath id="Oxc__c">
-        <rect width={200} height={200} x={20} y={40} fill="#fff" rx={40} />
-      </clipPath>
+      <filter
+        id="Oxc__b"
+        width={61.384}
+        height={27.618}
+        x={-7.294}
+        y={32.167}
+        colorInterpolationFilters="sRGB"
+        filterUnits="userSpaceOnUse"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+        <feGaussianBlur
+          result="effect1_foregroundBlur_2002_17235"
+          stdDeviation={4.596}
+        />
+      </filter>
+      <filter
+        id="Oxc__c"
+        width={58.495}
+        height={36.43}
+        x={12.335}
+        y={25.797}
+        colorInterpolationFilters="sRGB"
+        filterUnits="userSpaceOnUse"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+        <feGaussianBlur
+          result="effect1_foregroundBlur_2002_17235"
+          stdDeviation={4.596}
+        />
+      </filter>
+      <filter
+        id="Oxc__d"
+        width={58.495}
+        height={36.43}
+        x={-24.046}
+        y={25.797}
+        colorInterpolationFilters="sRGB"
+        filterUnits="userSpaceOnUse"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+        <feGaussianBlur
+          result="effect1_foregroundBlur_2002_17235"
+          stdDeviation={4.596}
+        />
+      </filter>
+      <filter
+        id="Oxc__e"
+        width={28.672}
+        height={28.706}
+        x={17.592}
+        y={14.539}
+        colorInterpolationFilters="sRGB"
+        filterUnits="userSpaceOnUse"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+        <feGaussianBlur
+          result="effect1_foregroundBlur_2002_17235"
+          stdDeviation={4.596}
+        />
+      </filter>
+      <filter
+        id="Oxc__f"
+        width={28.672}
+        height={28.706}
+        x={19.507}
+        y={11.093}
+        colorInterpolationFilters="sRGB"
+        filterUnits="userSpaceOnUse"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+        <feGaussianBlur
+          result="effect1_foregroundBlur_2002_17235"
+          stdDeviation={4.596}
+        />
+      </filter>
+      <filter
+        id="Oxc__g"
+        width={28.672}
+        height={28.706}
+        x={19.123}
+        y={-8.055}
+        colorInterpolationFilters="sRGB"
+        filterUnits="userSpaceOnUse"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+        <feGaussianBlur
+          result="effect1_foregroundBlur_2002_17235"
+          stdDeviation={4.596}
+        />
+      </filter>
+      <filter
+        id="Oxc__h"
+        width={28.672}
+        height={28.706}
+        x={20.272}
+        y={-9.587}
+        colorInterpolationFilters="sRGB"
+        filterUnits="userSpaceOnUse"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+        <feGaussianBlur
+          result="effect1_foregroundBlur_2002_17235"
+          stdDeviation={4.596}
+        />
+      </filter>
+      <filter
+        id="Oxc__i"
+        width={28.672}
+        height={28.706}
+        x={1.124}
+        y={15.305}
+        colorInterpolationFilters="sRGB"
+        filterUnits="userSpaceOnUse"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+        <feGaussianBlur
+          result="effect1_foregroundBlur_2002_17235"
+          stdDeviation={4.596}
+        />
+      </filter>
+      <filter
+        id="Oxc__j"
+        width={28.672}
+        height={28.706}
+        x={-1.557}
+        y={11.859}
+        colorInterpolationFilters="sRGB"
+        filterUnits="userSpaceOnUse"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+        <feGaussianBlur
+          result="effect1_foregroundBlur_2002_17235"
+          stdDeviation={4.596}
+        />
+      </filter>
+      <filter
+        id="Oxc__k"
+        width={28.672}
+        height={28.706}
+        x={-1.557}
+        y={-8.055}
+        colorInterpolationFilters="sRGB"
+        filterUnits="userSpaceOnUse"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+        <feGaussianBlur
+          result="effect1_foregroundBlur_2002_17235"
+          stdDeviation={4.596}
+        />
+      </filter>
+      <filter
+        id="Oxc__l"
+        width={28.672}
+        height={28.706}
+        x={-1.939}
+        y={-10.353}
+        colorInterpolationFilters="sRGB"
+        filterUnits="userSpaceOnUse"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+        <feGaussianBlur
+          result="effect1_foregroundBlur_2002_17235"
+          stdDeviation={4.596}
+        />
+      </filter>
+      <filter
+        id="Oxc__m"
+        width={36.034}
+        height={36.133}
+        x={-8.858}
+        y={-0.482}
+        colorInterpolationFilters="sRGB"
+        filterUnits="userSpaceOnUse"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+        <feGaussianBlur
+          result="effect1_foregroundBlur_2002_17235"
+          stdDeviation={4.596}
+        />
+      </filter>
+      <filter
+        id="Oxc__n"
+        width={36.034}
+        height={36.133}
+        x={20.978}
+        y={-3.545}
+        colorInterpolationFilters="sRGB"
+        filterUnits="userSpaceOnUse"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+        <feGaussianBlur
+          result="effect1_foregroundBlur_2002_17235"
+          stdDeviation={4.596}
+        />
+      </filter>
+      <filter
+        id="Oxc__o"
+        width={61.384}
+        height={27.618}
+        x={-7.294}
+        y={34.082}
+        colorInterpolationFilters="sRGB"
+        filterUnits="userSpaceOnUse"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+        <feGaussianBlur
+          result="effect1_foregroundBlur_2002_17235"
+          stdDeviation={4.596}
+        />
+      </filter>
     </defs>
   </svg>
 );

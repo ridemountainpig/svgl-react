@@ -558,6 +558,7 @@ export const ViteUrl = "https://vitejs.dev";
 export const VitestUrl = "https://vitest.dev/";
 export const VivaldiUrl = "https://vivaldi.com";
 export const VoicemodUrl = "https://voicemod.net/";
+export const VoidZeroUrl = "https://voidzero.dev/";
 export const VoltaUrl = "https://volta.net/";
 export const VueUrl = "https://vuejs.org/";
 export const VueUseUrl = "https://vueuse.org/";

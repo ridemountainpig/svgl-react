@@ -261,7 +261,8 @@ export { default as InstatusLight } from "./components/InstatusLight";
 export { default as IntelliJIDEA } from "./components/IntelliJIDEA";
 export { default as IntelloDark } from "./components/IntelloDark";
 export { default as IntelloLight } from "./components/IntelloLight";
-export { default as Intlayer } from "./components/Intlayer";
+export { default as IntlayerDark } from "./components/IntlayerDark";
+export { default as IntlayerLight } from "./components/IntlayerLight";
 export { default as JQueryDark } from "./components/JQueryDark";
 export { default as JQueryLight } from "./components/JQueryLight";
 export { default as JSON } from "./components/JSON";
@@ -666,6 +667,7 @@ export { default as Vitest } from "./components/Vitest";
 export { default as Vivaldi } from "./components/Vivaldi";
 export { default as VoicemodDark } from "./components/VoicemodDark";
 export { default as VoicemodLight } from "./components/VoicemodLight";
+export { default as VoidZero } from "./components/VoidZero";
 export { default as VoltaDark } from "./components/VoltaDark";
 export { default as VoltaLight } from "./components/VoltaLight";
 export { default as Vue } from "./components/Vue";
@@ -979,7 +981,8 @@ export type SvglComponentName =
   | "IntelliJIDEA"
   | "IntelloDark"
   | "IntelloLight"
-  | "Intlayer"
+  | "IntlayerDark"
+  | "IntlayerLight"
   | "JQueryDark"
   | "JQueryLight"
   | "JSON"
@@ -1384,6 +1387,7 @@ export type SvglComponentName =
   | "Vivaldi"
   | "VoicemodDark"
   | "VoicemodLight"
+  | "VoidZero"
   | "VoltaDark"
   | "VoltaLight"
   | "Vue"
