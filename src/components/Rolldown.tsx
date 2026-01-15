@@ -4,32 +4,295 @@ const Rolldown = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
-    viewBox="0 0 100 100"
+    viewBox="0 0 43 45"
     width="100%"
     height="100%"
     preserveAspectRatio="xMidYMid meet"
     {...props}
   >
     <path
-      fill="url(#Rolldown__a)"
-      d="M50 100c27.614 0 50-22.386 50-50S77.614 0 50 0 0 22.386 0 50s22.386 50 50 50"
+      fill="#f50"
+      d="M39.287 0c.959 0 1.482 1.118.868 1.855L29.712 14.388c-1.228 1.473-.181 3.711 1.738 3.711h10.101c.959 0 1.482 1.118.868 1.855L22.211 44.206a1.132 1.132 0 0 1-1.738 0L.264 19.954c-.614-.737-.09-1.855.869-1.855H11.23c1.918 0 2.967-2.238 1.739-3.711L2.526 1.855C1.912 1.118 2.436 0 3.394 0z"
     />
-    <path
-      fill="#fff"
-      d="M85 45.64H72.514l1.924-2.608L60.642 43l-6.739 9.347H67l-5.785 8.738h-9.882l12 10.248 24-10.248H75.457zm-2.667-13.307h-14L66.411 35h13.954zM78.52 37.5H64.608L62.5 40.424h13.863zm-28.316 6.692q0 3.54-1.92 6.407-1.92 2.865-5.59 4.215L51.334 71H37.33l-6.888-14.107h-4.63V71H13.333V32.333h23.772q4.178 0 7.114 1.63 2.993 1.573 4.46 4.327 1.525 2.698 1.525 5.902m-12.704.505q0-1.517-1.017-2.529-1.015-1.011-2.484-1.011h-8.187v7.137h8.187q1.469 0 2.484-1.011 1.017-1.068 1.017-2.586"
-    />
+    <mask
+      id="Rolldown__a"
+      width={43}
+      height={45}
+      x={0}
+      y={0}
+      maskUnits="userSpaceOnUse"
+      style={{
+        maskType: "alpha",
+      }}
+    >
+      <path
+        fill="#000"
+        d="M39.287 0c.959 0 1.482 1.118.868 1.855L29.712 14.388c-1.228 1.473-.181 3.711 1.738 3.711h10.101c.959 0 1.482 1.118.868 1.855L22.211 44.206a1.132 1.132 0 0 1-1.738 0L.264 19.954c-.614-.737-.09-1.855.869-1.855H11.23c1.918 0 2.967-2.238 1.739-3.711L2.526 1.855C1.912 1.118 2.436 0 3.394 0z"
+      />
+    </mask>
+    <g mask="url(#Rolldown__a)">
+      <g filter="url(#Rolldown__b)">
+        <ellipse
+          cx={5.397}
+          cy={23.582}
+          fill="#ffe7e5"
+          rx={5.397}
+          ry={23.582}
+          transform="scale(-1 1)rotate(-30.253 -62.175 101.555)"
+        />
+      </g>
+      <g filter="url(#Rolldown__c)">
+        <ellipse
+          cx={5.397}
+          cy={23.582}
+          fill="#ffe7e5"
+          rx={5.397}
+          ry={23.582}
+          transform="scale(-1 1)rotate(-30.253 -19.102 110.92)"
+        />
+      </g>
+      <g filter="url(#Rolldown__d)">
+        <ellipse
+          cx={0.673}
+          cy={0.673}
+          fill="#ff19af"
+          rx={3.719}
+          ry={21.831}
+          transform="rotate(-36.093 .673 .673)"
+        />
+      </g>
+      <g filter="url(#Rolldown__e)">
+        <ellipse
+          cx={6.417}
+          cy={33.331}
+          fill="#ff19af"
+          rx={3.719}
+          ry={21.831}
+          transform="rotate(-36.093 6.417 33.331)"
+        />
+      </g>
+      <g filter="url(#Rolldown__f)">
+        <ellipse
+          cx={3.719}
+          cy={21.831}
+          fill="#ff19af"
+          rx={3.719}
+          ry={21.831}
+          transform="scale(-1 1)rotate(-36.093 -51.625 81.464)"
+        />
+      </g>
+      <g filter="url(#Rolldown__g)">
+        <ellipse
+          cx={3.719}
+          cy={21.831}
+          fill="#ff19af"
+          rx={3.719}
+          ry={21.831}
+          transform="scale(-1 1)rotate(-36.093 1.94 87.215)"
+        />
+      </g>
+      <g filter="url(#Rolldown__h)">
+        <ellipse
+          cx={3.719}
+          cy={21.831}
+          fill="#ff19af"
+          rx={3.719}
+          ry={21.831}
+          transform="scale(-1 1)rotate(-36.093 -49.902 76.175)"
+        />
+      </g>
+      <g filter="url(#Rolldown__i)">
+        <ellipse
+          cx={3.719}
+          cy={21.831}
+          fill="#ff19af"
+          rx={3.719}
+          ry={21.831}
+          transform="scale(-1 1)rotate(-36.093 3.088 83.689)"
+        />
+      </g>
+      <g filter="url(#Rolldown__j)">
+        <ellipse
+          cx={2.796}
+          cy={2.253}
+          fill="#d14b2a"
+          rx={5.397}
+          ry={23.582}
+          transform="rotate(-40.91 2.796 2.253)"
+        />
+      </g>
+      <g filter="url(#Rolldown__k)">
+        <ellipse
+          cx={6.468}
+          cy={27.73}
+          fill="#d14b2a"
+          rx={5.397}
+          ry={23.582}
+          transform="rotate(-35.888 6.468 27.73)"
+        />
+      </g>
+    </g>
     <defs>
-      <linearGradient
-        id="Rolldown__a"
-        x1={50}
-        x2={50}
-        y1={0}
-        y2={100}
-        gradientUnits="userSpaceOnUse"
+      <filter
+        id="Rolldown__b"
+        width={39.32}
+        height={54.894}
+        x={23.431}
+        y={-27.29}
+        colorInterpolationFilters="sRGB"
+        filterUnits="userSpaceOnUse"
       >
-        <stop stopColor="#F0DB4F" />
-        <stop offset={0.92} stopColor="#FF5D13" />
-      </linearGradient>
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+        <feGaussianBlur
+          result="effect1_foregroundBlur_2002_17217"
+          stdDeviation={3.447}
+        />
+      </filter>
+      <filter
+        id="Rolldown__c"
+        width={39.32}
+        height={54.894}
+        x={22.282}
+        y={-4.313}
+        colorInterpolationFilters="sRGB"
+        filterUnits="userSpaceOnUse"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+        <feGaussianBlur
+          result="effect1_foregroundBlur_2002_17217"
+          stdDeviation={3.447}
+        />
+      </filter>
+      <filter
+        id="Rolldown__d"
+        width={40.206}
+        height={49.343}
+        x={-19.43}
+        y={-23.998}
+        colorInterpolationFilters="sRGB"
+        filterUnits="userSpaceOnUse"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+        <feGaussianBlur
+          result="effect1_foregroundBlur_2002_17217"
+          stdDeviation={3.447}
+        />
+      </filter>
+      <filter
+        id="Rolldown__e"
+        width={40.206}
+        height={49.343}
+        x={-13.686}
+        y={8.66}
+        colorInterpolationFilters="sRGB"
+        filterUnits="userSpaceOnUse"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+        <feGaussianBlur
+          result="effect1_foregroundBlur_2002_17217"
+          stdDeviation={3.447}
+        />
+      </filter>
+      <filter
+        id="Rolldown__f"
+        width={40.206}
+        height={49.343}
+        x={21.93}
+        y={-23.998}
+        colorInterpolationFilters="sRGB"
+        filterUnits="userSpaceOnUse"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+        <feGaussianBlur
+          result="effect1_foregroundBlur_2002_17217"
+          stdDeviation={3.447}
+        />
+      </filter>
+      <filter
+        id="Rolldown__g"
+        width={40.206}
+        height={49.343}
+        x={15.037}
+        y={8.66}
+        colorInterpolationFilters="sRGB"
+        filterUnits="userSpaceOnUse"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+        <feGaussianBlur
+          result="effect1_foregroundBlur_2002_17217"
+          stdDeviation={3.447}
+        />
+      </filter>
+      <filter
+        id="Rolldown__h"
+        width={40.206}
+        height={49.343}
+        x={18.484}
+        y={-23.998}
+        colorInterpolationFilters="sRGB"
+        filterUnits="userSpaceOnUse"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+        <feGaussianBlur
+          result="effect1_foregroundBlur_2002_17217"
+          stdDeviation={3.447}
+        />
+      </filter>
+      <filter
+        id="Rolldown__i"
+        width={40.206}
+        height={49.343}
+        x={12.739}
+        y={8.66}
+        colorInterpolationFilters="sRGB"
+        filterUnits="userSpaceOnUse"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+        <feGaussianBlur
+          result="effect1_foregroundBlur_2002_17217"
+          stdDeviation={3.447}
+        />
+      </filter>
+      <filter
+        id="Rolldown__j"
+        width={45.741}
+        height={50.132}
+        x={-20.074}
+        y={-22.813}
+        colorInterpolationFilters="sRGB"
+        filterUnits="userSpaceOnUse"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+        <feGaussianBlur
+          result="effect1_foregroundBlur_2002_17217"
+          stdDeviation={3.447}
+        />
+      </filter>
+      <filter
+        id="Rolldown__k"
+        width={42.792}
+        height={52.524}
+        x={-14.928}
+        y={1.468}
+        colorInterpolationFilters="sRGB"
+        filterUnits="userSpaceOnUse"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+        <feGaussianBlur
+          result="effect1_foregroundBlur_2002_17217"
+          stdDeviation={3.447}
+        />
+      </filter>
     </defs>
   </svg>
 );
