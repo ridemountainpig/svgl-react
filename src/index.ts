@@ -178,6 +178,8 @@ export { default as FastifyLight } from "./components/FastifyLight";
 export { default as Figma } from "./components/Figma";
 export { default as Firebase } from "./components/Firebase";
 export { default as FirebaseStudio } from "./components/FirebaseStudio";
+export { default as FirecrawlDark } from "./components/FirecrawlDark";
+export { default as FirecrawlLight } from "./components/FirecrawlLight";
 export { default as Firefox } from "./components/Firefox";
 export { default as FlaskDark } from "./components/FlaskDark";
 export { default as FlaskLight } from "./components/FlaskLight";
@@ -598,6 +600,8 @@ export { default as TailwindCSS } from "./components/TailwindCSS";
 export { default as TanStack } from "./components/TanStack";
 export { default as Tauri } from "./components/Tauri";
 export { default as Telegram } from "./components/Telegram";
+export { default as TemboDark } from "./components/TemboDark";
+export { default as TemboLight } from "./components/TemboLight";
 export { default as TensorFlowDark } from "./components/TensorFlowDark";
 export { default as TensorFlowLight } from "./components/TensorFlowLight";
 export { default as Terraform } from "./components/Terraform";
@@ -898,6 +902,8 @@ export type SvglComponentName =
   | "Figma"
   | "Firebase"
   | "FirebaseStudio"
+  | "FirecrawlDark"
+  | "FirecrawlLight"
   | "Firefox"
   | "FlaskDark"
   | "FlaskLight"
@@ -1318,6 +1324,8 @@ export type SvglComponentName =
   | "TanStack"
   | "Tauri"
   | "Telegram"
+  | "TemboDark"
+  | "TemboLight"
   | "TensorFlowDark"
   | "TensorFlowLight"
   | "Terraform"
