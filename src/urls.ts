@@ -138,6 +138,7 @@ export const ElementorUrl = "https://elementor.com/";
 export const ElysiaJSUrl = "https://elysiajs.com/";
 export const EmacsUrl = "https://www.gnu.org/software/emacs/";
 export const EmberUrl = "https://emberjs.com/";
+export const EpicGamesUrl = "https://www.epicgames.com/";
 export const EsbuildUrl = "https://esbuild.github.io/";
 export const EthereumUrl = "https://ethereum.org/";
 export const ExomeUrl = "https://exome.dev/";
