@@ -165,6 +165,8 @@ export { default as Elementor } from "./components/Elementor";
 export { default as ElysiaJS } from "./components/ElysiaJS";
 export { default as Emacs } from "./components/Emacs";
 export { default as Ember } from "./components/Ember";
+export { default as EpicGamesDark } from "./components/EpicGamesDark";
+export { default as EpicGamesLight } from "./components/EpicGamesLight";
 export { default as Esbuild } from "./components/Esbuild";
 export { default as Ethereum } from "./components/Ethereum";
 export { default as Exome } from "./components/Exome";
@@ -889,6 +891,8 @@ export type SvglComponentName =
   | "ElysiaJS"
   | "Emacs"
   | "Ember"
+  | "EpicGamesDark"
+  | "EpicGamesLight"
   | "Esbuild"
   | "Ethereum"
   | "Exome"
