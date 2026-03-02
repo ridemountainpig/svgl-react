@@ -1,4 +1,5 @@
 export { default as AMP } from "./components/AMP";
+export { default as AbacatePay } from "./components/AbacatePay";
 export { default as Adobe } from "./components/Adobe";
 export { default as AffinityDesigner } from "./components/AffinityDesigner";
 export { default as AffinityPhoto } from "./components/AffinityPhoto";
@@ -207,6 +208,8 @@ export { default as GitHubDark } from "./components/GitHubDark";
 export { default as GitHubLight } from "./components/GitHubLight";
 export { default as GitLab } from "./components/GitLab";
 export { default as Gleam } from "./components/Gleam";
+export { default as GlideDark } from "./components/GlideDark";
+export { default as GlideLight } from "./components/GlideLight";
 export { default as Gmail } from "./components/Gmail";
 export { default as GoDaddyDark } from "./components/GoDaddyDark";
 export { default as GoDaddyLight } from "./components/GoDaddyLight";
@@ -216,15 +219,21 @@ export { default as GodotEngine } from "./components/GodotEngine";
 export { default as GoilDark } from "./components/GoilDark";
 export { default as GoilLight } from "./components/GoilLight";
 export { default as Google } from "./components/Google";
+export { default as GoogleAnalytics } from "./components/GoogleAnalytics";
 export { default as GoogleAntigravity } from "./components/GoogleAntigravity";
+export { default as GoogleCalendar } from "./components/GoogleCalendar";
+export { default as GoogleChat } from "./components/GoogleChat";
 export { default as GoogleClassroom } from "./components/GoogleClassroom";
 export { default as GoogleCloud } from "./components/GoogleCloud";
 export { default as GoogleColaboratory } from "./components/GoogleColaboratory";
 export { default as GoogleDrive } from "./components/GoogleDrive";
 export { default as GoogleIdx } from "./components/GoogleIdx";
 export { default as GoogleMaps } from "./components/GoogleMaps";
+export { default as GoogleMeet } from "./components/GoogleMeet";
 export { default as GooglePaLM } from "./components/GooglePaLM";
 export { default as GooglePlay } from "./components/GooglePlay";
+export { default as GoogleSheets } from "./components/GoogleSheets";
+export { default as GoogleSlides } from "./components/GoogleSlides";
 export { default as Gradio } from "./components/Gradio";
 export { default as Grafana } from "./components/Grafana";
 export { default as GraphQL } from "./components/GraphQL";
@@ -246,6 +255,7 @@ export { default as Homebrew } from "./components/Homebrew";
 export { default as Hono } from "./components/Hono";
 export { default as Hoppscotch } from "./components/Hoppscotch";
 export { default as Hostgator } from "./components/Hostgator";
+export { default as Hotmart } from "./components/Hotmart";
 export { default as HuggingFace } from "./components/HuggingFace";
 export { default as Hugo } from "./components/Hugo";
 export { default as HuluDark } from "./components/HuluDark";
@@ -321,6 +331,8 @@ export { default as Lua } from "./components/Lua";
 export { default as MagicUI } from "./components/MagicUI";
 export { default as Manifest } from "./components/Manifest";
 export { default as Mantine } from "./components/Mantine";
+export { default as ManusDark } from "./components/ManusDark";
+export { default as ManusLight } from "./components/ManusLight";
 export { default as ManzDev } from "./components/ManzDev";
 export { default as MariaDB } from "./components/MariaDB";
 export { default as MarkdownDark } from "./components/MarkdownDark";
@@ -351,6 +363,7 @@ export { default as MicrosoftDesigner } from "./components/MicrosoftDesigner";
 export { default as MicrosoftEditor } from "./components/MicrosoftEditor";
 export { default as MicrosoftExcel } from "./components/MicrosoftExcel";
 export { default as MicrosoftNET } from "./components/MicrosoftNET";
+export { default as MicrosoftOffice } from "./components/MicrosoftOffice";
 export { default as MicrosoftOneDrive } from "./components/MicrosoftOneDrive";
 export { default as MicrosoftOneNote } from "./components/MicrosoftOneNote";
 export { default as MicrosoftOutlook } from "./components/MicrosoftOutlook";
@@ -361,6 +374,8 @@ export { default as MicrosoftTeams } from "./components/MicrosoftTeams";
 export { default as MicrosoftTodo } from "./components/MicrosoftTodo";
 export { default as MicrosoftWord } from "./components/MicrosoftWord";
 export { default as Midday } from "./components/Midday";
+export { default as MidjourneyDark } from "./components/MidjourneyDark";
+export { default as MidjourneyLight } from "./components/MidjourneyLight";
 export { default as Midudev } from "./components/Midudev";
 export { default as MilanoteDark } from "./components/MilanoteDark";
 export { default as MilanoteLight } from "./components/MilanoteLight";
@@ -725,6 +740,7 @@ export { default as Zyft } from "./components/Zyft";
 export * from "./urls";
 export type SvglComponentName =
   | "AMP"
+  | "AbacatePay"
   | "Adobe"
   | "AffinityDesigner"
   | "AffinityPhoto"
@@ -933,6 +949,8 @@ export type SvglComponentName =
   | "GitHubLight"
   | "GitLab"
   | "Gleam"
+  | "GlideDark"
+  | "GlideLight"
   | "Gmail"
   | "GoDaddyDark"
   | "GoDaddyLight"
@@ -942,15 +960,21 @@ export type SvglComponentName =
   | "GoilDark"
   | "GoilLight"
   | "Google"
+  | "GoogleAnalytics"
   | "GoogleAntigravity"
+  | "GoogleCalendar"
+  | "GoogleChat"
   | "GoogleClassroom"
   | "GoogleCloud"
   | "GoogleColaboratory"
   | "GoogleDrive"
   | "GoogleIdx"
   | "GoogleMaps"
+  | "GoogleMeet"
   | "GooglePaLM"
   | "GooglePlay"
+  | "GoogleSheets"
+  | "GoogleSlides"
   | "Gradio"
   | "Grafana"
   | "GraphQL"
@@ -972,6 +996,7 @@ export type SvglComponentName =
   | "Hono"
   | "Hoppscotch"
   | "Hostgator"
+  | "Hotmart"
   | "HuggingFace"
   | "Hugo"
   | "HuluDark"
@@ -1047,6 +1072,8 @@ export type SvglComponentName =
   | "MagicUI"
   | "Manifest"
   | "Mantine"
+  | "ManusDark"
+  | "ManusLight"
   | "ManzDev"
   | "MariaDB"
   | "MarkdownDark"
@@ -1077,6 +1104,7 @@ export type SvglComponentName =
   | "MicrosoftEditor"
   | "MicrosoftExcel"
   | "MicrosoftNET"
+  | "MicrosoftOffice"
   | "MicrosoftOneDrive"
   | "MicrosoftOneNote"
   | "MicrosoftOutlook"
@@ -1087,6 +1115,8 @@ export type SvglComponentName =
   | "MicrosoftTodo"
   | "MicrosoftWord"
   | "Midday"
+  | "MidjourneyDark"
+  | "MidjourneyLight"
   | "Midudev"
   | "MilanoteDark"
   | "MilanoteLight"
