@@ -146,6 +146,8 @@ export { default as DodoPayments } from "./components/DodoPayments";
 export { default as Dogecoin } from "./components/Dogecoin";
 export { default as Dotenv } from "./components/Dotenv";
 export { default as Dotenvx } from "./components/Dotenvx";
+export { default as DraculaDark } from "./components/DraculaDark";
+export { default as DraculaLight } from "./components/DraculaLight";
 export { default as Dreamweaver } from "./components/Dreamweaver";
 export { default as Dribbble } from "./components/Dribbble";
 export { default as DrizzleORMDark } from "./components/DrizzleORMDark";
@@ -434,6 +436,9 @@ export { default as OnePasswordLight } from "./components/OnePasswordLight";
 export { default as OpenAIDark } from "./components/OpenAIDark";
 export { default as OpenAILight } from "./components/OpenAILight";
 export { default as OpenBootcamp } from "./components/OpenBootcamp";
+export { default as OpenClaw } from "./components/OpenClaw";
+export { default as OpenCodeDark } from "./components/OpenCodeDark";
+export { default as OpenCodeLight } from "./components/OpenCodeLight";
 export { default as OpenHunts } from "./components/OpenHunts";
 export { default as OpenRouterDark } from "./components/OpenRouterDark";
 export { default as OpenRouterLight } from "./components/OpenRouterLight";
@@ -686,6 +691,8 @@ export { default as VisualStudioCode } from "./components/VisualStudioCode";
 export { default as Vite } from "./components/Vite";
 export { default as Vitest } from "./components/Vitest";
 export { default as Vivaldi } from "./components/Vivaldi";
+export { default as VltDark } from "./components/VltDark";
+export { default as VltLight } from "./components/VltLight";
 export { default as VoicemodDark } from "./components/VoicemodDark";
 export { default as VoicemodLight } from "./components/VoicemodLight";
 export { default as VoidZero } from "./components/VoidZero";
@@ -887,6 +894,8 @@ export type SvglComponentName =
   | "Dogecoin"
   | "Dotenv"
   | "Dotenvx"
+  | "DraculaDark"
+  | "DraculaLight"
   | "Dreamweaver"
   | "Dribbble"
   | "DrizzleORMDark"
@@ -1175,6 +1184,9 @@ export type SvglComponentName =
   | "OpenAIDark"
   | "OpenAILight"
   | "OpenBootcamp"
+  | "OpenClaw"
+  | "OpenCodeDark"
+  | "OpenCodeLight"
   | "OpenHunts"
   | "OpenRouterDark"
   | "OpenRouterLight"
@@ -1427,6 +1439,8 @@ export type SvglComponentName =
   | "Vite"
   | "Vitest"
   | "Vivaldi"
+  | "VltDark"
+  | "VltLight"
   | "VoicemodDark"
   | "VoicemodLight"
   | "VoidZero"
