@@ -4,8 +4,6 @@ export { default as Adobe } from "./components/Adobe";
 export { default as AffinityDesigner } from "./components/AffinityDesigner";
 export { default as AffinityPhoto } from "./components/AffinityPhoto";
 export { default as AffinityPublisher } from "./components/AffinityPublisher";
-export { default as AfordinDark } from "./components/AfordinDark";
-export { default as AfordinLight } from "./components/AfordinLight";
 export { default as AfterEffects } from "./components/AfterEffects";
 export { default as Ahooks } from "./components/Ahooks";
 export { default as Ahrefs } from "./components/Ahrefs";
@@ -277,6 +275,8 @@ export { default as InstatusLight } from "./components/InstatusLight";
 export { default as IntelliJIDEA } from "./components/IntelliJIDEA";
 export { default as IntelloDark } from "./components/IntelloDark";
 export { default as IntelloLight } from "./components/IntelloLight";
+export { default as InterfereDark } from "./components/InterfereDark";
+export { default as InterfereLight } from "./components/InterfereLight";
 export { default as IntlayerDark } from "./components/IntlayerDark";
 export { default as IntlayerLight } from "./components/IntlayerLight";
 export { default as JQueryDark } from "./components/JQueryDark";
@@ -539,6 +539,8 @@ export { default as RelaGitLight } from "./components/RelaGitLight";
 export { default as RemixDark } from "./components/RemixDark";
 export { default as RemixLight } from "./components/RemixLight";
 export { default as Remotion } from "./components/Remotion";
+export { default as RenderDark } from "./components/RenderDark";
+export { default as RenderLight } from "./components/RenderLight";
 export { default as ReplicateDark } from "./components/ReplicateDark";
 export { default as ReplicateLight } from "./components/ReplicateLight";
 export { default as Replit } from "./components/Replit";
@@ -728,6 +730,7 @@ export { default as XLight } from "./components/XLight";
 export { default as XRP } from "./components/XRP";
 export { default as XStateDark } from "./components/XStateDark";
 export { default as XStateLight } from "./components/XStateLight";
+export { default as Xata } from "./components/Xata";
 export { default as Xbox } from "./components/Xbox";
 export { default as YGeeker } from "./components/YGeeker";
 export { default as Yarn } from "./components/Yarn";
@@ -752,8 +755,6 @@ export type SvglComponentName =
   | "AffinityDesigner"
   | "AffinityPhoto"
   | "AffinityPublisher"
-  | "AfordinDark"
-  | "AfordinLight"
   | "AfterEffects"
   | "Ahooks"
   | "Ahrefs"
@@ -1025,6 +1026,8 @@ export type SvglComponentName =
   | "IntelliJIDEA"
   | "IntelloDark"
   | "IntelloLight"
+  | "InterfereDark"
+  | "InterfereLight"
   | "IntlayerDark"
   | "IntlayerLight"
   | "JQueryDark"
@@ -1287,6 +1290,8 @@ export type SvglComponentName =
   | "RemixDark"
   | "RemixLight"
   | "Remotion"
+  | "RenderDark"
+  | "RenderLight"
   | "ReplicateDark"
   | "ReplicateLight"
   | "Replit"
@@ -1476,6 +1481,7 @@ export type SvglComponentName =
   | "XRP"
   | "XStateDark"
   | "XStateLight"
+  | "Xata"
   | "Xbox"
   | "YGeeker"
   | "Yarn"
