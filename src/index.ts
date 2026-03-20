@@ -445,6 +445,7 @@ export { default as OpenRouterLight } from "./components/OpenRouterLight";
 export { default as OpenSea } from "./components/OpenSea";
 export { default as OpenWebUI } from "./components/OpenWebUI";
 export { default as Opera } from "./components/Opera";
+export { default as Orshot } from "./components/Orshot";
 export { default as Oxc } from "./components/Oxc";
 export { default as PDF } from "./components/PDF";
 export { default as PM2 } from "./components/PM2";
@@ -1196,6 +1197,7 @@ export type SvglComponentName =
   | "OpenSea"
   | "OpenWebUI"
   | "Opera"
+  | "Orshot"
   | "Oxc"
   | "PDF"
   | "PM2"
