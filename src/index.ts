@@ -101,6 +101,8 @@ export { default as CloudflareWorkers } from "./components/CloudflareWorkers";
 export { default as Cloudinary } from "./components/Cloudinary";
 export { default as Cobol } from "./components/Cobol";
 export { default as Codesandbox } from "./components/Codesandbox";
+export { default as CodexDark } from "./components/CodexDark";
+export { default as CodexLight } from "./components/CodexLight";
 export { default as Codium } from "./components/Codium";
 export { default as Cody } from "./components/Cody";
 export { default as Cohere } from "./components/Cohere";
@@ -236,6 +238,8 @@ export { default as GoogleSheets } from "./components/GoogleSheets";
 export { default as GoogleSlides } from "./components/GoogleSlides";
 export { default as Gradio } from "./components/Gradio";
 export { default as Grafana } from "./components/Grafana";
+export { default as GranolaDark } from "./components/GranolaDark";
+export { default as GranolaLight } from "./components/GranolaLight";
 export { default as GraphQL } from "./components/GraphQL";
 export { default as GrokDark } from "./components/GrokDark";
 export { default as GrokLight } from "./components/GrokLight";
@@ -853,6 +857,8 @@ export type SvglComponentName =
   | "Cloudinary"
   | "Cobol"
   | "Codesandbox"
+  | "CodexDark"
+  | "CodexLight"
   | "Codium"
   | "Cody"
   | "Cohere"
@@ -988,6 +994,8 @@ export type SvglComponentName =
   | "GoogleSlides"
   | "Gradio"
   | "Grafana"
+  | "GranolaDark"
+  | "GranolaLight"
   | "GraphQL"
   | "GrokDark"
   | "GrokLight"
