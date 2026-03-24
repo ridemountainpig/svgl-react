@@ -320,6 +320,7 @@ export { default as LayersDark } from "./components/LayersDark";
 export { default as LayersLight } from "./components/LayersLight";
 export { default as LeapWallet } from "./components/LeapWallet";
 export { default as LearnThis } from "./components/LearnThis";
+export { default as Leedlime } from "./components/Leedlime";
 export { default as LemonSqueezy } from "./components/LemonSqueezy";
 export { default as Lightroom } from "./components/Lightroom";
 export { default as Linear } from "./components/Linear";
@@ -1076,6 +1077,7 @@ export type SvglComponentName =
   | "LayersLight"
   | "LeapWallet"
   | "LearnThis"
+  | "Leedlime"
   | "LemonSqueezy"
   | "Lightroom"
   | "Linear"

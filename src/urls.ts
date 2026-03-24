@@ -266,6 +266,7 @@ export const LaravelUrl = "https://laravel.com/";
 export const LayersUrl = "https://layers.to/";
 export const LeapWalletUrl = "https://leapwallet.io/";
 export const LearnThisUrl = "https://learnthisacademy.com";
+export const LeedlimeUrl = "https://leedlime.com";
 export const LemonSqueezyUrl = "https://www.lemonsqueezy.com";
 export const LightroomUrl =
   "https://www.adobe.com/products/photoshop-lightroom";
