@@ -74,6 +74,7 @@ export const CalcomUrl = "https://cal.com";
 export const CalendlyUrl = "https://calendly.com/";
 export const CanvaUrl = "https://www.canva.com/";
 export const CarrdUrl = "https://carrd.co/";
+export const CerebrasUrl = "https://www.cerebras.ai/";
 export const ChakraUIUrl = "https://chakra-ui.com";
 export const ChartjsUrl = "https://www.chartjs.org/";
 export const ChromeUrl = "https://chrome.com/";
