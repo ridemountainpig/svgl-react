@@ -87,6 +87,8 @@ export { default as CalcomLight } from "./components/CalcomLight";
 export { default as Calendly } from "./components/Calendly";
 export { default as Canva } from "./components/Canva";
 export { default as Carrd } from "./components/Carrd";
+export { default as CerebrasDark } from "./components/CerebrasDark";
+export { default as CerebrasLight } from "./components/CerebrasLight";
 export { default as ChakraUI } from "./components/ChakraUI";
 export { default as Chartjs } from "./components/Chartjs";
 export { default as Chrome } from "./components/Chrome";
@@ -844,6 +846,8 @@ export type SvglComponentName =
   | "Calendly"
   | "Canva"
   | "Carrd"
+  | "CerebrasDark"
+  | "CerebrasLight"
   | "ChakraUI"
   | "Chartjs"
   | "Chrome"
