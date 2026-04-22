@@ -470,6 +470,7 @@ export const RowyUrl = "https://www.rowy.io/";
 export const RsbuildUrl = "https://rsbuild.rs";
 export const RspackUrl = "https://rspack.rs/";
 export const RubyUrl = "https://www.ruby-lang.org/";
+export const RunframeUrl = "https://runframe.io";
 export const RunwayUrl = "https://runwayml.com/";
 export const RustUrl = "https://www.rust-lang.org/";
 export const RxJSUrl = "https://rxjs.dev/";

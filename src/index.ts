@@ -561,6 +561,7 @@ export { default as Rowy } from "./components/Rowy";
 export { default as Rsbuild } from "./components/Rsbuild";
 export { default as Rspack } from "./components/Rspack";
 export { default as Ruby } from "./components/Ruby";
+export { default as Runframe } from "./components/Runframe";
 export { default as Runway } from "./components/Runway";
 export { default as RustDark } from "./components/RustDark";
 export { default as RustLight } from "./components/RustLight";
@@ -1320,6 +1321,7 @@ export type SvglComponentName =
   | "Rsbuild"
   | "Rspack"
   | "Ruby"
+  | "Runframe"
   | "Runway"
   | "RustDark"
   | "RustLight"
