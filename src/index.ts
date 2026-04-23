@@ -745,6 +745,7 @@ export { default as YGeeker } from "./components/YGeeker";
 export { default as Yarn } from "./components/Yarn";
 export { default as YouTube } from "./components/YouTube";
 export { default as YoutubeMusic } from "./components/YoutubeMusic";
+export { default as ZaiaEndless } from "./components/ZaiaEndless";
 export { default as ZeaburDark } from "./components/ZeaburDark";
 export { default as ZeaburLight } from "./components/ZeaburLight";
 export { default as ZedDark } from "./components/ZedDark";
@@ -1505,6 +1506,7 @@ export type SvglComponentName =
   | "Yarn"
   | "YouTube"
   | "YoutubeMusic"
+  | "ZaiaEndless"
   | "ZeaburDark"
   | "ZeaburLight"
   | "ZedDark"

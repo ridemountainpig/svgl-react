@@ -614,6 +614,7 @@ export const YGeekerUrl = "https://www.ygeeker.com";
 export const YarnUrl = "https://yarnpkg.com/";
 export const YouTubeUrl = "https://www.youtube.com";
 export const YoutubeMusicUrl = "https://music.youtube.com/";
+export const ZaiaEndlessUrl = "https://zaia.app/";
 export const ZeaburUrl = "https://zeabur.com/";
 export const ZedUrl = "https://zed.dev/";
 export const ZenBrowserUrl = "https://zen-browser.app/";
