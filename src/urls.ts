@@ -354,6 +354,7 @@ export const N8nUrl = "https://n8n.io/";
 export const NHostUrl = "https://nhost.io/";
 export const NPMUrl = "https://www.npmjs.com/";
 export const NVIDIAUrl = "https://www.nvidia.com";
+export const NanoUrl = "https://nano.org";
 export const NeonUrl = "https://neon.tech/";
 export const NeovimUrl = "https://neovim.io/";
 export const NestJSUrl = "https://nestjs.com/";

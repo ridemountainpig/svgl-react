@@ -410,6 +410,8 @@ export { default as NHost } from "./components/NHost";
 export { default as NPM } from "./components/NPM";
 export { default as NVIDIADark } from "./components/NVIDIADark";
 export { default as NVIDIALight } from "./components/NVIDIALight";
+export { default as NanoDark } from "./components/NanoDark";
+export { default as NanoLight } from "./components/NanoLight";
 export { default as Neon } from "./components/Neon";
 export { default as Neovim } from "./components/Neovim";
 export { default as NestJS } from "./components/NestJS";
@@ -1171,6 +1173,8 @@ export type SvglComponentName =
   | "NPM"
   | "NVIDIADark"
   | "NVIDIALight"
+  | "NanoDark"
+  | "NanoLight"
   | "Neon"
   | "Neovim"
   | "NestJS"
