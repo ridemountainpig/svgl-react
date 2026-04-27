@@ -82,6 +82,7 @@ export const ChromiumUrl = "https://www.chromium.org";
 export const CiscoUrl = "https://www.cisco.com/";
 export const ClaudeAIUrl = "https://claude.ai/";
 export const ClerkUrl = "https://clerk.com";
+export const ClickUpUrl = "https://clickup.com/";
 export const CloudflareUrl = "https://www.cloudflare.com/";
 export const CloudflareWorkersUrl = "https://workers.cloudflare.com/";
 export const CloudinaryUrl = "https://cloudinary.com/";
