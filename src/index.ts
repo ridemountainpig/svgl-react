@@ -98,6 +98,7 @@ export { default as CiscoLight } from "./components/CiscoLight";
 export { default as ClaudeAI } from "./components/ClaudeAI";
 export { default as ClerkDark } from "./components/ClerkDark";
 export { default as ClerkLight } from "./components/ClerkLight";
+export { default as ClickUp } from "./components/ClickUp";
 export { default as Cloudflare } from "./components/Cloudflare";
 export { default as CloudflareWorkers } from "./components/CloudflareWorkers";
 export { default as Cloudinary } from "./components/Cloudinary";
@@ -861,6 +862,7 @@ export type SvglComponentName =
   | "ClaudeAI"
   | "ClerkDark"
   | "ClerkLight"
+  | "ClickUp"
   | "Cloudflare"
   | "CloudflareWorkers"
   | "Cloudinary"
