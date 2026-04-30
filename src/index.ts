@@ -1,6 +1,12 @@
 export { default as AMP } from "./components/AMP";
 export { default as AbacatePay } from "./components/AbacatePay";
+export { default as AcrobatReader } from "./components/AcrobatReader";
+export { default as AcrobatScan } from "./components/AcrobatScan";
 export { default as Adobe } from "./components/Adobe";
+export { default as AdobeAero } from "./components/AdobeAero";
+export { default as AdobeFonts } from "./components/AdobeFonts";
+export { default as AdobeSign } from "./components/AdobeSign";
+export { default as AdobeStock } from "./components/AdobeStock";
 export { default as AffinityDesigner } from "./components/AffinityDesigner";
 export { default as AffinityPhoto } from "./components/AffinityPhoto";
 export { default as AffinityPublisher } from "./components/AffinityPublisher";
@@ -41,6 +47,7 @@ export { default as AstroDark } from "./components/AstroDark";
 export { default as AstroLight } from "./components/AstroLight";
 export { default as Atlassian } from "./components/Atlassian";
 export { default as Atom } from "./components/Atom";
+export { default as Audition } from "./components/Audition";
 export { default as Auth0 } from "./components/Auth0";
 export { default as Authjs } from "./components/Authjs";
 export { default as Authy } from "./components/Authy";
@@ -55,6 +62,7 @@ export { default as Basewell } from "./components/Basewell";
 export { default as BashDark } from "./components/BashDark";
 export { default as BashLight } from "./components/BashLight";
 export { default as Beacon } from "./components/Beacon";
+export { default as Behance } from "./components/Behance";
 export { default as Bento } from "./components/Bento";
 export { default as BetterAuthDark } from "./components/BetterAuthDark";
 export { default as BetterAuthLight } from "./components/BetterAuthLight";
@@ -72,6 +80,7 @@ export { default as BoltDark } from "./components/BoltDark";
 export { default as BoltLight } from "./components/BoltLight";
 export { default as Bootstrap } from "./components/Bootstrap";
 export { default as BraveBrowser } from "./components/BraveBrowser";
+export { default as Bridge } from "./components/Bridge";
 export { default as BuildShip } from "./components/BuildShip";
 export { default as Builder } from "./components/Builder";
 export { default as Bun } from "./components/Bun";
@@ -86,10 +95,14 @@ export { default as CalcomDark } from "./components/CalcomDark";
 export { default as CalcomLight } from "./components/CalcomLight";
 export { default as Calendly } from "./components/Calendly";
 export { default as Canva } from "./components/Canva";
+export { default as Captivate } from "./components/Captivate";
+export { default as CaptivatePrime } from "./components/CaptivatePrime";
+export { default as Capture } from "./components/Capture";
 export { default as Carrd } from "./components/Carrd";
 export { default as CerebrasDark } from "./components/CerebrasDark";
 export { default as CerebrasLight } from "./components/CerebrasLight";
 export { default as ChakraUI } from "./components/ChakraUI";
+export { default as CharacterAnimator } from "./components/CharacterAnimator";
 export { default as Chartjs } from "./components/Chartjs";
 export { default as Chrome } from "./components/Chrome";
 export { default as Chromium } from "./components/Chromium";
@@ -110,6 +123,9 @@ export { default as Codium } from "./components/Codium";
 export { default as Cody } from "./components/Cody";
 export { default as Cohere } from "./components/Cohere";
 export { default as Coinbase } from "./components/Coinbase";
+export { default as ColdFusion } from "./components/ColdFusion";
+export { default as ColdFusionBuilder } from "./components/ColdFusionBuilder";
+export { default as Connect } from "./components/Connect";
 export { default as Convex } from "./components/Convex";
 export { default as Coursera } from "./components/Coursera";
 export { default as Crossplane } from "./components/Crossplane";
@@ -131,6 +147,7 @@ export { default as Designali } from "./components/Designali";
 export { default as DeveloperStudentClub } from "./components/DeveloperStudentClub";
 export { default as DevtoDark } from "./components/DevtoDark";
 export { default as DevtoLight } from "./components/DevtoLight";
+export { default as DigitalEditions } from "./components/DigitalEditions";
 export { default as DigitalOcean } from "./components/DigitalOcean";
 export { default as Dingocoin } from "./components/Dingocoin";
 export { default as Directus } from "./components/Directus";
@@ -176,6 +193,7 @@ export { default as EpicGamesLight } from "./components/EpicGamesLight";
 export { default as Esbuild } from "./components/Esbuild";
 export { default as Ethereum } from "./components/Ethereum";
 export { default as Exome } from "./components/Exome";
+export { default as ExperiencePlatform } from "./components/ExperiencePlatform";
 export { default as Expo } from "./components/Expo";
 export { default as ExpressjsDark } from "./components/ExpressjsDark";
 export { default as ExpressjsLight } from "./components/ExpressjsLight";
@@ -184,6 +202,7 @@ export { default as FastAPI } from "./components/FastAPI";
 export { default as FastifyDark } from "./components/FastifyDark";
 export { default as FastifyLight } from "./components/FastifyLight";
 export { default as Figma } from "./components/Figma";
+export { default as FillAndSign } from "./components/FillAndSign";
 export { default as Firebase } from "./components/Firebase";
 export { default as FirebaseStudio } from "./components/FirebaseStudio";
 export { default as FirecrawlDark } from "./components/FirecrawlDark";
@@ -195,11 +214,15 @@ export { default as FlowLauncher } from "./components/FlowLauncher";
 export { default as Flowbite } from "./components/Flowbite";
 export { default as Flutter } from "./components/Flutter";
 export { default as Fly } from "./components/Fly";
+export { default as Fontfolio } from "./components/Fontfolio";
 export { default as FormanceDark } from "./components/FormanceDark";
 export { default as FormanceLight } from "./components/FormanceLight";
 export { default as Fortran } from "./components/Fortran";
+export { default as FrameMaker } from "./components/FrameMaker";
+export { default as FrameMakerServer } from "./components/FrameMakerServer";
 export { default as FramerDark } from "./components/FramerDark";
 export { default as FramerLight } from "./components/FramerLight";
+export { default as Fresco } from "./components/Fresco";
 export { default as Fresh } from "./components/Fresh";
 export { default as Front } from "./components/Front";
 export { default as Gatsby } from "./components/Gatsby";
@@ -249,6 +272,7 @@ export { default as GrokLight } from "./components/GrokLight";
 export { default as Groq } from "./components/Groq";
 export { default as HCaptcha } from "./components/HCaptcha";
 export { default as HTML5 } from "./components/HTML5";
+export { default as HTTPDynamicStreaming } from "./components/HTTPDynamicStreaming";
 export { default as HackTheBox } from "./components/HackTheBox";
 export { default as Hashnode } from "./components/Hashnode";
 export { default as Haskell } from "./components/Haskell";
@@ -270,7 +294,9 @@ export { default as HuluLight } from "./components/HuluLight";
 export { default as HumeAI } from "./components/HumeAI";
 export { default as IBM } from "./components/IBM";
 export { default as Illustrator } from "./components/Illustrator";
+export { default as InCopy } from "./components/InCopy";
 export { default as InDesign } from "./components/InDesign";
+export { default as InDesignServer } from "./components/InDesignServer";
 export { default as InflectionAIDark } from "./components/InflectionAIDark";
 export { default as InflectionAILight } from "./components/InflectionAILight";
 export { default as Infojobs } from "./components/Infojobs";
@@ -326,6 +352,7 @@ export { default as LearnThis } from "./components/LearnThis";
 export { default as Leedlime } from "./components/Leedlime";
 export { default as LemonSqueezy } from "./components/LemonSqueezy";
 export { default as Lightroom } from "./components/Lightroom";
+export { default as LightroomClassic } from "./components/LightroomClassic";
 export { default as Linear } from "./components/Linear";
 export { default as Link } from "./components/Link";
 export { default as LinkedIn } from "./components/LinkedIn";
@@ -354,6 +381,8 @@ export { default as MatrixDark } from "./components/MatrixDark";
 export { default as MatrixLight } from "./components/MatrixLight";
 export { default as MattermostDark } from "./components/MattermostDark";
 export { default as MattermostLight } from "./components/MattermostLight";
+export { default as MediaEncoder } from "./components/MediaEncoder";
+export { default as MediaServer } from "./components/MediaServer";
 export { default as MediaWiki } from "./components/MediaWiki";
 export { default as Medusa } from "./components/Medusa";
 export { default as MercadoLibre } from "./components/MercadoLibre";
@@ -473,7 +502,11 @@ export { default as PenpotLight } from "./components/PenpotLight";
 export { default as PerplexityAI } from "./components/PerplexityAI";
 export { default as PerspectiveDark } from "./components/PerspectiveDark";
 export { default as PerspectiveLight } from "./components/PerspectiveLight";
+export { default as Photopea } from "./components/Photopea";
 export { default as Photoshop } from "./components/Photoshop";
+export { default as PhotoshopCamera } from "./components/PhotoshopCamera";
+export { default as PhotoshopElements } from "./components/PhotoshopElements";
+export { default as PhotoshopExpress } from "./components/PhotoshopExpress";
 export { default as PhpDark } from "./components/PhpDark";
 export { default as PhpLight } from "./components/PhpLight";
 export { default as Pinia } from "./components/Pinia";
@@ -493,6 +526,7 @@ export { default as PolarLight } from "./components/PolarLight";
 export { default as Polars } from "./components/Polars";
 export { default as Polygon } from "./components/Polygon";
 export { default as Poper } from "./components/Poper";
+export { default as Portfolio } from "./components/Portfolio";
 export { default as PostCSS } from "./components/PostCSS";
 export { default as PostHog } from "./components/PostHog";
 export { default as PostgreSQL } from "./components/PostgreSQL";
@@ -502,6 +536,9 @@ export { default as PowerSync } from "./components/PowerSync";
 export { default as PowerToys } from "./components/PowerToys";
 export { default as Preact } from "./components/Preact";
 export { default as Premiere } from "./components/Premiere";
+export { default as PremiereElements } from "./components/PremiereElements";
+export { default as PremiereRush } from "./components/PremiereRush";
+export { default as PresenterVideoExpress } from "./components/PresenterVideoExpress";
 export { default as PrettierDark } from "./components/PrettierDark";
 export { default as PrettierLight } from "./components/PrettierLight";
 export { default as PrimeVideo } from "./components/PrimeVideo";
@@ -559,6 +596,8 @@ export { default as ResendDark } from "./components/ResendDark";
 export { default as ResendLight } from "./components/ResendLight";
 export { default as RobloxDark } from "./components/RobloxDark";
 export { default as RobloxLight } from "./components/RobloxLight";
+export { default as RoboHelp } from "./components/RoboHelp";
+export { default as RoboHelpServer } from "./components/RoboHelpServer";
 export { default as Rolldown } from "./components/Rolldown";
 export { default as Rowy } from "./components/Rowy";
 export { default as Rsbuild } from "./components/Rsbuild";
@@ -619,6 +658,10 @@ export { default as Strapi } from "./components/Strapi";
 export { default as Stripe } from "./components/Stripe";
 export { default as StyledComponents } from "./components/StyledComponents";
 export { default as SublimeText } from "./components/SublimeText";
+export { default as Substance3DDesigner } from "./components/Substance3DDesigner";
+export { default as Substance3DPainter } from "./components/Substance3DPainter";
+export { default as Substance3DSampler } from "./components/Substance3DSampler";
+export { default as Substance3DStager } from "./components/Substance3DStager";
 export { default as Suno } from "./components/Suno";
 export { default as Supabase } from "./components/Supabase";
 export { default as Surrealdb } from "./components/Surrealdb";
@@ -635,6 +678,7 @@ export { default as Tabby } from "./components/Tabby";
 export { default as TailwindCSS } from "./components/TailwindCSS";
 export { default as TanStack } from "./components/TanStack";
 export { default as Tauri } from "./components/Tauri";
+export { default as TechnicalCommunicationSuite } from "./components/TechnicalCommunicationSuite";
 export { default as Telegram } from "./components/Telegram";
 export { default as TemboDark } from "./components/TemboDark";
 export { default as TemboLight } from "./components/TemboLight";
@@ -656,6 +700,7 @@ export { default as Ton } from "./components/Ton";
 export { default as Tor } from "./components/Tor";
 export { default as TravelPerkDark } from "./components/TravelPerkDark";
 export { default as TravelPerkLight } from "./components/TravelPerkLight";
+export { default as Trello } from "./components/Trello";
 export { default as Tron } from "./components/Tron";
 export { default as TrustPilot } from "./components/TrustPilot";
 export { default as TrustWallet } from "./components/TrustWallet";
@@ -764,7 +809,13 @@ export * from "./urls";
 export type SvglComponentName =
   | "AMP"
   | "AbacatePay"
+  | "AcrobatReader"
+  | "AcrobatScan"
   | "Adobe"
+  | "AdobeAero"
+  | "AdobeFonts"
+  | "AdobeSign"
+  | "AdobeStock"
   | "AffinityDesigner"
   | "AffinityPhoto"
   | "AffinityPublisher"
@@ -805,6 +856,7 @@ export type SvglComponentName =
   | "AstroLight"
   | "Atlassian"
   | "Atom"
+  | "Audition"
   | "Auth0"
   | "Authjs"
   | "Authy"
@@ -819,6 +871,7 @@ export type SvglComponentName =
   | "BashDark"
   | "BashLight"
   | "Beacon"
+  | "Behance"
   | "Bento"
   | "BetterAuthDark"
   | "BetterAuthLight"
@@ -836,6 +889,7 @@ export type SvglComponentName =
   | "BoltLight"
   | "Bootstrap"
   | "BraveBrowser"
+  | "Bridge"
   | "BuildShip"
   | "Builder"
   | "Bun"
@@ -850,10 +904,14 @@ export type SvglComponentName =
   | "CalcomLight"
   | "Calendly"
   | "Canva"
+  | "Captivate"
+  | "CaptivatePrime"
+  | "Capture"
   | "Carrd"
   | "CerebrasDark"
   | "CerebrasLight"
   | "ChakraUI"
+  | "CharacterAnimator"
   | "Chartjs"
   | "Chrome"
   | "Chromium"
@@ -874,6 +932,9 @@ export type SvglComponentName =
   | "Cody"
   | "Cohere"
   | "Coinbase"
+  | "ColdFusion"
+  | "ColdFusionBuilder"
+  | "Connect"
   | "Convex"
   | "Coursera"
   | "Crossplane"
@@ -895,6 +956,7 @@ export type SvglComponentName =
   | "DeveloperStudentClub"
   | "DevtoDark"
   | "DevtoLight"
+  | "DigitalEditions"
   | "DigitalOcean"
   | "Dingocoin"
   | "Directus"
@@ -940,6 +1002,7 @@ export type SvglComponentName =
   | "Esbuild"
   | "Ethereum"
   | "Exome"
+  | "ExperiencePlatform"
   | "Expo"
   | "ExpressjsDark"
   | "ExpressjsLight"
@@ -948,6 +1011,7 @@ export type SvglComponentName =
   | "FastifyDark"
   | "FastifyLight"
   | "Figma"
+  | "FillAndSign"
   | "Firebase"
   | "FirebaseStudio"
   | "FirecrawlDark"
@@ -959,11 +1023,15 @@ export type SvglComponentName =
   | "Flowbite"
   | "Flutter"
   | "Fly"
+  | "Fontfolio"
   | "FormanceDark"
   | "FormanceLight"
   | "Fortran"
+  | "FrameMaker"
+  | "FrameMakerServer"
   | "FramerDark"
   | "FramerLight"
+  | "Fresco"
   | "Fresh"
   | "Front"
   | "Gatsby"
@@ -1013,6 +1081,7 @@ export type SvglComponentName =
   | "Groq"
   | "HCaptcha"
   | "HTML5"
+  | "HTTPDynamicStreaming"
   | "HackTheBox"
   | "Hashnode"
   | "Haskell"
@@ -1034,7 +1103,9 @@ export type SvglComponentName =
   | "HumeAI"
   | "IBM"
   | "Illustrator"
+  | "InCopy"
   | "InDesign"
+  | "InDesignServer"
   | "InflectionAIDark"
   | "InflectionAILight"
   | "Infojobs"
@@ -1090,6 +1161,7 @@ export type SvglComponentName =
   | "Leedlime"
   | "LemonSqueezy"
   | "Lightroom"
+  | "LightroomClassic"
   | "Linear"
   | "Link"
   | "LinkedIn"
@@ -1118,6 +1190,8 @@ export type SvglComponentName =
   | "MatrixLight"
   | "MattermostDark"
   | "MattermostLight"
+  | "MediaEncoder"
+  | "MediaServer"
   | "MediaWiki"
   | "Medusa"
   | "MercadoLibre"
@@ -1237,7 +1311,11 @@ export type SvglComponentName =
   | "PerplexityAI"
   | "PerspectiveDark"
   | "PerspectiveLight"
+  | "Photopea"
   | "Photoshop"
+  | "PhotoshopCamera"
+  | "PhotoshopElements"
+  | "PhotoshopExpress"
   | "PhpDark"
   | "PhpLight"
   | "Pinia"
@@ -1257,6 +1335,7 @@ export type SvglComponentName =
   | "Polars"
   | "Polygon"
   | "Poper"
+  | "Portfolio"
   | "PostCSS"
   | "PostHog"
   | "PostgreSQL"
@@ -1266,6 +1345,9 @@ export type SvglComponentName =
   | "PowerToys"
   | "Preact"
   | "Premiere"
+  | "PremiereElements"
+  | "PremiereRush"
+  | "PresenterVideoExpress"
   | "PrettierDark"
   | "PrettierLight"
   | "PrimeVideo"
@@ -1323,6 +1405,8 @@ export type SvglComponentName =
   | "ResendLight"
   | "RobloxDark"
   | "RobloxLight"
+  | "RoboHelp"
+  | "RoboHelpServer"
   | "Rolldown"
   | "Rowy"
   | "Rsbuild"
@@ -1383,6 +1467,10 @@ export type SvglComponentName =
   | "Stripe"
   | "StyledComponents"
   | "SublimeText"
+  | "Substance3DDesigner"
+  | "Substance3DPainter"
+  | "Substance3DSampler"
+  | "Substance3DStager"
   | "Suno"
   | "Supabase"
   | "Surrealdb"
@@ -1399,6 +1487,7 @@ export type SvglComponentName =
   | "TailwindCSS"
   | "TanStack"
   | "Tauri"
+  | "TechnicalCommunicationSuite"
   | "Telegram"
   | "TemboDark"
   | "TemboLight"
@@ -1420,6 +1509,7 @@ export type SvglComponentName =
   | "Tor"
   | "TravelPerkDark"
   | "TravelPerkLight"
+  | "Trello"
   | "Tron"
   | "TrustPilot"
   | "TrustWallet"
