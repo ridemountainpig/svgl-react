@@ -13,7 +13,7 @@ const AmazonQ = (props: SVGProps<SVGSVGElement>) => (
   >
     <defs>
       <linearGradient
-        id="AmazonQ__Ads\u0131z_degrade_2"
+        id="AmazonQ__Ads_z_degrade_2"
         x1={68.8}
         x2={-1.8}
         y1={563}
@@ -27,7 +27,7 @@ const AmazonQ = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#fff" stopOpacity={0.4} />
       </linearGradient>
       <linearGradient
-        id="AmazonQ__Ads\u0131z_degrade_4"
+        id="AmazonQ__Ads_z_degrade_4"
         x1={69.7}
         x2={-11.4}
         y1={567.5}
@@ -41,8 +41,8 @@ const AmazonQ = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#fff" stopOpacity={0.2} />
       </linearGradient>
       <linearGradient
-        xlinkHref="#AmazonQ__Ads\u0131z_degrade_4"
-        id="AmazonQ__Ads\u0131z_degrade_41"
+        xlinkHref="#AmazonQ__Ads_z_degrade_4"
+        id="AmazonQ__Ads_z_degrade_41"
         x1={21.7}
         x2={163.7}
         y1={568.3}
@@ -51,7 +51,7 @@ const AmazonQ = (props: SVGProps<SVGSVGElement>) => (
         gradientTransform="matrix(1 0 0 -1 551.4 969.2)"
       />
       <linearGradient
-        id="AmazonQ__Ads\u0131z_degrade_5"
+        id="AmazonQ__Ads_z_degrade_5"
         x1={56.8}
         x2={-1.1}
         y1={647.8}
@@ -123,7 +123,7 @@ const AmazonQ = (props: SVGProps<SVGSVGElement>) => (
     <path
       d="M452.1 74c-19.6-11.3-43.8-11.3-63.4 0l-145.3 83.9c-19.6 11.3-31.7 32.3-31.7 54.9v167.8c0 22.7 12.1 43.6 31.7 54.9l145.3 83.9c19.6 11.3 43.8 11.3 63.4 0l145.3-83.9c19.6-11.3 31.7-32.3 31.7-54.9V212.8c0-22.7-12.1-43.6-31.7-54.9z"
       style={{
-        fill: "url(#AmazonQ__Ads\u0131z_degrade_5)",
+        fill: "url(#AmazonQ__Ads_z_degrade_5)",
       }}
     />
     <path
