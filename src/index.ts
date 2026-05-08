@@ -1,6 +1,7 @@
 export { default as AMP } from "./components/AMP";
 export { default as AbacatePay } from "./components/AbacatePay";
 export { default as AcrobatReader } from "./components/AcrobatReader";
+export { default as AcrobatReaderAdobeSoftwareDesign } from "./components/AcrobatReaderAdobeSoftwareDesign";
 export { default as AcrobatScan } from "./components/AcrobatScan";
 export { default as Adobe } from "./components/Adobe";
 export { default as AdobeAero } from "./components/AdobeAero";
@@ -294,6 +295,7 @@ export { default as HuluLight } from "./components/HuluLight";
 export { default as HumeAI } from "./components/HumeAI";
 export { default as IBM } from "./components/IBM";
 export { default as Illustrator } from "./components/Illustrator";
+export { default as IllustratorAdobeSoftwareDesign } from "./components/IllustratorAdobeSoftwareDesign";
 export { default as InCopy } from "./components/InCopy";
 export { default as InDesign } from "./components/InDesign";
 export { default as InDesignServer } from "./components/InDesignServer";
@@ -504,6 +506,7 @@ export { default as PerspectiveDark } from "./components/PerspectiveDark";
 export { default as PerspectiveLight } from "./components/PerspectiveLight";
 export { default as Photopea } from "./components/Photopea";
 export { default as Photoshop } from "./components/Photoshop";
+export { default as PhotoshopAdobeSoftwareDesign } from "./components/PhotoshopAdobeSoftwareDesign";
 export { default as PhotoshopCamera } from "./components/PhotoshopCamera";
 export { default as PhotoshopElements } from "./components/PhotoshopElements";
 export { default as PhotoshopExpress } from "./components/PhotoshopExpress";
@@ -810,6 +813,7 @@ export type SvglComponentName =
   | "AMP"
   | "AbacatePay"
   | "AcrobatReader"
+  | "AcrobatReaderAdobeSoftwareDesign"
   | "AcrobatScan"
   | "Adobe"
   | "AdobeAero"
@@ -1103,6 +1107,7 @@ export type SvglComponentName =
   | "HumeAI"
   | "IBM"
   | "Illustrator"
+  | "IllustratorAdobeSoftwareDesign"
   | "InCopy"
   | "InDesign"
   | "InDesignServer"
@@ -1313,6 +1318,7 @@ export type SvglComponentName =
   | "PerspectiveLight"
   | "Photopea"
   | "Photoshop"
+  | "PhotoshopAdobeSoftwareDesign"
   | "PhotoshopCamera"
   | "PhotoshopElements"
   | "PhotoshopExpress"

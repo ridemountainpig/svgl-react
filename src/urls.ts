@@ -1,5 +1,12 @@
 export const AMPUrl = "https://amp.dev/";
 export const AbacatePayUrl = "https://abacatepay.com";
+export const AcrobatReaderUrl = "https://www.adobe.com/acrobat/pdf-reader.html";
+export const AcrobatScanUrl =
+  "https://www.adobe.com/acrobat/mobile/acrobat-scan.html";
+export const AdobeAeroUrl = "https://www.adobe.com/products/aero";
+export const AdobeFontsUrl = "https://fonts.adobe.com";
+export const AdobeSignUrl = "https://www.adobe.com/sign";
+export const AdobeStockUrl = "https://stock.adobe.com";
 export const AdobeUrl = "https://www.adobe.com/";
 export const AffinityDesignerUrl = "https://affinity.serif.com/en-us/designer/";
 export const AffinityPhotoUrl = "https://affinity.serif.com/en-us/photo/";
@@ -35,6 +42,7 @@ export const AsanaUrl = "https://asana.com";
 export const AstroUrl = "https://astro.build";
 export const AtlassianUrl = "https://www.atlassian.com/";
 export const AtomUrl = "https://atom.io/";
+export const AuditionUrl = "https://www.adobe.com/products/audition";
 export const Auth0Url = "https://auth0.com/";
 export const AuthjsUrl = "https://authjs.dev";
 export const AuthyUrl = "https://authy.com/";
@@ -46,6 +54,7 @@ export const BaseUIUrl = "https://base-ui.com/";
 export const BasewellUrl = "https://www.basewell.com/";
 export const BashUrl = "https://www.gnu.org/software/bash/";
 export const BeaconUrl = "https://www.beacon.com";
+export const BehanceUrl = "https://www.behance.net";
 export const BentoUrl = "https://bento.me/home";
 export const BetterAuthUrl = "https://www.better-auth.com/";
 export const BinanceUrl = "https://binance.com/";
@@ -60,6 +69,7 @@ export const BlueskyUrl = "https://blueskyweb.xyz/";
 export const BoltUrl = "https://bolt.new/";
 export const BootstrapUrl = "https://getbootstrap.com/";
 export const BraveBrowserUrl = "https://brave.com/";
+export const BridgeUrl = "https://www.adobe.com/products/bridge";
 export const BuildShipUrl = "https://buildship.com/";
 export const BuilderUrl = "https://builder.io/";
 export const BunUrl = "https://bun.sh";
@@ -73,9 +83,15 @@ export const CUrl = "https://en.wikipedia.org/wiki/C_(programming_language)";
 export const CalcomUrl = "https://cal.com";
 export const CalendlyUrl = "https://calendly.com/";
 export const CanvaUrl = "https://www.canva.com/";
+export const CaptivatePrimeUrl =
+  "https://www.adobe.com/learning/learningmanager.html";
+export const CaptivateUrl = "https://www.adobe.com/products/captivate";
+export const CaptureUrl = "https://www.adobe.com/products/capture";
 export const CarrdUrl = "https://carrd.co/";
 export const CerebrasUrl = "https://www.cerebras.ai/";
 export const ChakraUIUrl = "https://chakra-ui.com";
+export const CharacterAnimatorUrl =
+  "https://www.adobe.com/products/character-animator";
 export const ChartjsUrl = "https://www.chartjs.org/";
 export const ChromeUrl = "https://chrome.com/";
 export const ChromiumUrl = "https://www.chromium.org";
@@ -93,6 +109,9 @@ export const CodiumUrl = "https://www.codium.ai/";
 export const CodyUrl = "https://about.sourcegraph.com/";
 export const CohereUrl = "https://cohere.com/";
 export const CoinbaseUrl = "https://www.coinbase.com/";
+export const ColdFusionBuilderUrl = "https://www.adobe.com/products/coldfusion";
+export const ColdFusionUrl = "https://www.adobe.com/products/coldfusion";
+export const ConnectUrl = "https://www.adobe.com/products/adobe-connect";
 export const ConvexUrl = "https://www.convex.dev/";
 export const CourseraUrl = "https://www.coursera.org/";
 export const CrossplaneUrl = "https://crossplane.io/";
@@ -109,6 +128,8 @@ export const DenoUrl = "https://deno.com/";
 export const DesignaliUrl = "https://designali.in";
 export const DeveloperStudentClubUrl = "https://gdsc.community.dev/";
 export const DevtoUrl = "https://dev.to/";
+export const DigitalEditionsUrl =
+  "https://www.adobe.com/solutions/ebook/digital-editions";
 export const DigitalOceanUrl = "https://www.digitalocean.com/";
 export const DingocoinUrl = "https://dingocoin.com/";
 export const DirectusUrl = "https://directus.io/";
@@ -146,12 +167,15 @@ export const EpicGamesUrl = "https://www.epicgames.com/";
 export const EsbuildUrl = "https://esbuild.github.io/";
 export const EthereumUrl = "https://ethereum.org/";
 export const ExomeUrl = "https://exome.dev/";
+export const ExperiencePlatformUrl =
+  "https://business.adobe.com/products/adobe-experience-platform";
 export const ExpoUrl = "https://expo.dev/";
 export const ExpressjsUrl = "https://expressjs.com";
 export const FacebookUrl = "https://www.facebook.com";
 export const FastAPIUrl = "https://fastapi.tiangolo.com/";
 export const FastifyUrl = "https://www.fastify.io";
 export const FigmaUrl = "https://www.figma.com/";
+export const FillAndSignUrl = "https://www.adobe.com/acrobat/online/fill-pdf";
 export const FirebaseStudioUrl = "https://firebase.studio/";
 export const FirebaseUrl = "https://firebase.google.com/";
 export const FirecrawlUrl = "https://www.firecrawl.dev/";
@@ -161,9 +185,14 @@ export const FlowLauncherUrl = "https://www.flowlauncher.com/";
 export const FlowbiteUrl = "https://flowbite.com/";
 export const FlutterUrl = "https://flutter.dev/";
 export const FlyUrl = "https://fly.io";
+export const FontfolioUrl =
+  "https://www.adobe.com/creativecloud/services-fonts.html";
 export const FormanceUrl = "https://www.formance.com/";
 export const FortranUrl = "https://fortran-lang.org/";
+export const FrameMakerServerUrl = "https://www.adobe.com/products/framemaker";
+export const FrameMakerUrl = "https://www.adobe.com/products/framemaker";
 export const FramerUrl = "https://framer.com/";
+export const FrescoUrl = "https://www.adobe.com/products/fresco";
 export const FreshUrl = "https://fresh.deno.dev/";
 export const FrontUrl = "https://front.com";
 export const GatsbyUrl = "https://www.gatsbyjs.org/";
@@ -206,6 +235,8 @@ export const GrokUrl = "https://grok.com/";
 export const GroqUrl = "https://groq.com/";
 export const HCaptchaUrl = "https://www.hcaptcha.com/";
 export const HTML5Url = "https://es.wikipedia.org/wiki/HTML5";
+export const HTTPDynamicStreamingUrl =
+  "https://www.adobe.com/flash/technology.html";
 export const HackTheBoxUrl = "https://www.hackthebox.com/";
 export const HashnodeUrl = "https://hashnode.com";
 export const HaskellUrl = "https://www.haskell.org/";
@@ -226,6 +257,8 @@ export const HuluUrl = "https://www.hulu.com/";
 export const HumeAIUrl = "https://hume.ai/";
 export const IBMUrl = "https://www.ibm.com";
 export const IllustratorUrl = "https://www.adobe.com/products/illustrator";
+export const InCopyUrl = "https://www.adobe.com/products/incopy";
+export const InDesignServerUrl = "https://www.adobe.com/products/indesign";
 export const InDesignUrl = "https://www.adobe.com/products/indesign";
 export const InflectionAIUrl = "https://inflection.ai/";
 export const InfojobsUrl = "https://www.infojobs.net/";
@@ -270,6 +303,8 @@ export const LeapWalletUrl = "https://leapwallet.io/";
 export const LearnThisUrl = "https://learnthisacademy.com";
 export const LeedlimeUrl = "https://leedlime.com";
 export const LemonSqueezyUrl = "https://www.lemonsqueezy.com";
+export const LightroomClassicUrl =
+  "https://www.adobe.com/products/photoshop-lightroom-classic";
 export const LightroomUrl =
   "https://www.adobe.com/products/photoshop-lightroom";
 export const LinearUrl = "https://linear.app/";
@@ -296,6 +331,8 @@ export const MaterialUIUrl = "https://mui.com/";
 export const MatlabUrl = "https://www.mathworks.com/products/matlab.html";
 export const MatrixUrl = "https://matrix.org/";
 export const MattermostUrl = "http://mattermost.com/";
+export const MediaEncoderUrl = "https://www.adobe.com/products/media-encoder";
+export const MediaServerUrl = "https://www.adobe.com/products/flashmediaserver";
 export const MediaWikiUrl = "https://www.mediawiki.org/";
 export const MedusaUrl = "https://medusajs.com/";
 export const MercadoLibreUrl = "https://www.mercadolibre.com";
@@ -401,6 +438,12 @@ export const PeerlistUrl = "https://www.peerlist.io/";
 export const PenpotUrl = "https://penpot.app/";
 export const PerplexityAIUrl = "https://perplexity.ai/";
 export const PerspectiveUrl = "https://perspective.co/";
+export const PhotopeaUrl = "https://www.photopea.com/";
+export const PhotoshopCameraUrl =
+  "https://www.adobe.com/products/photoshop-camera";
+export const PhotoshopElementsUrl =
+  "https://www.adobe.com/products/photoshop-elements";
+export const PhotoshopExpressUrl = "https://www.adobe.com/express/photoshop";
 export const PhotoshopUrl = "https://www.adobe.com/products/photoshop";
 export const PhpUrl = "https://www.php.net/";
 export const PiniaUrl = "https://pinia.vuejs.org/";
@@ -417,6 +460,8 @@ export const PolarUrl = "https://polar.sh/";
 export const PolarsUrl = "https://pola.rs/";
 export const PolygonUrl = "https://polygon.technology/";
 export const PoperUrl = "https://www.poper.ai";
+export const PortfolioUrl =
+  "https://www.adobe.com/creativecloud/photography/portfolio";
 export const PostCSSUrl = "https://postcss.org/";
 export const PostHogUrl = "https://posthog.com/";
 export const PostgreSQLUrl = "https://www.postgresql.org/";
@@ -426,7 +471,12 @@ export const PowerSyncUrl = "https://powersync.com/";
 export const PowerToysUrl =
   "https://learn.microsoft.com/en-us/windows/powertoys/";
 export const PreactUrl = "https://preactjs.com/";
+export const PremiereElementsUrl =
+  "https://www.adobe.com/products/premiere-elements";
+export const PremiereRushUrl = "https://www.adobe.com/products/premiere-rush";
 export const PremiereUrl = "https://www.adobe.com/products/premiere";
+export const PresenterVideoExpressUrl =
+  "https://www.adobe.com/products/presenter.html";
 export const PrettierUrl = "https://prettier.io/";
 export const PrimeVideoUrl = "https://primevideo.com/";
 export const PrismaUrl = "https://prisma.io/";
@@ -467,6 +517,8 @@ export const ReplicateUrl = "https://replicate.com/";
 export const ReplitUrl = "https://replit.com/";
 export const ResendUrl = "https://resend.com/";
 export const RobloxUrl = "https://www.roblox.com/";
+export const RoboHelpServerUrl = "https://www.adobe.com/products/robohelp";
+export const RoboHelpUrl = "https://www.adobe.com/products/robohelp";
 export const RolldownUrl = "https://rolldown.rs/";
 export const RowyUrl = "https://www.rowy.io/";
 export const RsbuildUrl = "https://rsbuild.rs";
@@ -518,6 +570,14 @@ export const StrapiUrl = "https://strapi.io/";
 export const StripeUrl = "https://stripe.com/";
 export const StyledComponentsUrl = "https://styled-components.com/";
 export const SublimeTextUrl = "https://www.sublimetext.com/";
+export const Substance3DDesignerUrl =
+  "https://www.adobe.com/products/substance3d/apps/designer.html";
+export const Substance3DPainterUrl =
+  "https://www.adobe.com/products/substance3d/apps/painter.html";
+export const Substance3DSamplerUrl =
+  "https://www.adobe.com/products/substance3d/apps/sampler.html";
+export const Substance3DStagerUrl =
+  "https://www.adobe.com/products/substance3d/apps/stager.html";
 export const SunoUrl = "https://suno.com/";
 export const SupabaseUrl = "https://supabase.com/";
 export const SurrealdbUrl = "https://surrealdb.com/";
@@ -532,6 +592,8 @@ export const TabbyUrl = "https://tabby.sh/";
 export const TailwindCSSUrl = "https://tailwindcss.com/";
 export const TanStackUrl = "https://tanstack.com/";
 export const TauriUrl = "https://tauri.app/";
+export const TechnicalCommunicationSuiteUrl =
+  "https://www.adobe.com/products/technicalcommunicationsuite";
 export const TelegramUrl = "https://web.telegram.org/";
 export const TemboUrl = "https://www.tembo.io/";
 export const TensorFlowUrl = "https://www.tensorflow.org/";
@@ -546,6 +608,7 @@ export const TogetherAIUrl = "https://www.together.ai/";
 export const TonUrl = "https://ton.org/";
 export const TorUrl = "https://www.torproject.org/";
 export const TravelPerkUrl = "https://www.travelperk.com/";
+export const TrelloUrl = "https://trello.com/";
 export const TronUrl = "https://tron.network/";
 export const TrustPilotUrl = "https://www.trustpilot.com";
 export const TrustWalletUrl = "https://trustwallet.com/";
