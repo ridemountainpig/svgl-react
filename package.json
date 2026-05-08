@@ -51,8 +51,8 @@
     "@svgr/plugin-jsx": "^8.1.0",
     "@svgr/plugin-prettier": "^8.1.0",
     "@svgr/plugin-svgo": "^8.1.0",
-    "bunchee": "^6.6.2",
-    "prettier": "^3.6.2",
+    "bunchee": "^6.10.0",
+    "prettier": "^3.8.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   }

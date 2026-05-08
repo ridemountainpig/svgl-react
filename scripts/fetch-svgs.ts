@@ -17,8 +17,27 @@ const OUTPUT_DIR = join(__dirname, "../src/components");
 const URLS_FILE = join(__dirname, "../src/urls.ts");
 const MDX_FILE = join(__dirname, "../docs/content/docs/components.mdx");
 
-function sanitizeComponentName(name: string) {
-  return name
+// Simple semaphore: throttle concurrent fn() invocations to `max`.
+// Used to keep concurrent GitHub raw fetches well below rate limits.
+function createLimiter(max: number) {
+  let active = 0;
+  const queue: (() => void)[] = [];
+  return async <T>(fn: () => Promise<T>): Promise<T> => {
+    if (active >= max) {
+      await new Promise<void>((resolve) => queue.push(resolve));
+    }
+    active++;
+    try {
+      return await fn();
+    } finally {
+      active--;
+      queue.shift()?.();
+    }
+  };
+}
+
+function sanitizeComponentName(name: string | unknown) {
+  return String(name)
     .replace(/^1/, "One")
     .replace(/\s+(.)/g, (_, c) => c.toUpperCase())
     .replace(/\./g, "")
@@ -29,6 +48,93 @@ function sanitizeComponentName(name: string) {
     .replace(/\s/g, "")
     .replace(/[^a-zA-Z0-9]/g, "")
     .replace(/^./, (c) => c.toUpperCase());
+}
+
+// Replace non-ASCII characters only inside places that hold an SVG id, so
+// that ids and their references end up identical without mangling text
+// content (e.g. <text> labels in non-Latin scripts).
+function sanitizeNonAsciiIds(svg: string): string {
+  const stripNonAscii = (s: string) => s.replace(/[^\x00-\x7F]/g, "_");
+  return (
+    svg
+      // id="..." / id='...'
+      .replace(
+        /(\bid\s*=\s*)(['"])([^'"]*)\2/g,
+        (_, prefix, q, val) => `${prefix}${q}${stripNonAscii(val)}${q}`,
+      )
+      // url(#...) — local-id references
+      .replace(
+        /url\(\s*#([^)\s]*)\s*\)/g,
+        (_, val) => `url(#${stripNonAscii(val)})`,
+      )
+      // (xlink:)?href="#..." — only fragment refs, leave full URLs alone
+      .replace(
+        /((?:xlink:)?href\s*=\s*)(['"])#([^'"]*)\2/g,
+        (_, prefix, q, val) => `${prefix}${q}#${stripNonAscii(val)}${q}`,
+      )
+  );
+}
+
+// Flatten nested <svg> elements into <g transform="..."> so that SVGR's
+// `svgProps` (width/height/...) and `expandProps` only apply to the root.
+// Without this, an inner <svg width="360" height="360" x="76" y="76"
+// viewBox="0 0 256 256"> gets its width/height clobbered to "100%" and
+// renders at the wrong size.
+function flattenNestedSvgs(svg: string): string {
+  // Repeatedly replace the innermost <svg>...</svg> (one with no nested <svg>
+  // inside) with a <g transform="..."> wrapper, leaving the root <svg> intact.
+  while (true) {
+    const svgOpenCount = (svg.match(/<svg\b/g) ?? []).length;
+    if (svgOpenCount <= 1) break;
+    const next = svg.replace(
+      /<svg\b([^>]*)>((?:(?!<svg\b)[\s\S])*?)<\/svg>/,
+      (_, attrs: string, inner: string) => {
+        // Read an attribute value, supporting both single and double quotes.
+        const attr = (name: string) => {
+          const m = attrs.match(
+            new RegExp(`\\b${name}\\s*=\\s*(['"])([^'"]*)\\1`),
+          );
+          return m ? m[2] : null;
+        };
+        const x = parseFloat(attr("x") ?? "0") || 0;
+        const y = parseFloat(attr("y") ?? "0") || 0;
+        const w = parseFloat(attr("width") ?? "0");
+        const h = parseFloat(attr("height") ?? "0");
+        const vb = attr("viewBox");
+        let scaleX = 1;
+        let scaleY = 1;
+        if (vb && w && h) {
+          const parts = vb.split(/[\s,]+/).map(parseFloat);
+          if (parts.length === 4 && parts[2] && parts[3]) {
+            scaleX = w / parts[2];
+            scaleY = h / parts[3];
+          }
+        }
+        // Compose new transform = layout (translate/scale) + existing transform.
+        // SVG applies the leftmost transform last, so layout wraps the
+        // original transform's local coords, matching nested-<svg> semantics.
+        const existingTransform = attr("transform") ?? "";
+        const transforms: string[] = [];
+        if (x || y) transforms.push(`translate(${x} ${y})`);
+        if (scaleX !== 1 || scaleY !== 1)
+          transforms.push(`scale(${scaleX} ${scaleY})`);
+        if (existingTransform) transforms.push(existingTransform);
+        // Strip layout + transform + xmlns attrs (transform is rebuilt above);
+        // keep fill/stroke/style/etc. so child inheritance still works.
+        const carriedAttrs = attrs.replace(
+          /\s+(?:x|y|width|height|viewBox|xmlns|xmlns:xlink|preserveAspectRatio|version|transform)\s*=\s*(['"])[^'"]*\1/g,
+          "",
+        );
+        const transform = transforms.length
+          ? ` transform="${transforms.join(" ")}"`
+          : "";
+        return `<g${transform}${carriedAttrs}>${inner}</g>`;
+      },
+    );
+    if (next === svg) break;
+    svg = next;
+  }
+  return svg;
 }
 
 function addViewBoxIfMissing(svg: string): string {
@@ -87,7 +193,9 @@ async function processSVG(
   if (!res.ok) throw new Error(`Failed to fetch ${svgUrl}`);
 
   const svgRaw = await res.text();
-  const svg = addViewBoxIfMissing(svgRaw);
+  const svg = addViewBoxIfMissing(
+    flattenNestedSvgs(sanitizeNonAsciiIds(svgRaw)),
+  );
 
   if (!svg || svg.trim() === "") {
     console.warn(
@@ -178,6 +286,7 @@ async function fetchAndProcessSVGs() {
   const svgs = await fetchSVGData();
   const usedNames = new Set<string>();
   const urls: string[] = [];
+  const limit = createLimiter(10);
 
   const componentsList = await Promise.all(
     svgs.map(async (svg) => {
@@ -190,7 +299,7 @@ async function fetchAndProcessSVGs() {
 
       await Promise.all(
         Object.entries(routes).map(async ([variant, route]) => {
-          let baseName = svg.title;
+          let baseName = String(svg.title);
 
           if (svg.title === "JetBrains") {
             baseName = svg.brandUrl ? "JetBrainsColorful" : "JetBrainsMono";
@@ -216,7 +325,7 @@ async function fetchAndProcessSVGs() {
 
           const svgUrl = `https://raw.githubusercontent.com/pheralb/svgl/refs/heads/main/static${route}`;
           const filePath = join(OUTPUT_DIR, `${componentName}.tsx`);
-          await processSVG(svgUrl, componentName, filePath);
+          await limit(() => processSVG(svgUrl, componentName, filePath));
 
           if (variant === "default") {
             components.default = componentName;
