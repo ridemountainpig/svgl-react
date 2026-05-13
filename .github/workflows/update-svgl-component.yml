@@ -20,18 +20,23 @@ jobs:
         run: bun i
 
       - name: Fetch data
+        id: fetch
         run: bun fetch
 
       - name: Generate files
+        if: steps.fetch.outputs.had_failures != 'true'
         run: bun generate
 
       - name: Format code
+        if: steps.fetch.outputs.had_failures != 'true'
         run: bun format
 
       - name: Reset lockfile changes
+        if: steps.fetch.outputs.had_failures != 'true'
         run: git checkout -- bun.lockb
 
       - name: Create Pull Request
+        if: steps.fetch.outputs.had_failures != 'true'
         uses: peter-evans/create-pull-request@v7
         with:
           branch: update-svgl
