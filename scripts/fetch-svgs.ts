@@ -260,9 +260,20 @@ description: Explore the full collection of React Svgl components. Instantly sea
 
 `;
 
-  const body = componentsList
+  const sortedList = [...componentsList].sort((a, b) =>
+    a.title.localeCompare(b.title, undefined, { sensitivity: "base" }),
+  );
+
+  const body = sortedList
     .map(({ title, category, components }) => {
-      const sectionHeader = `## ${title.charAt(0).toUpperCase() + title.slice(1)} [${category}]\n\n`;
+      const sortedCategory = (
+        Array.isArray(category) ? category : String(category).split(",")
+      )
+        .map((c) => String(c).trim())
+        .filter(Boolean)
+        .sort((a, b) => a.localeCompare(b, undefined, { sensitivity: "base" }))
+        .join(",");
+      const sectionHeader = `## ${title.charAt(0).toUpperCase() + title.slice(1)} [${sortedCategory}]\n\n`;
       let codeBlock = "";
 
       if (components.light && components.dark) {
