@@ -1,4 +1,4 @@
-import { writeFileSync, mkdirSync, rmSync } from "fs";
+import { writeFileSync, mkdirSync, rmSync, appendFileSync } from "fs";
 import { join } from "path";
 import { transform } from "@svgr/core";
 
@@ -34,6 +34,36 @@ function createLimiter(max: number) {
       queue.shift()?.();
     }
   };
+}
+
+// Wrap `fetch` with exponential-backoff retry for transient errors.
+// Retries on network errors and on 429/5xx; gives up immediately on other
+// non-OK statuses (e.g. 404) since retrying won't help.
+async function fetchWithRetry(
+  url: string,
+  init: RequestInit = {},
+  {
+    retries = 3,
+    baseDelayMs = 500,
+  }: { retries?: number; baseDelayMs?: number } = {},
+): Promise<Response> {
+  let lastErr: Error | null = null;
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    let retryable = true;
+    try {
+      const res = await fetch(url, init);
+      if (res.ok) return res;
+      retryable = res.status === 429 || (res.status >= 500 && res.status < 600);
+      lastErr = new Error(`HTTP ${res.status} for ${url}`);
+    } catch (e) {
+      lastErr = e instanceof Error ? e : new Error(String(e));
+      retryable = true;
+    }
+    if (!retryable || attempt === retries) throw lastErr;
+    const delay = baseDelayMs * 2 ** attempt + Math.random() * 250;
+    await new Promise((r) => setTimeout(r, delay));
+  }
+  throw lastErr ?? new Error(`Failed to fetch ${url}`);
 }
 
 function sanitizeComponentName(name: string | unknown) {
@@ -160,13 +190,12 @@ function addViewBoxIfMissing(svg: string): string {
 }
 
 async function fetchSVGData(): Promise<ISVG[]> {
-  const res = await fetch(SVGS_URL, {
+  const res = await fetchWithRetry(SVGS_URL, {
     headers: {
       "User-Agent":
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
     },
   });
-  if (!res.ok) throw new Error("Failed to fetch SVG data");
 
   const data = await res.text();
   const match = data.match(/export const svgs[^=]+=\s*(\[[\s\S]*?\]);/s);
@@ -184,13 +213,12 @@ async function processSVG(
   componentName: string,
   filePath: string,
 ) {
-  const res = await fetch(svgUrl, {
+  const res = await fetchWithRetry(svgUrl, {
     headers: {
       "User-Agent":
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
     },
   });
-  if (!res.ok) throw new Error(`Failed to fetch ${svgUrl}`);
 
   const svgRaw = await res.text();
   const svg = addViewBoxIfMissing(
@@ -299,6 +327,14 @@ async function fetchAndProcessSVGs() {
   const urls: string[] = [];
   const limit = createLimiter(10);
 
+  type FailedItem = {
+    svgUrl: string;
+    componentName: string;
+    filePath: string;
+    error: Error;
+  };
+  const failed: FailedItem[] = [];
+
   const componentsList = await Promise.all(
     svgs.map(async (svg) => {
       console.log(`Adding ${svg.title} Component`);
@@ -336,7 +372,15 @@ async function fetchAndProcessSVGs() {
 
           const svgUrl = `https://raw.githubusercontent.com/pheralb/svgl/refs/heads/main/static${route}`;
           const filePath = join(OUTPUT_DIR, `${componentName}.tsx`);
-          await limit(() => processSVG(svgUrl, componentName, filePath));
+          try {
+            await limit(() => processSVG(svgUrl, componentName, filePath));
+          } catch (e) {
+            const err = e instanceof Error ? e : new Error(String(e));
+            console.warn(
+              `Fetch failed for ${componentName}: ${err.message} — will retry`,
+            );
+            failed.push({ svgUrl, componentName, filePath, error: err });
+          }
 
           if (variant === "default") {
             components.default = componentName;
@@ -350,10 +394,46 @@ async function fetchAndProcessSVGs() {
     }),
   );
 
+  if (failed.length > 0) {
+    console.log(`\nRetrying ${failed.length} failed SVG fetches...`);
+    const stillFailed: FailedItem[] = [];
+    for (const item of failed) {
+      try {
+        await processSVG(item.svgUrl, item.componentName, item.filePath);
+        console.log(`Retry OK: ${item.componentName}`);
+      } catch (e) {
+        const err = e instanceof Error ? e : new Error(String(e));
+        console.error(`Retry failed: ${item.componentName} — ${err.message}`);
+        stillFailed.push({ ...item, error: err });
+      }
+    }
+    if (stillFailed.length > 0) {
+      throw new Error(
+        `Failed to fetch ${stillFailed.length} SVG(s) after retry:\n` +
+          stillFailed
+            .map(
+              (s) => `  - ${s.componentName} (${s.svgUrl}): ${s.error.message}`,
+            )
+            .join("\n"),
+      );
+    }
+  }
+
   const urlsContent = urls.sort().join("\n");
   writeFileSync(URLS_FILE, urlsContent);
 
   generateMDXFile(componentsList);
 }
 
-fetchAndProcessSVGs().catch(console.error);
+fetchAndProcessSVGs().catch((e) => {
+  console.error(e);
+  // Signal failure via a GitHub Actions step output so the workflow can skip
+  // downstream steps (and not open a PR) without showing the run as failed.
+  // Locally (no GITHUB_OUTPUT env var) we still exit non-zero so it's loud.
+  const ghOutput = process.env.GITHUB_OUTPUT;
+  if (ghOutput) {
+    appendFileSync(ghOutput, "had_failures=true\n");
+    process.exit(0);
+  }
+  process.exit(1);
+});
