@@ -58,7 +58,6 @@ export { default as Axure } from "./components/Axure";
 export { default as BNB } from "./components/BNB";
 export { default as Babel } from "./components/Babel";
 export { default as BaseUIDark } from "./components/BaseUIDark";
-export { default as BaseUILight } from "./components/BaseUILight";
 export { default as Basewell } from "./components/Basewell";
 export { default as BashDark } from "./components/BashDark";
 export { default as BashLight } from "./components/BashLight";
@@ -384,7 +383,6 @@ export { default as MatrixLight } from "./components/MatrixLight";
 export { default as MattermostDark } from "./components/MattermostDark";
 export { default as MattermostLight } from "./components/MattermostLight";
 export { default as MediaEncoder } from "./components/MediaEncoder";
-export { default as MediaServer } from "./components/MediaServer";
 export { default as MediaWiki } from "./components/MediaWiki";
 export { default as Medusa } from "./components/Medusa";
 export { default as MercadoLibre } from "./components/MercadoLibre";
@@ -452,7 +450,6 @@ export { default as Netlify } from "./components/Netlify";
 export { default as Nextjs } from "./components/Nextjs";
 export { default as Nginx } from "./components/Nginx";
 export { default as NgrokDark } from "./components/NgrokDark";
-export { default as NgrokLight } from "./components/NgrokLight";
 export { default as Nodejs } from "./components/Nodejs";
 export { default as Notion } from "./components/Notion";
 export { default as Nuget } from "./components/Nuget";
@@ -468,7 +465,6 @@ export { default as NuxtUIDark } from "./components/NuxtUIDark";
 export { default as NuxtUILight } from "./components/NuxtUILight";
 export { default as NxDark } from "./components/NxDark";
 export { default as NxLight } from "./components/NxLight";
-export { default as OBS } from "./components/OBS";
 export { default as Obsidian } from "./components/Obsidian";
 export { default as OllamaDark } from "./components/OllamaDark";
 export { default as OllamaLight } from "./components/OllamaLight";
@@ -521,7 +517,6 @@ export { default as PlanetScaleLight } from "./components/PlanetScaleLight";
 export { default as Platzi } from "./components/Platzi";
 export { default as PlayStation } from "./components/PlayStation";
 export { default as Playwright } from "./components/Playwright";
-export { default as PnpmDark } from "./components/PnpmDark";
 export { default as PnpmLight } from "./components/PnpmLight";
 export { default as Pocketbase } from "./components/Pocketbase";
 export { default as PolarDark } from "./components/PolarDark";
@@ -653,7 +648,6 @@ export { default as StackOverflow } from "./components/StackOverflow";
 export { default as Stackblitz } from "./components/Stackblitz";
 export { default as StatelyaiDark } from "./components/StatelyaiDark";
 export { default as StatelyaiLight } from "./components/StatelyaiLight";
-export { default as Steam } from "./components/Steam";
 export { default as Stimulus } from "./components/Stimulus";
 export { default as Storyblok } from "./components/Storyblok";
 export { default as Storybook } from "./components/Storybook";
@@ -672,7 +666,6 @@ export { default as Svelte } from "./components/Svelte";
 export { default as Svgl } from "./components/Svgl";
 export { default as Swagger } from "./components/Swagger";
 export { default as Swift } from "./components/Swift";
-export { default as T3StackDark } from "./components/T3StackDark";
 export { default as T3StackLight } from "./components/T3StackLight";
 export { default as TIDALDark } from "./components/TIDALDark";
 export { default as TIDALLight } from "./components/TIDALLight";
@@ -712,7 +705,6 @@ export { default as TurbopackLight } from "./components/TurbopackLight";
 export { default as TurborepoDark } from "./components/TurborepoDark";
 export { default as TurborepoLight } from "./components/TurborepoLight";
 export { default as TursoDark } from "./components/TursoDark";
-export { default as TursoLight } from "./components/TursoLight";
 export { default as Twilio } from "./components/Twilio";
 export { default as Twitch } from "./components/Twitch";
 export { default as Twitter } from "./components/Twitter";
@@ -738,7 +730,6 @@ export { default as UnityLight } from "./components/UnityLight";
 export { default as UnoCSS } from "./components/UnoCSS";
 export { default as UnrealEngineDark } from "./components/UnrealEngineDark";
 export { default as UnrealEngineLight } from "./components/UnrealEngineLight";
-export { default as UpLeveled } from "./components/UpLeveled";
 export { default as Upstash } from "./components/Upstash";
 export { default as V0Dark } from "./components/V0Dark";
 export { default as V0Light } from "./components/V0Light";
@@ -870,7 +861,6 @@ export type SvglComponentName =
   | "BNB"
   | "Babel"
   | "BaseUIDark"
-  | "BaseUILight"
   | "Basewell"
   | "BashDark"
   | "BashLight"
@@ -1196,7 +1186,6 @@ export type SvglComponentName =
   | "MattermostDark"
   | "MattermostLight"
   | "MediaEncoder"
-  | "MediaServer"
   | "MediaWiki"
   | "Medusa"
   | "MercadoLibre"
@@ -1264,7 +1253,6 @@ export type SvglComponentName =
   | "Nextjs"
   | "Nginx"
   | "NgrokDark"
-  | "NgrokLight"
   | "Nodejs"
   | "Notion"
   | "Nuget"
@@ -1280,7 +1268,6 @@ export type SvglComponentName =
   | "NuxtUILight"
   | "NxDark"
   | "NxLight"
-  | "OBS"
   | "Obsidian"
   | "OllamaDark"
   | "OllamaLight"
@@ -1333,7 +1320,6 @@ export type SvglComponentName =
   | "Platzi"
   | "PlayStation"
   | "Playwright"
-  | "PnpmDark"
   | "PnpmLight"
   | "Pocketbase"
   | "PolarDark"
@@ -1465,7 +1451,6 @@ export type SvglComponentName =
   | "Stackblitz"
   | "StatelyaiDark"
   | "StatelyaiLight"
-  | "Steam"
   | "Stimulus"
   | "Storyblok"
   | "Storybook"
@@ -1484,7 +1469,6 @@ export type SvglComponentName =
   | "Svgl"
   | "Swagger"
   | "Swift"
-  | "T3StackDark"
   | "T3StackLight"
   | "TIDALDark"
   | "TIDALLight"
@@ -1524,7 +1508,6 @@ export type SvglComponentName =
   | "TurborepoDark"
   | "TurborepoLight"
   | "TursoDark"
-  | "TursoLight"
   | "Twilio"
   | "Twitch"
   | "Twitter"
@@ -1550,7 +1533,6 @@ export type SvglComponentName =
   | "UnoCSS"
   | "UnrealEngineDark"
   | "UnrealEngineLight"
-  | "UpLeveled"
   | "Upstash"
   | "V0Dark"
   | "V0Light"
