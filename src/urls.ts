@@ -297,6 +297,7 @@ export const KokonutUIUrl = "https://kokonutui.com/";
 export const KotlinUrl = "https://kotlinlang.org/";
 export const KrakenJSUrl = "https://krakenjs.com/";
 export const KubernetesUrl = "https://kubernetes.io/";
+export const LangChainUrl = "https://www.langchain.com/";
 export const LaravelUrl = "https://laravel.com/";
 export const LayersUrl = "https://layers.to/";
 export const LeapWalletUrl = "https://leapwallet.io/";
