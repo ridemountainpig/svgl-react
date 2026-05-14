@@ -346,6 +346,7 @@ export { default as KokonutUILight } from "./components/KokonutUILight";
 export { default as Kotlin } from "./components/Kotlin";
 export { default as KrakenJS } from "./components/KrakenJS";
 export { default as Kubernetes } from "./components/Kubernetes";
+export { default as LangChain } from "./components/LangChain";
 export { default as Laravel } from "./components/Laravel";
 export { default as LayersDark } from "./components/LayersDark";
 export { default as LayersLight } from "./components/LayersLight";
@@ -1158,6 +1159,7 @@ export type SvglComponentName =
   | "Kotlin"
   | "KrakenJS"
   | "Kubernetes"
+  | "LangChain"
   | "Laravel"
   | "LayersDark"
   | "LayersLight"
