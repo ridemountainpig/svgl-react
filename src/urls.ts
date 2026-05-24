@@ -269,6 +269,8 @@ export const IntelliJIDEAUrl = "https://www.jetbrains.com/idea/";
 export const IntelloUrl = "https://intelloai.com/";
 export const InterfereUrl = "https://interfere.com/";
 export const IntlayerUrl = "https://intlayer.org";
+export const IvyFrameworkUrl =
+  "https://github.com/Ivy-Interactive/Ivy-Framework";
 export const JQueryUrl = "https://jquery.com";
 export const JSONSchemaUrl = "https://json-schema.org/";
 export const JSONUrl = "https://json.org/";

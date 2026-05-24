@@ -314,6 +314,7 @@ export { default as InterfereDark } from "./components/InterfereDark";
 export { default as InterfereLight } from "./components/InterfereLight";
 export { default as IntlayerDark } from "./components/IntlayerDark";
 export { default as IntlayerLight } from "./components/IntlayerLight";
+export { default as IvyFramework } from "./components/IvyFramework";
 export { default as JQueryDark } from "./components/JQueryDark";
 export { default as JQueryLight } from "./components/JQueryLight";
 export { default as JSON } from "./components/JSON";
@@ -1128,6 +1129,7 @@ export type SvglComponentName =
   | "InterfereLight"
   | "IntlayerDark"
   | "IntlayerLight"
+  | "IvyFramework"
   | "JQueryDark"
   | "JQueryLight"
   | "JSON"
