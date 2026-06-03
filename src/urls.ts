@@ -111,6 +111,7 @@ export const CohereUrl = "https://cohere.com/";
 export const CoinbaseUrl = "https://www.coinbase.com/";
 export const ColdFusionBuilderUrl = "https://www.adobe.com/products/coldfusion";
 export const ColdFusionUrl = "https://www.adobe.com/products/coldfusion";
+export const ConductorUrl = "https://www.conductor.build/";
 export const ConnectUrl = "https://www.adobe.com/products/adobe-connect";
 export const ConvexUrl = "https://www.convex.dev/";
 export const CourseraUrl = "https://www.coursera.org/";

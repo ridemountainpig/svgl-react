@@ -126,6 +126,8 @@ export { default as Cohere } from "./components/Cohere";
 export { default as Coinbase } from "./components/Coinbase";
 export { default as ColdFusion } from "./components/ColdFusion";
 export { default as ColdFusionBuilder } from "./components/ColdFusionBuilder";
+export { default as ConductorDark } from "./components/ConductorDark";
+export { default as ConductorLight } from "./components/ConductorLight";
 export { default as Connect } from "./components/Connect";
 export { default as Convex } from "./components/Convex";
 export { default as Coursera } from "./components/Coursera";
@@ -941,6 +943,8 @@ export type SvglComponentName =
   | "Coinbase"
   | "ColdFusion"
   | "ColdFusionBuilder"
+  | "ConductorDark"
+  | "ConductorLight"
   | "Connect"
   | "Convex"
   | "Coursera"
