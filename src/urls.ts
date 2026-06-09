@@ -470,6 +470,7 @@ export const PostCSSUrl = "https://postcss.org/";
 export const PostHogUrl = "https://posthog.com/";
 export const PostgreSQLUrl = "https://www.postgresql.org/";
 export const PostmanUrl = "https://www.getpostman.com/";
+export const PostquedUrl = "https://postqued.com";
 export const PowerShellUrl = "https://learn.microsoft.com/en-us/powershell/";
 export const PowerSyncUrl = "https://powersync.com/";
 export const PowerToysUrl =

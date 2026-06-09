@@ -538,6 +538,8 @@ export { default as PostCSS } from "./components/PostCSS";
 export { default as PostHog } from "./components/PostHog";
 export { default as PostgreSQL } from "./components/PostgreSQL";
 export { default as Postman } from "./components/Postman";
+export { default as PostquedDark } from "./components/PostquedDark";
+export { default as PostquedLight } from "./components/PostquedLight";
 export { default as PowerShell } from "./components/PowerShell";
 export { default as PowerSync } from "./components/PowerSync";
 export { default as PowerToys } from "./components/PowerToys";
@@ -1355,6 +1357,8 @@ export type SvglComponentName =
   | "PostHog"
   | "PostgreSQL"
   | "Postman"
+  | "PostquedDark"
+  | "PostquedLight"
   | "PowerShell"
   | "PowerSync"
   | "PowerToys"
