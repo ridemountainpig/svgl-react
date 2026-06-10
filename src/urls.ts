@@ -232,6 +232,7 @@ export const GradioUrl = "https://www.gradio.app/";
 export const GrafanaUrl = "https://grafana.com/";
 export const GranolaUrl = "https://www.granola.ai/";
 export const GraphQLUrl = "https://graphql.org/";
+export const GridaUrl = "https://grida.co";
 export const GrokUrl = "https://grok.com/";
 export const GroqUrl = "https://groq.com/";
 export const HCaptchaUrl = "https://www.hcaptcha.com/";

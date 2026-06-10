@@ -270,6 +270,8 @@ export { default as Grafana } from "./components/Grafana";
 export { default as GranolaDark } from "./components/GranolaDark";
 export { default as GranolaLight } from "./components/GranolaLight";
 export { default as GraphQL } from "./components/GraphQL";
+export { default as GridaDark } from "./components/GridaDark";
+export { default as GridaLight } from "./components/GridaLight";
 export { default as GrokDark } from "./components/GrokDark";
 export { default as GrokLight } from "./components/GrokLight";
 export { default as Groq } from "./components/Groq";
@@ -1089,6 +1091,8 @@ export type SvglComponentName =
   | "GranolaDark"
   | "GranolaLight"
   | "GraphQL"
+  | "GridaDark"
+  | "GridaLight"
   | "GrokDark"
   | "GrokLight"
   | "Groq"
