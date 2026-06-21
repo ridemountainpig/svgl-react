@@ -167,6 +167,7 @@ export const EmberUrl = "https://emberjs.com/";
 export const EpicGamesUrl = "https://www.epicgames.com/";
 export const EsbuildUrl = "https://esbuild.github.io/";
 export const EthereumUrl = "https://ethereum.org/";
+export const EveUrl = "https://vercel.com/eve";
 export const ExomeUrl = "https://exome.dev/";
 export const ExperiencePlatformUrl =
   "https://business.adobe.com/products/adobe-experience-platform";
