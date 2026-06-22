@@ -195,6 +195,8 @@ export { default as EpicGamesDark } from "./components/EpicGamesDark";
 export { default as EpicGamesLight } from "./components/EpicGamesLight";
 export { default as Esbuild } from "./components/Esbuild";
 export { default as Ethereum } from "./components/Ethereum";
+export { default as EveDark } from "./components/EveDark";
+export { default as EveLight } from "./components/EveLight";
 export { default as Exome } from "./components/Exome";
 export { default as ExperiencePlatform } from "./components/ExperiencePlatform";
 export { default as Expo } from "./components/Expo";
@@ -1016,6 +1018,8 @@ export type SvglComponentName =
   | "EpicGamesLight"
   | "Esbuild"
   | "Ethereum"
+  | "EveDark"
+  | "EveLight"
   | "Exome"
   | "ExperiencePlatform"
   | "Expo"
