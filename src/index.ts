@@ -527,6 +527,7 @@ export { default as PlainSignal } from "./components/PlainSignal";
 export { default as PlanetScaleDark } from "./components/PlanetScaleDark";
 export { default as PlanetScaleLight } from "./components/PlanetScaleLight";
 export { default as Platzi } from "./components/Platzi";
+export { default as PlausibleAnalytics } from "./components/PlausibleAnalytics";
 export { default as PlayStation } from "./components/PlayStation";
 export { default as Playwright } from "./components/Playwright";
 export { default as PnpmDark } from "./components/PnpmDark";
@@ -1350,6 +1351,7 @@ export type SvglComponentName =
   | "PlanetScaleDark"
   | "PlanetScaleLight"
   | "Platzi"
+  | "PlausibleAnalytics"
   | "PlayStation"
   | "Playwright"
   | "PnpmDark"

@@ -458,6 +458,7 @@ export const PitchUrl = "https://pitch.com";
 export const PlainSignalUrl = "https://plainsignal.com/";
 export const PlanetScaleUrl = "https://planetscale.com/";
 export const PlatziUrl = "https://platzi.com/";
+export const PlausibleAnalyticsUrl = "https://plausible.io/";
 export const PlayStationUrl = "https://www.playstation.com/";
 export const PlaywrightUrl = "https://playwright.dev/";
 export const PnpmUrl = "https://pnpm.io/";
