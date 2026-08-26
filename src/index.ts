@@ -495,6 +495,7 @@ export { default as OpenSea } from "./components/OpenSea";
 export { default as OpenWebUI } from "./components/OpenWebUI";
 export { default as Opera } from "./components/Opera";
 export { default as Orshot } from "./components/Orshot";
+export { default as Ossium } from "./components/Ossium";
 export { default as Oxc } from "./components/Oxc";
 export { default as PDF } from "./components/PDF";
 export { default as PM2 } from "./components/PM2";
@@ -1319,6 +1320,7 @@ export type SvglComponentName =
   | "OpenWebUI"
   | "Opera"
   | "Orshot"
+  | "Ossium"
   | "Oxc"
   | "PDF"
   | "PM2"
