@@ -431,6 +431,7 @@ export const OpenSeaUrl = "https://opensea.io/";
 export const OpenWebUIUrl = "https://openwebui.com/";
 export const OperaUrl = "https://www.opera.com";
 export const OrshotUrl = "https://orshot.com";
+export const OssiumUrl = "https://ossium.in/";
 export const OxcUrl = "https://oxc.rs/";
 export const PDFUrl = "https://www.adobe.com/acrobat.html";
 export const PM2Url = "https://pm2.io/";
