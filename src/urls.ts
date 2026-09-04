@@ -126,6 +126,7 @@ export const DartUrl = "https://dart.dev/";
 export const DatadogUrl = "https://www.datadoghq.com/";
 export const DeepSeekUrl = "https://deepseek.com/";
 export const DenoUrl = "https://deno.com/";
+export const DepotUrl = "https://depot.dev/";
 export const DesignaliUrl = "https://designali.in";
 export const DeveloperStudentClubUrl = "https://gdsc.community.dev/";
 export const DevtoUrl = "https://dev.to/";
