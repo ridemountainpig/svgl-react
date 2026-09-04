@@ -146,6 +146,8 @@ export { default as Datadog } from "./components/Datadog";
 export { default as DeepSeek } from "./components/DeepSeek";
 export { default as DenoDark } from "./components/DenoDark";
 export { default as DenoLight } from "./components/DenoLight";
+export { default as DepotDark } from "./components/DepotDark";
+export { default as DepotLight } from "./components/DepotLight";
 export { default as Designali } from "./components/Designali";
 export { default as DeveloperStudentClub } from "./components/DeveloperStudentClub";
 export { default as DevtoDark } from "./components/DevtoDark";
@@ -692,7 +694,8 @@ export { default as TIDALLight } from "./components/TIDALLight";
 export { default as TRPC } from "./components/TRPC";
 export { default as Tabby } from "./components/Tabby";
 export { default as TailwindCSS } from "./components/TailwindCSS";
-export { default as TanStack } from "./components/TanStack";
+export { default as TanStackDark } from "./components/TanStackDark";
+export { default as TanStackLight } from "./components/TanStackLight";
 export { default as Tauri } from "./components/Tauri";
 export { default as TechnicalCommunicationSuite } from "./components/TechnicalCommunicationSuite";
 export { default as Telegram } from "./components/Telegram";
@@ -971,6 +974,8 @@ export type SvglComponentName =
   | "DeepSeek"
   | "DenoDark"
   | "DenoLight"
+  | "DepotDark"
+  | "DepotLight"
   | "Designali"
   | "DeveloperStudentClub"
   | "DevtoDark"
@@ -1517,7 +1522,8 @@ export type SvglComponentName =
   | "TRPC"
   | "Tabby"
   | "TailwindCSS"
-  | "TanStack"
+  | "TanStackDark"
+  | "TanStackLight"
   | "Tauri"
   | "TechnicalCommunicationSuite"
   | "Telegram"
