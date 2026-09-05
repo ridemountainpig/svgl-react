@@ -334,6 +334,7 @@ export const ManzDevUrl = "https://manz.dev/";
 export const MariaDBUrl = "https://mariadb.org/";
 export const MarkdownUrl = "https://www.markdownguide.org/";
 export const MastodonUrl = "https://joinmastodon.org/";
+export const MastraUrl = "https://mastra.ai/";
 export const MaterialUIUrl = "https://mui.com/";
 export const MatlabUrl = "https://www.mathworks.com/products/matlab.html";
 export const MatrixUrl = "https://matrix.org/";

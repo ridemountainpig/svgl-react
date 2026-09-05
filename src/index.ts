@@ -387,6 +387,8 @@ export { default as MariaDB } from "./components/MariaDB";
 export { default as MarkdownDark } from "./components/MarkdownDark";
 export { default as MarkdownLight } from "./components/MarkdownLight";
 export { default as Mastodon } from "./components/Mastodon";
+export { default as MastraDark } from "./components/MastraDark";
+export { default as MastraLight } from "./components/MastraLight";
 export { default as MaterialUI } from "./components/MaterialUI";
 export { default as Matlab } from "./components/Matlab";
 export { default as MatrixDark } from "./components/MatrixDark";
@@ -1215,6 +1217,8 @@ export type SvglComponentName =
   | "MarkdownDark"
   | "MarkdownLight"
   | "Mastodon"
+  | "MastraDark"
+  | "MastraLight"
   | "MaterialUI"
   | "Matlab"
   | "MatrixDark"
