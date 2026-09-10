@@ -614,6 +614,8 @@ export { default as ReplicateLight } from "./components/ReplicateLight";
 export { default as Replit } from "./components/Replit";
 export { default as ResendDark } from "./components/ResendDark";
 export { default as ResendLight } from "./components/ResendLight";
+export { default as RetainDark } from "./components/RetainDark";
+export { default as RetainLight } from "./components/RetainLight";
 export { default as RobloxDark } from "./components/RobloxDark";
 export { default as RobloxLight } from "./components/RobloxLight";
 export { default as RoboHelp } from "./components/RoboHelp";
@@ -1444,6 +1446,8 @@ export type SvglComponentName =
   | "Replit"
   | "ResendDark"
   | "ResendLight"
+  | "RetainDark"
+  | "RetainLight"
   | "RobloxDark"
   | "RobloxLight"
   | "RoboHelp"

@@ -528,6 +528,7 @@ export const RenderUrl = "https://render.com/";
 export const ReplicateUrl = "https://replicate.com/";
 export const ReplitUrl = "https://replit.com/";
 export const ResendUrl = "https://resend.com/";
+export const RetainUrl = "https://retain.so/";
 export const RobloxUrl = "https://www.roblox.com/";
 export const RoboHelpServerUrl = "https://www.adobe.com/products/robohelp";
 export const RoboHelpUrl = "https://www.adobe.com/products/robohelp";
