@@ -634,6 +634,7 @@ export const TwitchUrl = "https://twitch.tv";
 export const TwitterUrl = "https://twitter.com/";
 export const TypeGPUUrl = "https://typegpu.com";
 export const TypeORMUrl = "https://typeorm.io/";
+export const TypeSafeAIUrl = "https://typesafe.ai/";
 export const TypeScriptUrl = "https://www.typescriptlang.org";
 export const TypesenseUrl = "https://typesense.org/";
 export const UVUrl = "https://docs.astral.sh/uv/";

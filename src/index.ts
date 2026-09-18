@@ -739,6 +739,8 @@ export { default as Twitter } from "./components/Twitter";
 export { default as TypeGPUDark } from "./components/TypeGPUDark";
 export { default as TypeGPULight } from "./components/TypeGPULight";
 export { default as TypeORM } from "./components/TypeORM";
+export { default as TypeSafeAIDark } from "./components/TypeSafeAIDark";
+export { default as TypeSafeAILight } from "./components/TypeSafeAILight";
 export { default as TypeScript } from "./components/TypeScript";
 export { default as Typesense } from "./components/Typesense";
 export { default as UV } from "./components/UV";
@@ -1571,6 +1573,8 @@ export type SvglComponentName =
   | "TypeGPUDark"
   | "TypeGPULight"
   | "TypeORM"
+  | "TypeSafeAIDark"
+  | "TypeSafeAILight"
   | "TypeScript"
   | "Typesense"
   | "UV"
