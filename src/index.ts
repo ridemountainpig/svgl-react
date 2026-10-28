@@ -117,6 +117,8 @@ export { default as Cloudflare } from "./components/Cloudflare";
 export { default as CloudflareWorkers } from "./components/CloudflareWorkers";
 export { default as Cloudinary } from "./components/Cloudinary";
 export { default as Cobol } from "./components/Cobol";
+export { default as CockroachLabsDark } from "./components/CockroachLabsDark";
+export { default as CockroachLabsLight } from "./components/CockroachLabsLight";
 export { default as Codesandbox } from "./components/Codesandbox";
 export { default as CodexDark } from "./components/CodexDark";
 export { default as CodexLight } from "./components/CodexLight";
@@ -525,6 +527,9 @@ export { default as PhotoshopElements } from "./components/PhotoshopElements";
 export { default as PhotoshopExpress } from "./components/PhotoshopExpress";
 export { default as PhpDark } from "./components/PhpDark";
 export { default as PhpLight } from "./components/PhpLight";
+export { default as Pi } from "./components/Pi";
+export { default as PiDark } from "./components/PiDark";
+export { default as PiLight } from "./components/PiLight";
 export { default as Pinia } from "./components/Pinia";
 export { default as Pinterest } from "./components/Pinterest";
 export { default as Pitch } from "./components/Pitch";
@@ -579,6 +584,9 @@ export { default as QwenLight } from "./components/QwenLight";
 export { default as Qwik } from "./components/Qwik";
 export { default as RDark } from "./components/RDark";
 export { default as RLight } from "./components/RLight";
+export { default as Radius } from "./components/Radius";
+export { default as RadiusDark } from "./components/RadiusDark";
+export { default as RadiusLight } from "./components/RadiusLight";
 export { default as RadixUIDark } from "./components/RadixUIDark";
 export { default as RadixUILight } from "./components/RadixUILight";
 export { default as RailwayDark } from "./components/RailwayDark";
@@ -951,6 +959,8 @@ export type SvglComponentName =
   | "CloudflareWorkers"
   | "Cloudinary"
   | "Cobol"
+  | "CockroachLabsDark"
+  | "CockroachLabsLight"
   | "Codesandbox"
   | "CodexDark"
   | "CodexLight"
@@ -1359,6 +1369,9 @@ export type SvglComponentName =
   | "PhotoshopExpress"
   | "PhpDark"
   | "PhpLight"
+  | "Pi"
+  | "PiDark"
+  | "PiLight"
   | "Pinia"
   | "Pinterest"
   | "Pitch"
@@ -1413,6 +1426,9 @@ export type SvglComponentName =
   | "Qwik"
   | "RDark"
   | "RLight"
+  | "Radius"
+  | "RadiusDark"
+  | "RadiusLight"
   | "RadixUIDark"
   | "RadixUILight"
   | "RailwayDark"
