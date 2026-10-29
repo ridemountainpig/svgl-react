@@ -374,6 +374,7 @@ export { default as Linux } from "./components/Linux";
 export { default as Lit } from "./components/Lit";
 export { default as Litecoin } from "./components/Litecoin";
 export { default as Locofy } from "./components/Locofy";
+export { default as LogBrew } from "./components/LogBrew";
 export { default as Loom } from "./components/Loom";
 export { default as LottieFiles } from "./components/LottieFiles";
 export { default as Lottielab } from "./components/Lottielab";
@@ -1216,6 +1217,7 @@ export type SvglComponentName =
   | "Lit"
   | "Litecoin"
   | "Locofy"
+  | "LogBrew"
   | "Loom"
   | "LottieFiles"
   | "Lottielab"

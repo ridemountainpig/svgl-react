@@ -322,6 +322,7 @@ export const LinuxUrl = "https://www.linux.org/";
 export const LitUrl = "https://lit.dev/";
 export const LitecoinUrl = "https://litecoin.org/";
 export const LocofyUrl = "https://www.locofy.ai/";
+export const LogBrewUrl = "https://logbrew.co/";
 export const LoomUrl = "https://www.loom.com/";
 export const LottieFilesUrl = "https://lottiefiles.com/";
 export const LottielabUrl = "https://www.lottielab.com/";
