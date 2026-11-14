@@ -8,6 +8,7 @@ export { default as AdobeAero } from "./components/AdobeAero";
 export { default as AdobeFonts } from "./components/AdobeFonts";
 export { default as AdobeSign } from "./components/AdobeSign";
 export { default as AdobeStock } from "./components/AdobeStock";
+export { default as Affinity } from "./components/Affinity";
 export { default as AffinityDesigner } from "./components/AffinityDesigner";
 export { default as AffinityPhoto } from "./components/AffinityPhoto";
 export { default as AffinityPublisher } from "./components/AffinityPublisher";
@@ -48,6 +49,8 @@ export { default as AstroDark } from "./components/AstroDark";
 export { default as AstroLight } from "./components/AstroLight";
 export { default as Atlassian } from "./components/Atlassian";
 export { default as Atom } from "./components/Atom";
+export { default as AttioDark } from "./components/AttioDark";
+export { default as AttioLight } from "./components/AttioLight";
 export { default as Audition } from "./components/Audition";
 export { default as Auth0 } from "./components/Auth0";
 export { default as Authjs } from "./components/Authjs";
@@ -110,6 +113,7 @@ export { default as Chromium } from "./components/Chromium";
 export { default as CiscoDark } from "./components/CiscoDark";
 export { default as CiscoLight } from "./components/CiscoLight";
 export { default as ClaudeAI } from "./components/ClaudeAI";
+export { default as ClaudeCode } from "./components/ClaudeCode";
 export { default as ClerkDark } from "./components/ClerkDark";
 export { default as ClerkLight } from "./components/ClerkLight";
 export { default as ClickUp } from "./components/ClickUp";
@@ -851,6 +855,7 @@ export type SvglComponentName =
   | "AdobeFonts"
   | "AdobeSign"
   | "AdobeStock"
+  | "Affinity"
   | "AffinityDesigner"
   | "AffinityPhoto"
   | "AffinityPublisher"
@@ -891,6 +896,8 @@ export type SvglComponentName =
   | "AstroLight"
   | "Atlassian"
   | "Atom"
+  | "AttioDark"
+  | "AttioLight"
   | "Audition"
   | "Auth0"
   | "Authjs"
@@ -953,6 +960,7 @@ export type SvglComponentName =
   | "CiscoDark"
   | "CiscoLight"
   | "ClaudeAI"
+  | "ClaudeCode"
   | "ClerkDark"
   | "ClerkLight"
   | "ClickUp"
