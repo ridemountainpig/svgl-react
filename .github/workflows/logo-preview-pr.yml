@@ -28,10 +28,15 @@ jobs:
 
       - run: bun i
 
+      # Compare against where the PR branched off, not the current base tip:
+      # components added to main after that would otherwise show as removed.
+      - id: base
+        run: echo "sha=$(git merge-base ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }})" >> "$GITHUB_OUTPUT"
+
       - id: preview
         uses: ./.github/actions/logo-preview
         with:
-          from: ${{ github.event.pull_request.base.sha }}
+          from: ${{ steps.base.outputs.sha }}
           to: ${{ github.event.pull_request.head.sha }}
           key: pr-${{ github.event.pull_request.number }}
           title: Logo preview

@@ -89,9 +89,12 @@ runs:
           echo "Previews unchanged"
         else
           git -C "$wt" commit -qm "previews: $KEY"
+          # Other runs may push to the same branch; rebase and retry.
+          pushed=false
           for i in 1 2 3; do
-            git -C "$wt" push origin "$BRANCH" && break
+            if git -C "$wt" push origin "$BRANCH"; then pushed=true; break; fi
             git -C "$wt" pull --rebase origin "$BRANCH"
           done
+          [ "$pushed" = true ] || { echo "::error::Failed to push previews"; exit 1; }
         fi
         git worktree remove --force "$wt"

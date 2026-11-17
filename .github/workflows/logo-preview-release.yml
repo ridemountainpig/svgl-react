@@ -42,8 +42,9 @@ jobs:
           start="<!-- svgl-logo-preview:start -->"
           end="<!-- svgl-logo-preview:end -->"
           gh release view "$TAG" --json body --jq .body > "$RUNNER_TEMP/body.md"
-          # Drop a previous preview section so re-runs replace it.
-          awk -v s="$start" -v e="$end" '$0==s{skip=1} !skip{print} $0==e{skip=0}' \
+          # Drop a previous preview section so re-runs replace it. Bodies edited
+          # on github.com use CRLF, so strip \r before matching the markers.
+          awk -v s="$start" -v e="$end" '{sub(/\r$/, "")} $0==s{skip=1} !skip{print} $0==e{skip=0}' \
             "$RUNNER_TEMP/body.md" > "$RUNNER_TEMP/notes.md"
           { echo; echo "$start"; cat "$FILE"; echo "$end"; } >> "$RUNNER_TEMP/notes.md"
           gh release edit "$TAG" --notes-file "$RUNNER_TEMP/notes.md"

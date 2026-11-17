@@ -21,7 +21,6 @@
  */
 import { execFileSync } from "child_process";
 import { mkdirSync, mkdtempSync, rmSync, writeFileSync } from "fs";
-import { tmpdir } from "os";
 import { join } from "path";
 import { gzipSync } from "zlib";
 
@@ -173,7 +172,11 @@ async function main() {
   );
 
   if (logos.length) {
-    const tmp = mkdtempSync(join(tmpdir(), "svgl-new-"));
+    // Keep the temp dir inside the repo so `react` resolves from this
+    // project's node_modules; from /tmp, Bun auto-installs its own copy.
+    const cacheDir = join(process.cwd(), "node_modules/.cache");
+    mkdirSync(cacheDir, { recursive: true });
+    const tmp = mkdtempSync(join(cacheDir, "svgl-new-"));
     try {
       const needed = [
         ...new Set(
