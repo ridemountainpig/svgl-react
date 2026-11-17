@@ -5,6 +5,10 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -36,6 +40,7 @@ jobs:
         run: git checkout -- bun.lockb
 
       - name: Create Pull Request
+        id: cpr
         if: steps.fetch.outputs.had_failures != 'true'
         uses: peter-evans/create-pull-request@v7
         with:
@@ -46,3 +51,21 @@ jobs:
           commit-message: "chore: update svgl component"
           delete-branch: true
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      # PRs opened with GITHUB_TOKEN don't trigger other workflows, so the
+      # logo preview comment is posted from here.
+      - name: Logo preview
+        id: preview
+        if: steps.cpr.outputs.pull-request-number
+        uses: ./.github/actions/logo-preview
+        with:
+          from: ${{ github.sha }}
+          to: ${{ steps.cpr.outputs.pull-request-head-sha }}
+          key: pr-${{ steps.cpr.outputs.pull-request-number }}
+          title: Logo preview
+
+      - name: Comment on PR
+        if: steps.cpr.outputs.pull-request-number
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: .github/scripts/upsert-pr-comment.sh "${{ steps.cpr.outputs.pull-request-number }}" "${{ steps.preview.outputs.markdown-file }}"

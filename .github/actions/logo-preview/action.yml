@@ -1,0 +1,97 @@
+name: Logo preview
+description: >
+  List components added between two refs, render light/dark preview SVGs,
+  push them to the previews branch and write a Markdown report.
+
+inputs:
+  from:
+    description: Base ref (empty = previous tag before `to`)
+    required: false
+    default: ""
+  to:
+    description: Head ref
+    required: true
+  key:
+    description: Folder name on the previews branch, e.g. pr-12 or release-v1.0.19
+    required: true
+  title:
+    description: Markdown heading
+    required: false
+    default: New logos
+  push-previews:
+    description: Push preview SVGs (needs contents write). If false, the report has no images.
+    required: false
+    default: "true"
+  previews-branch:
+    required: false
+    default: svgl-previews
+
+outputs:
+  markdown-file:
+    description: Path of the generated Markdown
+    value: ${{ steps.report.outputs.file }}
+  count:
+    description: Number of new logos
+    value: ${{ steps.report.outputs.count }}
+
+runs:
+  using: composite
+  steps:
+    - id: report
+      shell: bash
+      env:
+        FROM: ${{ inputs.from }}
+        TO: ${{ inputs.to }}
+        KEY: ${{ inputs.key }}
+        TITLE: ${{ inputs.title }}
+        PUSH: ${{ inputs.push-previews }}
+        BRANCH: ${{ inputs.previews-branch }}
+        REPO: ${{ github.repository }}
+      run: |
+        set -euo pipefail
+        out="$RUNNER_TEMP/logo-preview.md"
+        previews="$RUNNER_TEMP/logo-previews/$KEY"
+        args=(--to "$TO" --title "$TITLE" --out "$out")
+        [ -n "$FROM" ] && args+=(--from "$FROM")
+        if [ "$PUSH" = "true" ]; then
+          args+=(--previews-dir "$previews" \
+                 --preview-base-url "https://raw.githubusercontent.com/$REPO/$BRANCH/$KEY")
+        fi
+        bun scripts/new-components.ts "${args[@]}"
+
+        count=$(grep -oE '\*\*[0-9]+\*\* new logo' "$out" | grep -oE '[0-9]+' || echo 0)
+        echo "file=$out" >> "$GITHUB_OUTPUT"
+        echo "count=$count" >> "$GITHUB_OUTPUT"
+        cat "$out" >> "$GITHUB_STEP_SUMMARY"
+
+        if [ "$PUSH" != "true" ] || [ ! -d "$previews" ]; then
+          exit 0
+        fi
+
+        # Publish previews on a separate orphan branch so main stays clean and
+        # the raw.githubusercontent.com URLs keep working after the PR merges.
+        wt="$RUNNER_TEMP/previews-worktree"
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        if git fetch origin "$BRANCH" 2>/dev/null; then
+          git worktree add --force "$wt" FETCH_HEAD
+          git -C "$wt" checkout -B "$BRANCH"
+        else
+          git worktree add --force --detach "$wt"
+          git -C "$wt" checkout --orphan "$BRANCH"
+          git -C "$wt" rm -rfq .
+        fi
+        rm -rf "$wt/$KEY"
+        mkdir -p "$wt/$KEY"
+        cp "$previews"/*.svg "$wt/$KEY/"
+        git -C "$wt" add -A "$KEY"
+        if git -C "$wt" diff --cached --quiet; then
+          echo "Previews unchanged"
+        else
+          git -C "$wt" commit -qm "previews: $KEY"
+          for i in 1 2 3; do
+            git -C "$wt" push origin "$BRANCH" && break
+            git -C "$wt" pull --rebase origin "$BRANCH"
+          done
+        fi
+        git worktree remove --force "$wt"

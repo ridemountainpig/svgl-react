@@ -1,0 +1,45 @@
+name: Logo Preview (PR)
+
+# Pull requests opened by the daily update workflow use GITHUB_TOKEN and so
+# never trigger this; that workflow posts the same comment itself.
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths:
+      - "src/components/**"
+
+concurrency:
+  group: logo-preview-pr-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: oven-sh/setup-bun@v1
+
+      - run: bun i
+
+      - id: preview
+        uses: ./.github/actions/logo-preview
+        with:
+          from: ${{ github.event.pull_request.base.sha }}
+          to: ${{ github.event.pull_request.head.sha }}
+          key: pr-${{ github.event.pull_request.number }}
+          title: Logo preview
+          # Fork PRs get a read-only token: report goes to the job summary only.
+          push-previews: ${{ github.event.pull_request.head.repo.full_name == github.repository }}
+
+      - name: Comment on PR
+        if: github.event.pull_request.head.repo.full_name == github.repository
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: .github/scripts/upsert-pr-comment.sh "${{ github.event.pull_request.number }}" "${{ steps.preview.outputs.markdown-file }}"
