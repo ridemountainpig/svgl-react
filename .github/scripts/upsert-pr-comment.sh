@@ -9,7 +9,7 @@ marker="<!-- svgl-logo-preview -->"
 body="$(printf '%s\n%s' "$marker" "$(cat "$file")")"
 
 id=$(gh api "repos/$GITHUB_REPOSITORY/issues/$pr/comments" --paginate \
-  --jq ".[] | select(.body | startswith(\"$marker\")) | .id" | head -n1)
+  --jq ".[] | select(.body | startswith(\"$marker\")) | .id" | sed -n 1p)
 
 # Daily update PRs often only change existing logos. Don't post a
 # "0 new logos" comment, but do update one left by an earlier push.
