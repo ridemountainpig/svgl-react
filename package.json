@@ -23,7 +23,8 @@
     "dev": "bunchee --watch",
     "format": "prettier --write .",
     "fetch": "bun scripts/fetch-svgs.ts",
-    "generate": "bun scripts/generate-exports.ts"
+    "generate": "bun scripts/generate-exports.ts",
+    "new-components": "bun scripts/new-components.ts"
   },
   "keywords": [
     "svgl",
@@ -53,6 +54,8 @@
     "@svgr/plugin-svgo": "^8.1.0",
     "bunchee": "^6.12.2",
     "prettier": "^3.10.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   }

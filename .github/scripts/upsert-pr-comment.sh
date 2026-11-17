@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# Usage: upsert-pr-comment.sh <pr-number> <markdown-file>
+# Creates the logo preview comment, or edits it if one already exists, so
+# new pushes to the PR update a single comment instead of piling up.
+set -euo pipefail
+pr="$1"
+file="$2"
+marker="<!-- svgl-logo-preview -->"
+body="$(printf '%s\n%s' "$marker" "$(cat "$file")")"
+
+id=$(gh api "repos/$GITHUB_REPOSITORY/issues/$pr/comments" --paginate \
+  --jq ".[] | select(.body | startswith(\"$marker\")) | .id" | sed -n 1p)
+
+# Daily update PRs often only change existing logos. Don't post a
+# "0 new logos" comment, but do update one left by an earlier push.
+if [ -z "$id" ] && grep -q '\*\*0\*\* new logos' "$file"; then
+  echo "No new logos, skipping comment"
+  exit 0
+fi
+
+if [ -n "$id" ]; then
+  gh api -X PATCH "repos/$GITHUB_REPOSITORY/issues/comments/$id" -f body="$body" >/dev/null
+else
+  gh api -X POST "repos/$GITHUB_REPOSITORY/issues/$pr/comments" -f body="$body" >/dev/null
+fi
