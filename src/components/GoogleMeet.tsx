@@ -4,43 +4,87 @@ const GoogleMeet = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
-    viewBox="0 0 622 512"
+    viewBox="0 0 192 192"
     width="100%"
     height="100%"
     preserveAspectRatio="xMidYMid meet"
     {...props}
   >
-    <g clipPath="url(#GoogleMeet__a)">
+    <path
+      fill="url(#GoogleMeet__a)"
+      d="M110.015 108.88c-6.829-4.718-6.921-14.778-.179-19.62L165 49.643c7.94-5.701 19-.038 19 9.737v77.755c0 9.675-10.861 15.359-18.821 9.859z"
+    />
+    <path
+      fill="url(#GoogleMeet__b)"
+      d="M8 71c0-24.3 19.7-44 44-44h64c11.046 0 20 8.954 20 20v98c0 11.046-8.954 20-20 20H28c-11.046 0-20-8.954-20-20z"
+    />
+    <mask
+      id="GoogleMeet__d"
+      width={129}
+      height={138}
+      x={8}
+      y={27}
+      maskUnits="userSpaceOnUse"
+      style={{
+        maskType: "luminance",
+      }}
+    >
       <path
-        fill="#00832D"
-        d="m351.419 255.568 60.559 69.222 81.44 52.037 14.166-120.822-14.166-118.097-83 45.713z"
+        fill="#fff"
+        d="M8 71c0-24.3 19.7-44 44-44h64c11.046 0 20 8.954 20 20v98c0 11.046-8.954 20-20 20H28c-11.046 0-20-8.954-20-20z"
       />
-      <path
-        fill="#0066DA"
-        d="M.003 365.583v102.958c0 23.508 19.082 42.595 42.595 42.595h102.958l21.32-77.792-21.32-67.761-70.636-21.32z"
-      />
-      <path
-        fill="#E94235"
-        d="M145.556 0 .003 145.554l74.922 21.268 70.631-21.268 20.932-66.84z"
-      />
-      <path fill="#2684FC" d="M.005 365.629h145.551V145.551H.006z" />
-      <path
-        fill="#00AC47"
-        d="m586.398 61.63-92.982 76.28v238.917l93.366 76.577c13.976 10.948 34.422.97 34.422-16.797V78.087c0-17.965-20.933-27.894-34.808-16.455"
-      />
-      <path
-        fill="#00AC47"
-        d="M351.419 255.568v110.015H145.556v145.553h305.269c23.513 0 42.593-19.087 42.593-42.595v-91.714z"
-      />
-      <path
-        fill="#FFBA00"
-        d="M450.825 0H145.556v145.554h205.863v110.014L493.42 137.905V42.598c0-23.513-19.082-42.596-42.595-42.596"
-      />
+    </mask>
+    <g filter="url(#GoogleMeet__c)" mask="url(#GoogleMeet__d)">
+      <path fill="url(#GoogleMeet__e)" d="m73.906 99.198 110-63.198v124z" />
     </g>
+    <circle cx={38} cy={135} r={14} fill="#fff" />
     <defs>
-      <clipPath id="GoogleMeet__a">
-        <path fill="#fff" d="M0 0h621.2v512H0z" />
-      </clipPath>
+      <linearGradient
+        id="GoogleMeet__a"
+        x1={128.8}
+        x2={227.2}
+        y1={104.44}
+        y2={104.44}
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stopColor="#f6a100" />
+        <stop offset={1} stopColor="#ffbe00" />
+      </linearGradient>
+      <linearGradient
+        id="GoogleMeet__e"
+        x1={136.22}
+        x2={78.5}
+        y1={91.32}
+        y2={91.19}
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop offset={0.15} stopColor="#ffb5e8" />
+        <stop offset={1} stopColor="#ffdbf5" stopOpacity={0} />
+      </linearGradient>
+      <radialGradient
+        id="GoogleMeet__b"
+        cx={0}
+        cy={0}
+        r={1}
+        gradientTransform="matrix(-159.725 0 0 -135.852 160.325 96)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop offset={0.15} stopColor="#ffe921" />
+        <stop offset={1} stopColor="#fec700" />
+      </radialGradient>
+      <filter
+        id="GoogleMeet__c"
+        width={166}
+        height={180}
+        x={45.91}
+        y={8}
+        colorInterpolationFilters="sRGB"
+        filterUnits="userSpaceOnUse"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+        <feGaussianBlur result="blur" stdDeviation={14} />
+      </filter>
     </defs>
   </svg>
 );
