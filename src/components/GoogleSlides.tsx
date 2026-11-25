@@ -4,219 +4,100 @@ const GoogleSlides = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
-    viewBox="0 0 73 100"
+    viewBox="0 0 192 192"
     width="100%"
     height="100%"
     preserveAspectRatio="xMidYMid meet"
     {...props}
   >
+    <path
+      fill="url(#GoogleSlides__a)"
+      d="M12.591 63.318c-2.493-15.262 7.858-29.655 23.12-32.148l96.724-15.8c15.262-2.492 29.655 7.859 32.148 23.12l14.732 90.189c2.493 15.262-7.858 29.655-23.12 32.148l-96.724 15.8c-15.262 2.493-29.655-7.858-32.148-23.12z"
+    />
+    <path
+      fill="url(#GoogleSlides__b)"
+      d="M12 61.6c0-8.943 0-13.415 1.405-16.962a20 20 0 0 1 11.233-11.233C28.185 32 32.656 32 41.6 32h108.8c8.943 0 13.415 0 16.962 1.404a20 20 0 0 1 11.234 11.234C180 48.185 180 52.657 180 61.6v68.8c0 8.943 0 13.415-1.404 16.962a20 20 0 0 1-11.234 11.234C163.815 160 159.343 160 150.4 160H41.6c-8.943 0-13.415 0-16.963-1.404a20 20 0 0 1-11.232-11.234C12 143.815 12 139.343 12 130.4z"
+    />
     <mask
-      id="GoogleSlides__a"
-      width={72}
-      height={99}
-      x={0}
-      y={0}
+      id="GoogleSlides__d"
+      width={168}
+      height={128}
+      x={12}
+      y={32}
       maskUnits="userSpaceOnUse"
       style={{
         maskType: "alpha",
       }}
     >
       <path
-        fill="#fff"
-        d="M44.823 0h-38.1C3.026 0 0 3.026 0 6.723v85.165c0 3.697 3.026 6.723 6.723 6.723h58.27c3.699 0 6.724-3.026 6.724-6.723V26.894z"
+        fill="#fec700"
+        d="M12 61.6c0-8.943 0-13.415 1.405-16.962a20 20 0 0 1 11.233-11.233C28.185 32 32.656 32 41.6 32h108.8c8.943 0 13.415 0 16.962 1.404a20 20 0 0 1 11.234 11.234C180 48.185 180 52.657 180 61.6v68.8c0 8.943 0 13.415-1.404 16.962a20 20 0 0 1-11.234 11.234C163.815 160 159.343 160 150.4 160H41.6c-8.943 0-13.415 0-16.963-1.404a20 20 0 0 1-11.232-11.234C12 143.815 12 139.343 12 130.4z"
       />
     </mask>
-    <g mask="url(#GoogleSlides__a)">
+    <g filter="url(#GoogleSlides__c)" mask="url(#GoogleSlides__d)">
       <path
-        fill="#F4B400"
-        d="M44.823 0h-38.1C3.026 0 0 3.026 0 6.723v85.165c0 3.697 3.026 6.723 6.723 6.723h58.27c3.699 0 6.724-3.026 6.724-6.723V26.894L56.03 15.688z"
+        fill="#ffbe00"
+        d="m33.74 191.516 144.396-21.58L153.304 3.781 8.907 25.361z"
       />
-    </g>
-    <mask
-      id="GoogleSlides__b"
-      width={72}
-      height={99}
-      x={0}
-      y={0}
-      maskUnits="userSpaceOnUse"
-      style={{
-        maskType: "alpha",
-      }}
-    >
       <path
-        fill="#fff"
-        d="M44.823 0h-38.1C3.026 0 0 3.026 0 6.723v85.165c0 3.697 3.026 6.723 6.723 6.723h58.27c3.699 0 6.724-3.026 6.724-6.723V26.894z"
-      />
-    </mask>
-    <g mask="url(#GoogleSlides__b)">
-      <path
-        fill="#F1F1F1"
-        d="M50.426 44.823H21.291a3.37 3.37 0 0 0-3.362 3.362V77.32a3.37 3.37 0 0 0 3.362 3.362h29.135a3.37 3.37 0 0 0 3.362-3.362V48.185a3.37 3.37 0 0 0-3.362-3.362m-1.12 25.774H22.412V54.909h26.894z"
-      />
-    </g>
-    <mask
-      id="GoogleSlides__c"
-      width={72}
-      height={99}
-      x={0}
-      y={0}
-      maskUnits="userSpaceOnUse"
-      style={{
-        maskType: "alpha",
-      }}
-    >
-      <path
-        fill="#fff"
-        d="M44.823 0h-38.1C3.026 0 0 3.026 0 6.723v85.165c0 3.697 3.026 6.723 6.723 6.723h58.27c3.699 0 6.724-3.026 6.724-6.723V26.894z"
-      />
-    </mask>
-    <g mask="url(#GoogleSlides__c)">
-      <path
-        fill="url(#GoogleSlides__d)"
-        d="M46.79 24.927 71.717 49.85V26.894z"
-      />
-    </g>
-    <mask
-      id="GoogleSlides__e"
-      width={72}
-      height={99}
-      x={0}
-      y={0}
-      maskUnits="userSpaceOnUse"
-      style={{
-        maskType: "alpha",
-      }}
-    >
-      <path
-        fill="#fff"
-        d="M44.823 0h-38.1C3.026 0 0 3.026 0 6.723v85.165c0 3.697 3.026 6.723 6.723 6.723h58.27c3.699 0 6.724-3.026 6.724-6.723V26.894z"
-      />
-    </mask>
-    <g mask="url(#GoogleSlides__e)">
-      <path
-        fill="#FADA80"
-        d="M44.823 0v20.17a6.72 6.72 0 0 0 6.724 6.724h20.17z"
-      />
-    </g>
-    <mask
-      id="GoogleSlides__f"
-      width={72}
-      height={99}
-      x={0}
-      y={0}
-      maskUnits="userSpaceOnUse"
-      style={{
-        maskType: "alpha",
-      }}
-    >
-      <path
-        fill="#fff"
-        d="M44.823 0h-38.1C3.026 0 0 3.026 0 6.723v85.165c0 3.697 3.026 6.723 6.723 6.723h58.27c3.699 0 6.724-3.026 6.724-6.723V26.894z"
-      />
-    </mask>
-    <g mask="url(#GoogleSlides__f)">
-      <path
-        fill="#fff"
-        fillOpacity={0.1}
-        d="M44.823 0v.56l26.334 26.334h.56z"
-      />
-    </g>
-    <mask
-      id="GoogleSlides__g"
-      width={72}
-      height={99}
-      x={0}
-      y={0}
-      maskUnits="userSpaceOnUse"
-      style={{
-        maskType: "alpha",
-      }}
-    >
-      <path
-        fill="#fff"
-        d="M44.823 0h-38.1C3.026 0 0 3.026 0 6.723v85.165c0 3.697 3.026 6.723 6.723 6.723h58.27c3.699 0 6.724-3.026 6.724-6.723V26.894z"
-      />
-    </mask>
-    <g mask="url(#GoogleSlides__g)">
-      <path
-        fill="#fff"
-        fillOpacity={0.2}
-        d="M6.723 0C3.026 0 0 3.026 0 6.723v.56C0 3.587 3.026.56 6.723.56h38.1V0z"
-      />
-    </g>
-    <mask
-      id="GoogleSlides__h"
-      width={72}
-      height={99}
-      x={0}
-      y={0}
-      maskUnits="userSpaceOnUse"
-      style={{
-        maskType: "alpha",
-      }}
-    >
-      <path
-        fill="#fff"
-        d="M44.823 0h-38.1C3.026 0 0 3.026 0 6.723v85.165c0 3.697 3.026 6.723 6.723 6.723h58.27c3.699 0 6.724-3.026 6.724-6.723V26.894z"
-      />
-    </mask>
-    <g mask="url(#GoogleSlides__h)">
-      <path
-        fill="#BF360C"
-        fillOpacity={0.2}
-        d="M64.994 98.05H6.724C3.025 98.05 0 95.026 0 91.328v.56c0 3.698 3.026 6.724 6.723 6.724h58.27c3.699 0 6.724-3.026 6.724-6.723v-.56c0 3.697-3.025 6.723-6.723 6.723"
-      />
-    </g>
-    <mask
-      id="GoogleSlides__i"
-      width={72}
-      height={99}
-      x={0}
-      y={0}
-      maskUnits="userSpaceOnUse"
-      style={{
-        maskType: "alpha",
-      }}
-    >
-      <path
-        fill="#fff"
-        d="M44.823 0h-38.1C3.026 0 0 3.026 0 6.723v85.165c0 3.697 3.026 6.723 6.723 6.723h58.27c3.699 0 6.724-3.026 6.724-6.723V26.894z"
-      />
-    </mask>
-    <g mask="url(#GoogleSlides__i)">
-      <path
-        fill="#BF360C"
-        fillOpacity={0.1}
-        d="M51.547 26.894a6.72 6.72 0 0 1-6.724-6.723v.56a6.72 6.72 0 0 0 6.724 6.723h20.17v-.56z"
+        fill="url(#GoogleSlides__e)"
+        d="m33.74 191.516 144.396-21.58L153.304 3.781 8.907 25.361z"
       />
     </g>
     <path
-      fill="url(#GoogleSlides__j)"
-      d="M44.823 0h-38.1C3.026 0 0 3.026 0 6.723v85.165c0 3.697 3.026 6.723 6.723 6.723h58.27c3.699 0 6.724-3.026 6.724-6.723V26.894z"
+      fill="#fff"
+      fillRule="evenodd"
+      d="M148 58a6 6 0 0 1 6 6v64a6 6 0 0 1-6 6H44l-.309-.008A6 6 0 0 1 38 128V64a6 6 0 0 1 5.691-5.992L44 58zm-98 64h92V70H50z"
+      clipRule="evenodd"
     />
     <defs>
-      <radialGradient
-        id="GoogleSlides__j"
-        cx={0}
-        cy={0}
-        r={1}
-        gradientTransform="translate(2.272 1.96)scale(115.643)"
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop stopColor="#fff" stopOpacity={0.1} />
-        <stop offset={1} stopColor="#fff" stopOpacity={0} />
-      </radialGradient>
       <linearGradient
-        id="GoogleSlides__d"
-        x1={59.255}
-        x2={59.255}
-        y1={27.067}
-        y2={49.852}
+        id="GoogleSlides__a"
+        x1={84.07}
+        x2={157.2}
+        y1={23.27}
+        y2={160.82}
         gradientUnits="userSpaceOnUse"
       >
-        <stop stopColor="#BF360C" stopOpacity={0.2} />
-        <stop offset={1} stopColor="#BF360C" stopOpacity={0.02} />
+        <stop offset={0.2} stopColor="#ffdb0f" />
+        <stop offset={0.67} stopColor="#ffbe00" />
+        <stop offset={0.91} stopColor="#ffa8e3" />
       </linearGradient>
+      <linearGradient
+        id="GoogleSlides__b"
+        x1={96}
+        x2={96}
+        y1={32}
+        y2={160}
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stopColor="#ffbe00" />
+        <stop offset={1} stopColor="#fec700" />
+      </linearGradient>
+      <linearGradient
+        id="GoogleSlides__e"
+        x1={108.52}
+        x2={83.96}
+        y1={168.16}
+        y2={25.27}
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop offset={0.07} stopColor="#fff549" />
+        <stop offset={0.78} stopColor="#ffbe00" stopOpacity={0} />
+      </linearGradient>
+      <filter
+        id="GoogleSlides__c"
+        width={193.23}
+        height={211.73}
+        x={-3.09}
+        y={-8.22}
+        colorInterpolationFilters="sRGB"
+        filterUnits="userSpaceOnUse"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+        <feGaussianBlur result="blur" stdDeviation={6} />
+      </filter>
     </defs>
   </svg>
 );

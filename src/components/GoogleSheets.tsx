@@ -4,196 +4,72 @@ const GoogleSheets = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
-    viewBox="0 0 74 100"
+    viewBox="0 0 192 192"
     width="100%"
     height="100%"
     preserveAspectRatio="xMidYMid meet"
     {...props}
   >
+    <path
+      fill="#009954"
+      d="M8 74.6c0-8.943 0-13.415 1.404-16.962a20 20 0 0 1 11.234-11.233C24.185 45 28.656 45 37.6 45h60.8c8.943 0 13.415 0 16.962 1.404a20 20 0 0 1 11.234 11.234C128 61.185 128 65.656 128 74.6v42.8c0 8.943 0 13.415-1.404 16.962a20 20 0 0 1-11.234 11.234C111.815 147 107.343 147 98.4 147H37.6c-8.943 0-13.415 0-16.963-1.404a20 20 0 0 1-11.233-11.234C8 130.815 8 126.343 8 117.4z"
+    />
     <mask
       id="GoogleSheets__a"
-      width={71}
-      height={98}
-      x={1}
-      y={1}
+      width={160}
+      height={128}
+      x={24}
+      y={32}
       maskUnits="userSpaceOnUse"
       style={{
         maskType: "alpha",
       }}
     >
-      <path
-        fill="#fff"
-        d="M45.398 1.43H7.867c-3.643 0-6.623 2.98-6.623 6.624v83.893c0 3.642 2.98 6.623 6.623 6.623h57.4c3.643 0 6.624-2.98 6.624-6.623V27.923z"
-      />
+      <rect width={160} height={128} x={24} y={32} fill="#0ebc5f" rx={20} />
     </mask>
     <g mask="url(#GoogleSheets__a)">
-      <path
-        fill="#0F9D58"
-        d="M45.398 1.43H7.867c-3.643 0-6.623 2.98-6.623 6.624v83.893c0 3.642 2.98 6.623 6.623 6.623h57.4c3.643 0 6.624-2.98 6.624-6.623V27.923L56.436 16.884z"
-      />
-    </g>
-    <mask
-      id="GoogleSheets__b"
-      width={71}
-      height={98}
-      x={1}
-      y={1}
-      maskUnits="userSpaceOnUse"
-      style={{
-        maskType: "alpha",
-      }}
-    >
-      <path
-        fill="#fff"
-        d="M45.398 1.43H7.867c-3.643 0-6.623 2.98-6.623 6.624v83.893c0 3.642 2.98 6.623 6.623 6.623h57.4c3.643 0 6.624-2.98 6.624-6.623V27.923z"
-      />
-    </mask>
-    <g mask="url(#GoogleSheets__b)">
-      <path
-        fill="#F1F1F1"
-        d="M18.905 48.896v32.012H54.23V48.896zM34.36 76.493H23.321v-5.52h11.038zm0-8.831H23.321v-5.52h11.038zm0-8.831H23.321v-5.52h11.038zm15.454 17.662H38.775v-5.52h11.038zm0-8.831H38.775v-5.52h11.038zm0-8.831H38.775v-5.52h11.038z"
-      />
-    </g>
-    <mask
-      id="GoogleSheets__c"
-      width={71}
-      height={98}
-      x={1}
-      y={1}
-      maskUnits="userSpaceOnUse"
-      style={{
-        maskType: "alpha",
-      }}
-    >
-      <path
-        fill="#fff"
-        d="M45.398 1.43H7.867c-3.643 0-6.623 2.98-6.623 6.624v83.893c0 3.642 2.98 6.623 6.623 6.623h57.4c3.643 0 6.624-2.98 6.624-6.623V27.923z"
-      />
-    </mask>
-    <g mask="url(#GoogleSheets__c)">
-      <path
-        fill="url(#GoogleSheets__d)"
-        d="m47.335 25.986 24.556 24.55V27.922z"
-      />
-    </g>
-    <mask
-      id="GoogleSheets__e"
-      width={71}
-      height={98}
-      x={1}
-      y={1}
-      maskUnits="userSpaceOnUse"
-      style={{
-        maskType: "alpha",
-      }}
-    >
-      <path
-        fill="#fff"
-        d="M45.398 1.43H7.867c-3.643 0-6.623 2.98-6.623 6.624v83.893c0 3.642 2.98 6.623 6.623 6.623h57.4c3.643 0 6.624-2.98 6.624-6.623V27.923z"
-      />
-    </mask>
-    <g mask="url(#GoogleSheets__e)">
-      <path
-        fill="#87CEAC"
-        d="M45.398 1.43V21.3a6.62 6.62 0 0 0 6.623 6.623h19.87z"
-      />
-    </g>
-    <mask
-      id="GoogleSheets__f"
-      width={71}
-      height={98}
-      x={1}
-      y={1}
-      maskUnits="userSpaceOnUse"
-      style={{
-        maskType: "alpha",
-      }}
-    >
-      <path
-        fill="#fff"
-        d="M45.398 1.43H7.867c-3.643 0-6.623 2.98-6.623 6.624v83.893c0 3.642 2.98 6.623 6.623 6.623h57.4c3.643 0 6.624-2.98 6.624-6.623V27.923z"
-      />
-    </mask>
-    <g mask="url(#GoogleSheets__f)">
-      <path
-        fill="#fff"
-        fillOpacity={0.2}
-        d="M7.867 1.43c-3.643 0-6.623 2.98-6.623 6.624v.551c0-3.642 2.98-6.623 6.623-6.623h37.531V1.43z"
-      />
-    </g>
-    <mask
-      id="GoogleSheets__g"
-      width={71}
-      height={98}
-      x={1}
-      y={1}
-      maskUnits="userSpaceOnUse"
-      style={{
-        maskType: "alpha",
-      }}
-    >
-      <path
-        fill="#fff"
-        d="M45.398 1.43H7.867c-3.643 0-6.623 2.98-6.623 6.624v83.893c0 3.642 2.98 6.623 6.623 6.623h57.4c3.643 0 6.624-2.98 6.624-6.623V27.923z"
-      />
-    </mask>
-    <g mask="url(#GoogleSheets__g)">
-      <path
-        fill="#263238"
-        fillOpacity={0.2}
-        d="M65.267 98.018h-57.4c-3.643 0-6.623-2.98-6.623-6.623v.552c0 3.642 2.98 6.623 6.623 6.623h57.4c3.643 0 6.624-2.98 6.624-6.623v-.552c0 3.642-2.98 6.623-6.624 6.623"
-      />
-    </g>
-    <mask
-      id="GoogleSheets__h"
-      width={71}
-      height={98}
-      x={1}
-      y={1}
-      maskUnits="userSpaceOnUse"
-      style={{
-        maskType: "alpha",
-      }}
-    >
-      <path
-        fill="#fff"
-        d="M45.398 1.43H7.867c-3.643 0-6.623 2.98-6.623 6.624v83.893c0 3.642 2.98 6.623 6.623 6.623h57.4c3.643 0 6.624-2.98 6.624-6.623V27.923z"
-      />
-    </mask>
-    <g mask="url(#GoogleSheets__h)">
-      <path
-        fill="#263238"
-        fillOpacity={0.1}
-        d="M52.021 27.923a6.62 6.62 0 0 1-6.623-6.623v.552a6.62 6.62 0 0 0 6.623 6.623h19.87v-.552z"
-      />
+      <path fill="#0ebc5f" d="M24 32h160v128H24z" />
+      <g filter="url(#GoogleSheets__b)">
+        <rect
+          width={144}
+          height={102}
+          fill="url(#GoogleSheets__c)"
+          rx={25.6}
+          transform="matrix(1 0 0 -1 8 147)"
+        />
+      </g>
     </g>
     <path
-      fill="url(#GoogleSheets__i)"
-      d="M45.398 1.43H7.867c-3.643 0-6.623 2.98-6.623 6.624v83.893c0 3.642 2.98 6.623 6.623 6.623h57.4c3.643 0 6.624-2.98 6.624-6.623V27.923z"
+      stroke="#fff"
+      strokeLinecap="round"
+      strokeWidth={12}
+      d="M80 121h84m-20 19V76"
     />
     <defs>
-      <radialGradient
-        id="GoogleSheets__i"
-        cx={0}
-        cy={0}
-        r={1}
-        gradientTransform="translate(3.482 3.361)scale(113.917)"
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop stopColor="#fff" stopOpacity={0.1} />
-        <stop offset={1} stopColor="#fff" stopOpacity={0} />
-      </radialGradient>
       <linearGradient
-        id="GoogleSheets__d"
-        x1={59.614}
-        x2={59.614}
-        y1={28.093}
-        y2={50.539}
+        id="GoogleSheets__c"
+        x1={122.24}
+        x2={20.76}
+        y1={43.31}
+        y2={43.31}
         gradientUnits="userSpaceOnUse"
       >
-        <stop stopColor="#263238" stopOpacity={0.2} />
-        <stop offset={1} stopColor="#263238" stopOpacity={0.02} />
+        <stop stopColor="#0ebc5f" />
+        <stop offset={0.95} stopColor="#78c9ff" />
       </linearGradient>
+      <filter
+        id="GoogleSheets__b"
+        width={168}
+        height={126}
+        x={-4}
+        y={33}
+        colorInterpolationFilters="sRGB"
+        filterUnits="userSpaceOnUse"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+        <feGaussianBlur result="blur" stdDeviation={6} />
+      </filter>
     </defs>
   </svg>
 );
