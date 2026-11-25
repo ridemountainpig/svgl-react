@@ -168,6 +168,8 @@ export { default as Discourse } from "./components/Discourse";
 export { default as DisneyPlus } from "./components/DisneyPlus";
 export { default as Django } from "./components/Django";
 export { default as Docker } from "./components/Docker";
+export { default as DockerDark } from "./components/DockerDark";
+export { default as DockerLight } from "./components/DockerLight";
 export { default as DocumensoDark } from "./components/DocumensoDark";
 export { default as DocumensoLight } from "./components/DocumensoLight";
 export { default as DocusDark } from "./components/DocusDark";
@@ -1015,6 +1017,8 @@ export type SvglComponentName =
   | "DisneyPlus"
   | "Django"
   | "Docker"
+  | "DockerDark"
+  | "DockerLight"
   | "DocumensoDark"
   | "DocumensoLight"
   | "DocusDark"
