@@ -156,6 +156,7 @@ export { default as DepotDark } from "./components/DepotDark";
 export { default as DepotLight } from "./components/DepotLight";
 export { default as Designali } from "./components/Designali";
 export { default as DeveloperStudentClub } from "./components/DeveloperStudentClub";
+export { default as Devin } from "./components/Devin";
 export { default as DevtoDark } from "./components/DevtoDark";
 export { default as DevtoLight } from "./components/DevtoLight";
 export { default as DigitalEditions } from "./components/DigitalEditions";
@@ -240,6 +241,7 @@ export { default as FramerLight } from "./components/FramerLight";
 export { default as Fresco } from "./components/Fresco";
 export { default as Fresh } from "./components/Fresh";
 export { default as Front } from "./components/Front";
+export { default as Fx } from "./components/Fx";
 export { default as Gatsby } from "./components/Gatsby";
 export { default as Gemini } from "./components/Gemini";
 export { default as Ghostty } from "./components/Ghostty";
@@ -339,6 +341,8 @@ export { default as JWT } from "./components/JWT";
 export { default as Jasmine } from "./components/Jasmine";
 export { default as Java } from "./components/Java";
 export { default as JavaScript } from "./components/JavaScript";
+export { default as JcodeDark } from "./components/JcodeDark";
+export { default as JcodeLight } from "./components/JcodeLight";
 export { default as Jest } from "./components/Jest";
 export { default as JetBrainsColorful } from "./components/JetBrainsColorful";
 export { default as JetBrainsFleet } from "./components/JetBrainsFleet";
@@ -358,6 +362,7 @@ export { default as KickLight } from "./components/KickLight";
 export { default as KiloCodeDark } from "./components/KiloCodeDark";
 export { default as KiloCodeLight } from "./components/KiloCodeLight";
 export { default as Kimi } from "./components/Kimi";
+export { default as Kiro } from "./components/Kiro";
 export { default as KokonutUIDark } from "./components/KokonutUIDark";
 export { default as KokonutUILight } from "./components/KokonutUILight";
 export { default as Kotlin } from "./components/Kotlin";
@@ -456,6 +461,7 @@ export { default as Moon } from "./components/Moon";
 export { default as MotionDark } from "./components/MotionDark";
 export { default as MotionLight } from "./components/MotionLight";
 export { default as Mulesoft } from "./components/Mulesoft";
+export { default as Muse } from "./components/Muse";
 export { default as MySQLDark } from "./components/MySQLDark";
 export { default as MySQLLight } from "./components/MySQLLight";
 export { default as N8n } from "./components/N8n";
@@ -1005,6 +1011,7 @@ export type SvglComponentName =
   | "DepotLight"
   | "Designali"
   | "DeveloperStudentClub"
+  | "Devin"
   | "DevtoDark"
   | "DevtoLight"
   | "DigitalEditions"
@@ -1089,6 +1096,7 @@ export type SvglComponentName =
   | "Fresco"
   | "Fresh"
   | "Front"
+  | "Fx"
   | "Gatsby"
   | "Gemini"
   | "Ghostty"
@@ -1188,6 +1196,8 @@ export type SvglComponentName =
   | "Jasmine"
   | "Java"
   | "JavaScript"
+  | "JcodeDark"
+  | "JcodeLight"
   | "Jest"
   | "JetBrainsColorful"
   | "JetBrainsFleet"
@@ -1207,6 +1217,7 @@ export type SvglComponentName =
   | "KiloCodeDark"
   | "KiloCodeLight"
   | "Kimi"
+  | "Kiro"
   | "KokonutUIDark"
   | "KokonutUILight"
   | "Kotlin"
@@ -1305,6 +1316,7 @@ export type SvglComponentName =
   | "MotionDark"
   | "MotionLight"
   | "Mulesoft"
+  | "Muse"
   | "MySQLDark"
   | "MySQLLight"
   | "N8n"
